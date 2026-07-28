@@ -1,6 +1,16 @@
 -- Schema for the police sexual assault lawsuits database.
 -- Run via Supabase SQL editor or `supabase db push`.
 
+-- Safe to re-run on a fresh/partially-created database: drop anything a
+-- previous failed attempt may have left behind. (Destructive by design —
+-- only intended for initial setup.)
+drop table if exists correction_requests, accuracy_audits, revisions,
+  review_queue, agencies_30x30, sources, incidents cascade;
+drop type if exists agency_category, lawsuit_type, outcome_status,
+  criminal_status, record_status, review_reason cascade;
+drop function if exists set_updated_at() cascade;
+drop function if exists incidents_search_vector_update() cascade;
+
 create type agency_category as enum (
   'police', 'sheriff', 'state_police', 'corrections', 'juvenile',
   'federal', 'campus', 'transit', 'other'
@@ -56,15 +66,27 @@ create table incidents (
   last_verified date,
   created_at timestamptz not null default now(),
   updated_at timestamptz not null default now(),
-  search_vector tsvector generated always as (
-    setweight(to_tsvector('english', coalesce(agency, '')), 'A') ||
-    setweight(to_tsvector('english', coalesce(description, '')), 'B') ||
-    setweight(to_tsvector('english', coalesce(outcome_detail, '')), 'C') ||
-    setweight(to_tsvector('english', coalesce(criminal_detail, '')), 'C') ||
-    setweight(to_tsvector('english', coalesce(notes, '')), 'D') ||
-    setweight(to_tsvector('english', array_to_string(officer_names, ' ')), 'B')
-  ) stored
+  -- Maintained by trigger below (a generated column can't be used here:
+  -- array_to_string is not immutable, which Postgres requires).
+  search_vector tsvector
 );
+
+create or replace function incidents_search_vector_update() returns trigger as $$
+begin
+  new.search_vector :=
+    setweight(to_tsvector('english', coalesce(new.agency, '')), 'A') ||
+    setweight(to_tsvector('english', coalesce(new.description, '')), 'B') ||
+    setweight(to_tsvector('english', array_to_string(new.officer_names, ' ')), 'B') ||
+    setweight(to_tsvector('english', coalesce(new.outcome_detail, '')), 'C') ||
+    setweight(to_tsvector('english', coalesce(new.criminal_detail, '')), 'C') ||
+    setweight(to_tsvector('english', coalesce(new.notes, '')), 'D');
+  return new;
+end;
+$$ language plpgsql;
+
+create trigger incidents_search_vector
+  before insert or update on incidents
+  for each row execute function incidents_search_vector_update();
 
 create index incidents_search_idx on incidents using gin (search_vector);
 create index incidents_status_idx on incidents (status);
