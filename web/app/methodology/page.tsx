@@ -28,11 +28,14 @@ export default function MethodologyPage() {
         </p>
       </div>
 
-      <Rule n={1} title="One record per incident">
+      <Rule n={1} title="One record per lawsuit">
         <p>
-          Multiple articles covering the same lawsuit are grouped into one record&apos;s sources.
-          Multiple suits arising from the same incident or scandal (e.g., several plaintiffs suing
-          over the same officer&apos;s conduct) are one record; mass litigation is one record.
+          Each civil lawsuit (or formal claim) is its own record. Multiple articles covering the
+          same lawsuit are grouped into one record&apos;s sources. Distinct suits arising from the
+          same incident or scandal — e.g., several plaintiffs filing separately over the same
+          officer&apos;s conduct — are separate records. Class actions and consolidated mass
+          litigation (e.g., hundreds of claims filed together) are one record, marked as class
+          action / mass litigation.
         </p>
       </Rule>
 

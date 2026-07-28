@@ -43,7 +43,7 @@ export default async function Home({
           Civil lawsuits alleging sexual assault involving law-enforcement agencies
         </h1>
         <p className="max-w-3xl text-ink/80">
-          One record per incident, US and Canada, lawsuits filed or resolved since 2021. Compiled
+          One record per lawsuit, US and Canada, filed or resolved since 2021. Compiled
           from news media and verified against cited sources; every record shows a
           last-verified date. Read the <Link className="text-brand underline" href="/methodology">methodology</Link>.
         </p>

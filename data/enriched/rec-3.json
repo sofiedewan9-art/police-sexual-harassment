@@ -1,0 +1,31 @@
+{
+  "row": 3,
+  "slug": "rowlett-texas-r3",
+  "agency": "Rowlett Police Department",
+  "agency_category": "police",
+  "country": "US",
+  "state_province": "TX",
+  "lawsuit_type": "internal",
+  "year_filed": null,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "no_resolution_found",
+  "outcome_detail": "No civil lawsuit or EEOC/administrative claim found. The matter was handled as an internal affairs investigation (opened January 28, 2025). The department's trial process recommended termination; Sgt. Ryan Doherty resigned in lieu of termination in June 2025, and the separation included a confidentiality and non-disparagement agreement.",
+  "settlement_amount_original": null,
+  "settlement_currency": "USD",
+  "settlement_date": null,
+  "criminal_status": "unknown",
+  "criminal_detail": "Rowlett PD said it notified the Dallas County and Rockwall County District Attorneys' Offices of Doherty's misconduct. No criminal charges had been reported as of July 2026.",
+  "officer_names": ["Ryan Doherty"],
+  "incident_date_approx": "approximately 2020-2025 (alleged conduct over several years; investigation January-June 2025)",
+  "description": "An internal affairs investigation at the Rowlett Police Department in Texas, opened in January 2025 after a male officer's retaliation complaint, surfaced allegations by multiple female officers that Sgt. Ryan Doherty had sexually harassed and pursued female subordinates for years. According to investigative records described in news reports, officers said Doherty repeatedly asked out a female officer who later died by suicide in October 2024, sent her messages ranging from professional to pornographic, and allegedly solicited co-workers for sexual encounters. Investigators sustained findings that Doherty violated department policies on truthfulness and supervisor-subordinate relationships, and the chief approved a recommendation to terminate him. Doherty resigned in lieu of termination in June 2025 under an agreement that included confidentiality and non-disparagement clauses. News coverage does not report any civil lawsuit or EEOC complaint arising from the allegations.",
+  "notes": null,
+  "inclusion_concern": "No civil lawsuit or formal external claim (EEOC, notice of claim) has been identified — coverage describes only an internal affairs investigation and a resignation-in-lieu-of-termination agreement. A separate 2018 lawsuit by former Rowlett employees alleging sexual harassment exists but involves different people and is not the subject of this record.",
+  "sources": [
+    {"url": "https://www.cbsnews.com/texas/news/sexual-harassment-investigation-texas-police-department-common-experience-women-with-badge/", "title": "Sexual harassment investigation at North Texas police department highlights common experience for women with a badge", "publisher": "CBS Texas", "published_date": null},
+    {"url": "https://www.wfaa.com/article/news/local/rowlett-sergeant-resigned-misconduct-investigation/287-698620de-6fda-4740-85e7-93e110743ea8", "title": "Rowlett police say sergeant resigned in lieu of termination after misconduct investigation", "publisher": "WFAA", "published_date": null},
+    {"url": "https://www.rowletttx.gov/DocumentCenter/View/33621/Rowlett-Police-Department-Provides-Statement-on-Internal-Investigation-Involving-Former-Employee", "title": "Rowlett Police Department Provides Statement on Internal Investigation Involving Former Employee", "publisher": "City of Rowlett (news release)", "published_date": null}
+  ],
+  "confidence_notes": "Dedicated searches found no lawsuit, EEOC charge, or notice of claim connected to the Doherty allegations or to the deceased officer's family as of July 2026. Criminal status marked unknown because the department referred the matter to two county DAs but no charging decision has been reported. lawsuit_type set to 'internal' based on the workplace (officer-on-officer) nature of the allegations, though no suit was actually filed. Publication dates for the CBS Texas and WFAA articles not confirmed (likely mid-to-late 2025)."
+}

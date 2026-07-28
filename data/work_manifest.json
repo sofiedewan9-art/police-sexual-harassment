@@ -1,0 +1,2103 @@
+[
+ {
+  "id": "cf754695-5845-454b-9e42-1bfa2984f6a2",
+  "slug": "massachusetts-state-police-2026-r2",
+  "status": "needs_review",
+  "row": 2,
+  "agency_raw": "Massachusetts State Police",
+  "year_raw": "2026.0",
+  "is_30x30_raw": null,
+  "country_raw": "US",
+  "state_raw": "MA",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Karen Read says new lawsuit is 'crusade' to expose police corruption, bigotry and misogyny - ABC News",
+    "url": "https://abcnews.com/US/karen-read-new-lawsuit-crusade-expose-corruption-bigotry/story?id=133626013"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2026,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": null,
+  "dollar_hint": null
+ },
+ {
+  "id": "2601d669-26da-45fc-a0a2-590a93327ccd",
+  "slug": "rowlett-texas-r3",
+  "status": "needs_review",
+  "row": 3,
+  "agency_raw": "Rowlett, Texas",
+  "year_raw": null,
+  "is_30x30_raw": null,
+  "country_raw": "US",
+  "state_raw": "TX",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Sexual harassment investigation at North Texas police department highlights common experience for women with a badge - CBS Texas",
+    "url": "https://www.cbsnews.com/texas/news/sexual-harassment-investigation-texas-police-department-common-experience-women-with-badge/"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": null,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": null,
+  "dollar_hint": null
+ },
+ {
+  "id": "37b6bac0-440c-4f32-9763-b57ea399f2d3",
+  "slug": "los-angeles-r4",
+  "status": "needs_review",
+  "row": 4,
+  "agency_raw": "Los Angeles",
+  "year_raw": null,
+  "is_30x30_raw": "Yes",
+  "country_raw": "US",
+  "state_raw": "CA",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Veteran female officer sues LAPD, claims retaliation for reporting hostile workplace (police1.com)",
+    "url": "https://www.police1.com/legal/veteran-female-officer-sues-lapd-claims-retaliation-for-reporting-hostile-workplace"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": null,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": null,
+  "dollar_hint": null
+ },
+ {
+  "id": "529e59e4-1632-48e9-a0a6-c87501cb5773",
+  "slug": "michigan-state-police-r5",
+  "status": "needs_review",
+  "row": 5,
+  "agency_raw": "Michigan State Police",
+  "year_raw": null,
+  "is_30x30_raw": null,
+  "country_raw": "US",
+  "state_raw": "MI",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Big Boys’ Club': 'The degradation of women'",
+    "url": "https://www.wlns.com/6newsinvestigates/big-boys-club-the-degradation-of-women/"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": null,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": null,
+  "dollar_hint": null
+ },
+ {
+  "id": "6c0da2d1-37f8-4781-a41c-a05edfe03574",
+  "slug": "australian-police-2026-r6",
+  "status": "excluded",
+  "row": 6,
+  "agency_raw": "Australian police",
+  "year_raw": "2026.0",
+  "is_30x30_raw": null,
+  "country_raw": "AUS",
+  "state_raw": null,
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "‘Punished’ for speaking up: culture of bullying, sexual harassment and discrimination in NSW police | Australian police and policing | The Guardian",
+    "url": "https://www.theguardian.com/australia-news/2026/jun/11/nsw-police-bullying-harassment-undermining-belittlement-women-culture-review"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2026,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": null,
+  "dollar_hint": null
+ },
+ {
+  "id": "6f6d7f23-ffad-4366-86c1-5c3bd942583b",
+  "slug": "unknown-agency-r7",
+  "status": "needs_review",
+  "row": 7,
+  "agency_raw": null,
+  "year_raw": null,
+  "is_30x30_raw": null,
+  "country_raw": null,
+  "state_raw": null,
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Report: Police in Massachusetts city engaged in sex with suspected prostitutes | AP News",
+    "url": "https://apnews.com/article/worcester-police-commercial-sex-trade-excessive-force-8087f1185fc5c2e97aaeb2ead5a27d37"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": null,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": null,
+  "dollar_hint": null
+ },
+ {
+  "id": "3de8fdf2-5cca-47ab-9a9b-aaa850723a86",
+  "slug": "nypd-2026-r8",
+  "status": "needs_review",
+  "row": 8,
+  "agency_raw": "NYPD",
+  "year_raw": "2026.0",
+  "is_30x30_raw": "Yes",
+  "country_raw": "US",
+  "state_raw": "NY",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "NYPD inspector accused of attempted rape in Bronx, as lawsuit alleges sexual harassment at 46th Precinct",
+    "url": "https://www.msn.com/en-us/news/other/nypd-inspector-accused-of-attempted-rape-in-bronx-as-lawsuit-alleges-sexual-harassment-at-46th-precinct/ar-AA27EJu9?ocid=BingNewsSerp"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2026,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": null,
+  "dollar_hint": null
+ },
+ {
+  "id": "d91fe8f3-00b9-452a-9bea-da3b8d3b3d16",
+  "slug": "unknown-agency-r9",
+  "status": "needs_review",
+  "row": 9,
+  "agency_raw": null,
+  "year_raw": null,
+  "is_30x30_raw": null,
+  "country_raw": "US",
+  "state_raw": null,
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Female police officers detail workplace harassment, retaliation and culture challenges",
+    "url": "https://www.police1.com/women-in-law-enforcement/what-female-officers-say-about-harassment-and-culture-in-policing"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": null,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": null,
+  "dollar_hint": null
+ },
+ {
+  "id": "19ca7243-5d81-481e-8eae-f0c648b3a427",
+  "slug": "san-mateo-r10",
+  "status": "needs_review",
+  "row": 10,
+  "agency_raw": "San Mateo",
+  "year_raw": null,
+  "is_30x30_raw": null,
+  "country_raw": null,
+  "state_raw": "CA",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "San Mateo County Pays Historic $8,000,000 Settlement to End Sexual Harassment and Sex Discrimination Lawsuit",
+    "url": "https://www.prnewswire.com/news-releases/san-mateo-county-pays-historic-8-000-000-settlement-to-end-sexual-harassment-and-sex-discrimination-lawsuit-302203169.html"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": null,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": null,
+  "dollar_hint": null
+ },
+ {
+  "id": "fb481f7e-4951-48d3-96e9-143083da29e0",
+  "slug": "seattle-r11",
+  "status": "needs_review",
+  "row": 11,
+  "agency_raw": "Seattle",
+  "year_raw": null,
+  "is_30x30_raw": "Yes",
+  "country_raw": "US",
+  "state_raw": "WA",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Seattle settles for $2.6M with female cops who claimed harassment | FOX 13 Seattle",
+    "url": "https://www.fox13seattle.com/news/seattle-female-cops-sexual-harassment"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": null,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": null,
+  "dollar_hint": null
+ },
+ {
+  "id": "a1a941c5-1a29-43d2-9341-2d64ceabe3d0",
+  "slug": "nypd-r12",
+  "status": "needs_review",
+  "row": 12,
+  "agency_raw": "NYPD",
+  "year_raw": null,
+  "is_30x30_raw": null,
+  "country_raw": null,
+  "state_raw": "NY",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Exclusive | NYPD cop says she was sexually harassed, punished for speaking up",
+    "url": "https://nypost.com/2025/08/02/us-news/nypd-cop-says-she-was-sexually-harassed-punished-for-speaking-up/"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": null,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": null,
+  "dollar_hint": null
+ },
+ {
+  "id": "480f5647-2259-4d7d-8f43-32b77e62fa9d",
+  "slug": "louisville-ky-r13",
+  "status": "needs_review",
+  "row": 13,
+  "agency_raw": "Louisville, KY",
+  "year_raw": null,
+  "is_30x30_raw": null,
+  "country_raw": null,
+  "state_raw": "KY",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Former Louisville police officer paid $200,000 in settlement over sexual harassment claims | Local News | wdrb.com; Holly Hill facing lawsuits from 3 female police department employees over accusations of rampant sexual misconduct; Seattle reaches $2.6M settlement with 4 police officers over sexual harassment claims",
+    "url": "https://www.wdrb.com/news/former-louisville-police-officer-paid-200-000-in-settlement-over-sexual-harassment-claims/article_1e1c99e2-7f5c-4a43-b915-5b32bbb1751b.html"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": null,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": null,
+  "dollar_hint": null
+ },
+ {
+  "id": "1fce43d8-7711-4947-8d55-214517131f2a",
+  "slug": "new-orleans-police-department-2022-r14",
+  "status": "needs_review",
+  "row": 14,
+  "agency_raw": "New Orleans Police Department",
+  "year_raw": "2022.0",
+  "is_30x30_raw": "Yes",
+  "country_raw": "US",
+  "state_raw": "LA",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "New Orleans ordered to pay $1 million to teen sexually assaulted by officer; A dirty cop molested a victim he'd brought to get a rape exam. Now, New Orleans must pay.",
+    "url": "https://www.washingtonpost.com/investigations/2024/08/21/new-orleans-police-sexual-abuse-verdict/"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2022,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": null,
+  "dollar_hint": null
+ },
+ {
+  "id": "7a204925-47fa-4de1-970b-f6747c03dc31",
+  "slug": "louisville-metro-police-department-2017-r15",
+  "status": "needs_review",
+  "row": 15,
+  "agency_raw": "Louisville Metro Police Department",
+  "year_raw": "2017 (settled 2021)",
+  "is_30x30_raw": "Yes",
+  "country_raw": "US",
+  "state_raw": "KY",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "$3.65M settlement reached in LMPD Explorer program abuse case; LMPD Explorer child sex abuse case settled for $3.65 million; LMPD youth Explorer sexual abuse lawsuits settle for more than $3 million",
+    "url": "https://www.lpm.org/news/2021-11-03/3-65m-settlement-reached-in-lmpd-explorer-program-abuse-case"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2017,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "settled 2021",
+  "dollar_hint": null
+ },
+ {
+  "id": "0598a2d8-091c-41ab-9688-675fe172ef87",
+  "slug": "louisville-metro-police-department-2021-r16",
+  "status": "needs_review",
+  "row": 16,
+  "agency_raw": "Louisville Metro Police Department",
+  "year_raw": "2021 (settled $1.8M in Oct 2022)",
+  "is_30x30_raw": "Yes",
+  "country_raw": "US",
+  "state_raw": "KY",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "City pays $1.8M to 3 women who accused former Louisville police detective of sexual assault",
+    "url": "https://www.lpm.org/investigate/2022-10-26/city-pays-1-8m-to-3-women-who-accused-former-louisville-police-detective-of-sexual-assault"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2021,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "settled $1.8M in Oct 2022",
+  "dollar_hint": 1800000
+ },
+ {
+  "id": "e68cd4e7-f9af-43b7-9d1a-92117487fc5d",
+  "slug": "boston-police-department-2023-r17",
+  "status": "needs_review",
+  "row": 17,
+  "agency_raw": "Boston Police Department",
+  "year_raw": "2023 (ongoing)",
+  "is_30x30_raw": "Yes",
+  "country_raw": "US",
+  "state_raw": "MA",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Patrick Rose victims file lawsuit against Boston police, union, DCF over sex abuse investigation failures; Child rape victims of ex-Boston police union president file civil suit; Victims of former police union president Patrick Rose sue city of Boston, DCF",
+    "url": "https://www.wbur.org/news/2023/06/08/patrick-rose-sex-abuse-victims-lawsuit-boston-police"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2023,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing",
+  "dollar_hint": null
+ },
+ {
+  "id": "e5a513d6-7326-4cb1-b83c-05e19a1449ed",
+  "slug": "philadelphia-police-department-2023-r18",
+  "status": "needs_review",
+  "row": 18,
+  "agency_raw": "Philadelphia Police Department",
+  "year_raw": "2023 (ongoing)",
+  "is_30x30_raw": "Yes",
+  "country_raw": "US",
+  "state_raw": "PA",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Ex-Philadelphia cop Patrick Heron accused in sex crimes involving 48 victims",
+    "url": "https://www.cbsnews.com/philadelphia/news/patrick-heron-philadelphia-police-officer-sexual-assault-crime/"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2023,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing",
+  "dollar_hint": null
+ },
+ {
+  "id": "b05506e1-02d5-4943-8822-2685531d6536",
+  "slug": "atlanta-police-department-2025-r19",
+  "status": "needs_review",
+  "row": 19,
+  "agency_raw": "Atlanta Police Department",
+  "year_raw": "2025 (ongoing)",
+  "is_30x30_raw": "Yes",
+  "country_raw": "US",
+  "state_raw": "GA",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Family sues Atlanta, former police officer over teen's sexual assault; Teen’s family sues former Atlanta officer, city over sexual assault; Atlanta Police Department Faces Federal Lawsuit Over Allegations of Ignoring Sexual Predators in Police Ranks",
+    "url": "https://www.fox5atlanta.com/news/lawuit-atlanta-former-police-officer-teen-sexual-assault"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2025,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing",
+  "dollar_hint": null
+ },
+ {
+  "id": "e938dfff-0bc8-4c07-baf2-af6195713bf8",
+  "slug": "harris-county-sheriff-s-office-2022-r20",
+  "status": "needs_review",
+  "row": 20,
+  "agency_raw": "Harris County Sheriff's Office",
+  "year_raw": "2022 (officer pleaded guilty criminally in 2023)",
+  "is_30x30_raw": "Yes",
+  "country_raw": "US",
+  "state_raw": "TX",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Victim says former deputy who pleaded guilty to attempted sex assault 'should have had jail time';",
+    "url": "https://abc13.com/post/michael-jarell-hines-shanita-terrell-hcso-deputy/13717039/"
+   }
+  ],
+  "orphan_titles": [
+   "‘He should have had jail time’: Victim speaks out after former Harris County sheriff’s deputy pleads guilty to attempted sexual assault"
+  ],
+  "year_filed": 2022,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "officer pleaded guilty criminally in 2023",
+  "dollar_hint": null
+ },
+ {
+  "id": "093e7437-1646-462c-82c4-f799a6f0e2f8",
+  "slug": "phoenix-police-department-2021-r21",
+  "status": "needs_review",
+  "row": 21,
+  "agency_raw": "Phoenix Police Department",
+  "year_raw": "2021 (settled - $425,000 to each of two accusers in 2021, but officer acquitted)",
+  "is_30x30_raw": "Yes",
+  "country_raw": "US",
+  "state_raw": "AZ",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Phoenix Settles Rape Claim Against Former Police Officer; Jury acquits former Phoenix officer of sex assault charges, deadlocks on other crimes; ‘Sadistic History of Sexual Violence’: Another Alleged Victim of Ex-Phoenix Cop Sues",
+    "url": "https://www.kjzz.org/2021-06-02/content-1688390-phoenix-settles-rape-claim-against-former-police-officer"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2021,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "settled - $425,000 to each of two accusers in 2021, but officer acquitted",
+  "dollar_hint": 425000
+ },
+ {
+  "id": "f14ca251-38a9-402c-bad4-fc85e6af4f89",
+  "slug": "phoenix-police-department-2019-r22",
+  "status": "needs_review",
+  "row": 22,
+  "agency_raw": "Phoenix Police Department",
+  "year_raw": "2019 (settled for $1.6 million)",
+  "is_30x30_raw": "Yes",
+  "country_raw": "US",
+  "state_raw": "AZ",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Phoenix woman claims she was sexually assaulted by Phoenix police; files $12M notice of claim against city",
+    "url": "https://www.abc15.com/news/region-phoenix-metro/central-phoenix/phoenix-woman-claims-she-was-sexually-assaulted-by-phoenix-police-files-12m-notice-of-claim-against-city"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2019,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "settled for $1.6 million",
+  "dollar_hint": 1600000
+ },
+ {
+  "id": "e82f29c8-4ecd-4fb7-8e68-807982af05c5",
+  "slug": "kansas-city-police-department-2023-r23",
+  "status": "needs_review",
+  "row": 23,
+  "agency_raw": "Kansas City Police Department",
+  "year_raw": "2023 (ongoing)",
+  "is_30x30_raw": "No",
+  "country_raw": "US",
+  "state_raw": "KS",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Kansas City, Kansas, empowered police to exploit and humiliate Black community, lawsuit says; Roger Golubski, ex-KCKPD detective accused of abuse, dead of apparent suicide before trial",
+    "url": "https://www.kcur.org/news/2023-11-06/kansas-city-kansas-empowered-police-to-exploit-and-humiliate-black-community-lawsuit-says"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2023,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing",
+  "dollar_hint": null
+ },
+ {
+  "id": "056ac13d-d04a-4a3b-bc1a-cd9555527c86",
+  "slug": "san-diego-county-sheriff-s-department-2017-r24",
+  "status": "needs_review",
+  "row": 24,
+  "agency_raw": "San Diego County Sheriff's Department",
+  "year_raw": "2017-2023 (settled - over $9.5M total across 21 suits)",
+  "is_30x30_raw": "No",
+  "country_raw": "US",
+  "state_raw": "CA",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "San Diego County pays more than $4.6 million to settle sex misconduct lawsuits against ex-deputy; New settlements in former deputy sex assault scandal | Taxpayers have paid nearly $5 million to settle over a dozen lawsuits",
+    "url": "https://ktla.com/news/local-news/san-diego-county-pays-more-than-4-6-million-to-settle-sex-misconduct-lawsuits-against-ex-deputy/"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2017,
+  "year_filed_approx": false,
+  "filing_year_range": "2017-2023",
+  "result_text": "settled - over $9.5M total across 21 suits",
+  "dollar_hint": 9500000
+ },
+ {
+  "id": "2b2b48d3-8f97-4e24-bad6-84d4a4fd292b",
+  "slug": "county-of-los-angeles-2020-r25",
+  "status": "needs_review",
+  "row": 25,
+  "agency_raw": "County of Los Angeles",
+  "year_raw": "2020 (settled 2025- $4 billion to thousands of victims, largest LA county financial settlement)",
+  "is_30x30_raw": "Yes",
+  "country_raw": "US",
+  "state_raw": "CA",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "In largest settlement in its history, LA County approves $4 billion in massive child abuse case;",
+    "url": "https://laist.com/news/criminal-justice/la-county-4-billion-settlement-child-sex-abuse-case"
+   }
+  ],
+  "orphan_titles": [
+   "LA County Reaches $4 Billion Tentative Settlement in Thousands of Sexual Abuse Cases"
+  ],
+  "year_filed": 2020,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "settled 2025- $4 billion to thousands of victims, largest LA county financial settlement",
+  "dollar_hint": 4000000000
+ },
+ {
+  "id": "e36e32d5-6cad-4ec4-8b4a-24c285eb0390",
+  "slug": "new-york-city-department-of-correction-r26",
+  "status": "needs_review",
+  "row": 26,
+  "agency_raw": "New York City Department of Correction",
+  "year_raw": "Ongoing",
+  "is_30x30_raw": "No",
+  "country_raw": "US",
+  "state_raw": "NY",
+  "notes_raw": "Corrections agency, not techincally a police department",
+  "sources": [
+   {
+    "title": "Hundreds of lawsuits allege decades of sexual abuse at Rikers Island; 719 sexual assault lawsuits over alleged abuse at Rikers Island seek $14 billion from NYC; More than half of NYC civil sex abuse suits stem from Rikers Island: report",
+    "url": "https://www.nbcnews.com/news/nbcblk/sexual-abuse-lawsuits-rikers-island-new-york-adult-survivors-act-rcna126898"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": null,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "Ongoing",
+  "dollar_hint": null
+ },
+ {
+  "id": "413d5fa9-186e-4ad3-9a20-a680e52b64e5",
+  "slug": "new-york-city-police-department-2018-r27",
+  "status": "needs_review",
+  "row": 27,
+  "agency_raw": "New York City Police Department",
+  "year_raw": "2018 (settled - $125K from city in Sept 2022)",
+  "is_30x30_raw": "Yes",
+  "country_raw": "US",
+  "state_raw": "NY",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "NYC settles lawsuit with woman who accused two NYPD officers of raping her; NYC to pay $125K to woman who accused two NYPD cops of rape in last-minute civil suit settlement",
+    "url": "https://www.upi.com/Top_News/US/2022/09/10/nyc-settles-lawsuit-woman-accused-two-nypd-officers-raping-her/5031662857737/"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2018,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "settled - $125K from city in Sept 2022",
+  "dollar_hint": 125000
+ },
+ {
+  "id": "164478c8-a861-4118-abb0-d01cea6d6447",
+  "slug": "new-york-city-police-department-2023-r28",
+  "status": "needs_review",
+  "row": 28,
+  "agency_raw": "New York City Police Department",
+  "year_raw": "2023 (ongoing, per latest coverage found)",
+  "is_30x30_raw": "Yes",
+  "country_raw": "US",
+  "state_raw": "NY",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Ex-NYPD Colleague Accuses Eric Adams of Sexual Assault in Civil Lawsuit; Lawsuit Accuses Eric Adams of Sexual Assault Three Decades Ago",
+    "url": "https://www.thecity.nyc/2024/03/18/eric-adams-lawsuit-sexual-assault-allegations/"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2023,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing, per latest coverage found",
+  "dollar_hint": null
+ },
+ {
+  "id": "54d52abf-3ec0-461f-9a0e-c2ab2f9fe6ec",
+  "slug": "west-virginia-state-police-2023-r29",
+  "status": "needs_review",
+  "row": 29,
+  "agency_raw": "West Virginia State Police",
+  "year_raw": "2023-2024 (ongoing; court ruled insurance limit of $1M per plaintiff in 2025)",
+  "is_30x30_raw": "No",
+  "country_raw": "US",
+  "state_raw": "WV",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "West Virginia State Police Investigation: 72 new lawsuits say women and minors were filmed secretly in the shower; Sexual assault allegedly happened on academy grounds; Plaintiffs in WVSP hidden camera cases could get $1M each",
+    "url": "https://www.wtrf.com/west-virginia-state-police-investigation/west-virginia-state-police-investigation-72-new-lawsuits-say-women-and-minors-were-filmed-secretly-in-the-shower-alleges-rape-was-filmed-and-state-issued-laptop-showed-sexual-acts-performed-at-train/"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2023,
+  "year_filed_approx": false,
+  "filing_year_range": "2023-2024",
+  "result_text": "ongoing; court ruled insurance limit of $1M per plaintiff in 2025",
+  "dollar_hint": 1000000
+ },
+ {
+  "id": "7e431d86-ed71-4edf-b361-b6d4bf81aeaa",
+  "slug": "west-virginia-state-police-2023-r30",
+  "status": "needs_review",
+  "row": 30,
+  "agency_raw": "West Virginia State Police",
+  "year_raw": "2023 (ongoing)",
+  "is_30x30_raw": "No",
+  "country_raw": "US",
+  "state_raw": "WV",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Lawsuit filed against West Virginia State Police trooper who allegedly drugged, kidnapped, raped woman; Second lawsuit filed against West Virginia State Police trooper who allegedly kidnapped, raped woman",
+    "url": "https://www.wboy.com/news/west-virginia/lawsuit-filed-against-west-virginia-state-police-trooper-who-allegedly-drugged-kidnapped-raped-woman/"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2023,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing",
+  "dollar_hint": null
+ },
+ {
+  "id": "0ae1c180-c23c-4290-9952-40b4fe94b18c",
+  "slug": "sedgwick-county-sheriff-s-office-2018-r31",
+  "status": "needs_review",
+  "row": 31,
+  "agency_raw": "Sedgwick County Sheriff's Office",
+  "year_raw": "2018 ($8.25M awarded by federal jury in Oct 2022)",
+  "is_30x30_raw": "No",
+  "country_raw": "US",
+  "state_raw": "CO",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "$8.25 Million Verdict Against Former Colorado Sheriff for Detainee’s Sexual Assault During Jail Transfer",
+    "url": "https://www.prisonlegalnews.org/news/2023/sep/15/825-million-verdict-against-former-colorado-sheriff-detainees-sexual-assault-during-jail-transfer/"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2018,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "$8.25M awarded by federal jury in Oct 2022",
+  "dollar_hint": 8250000
+ },
+ {
+  "id": "c80d936a-5fe7-478e-9053-0bae491d7c23",
+  "slug": "senatobia-police-department-2024-r32",
+  "status": "needs_review",
+  "row": 32,
+  "agency_raw": "Senatobia Police Department",
+  "year_raw": "2024 (ongoing, PD denies allegations)",
+  "is_30x30_raw": "No",
+  "country_raw": "US",
+  "state_raw": "MS",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "$10M lawsuit claims MS police officer sexually assaulted woman during traffic stop; Senatobia Police Officer Sexually Assaulted Woman After Roadside Stop, Lawsuit Alleges; $10 million lawsuit filed against Mississippi police department",
+    "url": "https://wreg.com/news/mid-south/10m-lawsuit-claims-ms-police-officer-sexually-assaulted-woman-during-traffic-stop/"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2024,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing, PD denies allegations",
+  "dollar_hint": null
+ },
+ {
+  "id": "c69f6be7-d55d-47af-9427-3a738afa224b",
+  "slug": "warren-police-department-2025-r33",
+  "status": "needs_review",
+  "row": 33,
+  "agency_raw": "Warren Police Department",
+  "year_raw": "2025 (ongoing)",
+  "is_30x30_raw": "No",
+  "country_raw": "US",
+  "state_raw": "OH",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "3 women sue Warren, police over sexual misconduct claims;",
+    "url": "https://www.tribtoday.com/news/local-news/2025/03/3-women-sue-warren-police-over-sexual-misconduct-claims/"
+   }
+  ],
+  "orphan_titles": [
+   "Victim of former officer files $1M lawsuit against Warren City and police chief;",
+   "Fourth woman files sexual assault lawsuit against City of Warren, police chief, former officer"
+  ],
+  "year_filed": 2025,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing",
+  "dollar_hint": null
+ },
+ {
+  "id": "4d14805c-5ca4-40b8-9327-7141f375d79a",
+  "slug": "metropolitan-police-department-washington-dc-2020-r34",
+  "status": "needs_review",
+  "row": 34,
+  "agency_raw": "Metropolitan Police Department (Washington, DC)",
+  "year_raw": "2020 (settled 2022)",
+  "is_30x30_raw": "Yes",
+  "country_raw": "US",
+  "state_raw": "DC",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "ACLU-DC Sues D.C. Police Officer for Sexually Abusive Search; Mwimanzi v. Wilson – Challenging Unconstitutional Sexually Invasive Search by MPD Officer",
+    "url": "https://www.acludc.org/press-releases/aclu-dc-sues-dc-police-officer-sexually-abusive-search/"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2020,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "settled 2022",
+  "dollar_hint": null
+ },
+ {
+  "id": "513066f6-371f-406a-953c-565375a4543f",
+  "slug": "west-palm-beach-police-department-2026-r35",
+  "status": "needs_review",
+  "row": 35,
+  "agency_raw": "West Palm Beach Police Department",
+  "year_raw": "2026 (ongoing)",
+  "is_30x30_raw": "No",
+  "country_raw": "US",
+  "state_raw": "FL",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Woman sues West Palm over ignored complaints against her alleged attacker",
+    "url": "https://www.yahoo.com/news/articles/woman-sues-west-palm-over-130446119.html"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2026,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing",
+  "dollar_hint": null
+ },
+ {
+  "id": "5e74ff97-a53d-4e14-b6e0-650ca062175f",
+  "slug": "chicago-police-department-2018-r36",
+  "status": "needs_review",
+  "row": 36,
+  "agency_raw": "Chicago Police Department",
+  "year_raw": "2018 (settled - $100,000)",
+  "is_30x30_raw": "Yes",
+  "country_raw": "US",
+  "state_raw": "IL",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Chicago Police Fail to Investigate Officers Repeatedly Accused of Sexual Assault — ProPublica",
+    "url": "https://www.propublica.org/article/chicago-police-officers-sexual-assault-allegations"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2018,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "settled - $100,000",
+  "dollar_hint": 100000
+ },
+ {
+  "id": "2697e2a4-d0a9-47ba-9a1a-8a1d3fa57857",
+  "slug": "multnomah-county-sheriff-s-office-2026-r37",
+  "status": "needs_review",
+  "row": 37,
+  "agency_raw": "Multnomah County Sheriff's Office",
+  "year_raw": "2026 (ongoing)",
+  "is_30x30_raw": "No",
+  "country_raw": "US",
+  "state_raw": "OR",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Federal civil lawsuit alleges former Multnomah County corrections deputy sexually assaulted inmate, ignored pleas for help; Former Multnomah County Deputy faces second lawsuit alleging sexual assault of inmate",
+    "url": "https://www.kgw.com/article/news/crime/federal-civil-lawsuit-alleges-former-multnomah-county-corrections-deputy-sexually-assaulted-inmate/283-12e9a8e4-5503-4125-9431-0b29518c5e63"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2026,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing",
+  "dollar_hint": null
+ },
+ {
+  "id": "a9328494-3f68-4db0-bb0d-00af1d6a0601",
+  "slug": "multnomah-county-sheriff-s-office-2026-r38",
+  "status": "needs_review",
+  "row": 38,
+  "agency_raw": "Multnomah County Sheriff's Office",
+  "year_raw": "2026 (ongoing)",
+  "is_30x30_raw": "No",
+  "country_raw": "US",
+  "state_raw": "OR",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Federal lawsuit docs: Multnomah County Jail Deputy groomed female inmate for sex",
+    "url": "https://katu.com/news/local/federal-lawsuit-docs-multnomah-county-jail-deputy-groomed-female-inmate-for-sex-martin-jackson-portland-oregon"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2026,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing",
+  "dollar_hint": null
+ },
+ {
+  "id": "eafd1a25-c2d6-479c-8882-4c6fabd2056a",
+  "slug": "chisago-county-sheriff-s-office-2024-r39",
+  "status": "needs_review",
+  "row": 39,
+  "agency_raw": "Chisago County Sheriff's Office",
+  "year_raw": "2024 (settled - $7.5M 2026)",
+  "is_30x30_raw": "No",
+  "country_raw": "US",
+  "state_raw": "MN",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Chisago County settles lawsuit over sheriff sex assault case for $7.5M; Chisago County agrees $7.5M settlement with victim in sheriff sex assault case; Chisago County settles lawsuit over sheriff sex assault case for $7.5M",
+    "url": "https://kstp.com/kstp-news/local-news/chisago-county-settles-lawsuit-over-sheriff-sex-assault-case-for-7-5-million/"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2024,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "settled - $7.5M 2026",
+  "dollar_hint": 7500000
+ },
+ {
+  "id": "94191a08-79bd-49cf-ad02-d21b7397f6fa",
+  "slug": "payette-county-sheriff-s-office-2025-r40",
+  "status": "needs_review",
+  "row": 40,
+  "agency_raw": "Payette County Sheriff's Office",
+  "year_raw": "2025 (pre-suit tort claim filed; ongoing)",
+  "is_30x30_raw": "No",
+  "country_raw": "US",
+  "state_raw": "ID",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Ex-Idaho sheriff’s jail deputy could be sued after groping incarcerated woman",
+    "url": "https://www.spokesman.com/stories/2025/oct/02/ex-idaho-sheriffs-jail-deputy-could-be-sued-after-/"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2025,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "pre-suit tort claim filed; ongoing",
+  "dollar_hint": null
+ },
+ {
+  "id": "272b9989-7ebc-4341-beea-6050f7b8fa8d",
+  "slug": "riverside-county-sheriff-s-department-2023-r41",
+  "status": "needs_review",
+  "row": 41,
+  "agency_raw": "Riverside County Sheriff's Department",
+  "year_raw": "2023-2024 (ongoing)",
+  "is_30x30_raw": "No",
+  "country_raw": "US",
+  "state_raw": "CA",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Riverside County Sheriff's Department covered up deputy's 'sextortion' scheme, victims allege",
+    "url": "https://abc7.com/sextortion-victims-sheriffs-deputy-accuse-riverside-county-officials-cover-up-plot/14585110/"
+   }
+  ],
+  "orphan_titles": [
+   "Lawyers File 7 Federal Lawsuits, Allege Riverside County Scheme Offered ‘Hush Money’ to Incarcerated Sexually Abused by Deputy",
+   "Alleged sextortion victims of Riverside County custody deputy say problem is widespread"
+  ],
+  "year_filed": 2023,
+  "year_filed_approx": false,
+  "filing_year_range": "2023-2024",
+  "result_text": "ongoing",
+  "dollar_hint": null
+ },
+ {
+  "id": "65bb4eb0-2b13-46c7-aa64-ed13714d1acf",
+  "slug": "killen-police-department-2025-r42",
+  "status": "needs_review",
+  "row": 42,
+  "agency_raw": "Killen Police Department",
+  "year_raw": "2025 (ongoing)",
+  "is_30x30_raw": "No",
+  "country_raw": "US",
+  "state_raw": "AL",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Woman files lawsuit against Town of Killen, police chief and former officer over 2023 sexual assault",
+    "url": "https://whnt.com/news/shoals/woman-files-lawsuit-against-town-of-killen-police-chief-and-former-officer-over-2023-sexual-assault/"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2025,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing",
+  "dollar_hint": null
+ },
+ {
+  "id": "500056d2-7e3b-4c61-9fcf-d78cb2b57fdc",
+  "slug": "columbia-police-department-2025-r43",
+  "status": "needs_review",
+  "row": 43,
+  "agency_raw": "Columbia Police Department",
+  "year_raw": "2025 (ongoing)",
+  "is_30x30_raw": "Yes",
+  "country_raw": "US",
+  "state_raw": "SC",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Wrongful arrest put woman in custody of Columbia officer who sexually assaulted her, lawsuit says",
+    "url": "https://www.postandcourier.com/columbia/news/lawsuit-columbia-police-department-wrongful-arrest-sexual-assualt/article_7a6c5ca4-0017-11f0-a8f1-6f512e4c01e5.html"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2025,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing",
+  "dollar_hint": null
+ },
+ {
+  "id": "b7e785a9-fa17-40cf-abe4-60b78f563a2a",
+  "slug": "granger-police-department-2024-r44",
+  "status": "needs_review",
+  "row": 44,
+  "agency_raw": "Granger Police Department",
+  "year_raw": "2024 (settled - $700,000 in 2025)",
+  "is_30x30_raw": "No",
+  "country_raw": "US",
+  "state_raw": "WA",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Granger settles alleged sexual assault lawsuit involving former police officer for $700,000 | News | applevalleynewsnow.com",
+    "url": "https://www.applevalleynewsnow.com/news/granger-settles-alleged-sexual-assault-lawsuit-involving-former-police-officer-for-700-000/article_9ebf915c-3ce6-429e-8384-ba8ef883321f.html"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2024,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "settled - $700,000 in 2025",
+  "dollar_hint": 700000
+ },
+ {
+  "id": "8b15b6c6-e1a7-4267-baa9-091437695b64",
+  "slug": "claremont-police-department-2024-r45",
+  "status": "needs_review",
+  "row": 45,
+  "agency_raw": "Claremont Police Department",
+  "year_raw": "2024 (settled - $2,999,999 in 2025)",
+  "is_30x30_raw": "No",
+  "country_raw": "US",
+  "state_raw": "CA",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "City settles civil case involving former police officer for $3 million | Claremont COURIER",
+    "url": "https://claremont-courier.com/latest-news/city-settles-civil-case-involving-former-police-officer-for-3-million-83945/"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2024,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "settled - $2,999,999 in 2025",
+  "dollar_hint": 2999999
+ },
+ {
+  "id": "92c0a66c-8701-4400-9d88-2c6bd91b3461",
+  "slug": "spokane-police-department-2022-r46",
+  "status": "needs_review",
+  "row": 46,
+  "agency_raw": "Spokane Police Department",
+  "year_raw": "2022 (settled - $400K in 2025 and $300K in 2024; $700K total)",
+  "is_30x30_raw": "No",
+  "country_raw": "US",
+  "state_raw": "WA",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Spokane City Council unanimously approves $300K settlement for survivor raped by former police officer",
+    "url": "https://www.krem.com/article/news/local/spokane-city-council-to-vote-on-settlement-survivor-raped-by-former-police-officer/293-677325d5-a892-4f19-b970-6869f7f6d7ef"
+   }
+  ],
+  "orphan_titles": [
+   "Spokane to pay $400,000 to woman raped by former officer in 2019",
+   "More to Every Story: Spokane taxpayers cover $700K in settlements tied to former police officer's rape case in 2019"
+  ],
+  "year_filed": 2022,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "settled - $400K in 2025 and $300K in 2024; $700K total",
+  "dollar_hint": 700000
+ },
+ {
+  "id": "d2ee94a7-591f-441c-b45b-204d0a9c495a",
+  "slug": "letcher-county-sheriff-s-office-2024-r47",
+  "status": "needs_review",
+  "row": 47,
+  "agency_raw": "Letcher County Sheriff's Office",
+  "year_raw": "2024 (ongoing)",
+  "is_30x30_raw": "No",
+  "country_raw": "US",
+  "state_raw": "KY",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Sheriff charged with murder allegedly ignored deputy's abuse of a woman",
+    "url": "https://spectrumnews1.com/ky/louisville/news/2024/09/20/stines-lawsuit"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2024,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing",
+  "dollar_hint": null
+ },
+ {
+  "id": "2b52ab74-6f40-47b4-9cb0-e42ab8a7508b",
+  "slug": "rankin-county-sheriff-s-office-with-one-richland-ms-pd-offic",
+  "status": "needs_review",
+  "row": 48,
+  "agency_raw": "Rankin County Sheriff's Office (with one Richland, MS PD officer)",
+  "year_raw": "2023 (settled - $2.5M in 2025)",
+  "is_30x30_raw": "No",
+  "country_raw": "US",
+  "state_raw": "MS",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Goon Squad victims settle civil suit with Rankin Co., Rankin Co. Sheriff’s Office; More than two years after a night of horrors, Michael Jenkins and Eddie Parker settle with RCSO",
+    "url": "https://www.wlbt.com/2025/05/01/federal-civil-lawsuit-stemming-goon-squad-night-torture-settled-with-prejudice/"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2023,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "settled - $2.5M in 2025",
+  "dollar_hint": 2500000
+ },
+ {
+  "id": "329bc379-8c34-4892-9914-2711cef8c293",
+  "slug": "rankin-county-sheriff-s-office-2025-r49",
+  "status": "needs_review",
+  "row": 49,
+  "agency_raw": "Rankin County Sheriff's Office",
+  "year_raw": "2025 (ongoing)",
+  "is_30x30_raw": "No",
+  "country_raw": "US",
+  "state_raw": "MS",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "‘Goon Squad’ victim files new lawsuit against Rankin County and former deputies; ‘Goon Squad’ victim files new lawsuit against Rankin County and former deputies",
+    "url": "https://mississippitoday.org/2025/11/26/rankin-county-faces-new-goon-squad-lawsuit/"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2025,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing",
+  "dollar_hint": null
+ },
+ {
+  "id": "c7301f12-332b-4a50-81dd-1ef35e4c0d59",
+  "slug": "webster-county-jail-webster-county-2021-r50",
+  "status": "needs_review",
+  "row": 50,
+  "agency_raw": "Webster County Jail / Webster County",
+  "year_raw": "2021 (unknown)",
+  "is_30x30_raw": "No",
+  "country_raw": "US",
+  "state_raw": "KY",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Women Sue Webster County for Sexual Abuse in Jail — Friedman, Gilbert + Gerhardstein | Civil Rights and Criminal Defense Lawyers",
+    "url": "https://www.fggfirm.com/in-the-news/women-sue-webster-county-for-sexual-abuse-in-jail"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2021,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "unknown",
+  "dollar_hint": null
+ },
+ {
+  "id": "8a9ab61f-945a-4d6e-b9be-26151cc02b98",
+  "slug": "missouri-state-highway-patrol-2024-r51",
+  "status": "needs_review",
+  "row": 51,
+  "agency_raw": "Missouri State Highway Patrol",
+  "year_raw": "2024 (ongoing, officer sentenced to almost two years in jail)",
+  "is_30x30_raw": "No",
+  "country_raw": "US",
+  "state_raw": "MO",
+  "notes_raw": "Sexual misconduct/privacy violation rather than physical assault.",
+  "sources": [
+   {
+    "title": "Woman files federal lawsuit against former MSHP trooper",
+    "url": "https://www.kfvs12.com/2024/11/21/woman-files-federal-lawsuit-against-former-mshp-trooper/"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2024,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing, officer sentenced to almost two years in jail",
+  "dollar_hint": null
+ },
+ {
+  "id": "dc937000-3362-47a1-b6c7-6df3f475c93a",
+  "slug": "oklahoma-highway-patrol-2025-r52",
+  "status": "needs_review",
+  "row": 52,
+  "agency_raw": "Oklahoma Highway Patrol",
+  "year_raw": "2025 (ongoing)",
+  "is_30x30_raw": "No",
+  "country_raw": "US",
+  "state_raw": "OK",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Former Oklahoma Highway Patrol Trooper accused of rape appears in court; Former Oklahoma trooper charged with rape during traffic stop pleads not guilty",
+    "url": "https://kfor.com/news/local/former-oklahoma-highway-patrol-trooper-accused-of-rape-appears-in-court/"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2025,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing",
+  "dollar_hint": null
+ },
+ {
+  "id": "eca78caf-c1bf-4889-a5bc-1465921fe42e",
+  "slug": "saratoga-springs-police-department-2023-r53",
+  "status": "needs_review",
+  "row": 53,
+  "agency_raw": "Saratoga Springs Police Department",
+  "year_raw": "2023 (ongoing)",
+  "is_30x30_raw": "No",
+  "country_raw": "US",
+  "state_raw": "UT",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Saratoga Springs officials covered up officer’s sexual assault of woman, lawsuit alleges; Saratoga Springs police officer sexually assaulted woman, lawsuit alleges; Lawsuit filed against police department, city of Saratoga Springs alleging sexual assault",
+    "url": "https://www.sltrib.com/news/2023/01/10/saratoga-springs-officials/"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2023,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing",
+  "dollar_hint": null
+ },
+ {
+  "id": "375d7f28-8d0b-4416-af88-c05e4f89fce1",
+  "slug": "la-plata-county-sheriff-s-office-2025-r54",
+  "status": "needs_review",
+  "row": 54,
+  "agency_raw": "La Plata County Sheriff's Office",
+  "year_raw": "2025 (ongoing)",
+  "is_30x30_raw": "No",
+  "country_raw": "US",
+  "state_raw": "CO",
+  "notes_raw": "Sexual privacy violation (voyeurism) rather than physical assault.",
+  "sources": [
+   {
+    "title": "Female inmates file class action lawsuit against the La Plata County Sheriff’s Office over strip searches; 18 women initiate class-action suit against former Colorado jail commander over allegedly watching strip-search videos thousands of times",
+    "url": "https://www.cpr.org/2025/09/05/female-inmates-lawsuit-la-plata-county-sheriffs-office-strip-searches/"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2025,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing",
+  "dollar_hint": null
+ },
+ {
+  "id": "1441318e-546e-4306-af4c-4b311b5337c3",
+  "slug": "white-county-sheriff-s-office-white-county-jail-2026-r55",
+  "status": "needs_review",
+  "row": 55,
+  "agency_raw": "White County Sheriff's Office / White County Jail",
+  "year_raw": "2026 (ongoing)",
+  "is_30x30_raw": "No",
+  "country_raw": "US",
+  "state_raw": "IN",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Former White County Jail inmate sues sheriff, government over correctional officer’s sexual misconduct - The Indiana Lawyer",
+    "url": "https://www.theindianalawyer.com/articles/former-white-county-jail-inmate-sues-sheriff-government-over-correctional-officers-sexual-misconduct"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2026,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing",
+  "dollar_hint": null
+ },
+ {
+  "id": "7e623cdf-ce3a-449e-84b8-a18db31e3ffe",
+  "slug": "clark-county-sheriff-s-office-2022-r56",
+  "status": "needs_review",
+  "row": 56,
+  "agency_raw": "Clark County Sheriff's Office",
+  "year_raw": "2022 (settled - $328K in 2024)",
+  "is_30x30_raw": "No",
+  "country_raw": "US",
+  "state_raw": "IN",
+  "notes_raw": "Direct perpetrators were inmates; officers sued for enabling.",
+  "sources": [
+   {
+    "title": "Female Inmates Raped After Jailer Sells Key to Cell for $1k, Lawsuit Claims; Dozens of Inmates Raped, Assaulted, and Harassed After Jailer Sold Male Prisoner a Key to Women's Wing, Federal Lawsuit Claims; 28 female inmates in Indiana jail claim they were sexually abused by mob of male inmates: lawsuits;  Indiana Sheriff Pleads Guilty to Corruption, County Pays $328,000 to Jail Detainees for “Night of Terror”",
+    "url": "https://www.newsweek.com/clark-county-jail-indiana-prison-rape-sexual-assault-lawsuit-clark-county-sheriff-1728341"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2022,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "settled - $328K in 2024",
+  "dollar_hint": 328000
+ },
+ {
+  "id": "e9aabf77-c0ca-4ef4-b2a3-7791b5edf3df",
+  "slug": "stoughton-police-department-2021-r57",
+  "status": "needs_review",
+  "row": 57,
+  "agency_raw": "Stoughton Police Department",
+  "year_raw": "2021 (ongoing, cause of death changed from \"suicide\" to \"undetermined\" in 2026)",
+  "is_30x30_raw": "No",
+  "country_raw": "US",
+  "state_raw": "MA",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "How a Massachusetts Cop Allegedly Groomed, Controlled and Killed Sandra Birchmore; Former Massachusetts Police Officer Arrested in Connection with Murder of Young Woman; Sandra Birchmore's cause of death changed by Massachusetts medical examiner",
+    "url": "https://www.themarshallproject.org/2024/08/30/police-explorer-sexual-abuse-massachusetts-birchmore"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2021,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing, cause of death changed from \"suicide\" to \"undetermined\" in 2026",
+  "dollar_hint": null
+ },
+ {
+  "id": "3b3ef087-e1fd-46d9-af7a-cb2277422c72",
+  "slug": "deming-police-department-2026-r58",
+  "status": "needs_review",
+  "row": 58,
+  "agency_raw": "Deming Police Department",
+  "year_raw": "2026 (ongoing)",
+  "is_30x30_raw": "No",
+  "country_raw": "US",
+  "state_raw": "NM",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Lawsuit holds Deming police, state accountable for ex-cop's sexual abuse; Lawsuit alleges teen girl abused by Deming Police officer; Lawsuit: Deming police officer assaulted 16-year-old girl for months while on the job",
+    "url": "https://www.abqjournal.com/news/lawsuit-holds-deming-police-state-accountable-for-ex-cops-sexual-abuse/2994900"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2026,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing",
+  "dollar_hint": null
+ },
+ {
+  "id": "87308ec9-1747-413c-b187-753c4993982b",
+  "slug": "san-mateo-police-department-2022-r59",
+  "status": "needs_review",
+  "row": 59,
+  "agency_raw": "San Mateo Police Department",
+  "year_raw": "2022 (settled - $25M in March 2024)",
+  "is_30x30_raw": "No",
+  "country_raw": "US",
+  "state_raw": "CA",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Police Abuse Attorney | Legal Help for Police Sexual Abuse",
+    "url": "https://www.sokolovelaw.com/personal-injury/sexual-abuse/police-assault/"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2022,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "settled - $25M in March 2024",
+  "dollar_hint": 25000000
+ },
+ {
+  "id": "b3e98342-4e63-4ccc-8b8a-a7630d35be25",
+  "slug": "new-york-city-police-department-2026-r60",
+  "status": "needs_review",
+  "row": 60,
+  "agency_raw": "New York City Police Department",
+  "year_raw": "2026 (ongoing; Scheublin criminally indicted)",
+  "is_30x30_raw": "Yes",
+  "country_raw": "US",
+  "state_raw": "NY",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Bronx NYPD inspector hit with rape charges months after being sued for alleged sexual assault of female cop in precinct; NYPD inspector sexually assaulted a subordinate, Bronx prosecutors say; NYPD inspector told officer he wanted 'biracial babies' before alleged assault, lawsuit claims",
+    "url": "https://www.amny.com/law/bronx-nypd-inspector-rape-charges-lawsuit-07102026/"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2026,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing; Scheublin criminally indicted",
+  "dollar_hint": null
+ },
+ {
+  "id": "40f677c5-6b26-45c8-ae04-d3e5b56cf2d4",
+  "slug": "new-york-city-police-department-2026-r61",
+  "status": "needs_review",
+  "row": 61,
+  "agency_raw": "New York City Police Department",
+  "year_raw": "2026 (ongoing)",
+  "is_30x30_raw": "Yes",
+  "country_raw": "US",
+  "state_raw": "NY",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Another Sexual Harassment Lawsuit Hits the NYPD’s Troubled 46th Precinct - The Sanders Firm, P.C.",
+    "url": "https://www.thesandersfirmpc.com/another-sexual-harassment-lawsuit-hits-the-nypds-troubled-46th-precinct/"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2026,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing",
+  "dollar_hint": null
+ },
+ {
+  "id": "30695a28-79d8-496d-91f0-b4cce4203f29",
+  "slug": "new-york-city-police-department-2023-r62",
+  "status": "needs_review",
+  "row": 62,
+  "agency_raw": "New York City Police Department",
+  "year_raw": "2023 (ongoing/unknown)",
+  "is_30x30_raw": "Yes",
+  "country_raw": "US",
+  "state_raw": "NY",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "NYPD officer sues city, claiming years of sexual abuse by union rep - Gothamist",
+    "url": "https://gothamist.com/news/nypd-officer-sues-city-claiming-years-of-sexual-abuse-by-union-rep"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2023,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing/unknown",
+  "dollar_hint": null
+ },
+ {
+  "id": "680cd81c-38f3-4d3c-bc2c-f7c6036257d9",
+  "slug": "chicago-police-department-2020-r63",
+  "status": "needs_review",
+  "row": 63,
+  "agency_raw": "Chicago Police Department",
+  "year_raw": "2020 (dismissed - judge tossed all claims March 2024, found relationship consensual; appeal planned)",
+  "is_30x30_raw": "Yes",
+  "country_raw": "US",
+  "state_raw": "IL",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Judge tosses all claims in sex assault case against former CPD Superintendent Eddie Johnson; Former CPD Supt. Eddie Johnson sued for sex assault, harassment; Sexual assault lawsuit against Chicago's former top cop dismissed",
+    "url": "https://abc7chicago.com/eddie-johnson-cynthia-donald-sexual-assault-lawsuit-chicago-police/14551160/"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2020,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "dismissed - judge tossed all claims March 2024, found relationship consensual; appeal planned",
+  "dollar_hint": null
+ },
+ {
+  "id": "d4f90577-1416-48b4-92d6-7d5536809c71",
+  "slug": "la-vergne-police-department-2023-r64",
+  "status": "needs_review",
+  "row": 64,
+  "agency_raw": "La Vergne Police Department",
+  "year_raw": "2023 (settled - $500,000 in 2024)",
+  "is_30x30_raw": "No",
+  "country_raw": "US",
+  "state_raw": "TN",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Maegan Hall, former officer at center of La Vergne sex scandal, reaches $500K settlement after dismissing lawsuit; City of La Vergne settles lawsuit, owes Maegan Hall half a million dollars",
+    "url": "https://www.wsmv.com/2024/03/21/maegan-hall-former-officer-center-la-vergne-sex-scandal-reaches-500k-settlement-after-dismissing-lawsuit/"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2023,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "settled - $500,000 in 2024",
+  "dollar_hint": 500000
+ },
+ {
+  "id": "c220c138-16ac-4e10-8fb2-b9c9769ea362",
+  "slug": "iron-mountain-police-department-2023-r65",
+  "status": "needs_review",
+  "row": 65,
+  "agency_raw": "Iron Mountain Police Department",
+  "year_raw": "2023 (settled - $475,000 in July 2024)",
+  "is_30x30_raw": "No",
+  "country_raw": "US",
+  "state_raw": "MI",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "First female police officer in rural Michigan town says fellow cops relentlessly harassed and assaulted her; Former Iron Mountain officer reaches $475,000 settlement in sexual harassment lawsuit; IM settles suit filed by former city officer",
+    "url": "https://www.nbcnews.com/news/us-news/michigan-departments-first-female-cop-alleges-relentless-harassment-rcna76194"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2023,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "settled - $475,000 in July 2024",
+  "dollar_hint": 475000
+ },
+ {
+  "id": "ac10a1e7-1bf1-4940-a47b-67af3be7fb98",
+  "slug": "washington-state-criminal-justice-training-commission-traine",
+  "status": "needs_review",
+  "row": 66,
+  "agency_raw": "Washington State Criminal Justice Training Commission (trainer from Federal Way PD)",
+  "year_raw": "2024 (settled - $500,000 in 2025)",
+  "is_30x30_raw": "No",
+  "country_raw": "US",
+  "state_raw": "WA",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "WA police academy pays deputy $500K over sexual harassment lawsuit; Deputy’s Sexual Assault Lawsuit for Training Academy Misconduct Settles for $500,000; ‘Bigoted and toxic:’ Deputy settles with state academy, Federal Way PD over sex assault claims",
+    "url": "https://www.fox13seattle.com/news/wa-police-academy-500k-harassment"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2024,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "settled - $500,000 in 2025",
+  "dollar_hint": 500000
+ },
+ {
+  "id": "af9f9a31-47dd-4385-be65-82769eab8811",
+  "slug": "solano-county-sheriff-s-office-2025-r67",
+  "status": "needs_review",
+  "row": 67,
+  "agency_raw": "Solano County Sheriff's Office",
+  "year_raw": "2025 (ongoing)",
+  "is_30x30_raw": "No",
+  "country_raw": "US",
+  "state_raw": "CA",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Lawsuit: Solano deputy ‘thought she was going to die’ when colleague raped her",
+    "url": "https://www.vallejosun.com/lawsuit-solano-deputy-thought-she-was-going-to-die-when-colleague-raped-her/"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2025,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing",
+  "dollar_hint": null
+ },
+ {
+  "id": "f19c535b-5b92-451a-bd0e-22ba8076e946",
+  "slug": "san-mateo-county-sheriff-s-office-2022-r68",
+  "status": "needs_review",
+  "row": 68,
+  "agency_raw": "San Mateo County Sheriff's Office",
+  "year_raw": "2022 (settled - $8M in 2024)",
+  "is_30x30_raw": "Yes",
+  "country_raw": "US",
+  "state_raw": "CA",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Decorated sheriff’s deputy sues San Mateo County over workplace sexual harassment, assault; San Mateo County pays $8M for sex harassment suit",
+    "url": "https://www.almanacnews.com/news/2022/11/11/decorated-sheriffs-deputy-sues-san-mateo-county-over-workplace-sexual-harassment-assault/"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2022,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "settled - $8M in 2024",
+  "dollar_hint": 8000000
+ },
+ {
+  "id": "43ad0353-207a-4d5f-8f3b-d6cbe5461ef8",
+  "slug": "harris-county-constable-s-office-precinct-1-2021-r69",
+  "status": "needs_review",
+  "row": 69,
+  "agency_raw": "Harris County Constable's Office, Precinct 1",
+  "year_raw": "2021 (settled - $1.5M to four women in June 2024)",
+  "is_30x30_raw": "No",
+  "country_raw": "US",
+  "state_raw": "TX",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Houston Cops 'Molested' Female Deputies During Undercover Stings, Forced One to Be 'Penetrated in Both Her Vagina and Anus' by 'Known Rapist': Lawsuit; Current and former Texas constable's deputies file lawsuit alleging abuse from commanding officers; Harris County to pay female constable deputies $1.5 million to sex scandal lawsuit",
+    "url": "https://lawandcrime.com/lawsuit/houston-cops-molested-female-deputies-during-undercover-stings-forced-one-to-be-penetrated-in-both-her-vagina-and-anus-by-known-rapist-lawsuit/"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2021,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "settled - $1.5M to four women in June 2024",
+  "dollar_hint": 1500000
+ },
+ {
+  "id": "ac4c5299-ffb1-43b1-a6dc-a4b9e4d00602",
+  "slug": "central-connecticut-state-university-police-department-2018-",
+  "status": "needs_review",
+  "row": 70,
+  "agency_raw": "Central Connecticut State University Police Department",
+  "year_raw": "2018 (settled - $1.75M in 2020)",
+  "is_30x30_raw": "No",
+  "country_raw": "US",
+  "state_raw": "CT",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "CCSU to pay $1.75 million settlement of claims accusing campus police officers of sexual harassment, assault; Female Officer Wins Settlement Against CCSU in Rape Lawsuit",
+    "url": "https://www.wtnh.com/news/connecticut/hartford/ccsu-to-pay-1-75-million-settlement-of-claims-accusing-campus-police-officers-of-sexual-harassment-assault/"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2018,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "settled - $1.75M in 2020",
+  "dollar_hint": 1750000
+ },
+ {
+  "id": "dedc1371-41da-4055-ae87-30f1f54a65f8",
+  "slug": "los-angeles-police-department-2023-r71",
+  "status": "needs_review",
+  "row": 71,
+  "agency_raw": "Los Angeles Police Department",
+  "year_raw": "2023 (ongoing)",
+  "is_30x30_raw": "Yes",
+  "country_raw": "US",
+  "state_raw": "CA",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "LAPD officer says he can no longer remain silent about alleged hazing and assault while participating in police football program",
+    "url": "https://www.nbclosangeles.com/investigations/lapd-officer-says-he-can-no-longer-remain-silent-about-alleged-hazing-and-assault-while-participating-in-police-football-program/3353139/"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2023,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing",
+  "dollar_hint": null
+ },
+ {
+  "id": "3c8ab865-6b5a-4954-a675-d5a7006ee5ea",
+  "slug": "los-angeles-county-sheriff-s-department-2025-r72",
+  "status": "needs_review",
+  "row": 72,
+  "agency_raw": "Los Angeles County Sheriff's Department",
+  "year_raw": "2025 (ongoing)",
+  "is_30x30_raw": "Yes",
+  "country_raw": "US",
+  "state_raw": "CA",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "LASD, Ex-Deputy Agree on Release of Her Personnel Records - MyNewsLA.com",
+    "url": "https://mynewsla.com/crime/2026/05/03/former-laco-deputy-lasd-agree-on-release-of-her-personnel-records/"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2025,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing",
+  "dollar_hint": null
+ },
+ {
+  "id": "f5f86a33-ef28-463d-928f-ea440fcb6994",
+  "slug": "holly-hill-police-department-2025-r73",
+  "status": "needs_review",
+  "row": 73,
+  "agency_raw": "Holly Hill Police Department",
+  "year_raw": "2025 (ongoing)",
+  "is_30x30_raw": "No",
+  "country_raw": "US",
+  "state_raw": "FL",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Holly Hill facing lawsuits from 3 female police department employees over accusations of rampant sexual misconduct",
+    "url": "https://mynews13.com/fl/orlando/news/2025/03/26/holly-hill-facing-lawsuits-from-3-female-police-department-employees-over-accusations-of-rampant-misconduct"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2025,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing",
+  "dollar_hint": null
+ },
+ {
+  "id": "7fce53b9-6d1f-4ec2-ba8e-acd588598603",
+  "slug": "michigan-state-police-2025-r74",
+  "status": "needs_review",
+  "row": 74,
+  "agency_raw": "Michigan State Police",
+  "year_raw": "2025 (ongoing)",
+  "is_30x30_raw": "Yes",
+  "country_raw": "US",
+  "state_raw": "MI",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Ex-trooper accuses Michigan State Police of sex discrimination, retaliation; Ex-trooper sues Michigan State Police and officials, claiming sexual harassment",
+    "url": "https://www.detroitnews.com/story/news/local/michigan/2024/07/01/former-trooper-accuses-michigan-state-police-sexual-discrimination/74269218007/"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2025,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing",
+  "dollar_hint": null
+ },
+ {
+  "id": "89b7ef98-c861-4410-a27a-7ef18f7310b2",
+  "slug": "pima-county-sheriff-s-department-2023-r75",
+  "status": "needs_review",
+  "row": 75,
+  "agency_raw": "Pima County Sheriff's Department",
+  "year_raw": "2023 (ongoing; Garcia convicted criminally in Feb 2025)",
+  "is_30x30_raw": "No",
+  "country_raw": "US",
+  "state_raw": "AZ",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "$900K claim filed by deputy against colleague, others in sex-assault case; Deputy sentenced to one year in jail in high-profile Pima Sheriff’s rape case",
+    "url": "https://tucson.com/news/local/crime-and-courts/pima-county-and-sheriffs-department-named-in-notice-of-claim/article_93757674-1444-11ee-8527-3340231b98d3.html"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2023,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing; Garcia convicted criminally in Feb 2025",
+  "dollar_hint": null
+ },
+ {
+  "id": "ecc3dfe0-059f-4eb0-94ee-de2c613001ca",
+  "slug": "salt-lake-county-sheriff-s-office-2022-r76",
+  "status": "needs_review",
+  "row": 76,
+  "agency_raw": "Salt Lake County Sheriff's Office",
+  "year_raw": "2022 (ongoing)",
+  "is_30x30_raw": "Yes",
+  "country_raw": "US",
+  "state_raw": "UT",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Utah sheriff's cadet sues, claiming sexual harassment, assaults by ex-supervisor; Former Salt Lake County sheriff’s academy instructor sexually assaulted female recruits, lawsuit alleges",
+    "url": "https://www.ksl.com/article/50534513/utah-sheriffs-cadet-sues-claiming-sexual-harassment-assaults-by-ex-supervisor"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2022,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing",
+  "dollar_hint": null
+ },
+ {
+  "id": "39f7b600-5357-4c1c-9ebc-d2f5b3d4cde9",
+  "slug": "edmonton-police-service-2023-r77",
+  "status": "needs_review",
+  "row": 77,
+  "agency_raw": "Edmonton Police Service",
+  "year_raw": "2023 (ongoing, criminal case also pending)",
+  "is_30x30_raw": "Yes",
+  "country_raw": "Canada",
+  "state_raw": "AB",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "EPS officer charged with sexual assault followed, groped woman, lawsuit alleges; Lawsuit details allegations against Edmonton police officer accused of sexual assault; ‘Great relief’: Woman allegedly sexually assaulted by EPS officer responds to charges",
+    "url": "https://www.cbc.ca/news/canada/edmonton/edmonton-police-officer-sexual-assault-charges-lawsuit-9.6971957"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2023,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing, criminal case also pending",
+  "dollar_hint": null
+ },
+ {
+  "id": "39d1cabd-b2e6-46ec-ac53-3760abd262b6",
+  "slug": "royal-newfoundland-constabulary-2022-r78",
+  "status": "needs_review",
+  "row": 78,
+  "agency_raw": "Royal Newfoundland Constabulary",
+  "year_raw": "2022 (ongoing)",
+  "is_30x30_raw": "No",
+  "country_raw": "Canada",
+  "state_raw": "NL",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Lawsuit alleges Royal Newfoundland Constabulary officer raped off-duty colleague; Publication ban denied for former RNC officer facing rape allegation",
+    "url": "https://www.cbc.ca/news/canada/newfoundland-labrador/rnc-lawsuit-officer-alleged-rape-1.6461266"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2022,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing",
+  "dollar_hint": null
+ },
+ {
+  "id": "e59e302b-046c-4713-8dee-ee30d0418e78",
+  "slug": "royal-newfoundland-constabulary-2022-r79",
+  "status": "needs_review",
+  "row": 79,
+  "agency_raw": "Royal Newfoundland Constabulary",
+  "year_raw": "2022 (ongoing)",
+  "is_30x30_raw": "No",
+  "country_raw": "Canada",
+  "state_raw": "NL",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Women file suit alleging they were sexually assaulted by RNC officers",
+    "url": "https://www.cbc.ca/news/canada/newfoundland-labrador/rnc-officers-lawsuit-1.6605795"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2022,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing",
+  "dollar_hint": null
+ },
+ {
+  "id": "3f46cd22-dffa-40d7-b344-af3b22a63c0d",
+  "slug": "royal-newfoundland-constabulary-2024-r80",
+  "status": "needs_review",
+  "row": 80,
+  "agency_raw": "Royal Newfoundland Constabulary",
+  "year_raw": "2024 (ongoing, Baldwin denies allegations)",
+  "is_30x30_raw": "No",
+  "country_raw": "Canada",
+  "state_raw": "NL",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "2 more women file suits alleging sexual assault by Newfoundland police officer; Two more women file suits alleging sexual assault by Newfoundland police officer",
+    "url": "https://www.cbc.ca/news/canada/newfoundland-labrador/lawsuits-rnc-sexual-assaults-1.7192005"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2024,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing, Baldwin denies allegations",
+  "dollar_hint": null
+ },
+ {
+  "id": "12d6e74b-dca1-4689-b01f-b6d6502b3bc0",
+  "slug": "vancouver-police-department-bc-2023-r81",
+  "status": "needs_review",
+  "row": 81,
+  "agency_raw": "Vancouver Police Department (BC)",
+  "year_raw": "2023 (civil suit ongoing; related grievance won, $30K award in 2025)",
+  "is_30x30_raw": "No",
+  "country_raw": "Canada",
+  "state_raw": "BC",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Vancouver police officer suing former colleague convicted of sexually assaulting her; Former Vancouver police officer awarded $30,000 after years-long grievance process; Vancouver officer sexually assaulted colleague, but police group chat targeted victim: investigation",
+    "url": "https://globalnews.ca/news/9510966/vpd-officer-suing-sexual-assault/"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2023,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "civil suit ongoing; related grievance won, $30K award in 2025",
+  "dollar_hint": 30000
+ },
+ {
+  "id": "7c33fec8-e14a-4dfb-a12a-9c66b23ca899",
+  "slug": "london-police-service-2022-r82",
+  "status": "needs_review",
+  "row": 82,
+  "agency_raw": "London Police Service",
+  "year_raw": "2022 (ongoing)",
+  "is_30x30_raw": "No",
+  "country_raw": "Canada",
+  "state_raw": "ON",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Oneida First Nation woman sues London, Ont., police, alleging officers sexually abused her for years; Retired London cop charged with sexually assaulting woman who says she tried for years to get help",
+    "url": "https://www.cbc.ca/news/canada/london/oneida-assault-allegations-lawsuit-london-police-1.6646135"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2022,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing",
+  "dollar_hint": null
+ },
+ {
+  "id": "8c62338a-8f1c-4575-82a9-254951e9ed02",
+  "slug": "durham-regional-police-service-2019-r83",
+  "status": "needs_review",
+  "row": 83,
+  "agency_raw": "Durham Regional Police Service",
+  "year_raw": "2019 (ongoing)",
+  "is_30x30_raw": "No",
+  "country_raw": "Canada",
+  "state_raw": "ON",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Police coverup, corruption and harassment case to move ahead in Ottawa court; $2M of taxpayer money already spent investigating alleged Durham police corruption",
+    "url": "https://www.cbc.ca/news/canada/ottawa/alleged-durham-police-corruption-harassment-lawsuit-ottawa-court-1.7248578"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2019,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing",
+  "dollar_hint": null
+ },
+ {
+  "id": "f781d4bf-221b-47dd-85ad-71ee9a0d5f96",
+  "slug": "ottawa-police-service-2019-r84",
+  "status": "needs_review",
+  "row": 84,
+  "agency_raw": "Ottawa Police Service",
+  "year_raw": "2019 (settled in 2021 - confidential, amount unknown)",
+  "is_30x30_raw": "No",
+  "country_raw": "Canada",
+  "state_raw": "ON",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Police board settled human rights complaint with officer alleging sexual assault; Ottawa police officer fears losing 'dream job' after alleged sexual assault",
+    "url": "https://amp.cbc.ca/news/canada/ottawa/police-board-settled-human-rights-complaint-with-officer-alleging-sexual-assault-1.6330446"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2019,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "settled in 2021 - confidential, amount unknown",
+  "dollar_hint": null
+ },
+ {
+  "id": "7ca4f929-1fae-400e-8d14-99021c8d325e",
+  "slug": "saskatoon-police-service-2021-r85",
+  "status": "needs_review",
+  "row": 85,
+  "agency_raw": "Saskatoon Police Service",
+  "year_raw": "2021 (ongoing)",
+  "is_30x30_raw": "No",
+  "country_raw": "Canada",
+  "state_raw": "SK",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Lawsuit accuses Saskatoon police officer of sexual assault, abuse of power; Saskatoon police officer being sued for alleged sexual assault claims woman consented; 'I told him no so many times': Lawsuit accuses Saskatoon police officer of abusing power, forcing sex",
+    "url": "https://www.cbc.ca/news/canada/saskatoon/saskatoon-police-officer-patrick-skinnider-lawsuit-1.5884194"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2021,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing",
+  "dollar_hint": null
+ },
+ {
+  "id": "831b9207-0e3c-4760-aab7-dfe77e9ff338",
+  "slug": "royal-canadian-mounted-police-2021-r86",
+  "status": "needs_review",
+  "row": 86,
+  "agency_raw": "Royal Canadian Mounted Police",
+  "year_raw": "Certified 2021 (ongoing)",
+  "is_30x30_raw": "No",
+  "country_raw": "Canada",
+  "state_raw": "NT/NU/YT (+ rest of Canada)",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Class action alleging RCMP abuse of Indigenous people in Northern Canada certified; Supreme Court of Canada dismisses federal effort to appeal Indigenous class action against RCMP in the North; RCMP Indigenous Racism and Assault Class Action",
+    "url": "https://www.cbc.ca/news/canada/north/class-action-rcmp-abuse-indigenous-people-certified-1.6076962"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2021,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing",
+  "dollar_hint": null
+ },
+ {
+  "id": "823f69e1-c656-4a5a-a874-f64abc8fe6d4",
+  "slug": "saint-john-police-force-2013-r87",
+  "status": "needs_review",
+  "row": 87,
+  "agency_raw": "Saint John Police Force",
+  "year_raw": "2013 (settled - $16.5 million in 2026)",
+  "is_30x30_raw": "No",
+  "country_raw": "Canada",
+  "state_raw": "NB",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "City of Saint John vicariously liable in sexual predator class action, judge rules; Lawyers for Saint John, victims propose settlement in Estabrooks lawsuit; Victims of Saint John police officer convicted of sexual assault to receive compensationVictims of Saint John police officer convicted of sexual assault to receive compensation",
+    "url": "https://www.cbc.ca/news/canada/new-brunswick/saint-john-liable-kenneth-estabrooks-police-officer-class-action-lawsuit-sexual-assault-1.6601122"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2013,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "settled - $16.5 million in 2026",
+  "dollar_hint": 16500000
+ },
+ {
+  "id": "62b00b54-31f8-4334-82fb-87521be8595b",
+  "slug": "surete-du-quebec-2022-r88",
+  "status": "needs_review",
+  "row": 88,
+  "agency_raw": "Surete du Quebec",
+  "year_raw": "2022 (ongoing, authorization hearing in March 2025)",
+  "is_30x30_raw": "No",
+  "country_raw": "Canada",
+  "state_raw": "QC",
+  "notes_raw": null,
+  "sources": [
+   {
+    "title": "Discriminatory practices and abuse of Indigenous people by officers of the Sûreté du Québec in the Vallée-de-l’Or MRC; A New Class Action has been filed: Discriminatory practices and abuses against Indigenous people by SQ officers in Val-d’Or",
+    "url": "https://tjl.quebec/en/class-actions/caavd/"
+   }
+  ],
+  "orphan_titles": [],
+  "year_filed": 2022,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "result_text": "ongoing, authorization hearing in March 2025",
+  "dollar_hint": null
+ }
+]

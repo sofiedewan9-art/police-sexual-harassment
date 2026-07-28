@@ -61,7 +61,9 @@ articles.xlsx`) is different, and the plan accounts for that:
 
 ## 3. Database schema (core tables)
 
-**`incidents`** — one row per incident (brief's rule 1)
+**`incidents`** — one row per lawsuit (updated 2026-07-28: originally per incident; owner chose
+per-lawsuit granularity — distinct suits from the same scandal are separate records; class
+actions/mass litigation remain single records)
 - `id`, `slug`
 - `agency` (official name), `agency_category` — enum: `police / sheriff / state_police /
   corrections / juvenile / federal / campus / transit / other`

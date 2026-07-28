@@ -27,7 +27,7 @@ police departments, including whether the agency participates in the
 
 ## Key methodology rules
 
-1. One row per **incident** — not per article, plaintiff, or filing.
+1. One row per **lawsuit** — not per article; class actions / consolidated mass litigation are one record.
 2. Time window: suits filed ~2021–present (or resolved in that window).
 3. Civil and criminal proceedings are tracked as **separate fields**.
 4. Descriptions are strictly factual; allegations always read as allegations unless there is a
