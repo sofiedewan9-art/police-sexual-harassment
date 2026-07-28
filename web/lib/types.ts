@@ -1,0 +1,41 @@
+export type Incident = {
+  id: string;
+  slug: string;
+  agency: string;
+  agency_category: string | null;
+  country: "US" | "CA" | null;
+  state_province: string | null;
+  lawsuit_type: string | null;
+  year_filed: number | null;
+  year_filed_approx: boolean;
+  multiple_filings: boolean;
+  filing_year_range: string | null;
+  outcome_status: string | null;
+  outcome_detail: string | null;
+  settlement_amount: number | null;
+  settlement_amount_original: number | null;
+  settlement_currency: string | null;
+  settlement_date: string | null;
+  criminal_status: string | null;
+  criminal_detail: string | null;
+  is_30x30: boolean | null;
+  thirty_by_thirty_match_note: string | null;
+  description: string | null;
+  notes: string | null;
+  officer_names: string[];
+  status: "published" | "needs_review" | "excluded";
+  last_verified: string | null;
+  created_at: string;
+  updated_at: string;
+};
+
+export type Source = {
+  id: string;
+  incident_id: string;
+  url: string;
+  archive_url: string | null;
+  title: string | null;
+  publisher: string | null;
+  published_date: string | null;
+  is_dead_link: boolean;
+};
