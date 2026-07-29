@@ -1,0 +1,13 @@
+{
+  "name": "police-sh-lawsuits-pipeline",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "ingest": "node ingest.mjs",
+    "reverify": "node reverify.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.110.0",
+    "@supabase/supabase-js": "^2.49.0"
+  }
+}

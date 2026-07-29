@@ -1,0 +1,27 @@
+name: Monthly outcome re-verification
+on:
+  schedule:
+    - cron: "0 14 3 * *" # 3rd of each month, 14:00 UTC
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Max records to re-check"
+        default: "20"
+
+jobs:
+  reverify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install --no-audit --no-fund
+        working-directory: pipeline
+      - run: node reverify.mjs --limit ${{ github.event.inputs.limit || '20' }}
+        working-directory: pipeline
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
