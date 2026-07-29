@@ -157,6 +157,7 @@ export default async function Home({
             <thead>
               <tr className="border-b border-navy/10 bg-paper text-left text-xs uppercase tracking-wide text-navy">
                 <th className="px-3 py-2"><SortLink f={f} col="agency">Agency</SortLink></th>
+                <th className="px-3 py-2">Country</th>
                 <th className="px-3 py-2"><SortLink f={f} col="state_province">State</SortLink></th>
                 <th className="px-3 py-2"><SortLink f={f} col="year_filed">Filed</SortLink></th>
                 <th className="px-3 py-2">Type</th>
@@ -176,7 +177,8 @@ export default async function Home({
                       {r.agency}
                     </Link>
                   </td>
-                  <td className="px-3 py-2">{r.state_province ?? "—"}{r.country === "CA" ? " 🇨🇦" : ""}</td>
+                  <td className="px-3 py-2">{r.country === "CA" ? "Canada" : r.country ?? "—"}</td>
+                  <td className="px-3 py-2">{r.state_province ?? "—"}</td>
                   <td className="px-3 py-2">
                     {r.year_filed_approx ? "~" : ""}{r.filing_year_range ?? r.year_filed ?? "—"}
                   </td>
