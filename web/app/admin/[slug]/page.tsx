@@ -6,6 +6,7 @@ import {
   OUTCOME_LABELS, TYPE_LABELS, CATEGORY_LABELS, CRIMINAL_LABELS,
 } from "@/lib/format";
 import { saveIncident, addSource } from "./actions";
+import { publishIncident, excludeIncident, resolveQueueItem } from "./reviewActions";
 
 export const dynamic = "force-dynamic";
 
@@ -44,6 +45,9 @@ export default async function AdminEdit({
   if (!incident) notFound();
   const { data: sources } = (await db
     .from("sources").select("*").eq("incident_id", incident.id)) as { data: Source[] | null };
+  const { data: queueItems } = await db
+    .from("review_queue").select("id, reason, payload, created_at")
+    .eq("incident_id", incident.id).is("resolved_at", null);
 
   return (
     <div className="mx-auto max-w-4xl space-y-6">
@@ -66,6 +70,53 @@ export default async function AdminEdit({
           Saved.
         </p>
       )}
+
+      {(queueItems ?? []).length > 0 && (
+        <section className="rounded-lg border-l-4 border-accent bg-white p-4">
+          <h2 className="text-sm font-semibold text-navy">Open review flags</h2>
+          <ul className="mt-2 space-y-2">
+            {(queueItems ?? []).map((q) => (
+              <li key={q.id} className="flex items-start justify-between gap-3 text-sm">
+                <div>
+                  <span className="mr-2 rounded bg-accent/30 px-2 py-0.5 text-xs font-medium text-navy">
+                    {String(q.reason).replace(/_/g, " ")}
+                  </span>
+                  <span className="text-ink/80">
+                    {q.payload?.concern ?? (q.payload?.fields ? `fields: ${q.payload.fields.join(", ")}` : "")}
+                  </span>
+                </div>
+                <form action={resolveQueueItem}>
+                  <input type="hidden" name="queue_id" value={q.id} />
+                  <input type="hidden" name="slug" value={incident.slug} />
+                  <button className="whitespace-nowrap rounded border border-navy/20 px-2 py-1 text-xs hover:bg-paper">
+                    Mark resolved
+                  </button>
+                </form>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      <div className="flex gap-2">
+        {incident.status !== "published" && (
+          <form action={publishIncident}>
+            <input type="hidden" name="slug" value={incident.slug} />
+            <input type="hidden" name="next" value="detail" />
+            <button className="rounded bg-green-700 px-4 py-2 text-sm font-medium text-white hover:bg-green-800">
+              Approve &amp; publish
+            </button>
+          </form>
+        )}
+        {incident.status !== "excluded" && (
+          <form action={excludeIncident}>
+            <input type="hidden" name="slug" value={incident.slug} />
+            <button className="rounded border border-red-700 px-4 py-2 text-sm font-medium text-red-700 hover:bg-red-50">
+              Exclude
+            </button>
+          </form>
+        )}
+      </div>
 
       <form action={saveIncident} className="space-y-5 rounded-lg border border-navy/10 bg-white p-6">
         <input type="hidden" name="slug" value={incident.slug} />
