@@ -1,0 +1,16 @@
+{
+  "row": 48,
+  "slug": "rankin-county-sheriff-s-office-with-one-richland-ms-pd-offic",
+  "fields": {
+    "agency": "Rankin County Sheriff's Office",
+    "agency_category": "sheriff",
+    "country": "US",
+    "state_province": "MS",
+    "lawsuit_type": "civilian",
+    "year_filed": 2023,
+    "outcome_status": "settled",
+    "settlement_amount_original": 2500000,
+    "criminal_status": "pleaded_guilty"
+  },
+  "caveats": "'Goon Squad' case: Michael Corey Jenkins and Eddie Terrell Parker sued Rankin County and the Rankin County Sheriff's Department in federal court in June 2023 over the Jan 24, 2023 night of torture and sexual assault by five RCSO deputies and one Richland (MS) police officer; they originally sought $400 million. Settled for $2.5 million ($500k county + $2 million insurance), dismissed with prejudice April 30, 2025; county did not admit liability. All six officers pleaded guilty to federal and state charges; federal sentences reportedly total about 132 years (e.g., Hunter Elward 17.5 years, per loaded source; state sentences of 15-45 years per headline of a source that failed to load). Two plaintiffs, not a class action, so lawsuit_type is civilian. NPR source timed out and Daily Journal source returned 429; both skipped."
+}

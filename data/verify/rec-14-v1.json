@@ -1,0 +1,16 @@
+{
+  "row": 14,
+  "slug": "new-orleans-police-department-2022-r14",
+  "fields": {
+    "agency": "New Orleans Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "LA",
+    "lawsuit_type": "civilian",
+    "year_filed": 2021,
+    "outcome_status": "no_resolution_found",
+    "settlement_amount_original": null,
+    "criminal_status": "pleaded_guilty"
+  },
+  "caveats": "Only 2 of 7 sources fetched successfully (fox8live.com, theappeal.org); washingtonpost.com and justice.gov returned 403, nola.com returned 429, usnews.com and wwltv.com timed out repeatedly. Officer Rodney Vicknair (NOPD) sexually assaulted a 14/15-year-old rape victim he had transported for a rape exam; the victim's mother filed the civil suit in February 2021 against Vicknair, the City of New Orleans, and others. Fetched sources confirm the civil case was still active as of February 2023 (municipal-liability claim reinstated) with no resolution reported, so outcome_status is no_resolution_found; the headlines/URLs of the unfetchable 2024 sources indicate a ~$1M jury verdict in August 2024, but that could not be verified from fetched content, so settlement_amount_original is null. Criminal: Vicknair was federally charged in September 2022 with civil rights violations, pleaded guilty in November 2022, and was sentenced to 14 years plus 5 years supervised release (March 2023). Note the slug says 2022 but the civil suit filing year supported by sources is 2021."
+}

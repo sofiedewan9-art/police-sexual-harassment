@@ -1,0 +1,32 @@
+{
+  "row": 85,
+  "slug": "saskatoon-police-service-2021-r85",
+  "agency": "Saskatoon Police Service",
+  "agency_category": "police",
+  "country": "CA",
+  "state_province": "SK",
+  "lawsuit_type": "civilian",
+  "year_filed": 2021,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "no_resolution_found",
+  "outcome_detail": "",
+  "settlement_amount_original": null,
+  "settlement_currency": "CAD",
+  "settlement_date": null,
+  "criminal_status": "none_filed",
+  "criminal_detail": "Skinnider was criminally investigated after the woman's 2009 complaint, but the Crown did not recommend charges and none were laid. The matter was handled through the police disciplinary process, in which he was found guilty of discreditable conduct and received sanctions. A separate 2020 RCMP investigation into an unrelated viral-video incident also ended without charges.",
+  "officer_names": ["Patrick Skinnider"],
+  "incident_date_approx": "February 2009 (lawsuit filed January 2021)",
+  "description": "A woman filed a civil lawsuit in January 2021 against Saskatoon Police Service constable Patrick Skinnider over events in February 2009. According to the statement of claim, Skinnider came to her home while investigating her domestic-violence complaint, kissed her without consent, and the next day forced her into sex, abusing his position of authority; the suit alleges he then manipulated her into a continuing sexual relationship. In his February 2021 statement of defence, Skinnider claims the relationship was consensual at all times. Following the woman's 2009 complaint to police, Skinnider was found guilty of discreditable conduct under Saskatchewan's police disciplinary process and received sanctions, but no criminal charges were laid. Dedicated searches found no public reporting on how the civil suit was resolved.",
+  "notes": null,
+  "inclusion_concern": null,
+  "sources": [
+    {"url": "https://www.cbc.ca/news/canada/saskatoon/saskatoon-police-officer-patrick-skinnider-lawsuit-1.5884194", "title": "Lawsuit accuses Saskatoon police officer of sexual assault, abuse of power", "publisher": "CBC News", "published_date": null},
+    {"url": "https://www.cbc.ca/news/canada/saskatoon/police-officer-sued-sexual-assault-1.5916946", "title": "Saskatoon police officer being sued for alleged sexual assault claims woman consented", "publisher": "CBC News", "published_date": null},
+    {"url": "https://saskatoon.ctvnews.ca/i-told-him-no-so-many-times-lawsuit-accuses-saskatoon-police-officer-of-abusing-power-forcing-sex-1.5304960", "title": "'I told him no so many times': Lawsuit accuses Saskatoon police officer of abusing power, forcing sex", "publisher": "CTV News Saskatoon", "published_date": null},
+    {"url": "https://saskatoon.ctvnews.ca/saskatoon-police-officer-named-in-lawsuit-denies-allegation-of-sexual-assault-1.5313105", "title": "Saskatoon police officer named in lawsuit denies allegation of sexual assault", "publisher": "CTV News Saskatoon", "published_date": null}
+  ],
+  "confidence_notes": "All three seed/orphan titles were recovered. Coverage found dates only to February 2021 (statement of defence); multiple dedicated outcome searches (2022-2026 terms) surfaced no settlement, ruling, or dismissal reporting, so outcome_status is no_resolution_found rather than ongoing. Exact publication dates for the January-February 2021 articles were not verifiable via search snippets. The plaintiff has self-identified in media but is not named here per language rules."
+}

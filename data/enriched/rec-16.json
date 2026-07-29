@@ -1,0 +1,33 @@
+{
+  "row": 16,
+  "slug": "louisville-metro-police-department-2021-r16",
+  "agency": "Louisville Metro Police Department",
+  "agency_category": "police",
+  "country": "US",
+  "state_province": "KY",
+  "lawsuit_type": "civilian",
+  "year_filed": 2020,
+  "year_filed_approx": false,
+  "filing_year_range": "2020-2021",
+  "multiple_filings": false,
+  "outcome_status": "settled",
+  "outcome_detail": "$1.8 million total settlement — $600,000 to each of the three Jane Doe plaintiffs — reached in September 2022 and finalized by late October 2022.",
+  "settlement_amount_original": 1800000,
+  "settlement_currency": "USD",
+  "settlement_date": null,
+  "criminal_status": "none_filed",
+  "criminal_detail": "No criminal charges were ever filed. Two internal investigations concluded Bailey pressured multiple confidential informants into sexual acts, lied to investigators, and that his actions broke the law, but the statute of limitations on potential misdemeanor charges expired during LMPD's two-year investigation. In February 2023, a Jefferson County grand jury returned a 'no true bill' on sodomy charges presented against Bailey; prosecutors said a Kentucky law in place at the time of the alleged crimes effectively prevented indictment. Bailey resigned from LMPD in 2021.",
+  "officer_names": ["Brian Bailey"],
+  "incident_date_approx": "Approximately 2018-2020 (one woman said threats and abuse began with a July 2018 arrest and continued about two years)",
+  "description": "Three women, proceeding as Jane Does, sued Louisville Metro Government over the conduct of LMPD narcotics detective Brian Bailey — the first filing in October 2020, with a second plaintiff joining in November 2020 and a third in 2021. The suits alleged that Bailey coerced the women into becoming confidential informants and then compelled them to perform sexual acts under threat of criminal prosecution. Internal LMPD investigations concluded that Bailey had pressured multiple informants into sexual acts and lied to investigators. The city settled the claims for $1.8 million in the fall of 2022, split equally among the three women. No criminal charges were filed: limitations periods lapsed during the lengthy investigation, and a grand jury declined in February 2023 to indict Bailey on sodomy charges. Reporting also noted Bailey obtained more residential search warrants than any other LMPD officer between January 2019 and June 2020, nearly all based on informant information.",
+  "notes": "Filed before 2021 (first complaint October 2020; seed year hint 2021 reflects when the third plaintiff joined); included because resolution occurred in window (settlement 2022).",
+  "inclusion_concern": null,
+  "sources": [
+    {"url": "https://www.lpm.org/investigate/2022-10-26/city-pays-1-8m-to-3-women-who-accused-former-louisville-police-detective-of-sexual-assault", "title": "City pays $1.8M to 3 women who accused former Louisville police detective of sexual assault", "publisher": "Louisville Public Media (KyCIR)", "published_date": "2022-10-26"},
+    {"url": "https://www.lpm.org/news/2022-01-26/no-charges-yet-for-former-lmpd-detective-despite-investigator-concluding-he-broke-law", "title": "No charges yet for former LMPD detective, despite investigator concluding he broke law", "publisher": "Louisville Public Media (KyCIR)", "published_date": "2022-01-26"},
+    {"url": "https://www.lpm.org/investigate/2023-02-23/ex-lmpd-officer-accused-of-coercing-informants-into-sexual-favors-wont-face-charges", "title": "Ex-LMPD officer accused of coercing informants into sexual favors won't face charges", "publisher": "Louisville Public Media (KyCIR)", "published_date": "2023-02-23"},
+    {"url": "https://www.whas11.com/article/news/crime/former-lmpd-officer-not-indicted-grand-jury-sodomy-charges-kentucky/417-63a368b8-8fb1-4582-8e83-0fff355e9119", "title": "Former LMPD officer not indicted by grand jury on sodomy charges", "publisher": "WHAS11", "published_date": null},
+    {"url": "https://www.wdrb.com/in-depth/ex-lmpd-officer-accused-of-coercing-informants-into-sexual-favors-won-t-face-charges/article_780d7b72-b38f-11ed-9e81-bfeda437ea13.html", "title": "Ex-LMPD officer accused of coercing informants into sexual favors won't face charges", "publisher": "WDRB", "published_date": null}
+  ],
+  "confidence_notes": "The seed hint listed 2021 as the filing year and 'settled $1.8M in Oct 2022'; reporting shows the first suit was filed October 2020, so year_filed is 2020 with filing_year_range 2020-2021 covering when the second and third plaintiffs joined (treated as one consolidated case, not multiple distinct suits, so multiple_filings=false). Exact settlement execution date not reported (reached September 2022, described as recently finalized on October 26, 2022), so settlement_date is null. Officer Jared Williams participated in the July 2018 arrest that one plaintiff described, but the sexual misconduct allegations in the reviewed coverage are against Bailey only."
+}

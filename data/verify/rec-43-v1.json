@@ -1,0 +1,16 @@
+{
+ "row": 43,
+ "slug": "columbia-police-department-2025-r43",
+ "fields": {
+  "agency": "Columbia Police Department",
+  "agency_category": "police",
+  "country": "US",
+  "state_province": "SC",
+  "lawsuit_type": "civilian",
+  "year_filed": 2025,
+  "outcome_status": "no_resolution_found",
+  "settlement_amount_original": null,
+  "criminal_status": "charged"
+ },
+ "caveats": "Former officer Caleb (Oshia) Hickmon-Payne allegedly sexually assaulted Taylor Ishmal (spelled 'Isham' in one source) while she was handcuffed during transport to the Alvin S. Glenn Detention Center after a Jan 31, 2025 wrongful arrest (vacated warrant). Civil suit filed March 12, 2025 against the City of Columbia, Columbia Police Department, and Hickmon-Payne; court not specified in sources; pending (jury trial demanded), no resolution found. Criminal: arrested March 12, 2025 (charges reported variously as assault & battery 2nd degree / second-degree sexual assault, plus misconduct in office); additional charges Oct 20, 2025 (criminal sexual conduct 3rd degree, misconduct in office) over a separate Sept 2024 incident. No plea or conviction in sources, so criminal_status=charged. One source (wltx.com) timed out and was skipped."
+}

@@ -1,0 +1,8 @@
+Record A: row=33, slug="warren-police-department-2025-r33". Agency hint: Warren Police Department, US/OH. Year hint: 2025 (ongoing). Seed outcome hint: ongoing. Source: 3 women sue Warren, police over sexual misconduct claims; https://www.tribtoday.com/news/local-news/2025/03/3-women-sue-warren-police-over-sexual-misconduct-claims/
+Orphan titles (find their URLs): "Victim of former officer files $1M lawsuit against Warren City and police chief;"; "Fourth woman files sexual assault lawsuit against City of Warren, police chief, former officer"
+
+Record B: row=34, slug="metropolitan-police-department-washington-dc-2020-r34". Agency hint: Metropolitan Police Department (Washington, DC), US/DC. Year hint: 2020 (settled 2022). Seed outcome hint: settled 2022. Source: ACLU-DC Sues D.C. Police Officer for Sexually Abusive Search; Mwimanzi v. Wilson – Challenging Unconstitutional Sexually Invasive Search by MPD Officer https://www.acludc.org/press-releases/aclu-dc-sues-dc-police-officer-sexually-abusive-search/
+
+Record C: row=35, slug="west-palm-beach-police-department-2026-r35". Agency hint: West Palm Beach Police Department, US/FL. Year hint: 2026 (ongoing). Seed outcome hint: ongoing. Source: Woman sues West Palm over ignored complaints against her alleged attacker https://www.yahoo.com/news/articles/woman-sues-west-palm-over-130446119.html
+
+Record D: row=36, slug="chicago-police-department-2018-r36". Agency hint: Chicago Police Department, US/IL. Year hint: 2018 (settled - $100,000). Seed outcome hint: settled - $100,000 ($100000). Source: Chicago Police Fail to Investigate Officers Repeatedly Accused of Sexual Assault — ProPublica https://www.propublica.org/article/chicago-police-officers-sexual-assault-allegations

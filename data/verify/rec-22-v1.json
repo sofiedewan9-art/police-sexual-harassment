@@ -1,0 +1,16 @@
+{
+  "row": 22,
+  "slug": "phoenix-police-department-2019-r22",
+  "fields": {
+    "agency": "Phoenix Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "AZ",
+    "lawsuit_type": "civilian",
+    "year_filed": 2019,
+    "outcome_status": "settled",
+    "settlement_amount_original": 1600000,
+    "criminal_status": "none_filed"
+  },
+  "caveats": "Erica Reynolds case: warrantless body-cavity search by Officer Timaree Murphy on Dec 26, 2018. No formal lawsuit appears in the sources; Reynolds filed a $12.5M notice of claim in June 2019 and the city settled for $1.6M (council approved Dec 2019; one source says Dec 18, another Dec 19). year_filed=2019 refers to the notice of claim, and 'civilian' is the closest lawsuit_type fit. Officer Murphy received a 40-hour suspension but no criminal charges are mentioned in any source, hence none_filed."
+}

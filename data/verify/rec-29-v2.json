@@ -1,0 +1,16 @@
+{
+ "row": 29,
+ "slug": "west-virginia-state-police-2023-r29",
+ "fields": {
+  "agency": "West Virginia State Police",
+  "agency_category": "state_police",
+  "country": "US",
+  "state_province": "WV",
+  "lawsuit_type": "class_action",
+  "year_filed": 2023,
+  "outcome_status": "ongoing",
+  "settlement_amount_original": null,
+  "criminal_status": "unknown"
+ },
+ "caveats": "WVSP Training Academy hidden-camera scandal: 80+ women (including female students/cadets and troopers; batch title references minors) filed individual suits plus a separate class-action suit, per wvgazettemail (Oct 2025) and wdtv (Apr 2024). Classified class_action as it is mass litigation with a class-action component; many plaintiffs appear to be trainees/employees, so 'internal' is a partial fit too. Suits filed in 2023 and 2024 (case nos. 23-C-558, 24-C-326 per Legal Newsline); 2023 used as earliest filing year, matching slug. Case confirmed active: mediation ongoing with a mediator's proposal under consideration and first trial set for May 18, 2026 (WV MetroNews, Nov 20, 2025). Sept 2025 ruling set insurance coverage at up to $1M per plaintiff, but that is a coverage limit, not a settlement; no settlement finalized. None of the four accessible sources mention criminal charges, so criminal_status is unknown. Four sources inaccessible (wtrf.com 403, cnn.com 451, wowktv.com 403, wboy.com 403) and were skipped."
+}

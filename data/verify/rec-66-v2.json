@@ -1,0 +1,16 @@
+{
+  "row": 66,
+  "slug": "washington-state-criminal-justice-training-commission-traine",
+  "fields": {
+    "agency": "Washington State Criminal Justice Training Commission",
+    "agency_category": "other",
+    "country": "US",
+    "state_province": "WA",
+    "lawsuit_type": "internal",
+    "year_filed": 2024,
+    "outcome_status": "settled",
+    "settlement_amount_original": 500000,
+    "criminal_status": "none_filed"
+  },
+  "caveats": "Kaitlyn Ricksecker, a law-enforcement officer (Everett PD at filing; later Snohomish County Sheriff's Office), sued the WSCJTC, the City of Federal Way, and FWPD instructor Richard Klein over sexual harassment/assault while a Basic Law Enforcement Academy cadet (Aug-Nov 2022). Filed April/May 2024 in King County Superior Court (case 24-2-09343-5 SEA). Settled for $500,000 total ($300,000 from the state commission, $200,000 from Federal Way's insurer, per Kent Reporter). agency_category 'other' because WSCJTC is a state training commission, not a police force. lawsuit_type 'internal' is the closest fit: plaintiff is a law-enforcement employee alleging workplace harassment during training, though the defendants were not her direct employer. No criminal charges mentioned in any source (state pursued decertification of Klein only), so 'none_filed' is inferred from silence. Seattle Times, Chronline, and Trellis sources returned 403 and were skipped; several accessible sources did not name the filing date, but Kent Reporter (April 26, 2024) and HeraldNet (May 2024, King County Superior Court) establish 2024."
+}

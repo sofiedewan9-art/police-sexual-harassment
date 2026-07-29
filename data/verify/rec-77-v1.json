@@ -1,0 +1,16 @@
+{
+  "row": 77,
+  "slug": "edmonton-police-service-2023-r77",
+  "fields": {
+    "agency": "Edmonton Police Service",
+    "agency_category": "police",
+    "country": "CA",
+    "state_province": "AB",
+    "lawsuit_type": "civilian",
+    "year_filed": null,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "charged"
+  },
+  "caveats": "Civil suit by civilian woman reported pending Nov 2025; filing year not stated in accessible sources (2 of 6 URLs 403'd), so year_filed null despite slug's 2023 (incident Aug 2023). Const. Renzo Geronimo charged Nov 2025 (sexual assault, confinement, breach of trust); no trial outcome in sources."
+}

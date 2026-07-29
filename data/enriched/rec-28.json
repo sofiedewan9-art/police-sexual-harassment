@@ -1,0 +1,33 @@
+{
+  "row": 28,
+  "slug": "new-york-city-police-department-2023-r28",
+  "agency": "New York City Police Department (Transit Bureau)",
+  "agency_category": "police",
+  "country": "US",
+  "state_province": "NY",
+  "lawsuit_type": "internal",
+  "year_filed": 2023,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "ongoing",
+  "outcome_detail": "Active in New York County Supreme Court as of March 2026. Adams's representatives said he has 'no interest' in settling. Discovery has proceeded (including the plaintiff's deposition); the case was reportedly slowed because Adams's NYPD personnel file was said to have been destroyed by Hurricane Sandy. In March 2026, New York City's Corporation Counsel — under the new mayoral administration — asked the court to let the city stop defending Adams, citing evidence from discovery and concluding the alleged conduct was outside the scope of his city employment.",
+  "settlement_amount_original": null,
+  "settlement_currency": "USD",
+  "settlement_date": null,
+  "criminal_status": "none_filed",
+  "criminal_detail": "No criminal charges have been filed over the alleged 1993 assault, which is decades outside the criminal statute of limitations. (Adams's separate 2024 federal corruption indictment was unrelated to this matter.)",
+  "officer_names": ["Eric Adams"],
+  "incident_date_approx": "1993",
+  "description": "A former NYPD transit-bureau colleague of Eric Adams sued him under New York's Adult Survivors Act, filing a summons in New York County Supreme Court in November 2023 — just before the ASA's one-year lookback window closed — and a full complaint on March 18, 2024, naming Adams, the NYPD Transit Bureau, and the Guardians Association of the NYPD as defendants. According to the complaint, in 1993, when both worked in policing and Adams offered to help the plaintiff's career, he demanded oral sex in a quid pro quo while they were parked in a vacant lot, forced her to touch his genitals, and masturbated to completion; the suit also alleges gender discrimination, retaliation, hostile work environment, and intentional infliction of emotional distress, seeking at least $5 million. Adams, who was New York City's mayor when the suit was filed, fully denies the allegations. The case remains ongoing, with the city moving in March 2026 to withdraw from defending Adams following discovery.",
+  "notes": "Adams was an NYPD (transit) officer at the time of the alleged 1993 conduct and mayor when sued; the suit is a workplace sexual-assault/harassment claim against fellow-officer Adams and NYPD-affiliated entities, hence lawsuit_type=internal.",
+  "inclusion_concern": null,
+  "sources": [
+    {"url": "https://www.thecity.nyc/2024/03/18/eric-adams-lawsuit-sexual-assault-allegations/", "title": "Lawsuit Accuses Eric Adams of Sexual Assault Three Decades Ago", "publisher": "THE CITY", "published_date": "2024-03-18"},
+    {"url": "https://www.upi.com/Top_News/US/2023/11/23/NYC-Mayor-Eric-Adams-accused-sexual-assault-adult-survivors-suit/5431700755084/", "title": "NYC Mayor Eric Adams accused of sexual assault in 'adult survivors' suit", "publisher": "UPI", "published_date": "2023-11-23"},
+    {"url": "https://www.cnn.com/2023/11/23/us/eric-adams-adult-survivors-act/index.html", "title": "New York City Mayor Eric Adams named as defendant under state's Adult Survivors Act", "publisher": "CNN", "published_date": "2023-11-23"},
+    {"url": "https://www.courthousenews.com/eric-adams-has-no-interest-in-settling-sexual-assault-suit/", "title": "Eric Adams has 'no interest' in settling sexual assault suit", "publisher": "Courthouse News Service", "published_date": null},
+    {"url": "https://www.thecity.nyc/2026/03/17/eric-adams-sexual-assault-legal-defense/", "title": "Citing New Evidence, Top City Lawyer Seeks to Drop Adams Defense in Sexual Assault Lawsuit", "publisher": "THE CITY", "published_date": "2026-03-17"}
+  ],
+  "confidence_notes": "The seed THE CITY article redirected and could not be fetched directly (HTTP 429 on the redirect); its contents were corroborated via UPI, CNN, and later THE CITY coverage. year_filed=2023 reflects the November 2023 ASA summons; the full complaint followed in March 2024. In 1993 transit policing in NYC was handled by the then-separate New York City Transit Police (merged into the NYPD in 1995); the suit as reported names the 'NYPD Transit Bureau,' which is used here. The plaintiff is publicly named in cited reporting but is not named in the description per the victim-naming rule. Also unverified whether the City of New York itself is a formally named defendant beyond the NYPD-affiliated entities."
+}

@@ -1,0 +1,16 @@
+{
+  "row": 8,
+  "slug": "nypd-2026-r8-b",
+  "fields": {
+    "agency": "New York City Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "NY",
+    "lawsuit_type": "internal",
+    "year_filed": 2026,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "charged"
+  },
+  "caveats": "This source subset centers on the civil suit filed July 10, 2026 by three female NYPD members of the 46th Precinct -- Sgt. Osmairys Avila and Officers Pamela Sosa and Brittany Sosa (gothamist says Brittany Romero) -- against the City of New York, Commissioner Jessica Tisch, and Deputy Inspector Juan Moran, alleging sexual harassment and retaliation (internal/employment suit). Just-filed litigation described as ongoing; no settlement. criminal_status=charged refers to the related 46th Precinct criminal case: Inspector Jeremy Scheublin (former 46th Precinct commander, Dec 2023-Dec 2025) was indicted/arrested July 10, 2026 on eight counts incl. attempted rape 1st degree for a Jan 1, 2025 assault on a subordinate, pleaded not guilty; NO criminal charges were reported against civil-suit defendant Moran himself. Ambiguity: whether Scheublin's assault is pleaded within this suit or only in the separate March 2026 suit (rec-8) is not fully clear from these sources. Failed source: msn.com returned no article content. This appears to be a second, distinct lawsuit arising from the same 46th Precinct scandal as rec-8."
+}

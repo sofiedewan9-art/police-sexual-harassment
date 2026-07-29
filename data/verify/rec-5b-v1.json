@@ -1,0 +1,16 @@
+{
+  "row": 5,
+  "slug": "michigan-state-police-r5-b",
+  "fields": {
+    "agency": "Michigan State Police",
+    "agency_category": "state_police",
+    "country": "US",
+    "state_province": "MI",
+    "lawsuit_type": "internal",
+    "year_filed": 2025,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "none_filed"
+  },
+  "caveats": "Only 1 of 4 sources was reachable (Yahoo republication of the WLNS story, dated Sept 22, 2025; all three WLNS URLs returned 403). It reports former trooper Megan Moryc filed a federal lawsuit (W.D. Mich., Grand Rapids) on Sept 21, 2025 alleging harassment and retaliation; the filing is described as a 'third amended complaint,' so 2025 may reflect the federal amended filing rather than the original suit (a related state suit was filed in 2024 per record r5). Case was active as of Sept 2025; no later status available. No criminal charges reported against the accused MSP officials (Col. Grady, Lt. Col. Brimacombe); a prosecutor declined perjury charges in a related matter. The plaintiff herself pleaded no contest to unrelated 2021 assault charges - not counted here since criminal_status refers to the accused."
+}

@@ -1,0 +1,54 @@
+You are an independent verification agent for a database of civil lawsuits involving sexual assault/harassment and law-enforcement agencies. Today is 2026-07-28. For each record below you get ONLY source URLs. Read the sources (WebFetch; if one fails, skip it — do NOT search for other articles) and independently derive the fields from the sources alone. Do not guess: if the sources don't establish a value, use null. Be skeptical and literal about what the sources actually say.
+
+For each record, write a JSON file to /Users/sofiedewan/police-sa-lawsuits/data/verify/rec-<key>-v2.json (the <key> is given per record):
+{
+  "row": <int>, "slug": "<given>",
+  "fields": {
+    "agency": "<official agency name as best supported by sources>",
+    "agency_category": "police|sheriff|state_police|corrections|juvenile|federal|campus|transit|other",
+    "country": "US|CA",
+    "state_province": "<2-letter>",
+    "lawsuit_type": "civilian|internal|class_action",
+    "year_filed": <int|null>,
+    "outcome_status": "settled|plaintiff_verdict|defense_verdict|dismissed|ongoing|no_resolution_found",
+    "settlement_amount_original": <number|null>,
+    "criminal_status": "none_filed|charged|convicted|pleaded_guilty|acquitted|charges_dropped|unknown"
+  },
+  "caveats": "<brief notes on anything ambiguous>"
+}
+Definitions: civilian = officer accused of assaulting a civilian; internal = employee suing own agency over workplace sexual assault/harassment; class_action = mass litigation. "ongoing" only if sources confirm the case is active; "no_resolution_found" if sources show no resolution. year_filed = year the CIVIL suit was filed. If no lawsuit exists in the sources, pick the closest lawsuit_type fit and say so in caveats.
+
+Final message: one line per record "rec-<key>: done". Nothing else.
+
+THE RECORDS:
+
+Record key=49, row=49, slug="rankin-county-sheriff-s-office-2025-r49", sources:
+https://mississippitoday.org/2025/11/26/rankin-county-faces-new-goon-squad-lawsuit/
+https://www.wlbt.com/2025/11/26/goon-squad-victim-files-new-lawsuit-against-rankin-county-former-deputies/
+https://atlantablackstar.com/2025/12/05/mississippi-goon-squad-sexually-assaulted-man-during-traffic-stop/
+https://www.courtlistener.com/docket/71979782/schmidt-v-rankin-county-mississippi/
+https://www.pacermonitor.com/public/case/61556762/Schmidt_v_Rankin_County,_Mississippi_et_al
+https://www.cbsnews.com/news/goon-squad-rankin-county-sheriff-office-daniel-opdyke-christian-dedmon-sentencing/
+
+Record key=50, row=50, slug="webster-county-jail-webster-county-2021-r50", sources:
+https://www.fggfirm.com/in-the-news/women-sue-webster-county-for-sexual-abuse-in-jail
+https://www.14news.com/2021/09/14/women-file-lawsuit-against-former-webster-co-deputy/
+https://law.justia.com/cases/federal/district-courts/kentucky/kywdce/4:2021cv00093/122825/45/
+https://www.govinfo.gov/app/details/USCOURTS-kywd-4_21-cv-00093
+
+Record key=51, row=51, slug="missouri-state-highway-patrol-2024-r51", sources:
+https://www.kfvs12.com/2024/11/21/woman-files-federal-lawsuit-against-former-mshp-trooper/
+https://www.pacermonitor.com/public/case/55918943/Doe_1_v_McKnight
+https://www.justice.gov/usao-edmo/pr/former-missouri-state-trooper-sentenced-21-months-prison-searching-womens-phones-nude
+https://www.kfvs12.com/2026/04/28/former-mo-trooper-sentenced-nearly-2-years-prison-searching-womens-phones-nude-images/
+https://www.kfvs12.com/2025/12/16/former-mshp-trooper-pleads-guilty-federal-charges/
+https://www.kfvs12.com/2024/11/12/former-mo-state-hwy-patrol-trooper-indicted-federal-charges/
+
+Record key=52, row=52, slug="oklahoma-highway-patrol-2025-r52", sources:
+https://kfor.com/news/local/former-oklahoma-highway-patrol-trooper-accused-of-rape-appears-in-court/
+https://okcfox.com/news/local/former-oklahoma-trooper-charged-with-rape-during-traffic-stop-to-be-arraigned
+https://www.yahoo.com/news/articles/former-ohp-trooper-accused-rape-004253438.html
+https://www.news9.com/crime/former-oklahoma-highway-patrol-trooper-charged-with-rape-to-stand-trial-in-april
+https://dockets.justia.com/browse/state-oklahoma/court-okwdce/noscat-5/nos-440?page=9
+https://okcfox.com/news/local/oklahoma-trooper-arrested-for-sexual-assault-after-alleged-traffic-stop-incident-investigation-lawyer-judge-district-attorney-jarquez-evans-highway-patrol-woman-parked-ticket-bend-over-oral-first-degree-sodomy-okcpd-city
+

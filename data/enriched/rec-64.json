@@ -1,0 +1,33 @@
+{
+  "row": 64,
+  "slug": "la-vergne-police-department-2023-r64",
+  "agency": "La Vergne Police Department",
+  "agency_category": "police",
+  "country": "US",
+  "state_province": "TN",
+  "lawsuit_type": "internal",
+  "year_filed": 2023,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "settled",
+  "outcome_detail": "$500,000 settlement approved by the La Vergne Board of Mayor and Aldermen in a 3-1 vote at a special meeting on March 20, 2024; paid by the city's insurance provider inclusive of court costs, attorney fees, and expenses, with no admission of liability. Hall dismissed her federal lawsuit as part of the resolution.",
+  "settlement_amount_original": 500000,
+  "settlement_currency": "USD",
+  "settlement_date": "2024-03-20",
+  "criminal_status": "none_filed",
+  "criminal_detail": "No criminal charges were filed against any officer in connection with the La Vergne sexual-misconduct scandal itself; discipline was administrative (Hall and four other officers fired, others suspended, January 2023). Separately and unrelated to Hall's claims, fired Chief Burrel Davis was later charged in December 2024 with aggravated stalking and violating an order of protection, and in 2025 was arrested on felony charges including kidnapping and assault.",
+  "officer_names": ["Burrel \"Chip\" Davis", "Lewis Powell", "Henry \"Ty\" McGowan"],
+  "incident_date_approx": "2021-2022, from Hall's hiring through the December 2022 internal investigation",
+  "description": "Maegan Hall, a former La Vergne, Tennessee police officer at the center of the department's widely publicized sex scandal, filed a federal civil-rights lawsuit in February 2023 against the City of La Vergne, fired Police Chief Burrel \"Chip\" Davis, and Sergeants Lewis Powell and Henry \"Ty\" McGowan. The suit alleged that Hall, hired at age 24, was sexually harassed and groomed for sexual exploitation under the guise of mentorship and training, that supervisors repeatedly pressured her for sex and solicited pornographic images, and that intimate photographs of her were shared without her consent in a workplace permeated with sexually explicit behavior. Hall and four other officers had been fired in January 2023 following the city's internal investigation. In March 2024 the city settled the case for $500,000, paid through its insurer with no admission of liability, and Hall dismissed the lawsuit.",
+  "notes": null,
+  "inclusion_concern": null,
+  "sources": [
+    {"url": "https://www.wsmv.com/2024/03/21/maegan-hall-former-officer-center-la-vergne-sex-scandal-reaches-500k-settlement-after-dismissing-lawsuit/", "title": "Maegan Hall, former officer at center of La Vergne sex scandal, reaches $500K settlement after dismissing lawsuit", "publisher": "WSMV", "published_date": "2024-03-21"},
+    {"url": "https://www.newschannel5.com/news/city-of-lavergne-settles-lawsuit-owes-maegan-hall-half-a-million-dollars", "title": "City of La Vergne settles lawsuit, owes Maegan Hall half a million dollars", "publisher": "NewsChannel 5 Nashville", "published_date": null},
+    {"url": "https://fox17.com/news/local/la-vergne-city-settles-lawsuit-with-former-officer-maegan-hall-over-sexual-misconduct-claims-tennessee-rutherford-county", "title": "La Vergne city settles lawsuit with former officer Maegan Hall over sexual misconduct claims", "publisher": "FOX 17 Nashville", "published_date": null},
+    {"url": "https://www.wkrn.com/news/local-news/la-vergne-settles-lawsuit-with-former-officer/", "title": "La Vergne settles lawsuit with former officer", "publisher": "WKRN", "published_date": null},
+    {"url": "https://en.wikipedia.org/wiki/La_Vergne_police_department_sex_scandal", "title": "La Vergne police department sex scandal", "publisher": "Wikipedia", "published_date": null}
+  ],
+  "confidence_notes": "Settlement date of 2024-03-20 derived from coverage of the board's 'Wednesday night' special-meeting vote reported March 21, 2024 (March 20, 2024 was a Wednesday). Suit filed in federal court in February 2023; exact district (M.D. Tenn.) not explicitly named in the coverage reviewed. Fired Chief Davis's separate 2023 lawsuit seeking his job back is not included as it does not center sexual assault/harassment claims by a complainant."
+}

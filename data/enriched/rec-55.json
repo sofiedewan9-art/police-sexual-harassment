@@ -1,0 +1,29 @@
+{
+  "row": 55,
+  "slug": "white-county-sheriff-s-office-white-county-jail-2026-r55",
+  "agency": "White County Sheriff's Office (White County Jail)",
+  "agency_category": "sheriff",
+  "country": "US",
+  "state_province": "IN",
+  "lawsuit_type": "civilian",
+  "year_filed": 2026,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "ongoing",
+  "outcome_detail": "The suit was filed May 1, 2026 in Marion Superior Court (Case No. 49D03-2605-CT-024447) and had just entered litigation as of the most recent coverage (May 6, 2026); no settlement, dismissal, or judgment has been reported.",
+  "settlement_amount_original": null,
+  "settlement_currency": "USD",
+  "settlement_date": null,
+  "criminal_status": "pleaded_guilty",
+  "criminal_detail": "Former correctional officer William Cottrell was charged in June 2024 with two counts of sexual misconduct following the May 2024 incidents. In March 2026, under a plea agreement, he pleaded guilty to one count of sexual misconduct and was sentenced to three years in jail with two years suspended and one day of jail credit; the second count was dismissed.",
+  "officer_names": ["William Cottrell"],
+  "incident_date_approx": "May 2024 (two occasions), White County Jail, Monticello, Indiana",
+  "description": "A former White County Jail inmate filed a civil lawsuit on May 1, 2026 in Marion Superior Court against White County Sheriff Bill Brooks, former correctional officer William Cottrell, and the White County Board of Commissioners. The suit alleges that Cottrell sexually assaulted her on two occasions in May 2024 while she was incarcerated at the jail. Cottrell pleaded guilty in March 2026 to one count of sexual misconduct arising from the incidents and was sentenced to three years with two years suspended. The complaint brings claims of negligence, sexual battery (against Cottrell), and civil rights violations, alleging the county defendants were aware of correctional officers' sexual misconduct but did nothing to prevent it and failed to reasonably care for the welfare of inmates. According to the complaint, the plaintiff served the defendants a tort claim notice in August 2024 that went unanswered before she filed suit. The case is in its early stages.",
+  "notes": null,
+  "inclusion_concern": null,
+  "sources": [
+    {"url": "https://www.theindianalawyer.com/articles/former-white-county-jail-inmate-sues-sheriff-government-over-correctional-officers-sexual-misconduct", "title": "Former White County Jail inmate sues sheriff, government over correctional officer's sexual misconduct", "publisher": "The Indiana Lawyer", "published_date": "2026-05-06"}
+  ],
+  "confidence_notes": "Only one substantive news source (The Indiana Lawyer, May 6, 2026) was found for this lawsuit despite multiple searches; contemporaneous 2024 arrest coverage for Cottrell could not be located (searches instead surfaced an unrelated 2026 case at the White County Jail in Illinois involving a different officer, which was excluded). The plaintiff is named in public reporting but is not named here per language rules. Filed May 2026 in Marion Superior Court rather than White County; the article does not explain the venue choice. Outcome is 'ongoing' based on the very recent filing; no later docket reporting found as of late July 2026."
+}

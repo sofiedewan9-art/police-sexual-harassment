@@ -1,0 +1,16 @@
+{
+  "row": 85,
+  "slug": "saskatoon-police-service-2021-r85",
+  "fields": {
+    "agency": "Saskatoon Police Service",
+    "agency_category": "police",
+    "country": "CA",
+    "state_province": "SK",
+    "lawsuit_type": "civilian",
+    "year_filed": null,
+    "outcome_status": "no_resolution_found",
+    "settlement_amount_original": null,
+    "criminal_status": "unknown"
+  },
+  "caveats": "CBC sources returned 403. CTV pages fetched but only headlines/dates loaded: suit reported Feb 11, 2021 alleging an officer abused power to force sex on a civilian; officer denied allegations Feb 17, 2021. Filing date, damages, resolution and criminal status not stated, so left null/unknown."
+}

@@ -1,0 +1,16 @@
+{
+  "row": 57,
+  "slug": "stoughton-police-department-2021-r57",
+  "fields": {
+    "agency": "Stoughton Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "MA",
+    "lawsuit_type": "civilian",
+    "year_filed": 2022,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "charged"
+  },
+  "caveats": "Wrongful-death suit filed Dec 2022 by Birchmore's estate (slug says 2021, her death year). Suit stayed June 2025 pending Matthew Farwell's federal murder trial (Oct 5, 2026; pleaded not guilty, bail denied). Two DOJ URLs returned 403."
+}

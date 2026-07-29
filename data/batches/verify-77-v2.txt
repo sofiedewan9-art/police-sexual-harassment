@@ -1,0 +1,64 @@
+You are an independent verification agent for a database of civil lawsuits involving sexual assault/harassment and law-enforcement agencies. Today is 2026-07-28. For each record below you get ONLY source URLs. Read the sources (WebFetch; if one fails, skip it — do NOT search for other articles) and independently derive the fields from the sources alone. Do not guess: if the sources don't establish a value, use null. Be skeptical and literal about what the sources actually say.
+
+For each record, write a JSON file to /Users/sofiedewan/police-sa-lawsuits/data/verify/rec-<key>-v2.json (the <key> is given per record):
+{
+  "row": <int>, "slug": "<given>",
+  "fields": {
+    "agency": "<official agency name as best supported by sources>",
+    "agency_category": "police|sheriff|state_police|corrections|juvenile|federal|campus|transit|other",
+    "country": "US|CA",
+    "state_province": "<2-letter>",
+    "lawsuit_type": "civilian|internal|class_action",
+    "year_filed": <int|null>,
+    "outcome_status": "settled|plaintiff_verdict|defense_verdict|dismissed|ongoing|no_resolution_found",
+    "settlement_amount_original": <number|null>,
+    "criminal_status": "none_filed|charged|convicted|pleaded_guilty|acquitted|charges_dropped|unknown"
+  },
+  "caveats": "<brief notes on anything ambiguous>"
+}
+Definitions: civilian = officer accused of assaulting a civilian; internal = employee suing own agency over workplace sexual assault/harassment; class_action = mass litigation. "ongoing" only if sources confirm the case is active; "no_resolution_found" if sources show no resolution. year_filed = year the CIVIL suit was filed. If no lawsuit exists in the sources, pick the closest lawsuit_type fit and say so in caveats.
+
+Final message: one line per record "rec-<key>: done". Nothing else.
+
+THE RECORDS:
+
+Record key=77, row=77, slug="edmonton-police-service-2023-r77", sources:
+https://www.cbc.ca/news/canada/edmonton/edmonton-police-officer-sexual-assault-charges-lawsuit-9.6971957
+https://globalnews.ca/news/11517504/lawsuit-details-allegations-edmonton-police-officer-sexual-assault/
+https://www.ctvnews.ca/edmonton/article/great-relief-woman-allegedly-sexually-assaulted-by-eps-officer-responds-to-charges/
+https://globalnews.ca/news/11514901/edmonton-police-officer-charged-2023/
+https://www.cbc.ca/news/canada/edmonton/edmonton-police-sexual-assault-9.6969985
+https://www.ctvnews.ca/edmonton/article/edmonton-police-officer-charged-with-sexual-assault/
+
+Record key=78, row=78, slug="royal-newfoundland-constabulary-2022-r78", sources:
+https://www.cbc.ca/news/canada/newfoundland-labrador/rnc-lawsuit-officer-alleged-rape-1.6461266
+https://www.ctvnews.ca/atlantic/article/lawsuit-alleges-royal-newfoundland-constabulary-officer-raped-off-duty-colleague/
+https://www.theglobeandmail.com/canada/article-lawsuit-alleges-royal-newfoundland-constabulary-officer-raped-off-duty/
+https://www.cbc.ca/news/canada/newfoundland-labrador/cp-police-publication-ban-1.6643418
+https://atlantic.ctvnews.ca/publication-ban-denied-for-former-newfoundland-police-officer-facing-rape-allegation-1.6142448
+https://www.cbc.ca/news/canada/newfoundland-labrador/former-rnc-officer-says-force-ignored-pretty-significant-issues-9.7172860
+https://vocm.com/2022/10/12/rnc-officer-lawsuit-lynn-moore/
+
+Record key=79, row=79, slug="royal-newfoundland-constabulary-2022-r79", sources:
+https://www.cbc.ca/news/canada/newfoundland-labrador/rnc-officers-lawsuit-1.6605795
+https://www.theglobeandmail.com/canada/article-seven-women-file-lawsuit-alleging-sexual-assault-by-newfoundland/
+https://www.cbc.ca/news/canada/newfoundland-labrador/cp-police-publication-ban-1.6643418
+https://www.cbc.ca/news/canada/newfoundland-labrador/rnc-sex-assault-lawsuit-1.6442712
+https://vocm.com/2022/10/12/rnc-officer-lawsuit-lynn-moore/
+https://www.cbc.ca/news/canada/newfoundland-labrador/former-rnc-officer-says-force-ignored-pretty-significant-issues-9.7172860
+https://en.wikipedia.org/wiki/Royal_Newfoundland_Constabulary_sexual_abuse_scandal
+
+Record key=80, row=80, slug="royal-newfoundland-constabulary-2024-r80", sources:
+https://www.cbc.ca/news/canada/newfoundland-labrador/lawsuits-rnc-sexual-assaults-1.7192005
+https://www.theglobeandmail.com/canada/article-two-more-women-file-suits-alleging-sexual-assault-by-newfoundland/
+https://www.thecanadianpressnews.ca/atlantic/two-more-women-file-suits-alleging-sexual-assault-by-newfoundland-police-officer/article_ff3e44bd-bc2e-50bf-9512-5a69ab5003a4.html
+https://lethbridgeherald.com/news/national-news/2024/05/02/two-more-women-file-suits-alleging-sexual-assault-by-newfoundland-police-officer/
+https://www.cbc.ca/news/canada/newfoundland-labrador/former-rnc-officer-says-force-ignored-pretty-significant-issues-9.7172860
+
+Record key=80b, row=80, slug="royal-newfoundland-constabulary-2024-r80-b", sources:
+https://www.cbc.ca/news/canada/newfoundland-labrador/lawsuits-rnc-sexual-assaults-1.7192005
+https://www.theglobeandmail.com/canada/article-two-more-women-file-suits-alleging-sexual-assault-by-newfoundland/
+https://www.thecanadianpressnews.ca/atlantic/two-more-women-file-suits-alleging-sexual-assault-by-newfoundland-police-officer/article_ff3e44bd-bc2e-50bf-9512-5a69ab5003a4.html
+https://panow.com/2024/05/02/two-more-women-file-suits-alleging-sexual-assault-by-newfoundland-police-officer/
+https://www.cbc.ca/news/canada/newfoundland-labrador/former-rnc-officer-says-force-ignored-pretty-significant-issues-9.7172860
+

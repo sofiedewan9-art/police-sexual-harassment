@@ -1,0 +1,16 @@
+{
+  "row": 57,
+  "slug": "stoughton-police-department-2021-r57",
+  "fields": {
+    "agency": "Stoughton Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "MA",
+    "lawsuit_type": "civilian",
+    "year_filed": 2022,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "charged"
+  },
+  "caveats": "Wrongful-death suit filed Dec 29, 2022 (slug says 2021, the death year). Case paused/stayed as of June 2025 pending Matthew Farwell's federal murder trial (Oct 2026); he pleaded not guilty. Other named officers uncharged. Two DOJ source URLs returned 403."
+}

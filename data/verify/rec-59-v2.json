@@ -1,0 +1,16 @@
+{
+  "row": 59,
+  "slug": "san-mateo-police-department-2022-r59",
+  "fields": {
+    "agency": "San Mateo Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "CA",
+    "lawsuit_type": "civilian",
+    "year_filed": 2022,
+    "outcome_status": "settled",
+    "settlement_amount_original": 25000000,
+    "criminal_status": "convicted"
+  },
+  "caveats": "Three women sued City of San Mateo in 2022 over negligent hiring of officer Noah Winchester; $25M settlement finalized 2024. Winchester convicted Oct 2019 of raping 5 women (2013-15), sentenced Jan 2020 to 81 years to life. Separate city-vs-insurer coverage suit ongoing. One source URL returned 429."
+}

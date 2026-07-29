@@ -1,0 +1,30 @@
+{
+  "row": 82,
+  "slug": "london-police-service-2022-r82-b",
+  "agency": "London Police Service",
+  "agency_category": "police",
+  "country": "CA",
+  "state_province": "ON",
+  "lawsuit_type": "civilian",
+  "year_filed": 2022,
+  "year_filed_approx": true,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "no_resolution_found",
+  "outcome_detail": "Reported in November 2022 alongside the mother's $6-million suit; no separate coverage of this suit's progress or resolution found as of July 2026.",
+  "settlement_amount_original": null,
+  "settlement_currency": "CAD",
+  "settlement_date": null,
+  "criminal_status": "charged",
+  "criminal_detail": "Ontario's Special Investigations Unit charged retired officer Edward (Ted) Lane in February 2025 with two counts of historical sexual assault against the plaintiffs' mother (alleged incidents 1985-1987 and 1988-1991); no disposition reported as of July 2026.",
+  "officer_names": ["Edward (Ted) Lane"],
+  "incident_date_approx": "Roughly 1985-1991 (period of alleged abuse of the plaintiffs' mother during which the daughters were reportedly conceived)",
+  "description": "A separate lawsuit reported in November 2022 seeks $4 million in damages on behalf of the two adult daughters of a woman from Oneida Nation of the Thames who is suing the London Police Service and three of its officers over alleged sexual abuse. According to the reporting, the daughters were fathered by retired officer Edward (Ted) Lane, an allegation the family says was confirmed by a paternity test, during a period when the suit alleges Lane was sexually abusing their mother. The mother's companion suit alleges the London Police Service failed to act on her reports of abuse for decades. In February 2025, Ontario's Special Investigations Unit charged Lane with two counts of historical sexual assault against the mother.",
+  "notes": "Companion record to rec-82 (the mother's $6-million suit against the London Police Service, the estates of Brian Garraway and Keith Bull, and Edward Lane).",
+  "inclusion_concern": "Plaintiffs are the abuse survivor's two adult daughters; their claim is derivative of the alleged sexual assaults against their mother (they were allegedly fathered through the abuse) rather than a claim of sexual assault against the plaintiffs themselves.",
+  "sources": [
+    {"url": "https://www.cbc.ca/news/canada/london/oneida-assault-allegations-lawsuit-london-police-1.6646135", "title": "Oneida First Nation woman sues London, Ont., police, alleging officers sexually abused her for years", "publisher": "CBC News", "published_date": "2022-11-14"},
+    {"url": "https://www.cbc.ca/news/canada/london/retired-london-cop-charged-with-sexually-assaulting-woman-who-says-she-tried-for-years-to-get-help-1.7462671", "title": "Retired London cop charged with sexually assaulting woman who says she tried for years to get help", "publisher": "CBC News", "published_date": "2025-02-19"}
+  ],
+  "confidence_notes": "Filing year approximated from November 2022 reporting; the exact filing date, named defendants and current status of the daughters' suit were not separately documented in coverage found. It is possible the LPS 'ongoing litigation' comment from February 2025 also covers this suit."
+}

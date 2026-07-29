@@ -1,0 +1,16 @@
+{
+  "row": 18,
+  "slug": "philadelphia-police-department-2023-r18",
+  "fields": {
+    "agency": "Philadelphia Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "PA",
+    "lawsuit_type": "civilian",
+    "year_filed": null,
+    "outcome_status": "no_resolution_found",
+    "settlement_amount_original": null,
+    "criminal_status": "pleaded_guilty"
+  },
+  "caveats": "None of the readable sources mention any civil lawsuit; they cover only the criminal prosecution of ex-officer Patrick Heron (48 identified victims, crimes 2005-2022, some assaults in a police cruiser). Per instructions, lawsuit_type set to closest fit (civilian, since victims were civilians), with year_filed null and no_resolution_found. Heron pleaded guilty Oct. 20, 2023 and was sentenced to 15-40 years in state prison. The kensingtonvoice.com source failed (TLS certificate error) and was skipped."
+}

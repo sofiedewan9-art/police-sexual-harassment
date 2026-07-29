@@ -1,0 +1,33 @@
+{
+  "row": 30,
+  "slug": "west-virginia-state-police-2023-r30-b",
+  "agency": "West Virginia State Police",
+  "agency_category": "state_police",
+  "country": "US",
+  "state_province": "WV",
+  "lawsuit_type": "civilian",
+  "year_filed": 2023,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "no_resolution_found",
+  "outcome_detail": "January 2024 coverage reported a trial date of March 3, 2025 for the civil claims against Trooper Michael Miller, described as covering the accusations brought by two women. Dedicated searches found no reporting on a trial result, settlement, or dismissal of this suit as of late July 2026.",
+  "settlement_amount_original": null,
+  "settlement_currency": "USD",
+  "settlement_date": null,
+  "criminal_status": "none_filed",
+  "criminal_detail": "No criminal charges against Trooper Michael Miller had been reported as of the latest coverage found. The allegations were part of the broader 2023 investigations into West Virginia State Police misconduct.",
+  "officer_names": ["Michael Miller"],
+  "incident_date_approx": "July 10, 2021, Logan County, West Virginia",
+  "description": "A second woman sued West Virginia State Police Trooper Michael Miller in Kanawha County Circuit Court on June 30, 2023, weeks after a different woman filed a similar suit. According to the complaint, on July 10, 2021, Miller approached the woman at the Front Room bar and grill in Logan County, identified himself as a State Police trooper, and said he needed to speak with her; the suit alleges Miller and two other men then abducted her, drugged her, sexually assaulted her, and left her in the parking lot of another bar. The complaint names Miller and two unnamed men as defendants. A trial date of March 3, 2025 was set for the claims against Miller; no outcome has been reported in available coverage.",
+  "notes": "Companion record: rec-30 covers the first lawsuit against the same trooper by a different woman (December 2021 incident). Both suits are part of the broader 2023 WVSP scandal that also produced the academy hidden-camera mass litigation (rec-29), but are separate cases.",
+  "inclusion_concern": null,
+  "sources": [
+    {"url": "https://wvmetronews.com/2023/06/30/second-woman-files-suit-against-state-police-trooper-for-alleged-kidnap-rape-in-logan-county/", "title": "Second woman files suit against State Police trooper for alleged kidnap, rape in Logan County", "publisher": "WV MetroNews", "published_date": "2023-06-30"},
+    {"url": "https://www.wowktv.com/news/west-virginia/west-virginia-state-police-investigation/second-lawsuit-filed-against-west-virginia-state-police-trooper-who-allegedly-kidnapped-raped-woman/", "title": "Second lawsuit filed against West Virginia State Police trooper who allegedly kidnapped, raped woman", "publisher": "WOWK 13 News", "published_date": null},
+    {"url": "https://www.wowktv.com/news/west-virginia/west-virginia-state-police-investigation/second-person-accuses-west-virginia-state-police-trooper-of-drugging-kidnapping-raping-them/", "title": "Second person accuses West Virginia State Police trooper of drugging, kidnapping, raping them", "publisher": "WOWK 13 News", "published_date": null},
+    {"url": "https://www.wtrf.com/west-virginia-state-police-investigation/west-virginia-state-police-investigation-trial-date-set-for-west-virginia-trooper-accused-of-sexually-assaulting-and-kidnapping-two-women/", "title": "West Virginia State Police Investigation: Trial date set for West Virginia Trooper accused of sexually assaulting and kidnapping two women", "publisher": "WTRF", "published_date": null},
+    {"url": "https://www.wsaz.com/2023/04/05/wsaz-investigates-second-alleged-rape-victim-file-lawsuit-against-wvsp/", "title": "WSAZ Investigates | Second Alleged Rape Victim to File Lawsuit Against WVSP", "publisher": "WSAZ", "published_date": "2023-04-05"}
+  ],
+  "confidence_notes": "Split from rec-30 per one-record-per-lawsuit rule: this is a distinct complaint by a different plaintiff, filed June 30, 2023 by the same attorneys (Dante DiTrapano and Jesse Forbes). Coverage is unclear on whether the March 3, 2025 trial date applied to both suits jointly or was to be tried separately. No post-January-2024 coverage of either case's disposition could be located, so outcome_status is no_resolution_found. It is unclear from accessible coverage whether the second suit also named the State Police itself as a defendant (WV MetroNews describes defendants as Miller and two unnamed men); the agency connection is that Miller allegedly used his trooper status, and the suit is universally covered as part of the WVSP scandal."
+}

@@ -1,0 +1,32 @@
+{
+  "row": 62,
+  "slug": "new-york-city-police-department-2023-r62",
+  "agency": "New York City Police Department",
+  "agency_category": "police",
+  "country": "US",
+  "state_province": "NY",
+  "lawsuit_type": "internal",
+  "year_filed": 2023,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "ongoing",
+  "outcome_detail": "Ciotti v. City of New York, No. 1:23-cv-10279 (ER) (S.D.N.Y., filed Nov. 22, 2023). The City filed a partial motion to dismiss the amended complaint in May 2024; docket shows the case still active (e.g., joint proposed protective order filed April 10, 2025) with no termination, settlement, or judgment reported as of mid-2025.",
+  "settlement_amount_original": null,
+  "settlement_currency": "USD",
+  "settlement_date": null,
+  "criminal_status": "none_filed",
+  "criminal_detail": "No criminal charges against Officer Jamie Angelastro have been reported; at the time of filing he remained on active duty in the NYPD's Queens court section.",
+  "officer_names": ["Jamie Angelastro"],
+  "incident_date_approx": "2016 through approximately 2023 (alleged abuse beginning in 2016, with repeated rapes alleged in 2016-2017 and stalking thereafter)",
+  "description": "NYPD Officer Meaghan Ciotti sued the City of New York and fellow Officer Jamie Angelastro in the Southern District of New York on November 22, 2023, filing under the extended window of New York's Adult Survivors Act. According to the complaint, Angelastro, who served as her Police Benevolent Association union representative, used that position to coerce her into a sexually abusive relationship beginning in 2016, and allegedly demanded sexual favors, threatened her with his gun, strangled her, raped her, and stalked her. The suit further alleges that the NYPD covered up the abuse, failed to act after she reported it to the Internal Affairs Bureau, and retaliated against her for reporting it, asserting gender and disability discrimination, retaliation, negligence, and gender-motivated violence claims. The case remained in active litigation as of 2025, with the City's partial motion to dismiss briefed in 2024 and discovery proceeding.",
+  "notes": null,
+  "inclusion_concern": null,
+  "sources": [
+    {"url": "https://gothamist.com/news/nypd-officer-sues-city-claiming-years-of-sexual-abuse-by-union-rep", "title": "NYPD officer sues city, claiming years of sexual abuse by union rep", "publisher": "Gothamist", "published_date": "2023-11-22"},
+    {"url": "https://crumiller.com/jamie-angelastro-nypd-sex-abuse-lawsui/", "title": "NYPD Covered Up Officer's Sex Abuse, Federal Lawsuit Alleges", "publisher": "Crumiller P.C.", "published_date": null},
+    {"url": "https://www.courtlistener.com/docket/68030491/ciotti-v-city-of-new-york/", "title": "Ciotti v. City of New York, 1:23-cv-10279 (S.D.N.Y.) docket", "publisher": "CourtListener (RECAP)", "published_date": null},
+    {"url": "https://issuu.com/survivorslaw/docs/complaint_against_nypd_-_filed", "title": "Adult Survivors Act Lawsuit against NYPD and Jamie Angelastro - filed 11/22/2023 by Crumiller P.C.", "publisher": "Issuu (Crumiller P.C.)", "published_date": "2023-11-22"}
+  ],
+  "confidence_notes": "Outcome based on the RECAP federal docket (no termination date; latest mirrored activity April 2025) plus absence of any settlement/ruling coverage in searches; docket mirror may lag PACER, so a 2025-2026 resolution cannot be fully ruled out. Criminal status based on absence of any charge reporting through the searches run; Angelastro's current duty status after 2023 not confirmed."
+}

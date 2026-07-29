@@ -1,0 +1,16 @@
+{
+  "row": 34,
+  "slug": "metropolitan-police-department-washington-dc-2020-r34",
+  "fields": {
+    "agency": "Metropolitan Police Department (Washington, D.C.)",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "DC",
+    "lawsuit_type": "civilian",
+    "year_filed": 2020,
+    "outcome_status": "settled",
+    "settlement_amount_original": null,
+    "criminal_status": "unknown"
+  },
+  "caveats": "Mwimanzi v. Wilson, U.S. District Court for D.C., filed Jan. 13, 2020 by Mbalaminwe Mwimanzi (represented by ACLU-DC) against MPD Officer Joshua Wilson over a sexually invasive warrantless search on Jan. 15, 2019. March 9, 2022 partial summary judgment held the D.C. all-occupants search law unconstitutional; ACLU case page reports an October 2022 settlement compensating the plaintiff, amount not disclosed in sources. Sources are silent on any criminal proceedings against Wilson, so criminal_status is unknown. WUSA9 fetch timed out and the CourtListener docket returned 403, so exact settlement/termination docket details could not be confirmed."
+}

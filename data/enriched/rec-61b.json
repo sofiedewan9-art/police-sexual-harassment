@@ -1,0 +1,33 @@
+{
+  "row": 61,
+  "slug": "new-york-city-police-department-2026-r61-b",
+  "agency": "New York City Police Department",
+  "agency_category": "police",
+  "country": "US",
+  "state_province": "NY",
+  "lawsuit_type": "internal",
+  "year_filed": 2026,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "ongoing",
+  "outcome_detail": "66-page civil complaint filed March 6, 2026; no reported settlement, dismissal, or verdict as of July 2026.",
+  "settlement_amount_original": null,
+  "settlement_currency": "USD",
+  "settlement_date": null,
+  "criminal_status": "charged",
+  "criminal_detail": "Inspector Jeremy Scheublin, 45, was arrested July 10, 2026 on charges including attempted rape, sexual abuse, assault, unlawful imprisonment, forcible touching, official misconduct, and obstructing governmental administration, following a Bronx grand jury indictment. Criminal case pending as of July 2026.",
+  "officer_names": ["Jeremy Scheublin"],
+  "incident_date_approx": "December 2023 through circa 2025, while Scheublin commanded the 46th Precinct",
+  "description": "A female NYPD officer assigned to the Bronx's 46th Precinct, identified in the complaint as 'N.T.', filed a civil suit on March 6, 2026 against Inspector Jeremy Scheublin, the precinct's former commanding officer. According to the complaint, Scheublin pursued an inappropriate personal relationship with her beginning when he assumed command in December 2023, made repeated unwanted advances, summoned her privately to his office, and on one occasion pinned her down and made sexually explicit remarks. The suit alleges sexual harassment and assault and a hostile work environment. On July 10, 2026, months after the suit was filed, Scheublin was arrested on a Bronx indictment charging attempted rape, sexual abuse, assault, unlawful imprisonment, forcible touching, official misconduct, and obstruction; that criminal case is pending, and the allegations in the civil suit remain unproven.",
+  "notes": "Companion record to rec-61 (July 2026 harassment suit by three other 46th Precinct officers against Scheublin's successor, Deputy Inspector Juan O. Moran, arising from the same troubled-precinct scandal).",
+  "inclusion_concern": null,
+  "sources": [
+    {"url": "https://www.amny.com/law/bronx-nypd-inspector-rape-charges-lawsuit-07102026/", "title": "Bronx NYPD inspector hit with rape charges months after being sued for alleged sexual assault of female cop in precinct", "publisher": "amNewYork", "published_date": "2026-07-10"},
+    {"url": "https://gothamist.com/news/nypd-inspector-sexually-assaulted-a-subordinate-bronx-prosecutors-say", "title": "NYPD inspector sexually assaulted a subordinate, Bronx prosecutors say", "publisher": "Gothamist", "published_date": null},
+    {"url": "https://www.cbsnews.com/newyork/news/nypd-inspector-jeremy-scheublin-attempted-rape-46-precinct-lawsuit/", "title": "NYPD inspector accused of attempted rape in Bronx, as lawsuit alleges sexual harassment at 46th Precinct", "publisher": "CBS New York", "published_date": null},
+    {"url": "https://atlantablackstar.com/2026/07/07/white-nypd-commander-pinned-down-black-female-officer/", "title": "'Don't Know Whether to Kiss You or Choke You': White NYPD Commander Pinned Down Black Female Officer and Tried to 'Make Biracial Babies,' She Says", "publisher": "Atlanta Black Star", "published_date": "2026-07-07"},
+    {"url": "https://www.thesandersfirmpc.com/legal-commentary-the-complaint-against-inspector-jeremy-scheublin-is-about-more-than-one-officer-it-is-about-what-the-nypd-tolerates/", "title": "Legal Commentary: The Complaint Against Inspector Jeremy Scheublin Is About More Than One Officer — It Is About What the NYPD Tolerates", "publisher": "The Sanders Firm, P.C.", "published_date": null}
+  ],
+  "confidence_notes": "Court in which the March 6, 2026 civil complaint was filed was not specified in the coverage reviewed. Plaintiff is identified only by initials in reporting, consistent with victim-anonymity rules. Criminal charges are from July 2026 arrest reporting; disposition unknown."
+}

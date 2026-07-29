@@ -1,0 +1,16 @@
+{
+  "row": 79,
+  "slug": "royal-newfoundland-constabulary-2022-r79",
+  "fields": {
+    "agency": "Royal Newfoundland Constabulary",
+    "agency_category": "police",
+    "country": "CA",
+    "state_province": "NL",
+    "lawsuit_type": "class_action",
+    "year_filed": 2022,
+    "outcome_status": "no_resolution_found",
+    "settlement_amount_original": null,
+    "criminal_status": "none_filed"
+  },
+  "caveats": "Joint suit by 7 women (filed Sept 9, 2022) vs NL government over assaults by on-duty RNC officers 2001-17; multi-plaintiff so typed class_action, not a certified class. Active as of Oct 2022; later status inaccessible (CBC 403). Plaintiffs declined criminal route."
+}

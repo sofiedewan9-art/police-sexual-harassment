@@ -1,0 +1,16 @@
+{
+  "row": 12,
+  "slug": "nypd-r12",
+  "fields": {
+    "agency": "New York City Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "NY",
+    "lawsuit_type": "internal",
+    "year_filed": 2025,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "unknown"
+  },
+  "caveats": "NYPD Detective Jasmin Walls sued over sexual harassment/assault by her partner Det. Carlos Zambrano (groping, explicit messages, simulated oral sex incident) and retaliation after reporting; filed July 24, 2025 in Manhattan Supreme Court seeking unspecified damages. 'Ongoing' reflects status as of the Aug 2, 2025 articles (the most recent sources); no later status available. No source mentions criminal charges against Zambrano, who reportedly remained employed. NY Post source could not be fetched (blocked); Yahoo and AOL copies of the same article were used."
+}

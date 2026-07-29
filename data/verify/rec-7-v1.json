@@ -1,0 +1,16 @@
+{
+  "row": 7,
+  "slug": "unknown-agency-r7",
+  "fields": {
+    "agency": "Worcester Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "MA",
+    "lawsuit_type": "civilian",
+    "year_filed": 2016,
+    "outcome_status": "plaintiff_verdict",
+    "settlement_amount_original": 2500000,
+    "criminal_status": "convicted"
+  },
+  "caveats": "Sources establish the agency as Worcester Police Department (MA) despite the 'unknown-agency' slug. Civil suit: rape victim of former officer Rajat Sharda sued Sharda, the City of Worcester, ex-City Manager O'Brien, and ex-Chief Gemme in August 2016; case moved to federal court. Per thisweekinworcester.com (Dec 2024), 'a federal judge later ordered Sharda to pay the victim $2.5 million' - a court-ordered judgment against Sharda personally, not a negotiated settlement, so outcome coded plaintiff_verdict and the $2.5M is a judgment amount; year of judgment and whether it was a default judgment are not stated. Criminal: Sharda convicted of rape and related charges (2013 incident), sentenced up to 7 years; convictions affirmed by MA Appeals Court in 2022. The 2024 DOJ pattern-or-practice findings against WPD are context only. AP News and wwlp.com sources were unreachable (skipped)."
+}

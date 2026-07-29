@@ -1,0 +1,16 @@
+{
+  "row": 46,
+  "slug": "spokane-police-department-2022-r46",
+  "fields": {
+    "agency": "Spokane Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "WA",
+    "lawsuit_type": "civilian",
+    "year_filed": 2022,
+    "outcome_status": "settled",
+    "settlement_amount_original": 300000,
+    "criminal_status": "convicted"
+  },
+  "caveats": "Plaintiff Tatyanna Presnell filed a claim against the City of Spokane in September 2022 (originally seeking $1 million) over on-duty rape by SPD officer Nathan Nash; settled for $300,000, approved March 2024. Nash was convicted at trial in 2022 of rape counts (third-degree rape of Presnell; second-degree rape of another woman) and sentenced Oct 13, 2022 to 172 months (about 14 years) to life; sources say he was appealing. Defendant in the civil matter is the City of Spokane; agency listed as Spokane Police Department (employing agency). Three KREM.com sources timed out and were skipped."
+}

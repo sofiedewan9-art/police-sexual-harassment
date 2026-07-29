@@ -1,0 +1,16 @@
+{
+  "row": 24,
+  "slug": "san-diego-county-sheriff-s-department-2017-r24",
+  "fields": {
+    "agency": "San Diego County Sheriff's Department",
+    "agency_category": "sheriff",
+    "country": "US",
+    "state_province": "CA",
+    "lawsuit_type": "civilian",
+    "year_filed": 2017,
+    "outcome_status": "settled",
+    "settlement_amount_original": 9500000,
+    "criminal_status": "pleaded_guilty"
+  },
+  "caveats": "This row aggregates ~21 civil suits by women assaulted on duty (2015-2017) by ex-deputy Richard Fischer; claims/suits began in 2017. Settlement total is approximate: dlawgroup says 'over $9.5 million', Yahoo/Times of San Diego says 'nearly $10 million' — 9500000 is the conservative reported floor, not an exact figure. Two sources (KTLA 403, CBS8 timeouts) were inaccessible, including the one citing an earlier $4.6M running total. Criminal: Fischer pleaded guilty (Sept 2019) to 4 felony + 3 misdemeanor counts (assault under color of authority, false imprisonment; 16 victims), sentenced Dec 2019 to 44 months; no sex-offender registration."
+}

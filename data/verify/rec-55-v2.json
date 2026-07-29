@@ -1,0 +1,16 @@
+{
+  "row": 55,
+  "slug": "white-county-sheriff-s-office-white-county-jail-2026-r55",
+  "fields": {
+    "agency": "White County Sheriff's Office",
+    "agency_category": "sheriff",
+    "country": "US",
+    "state_province": "IN",
+    "lawsuit_type": "civilian",
+    "year_filed": 2026,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "pleaded_guilty"
+  },
+  "caveats": "Single source (Indiana Lawyer, May 6, 2026). Ex-inmate Breann Cobb sued May 1, 2026 in Marion Superior Court vs. Sheriff Brooks, ex-officer William Cottrell, commissioners; litigation pending. Cottrell pleaded guilty Mar 2026 to one sexual misconduct count (3 yrs, 2 suspended)."
+}

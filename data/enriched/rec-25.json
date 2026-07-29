@@ -1,0 +1,33 @@
+{
+  "row": 25,
+  "slug": "county-of-los-angeles-2020-r25",
+  "agency": "County of Los Angeles (Probation Department and other county departments)",
+  "agency_category": "juvenile",
+  "country": "US",
+  "state_province": "CA",
+  "lawsuit_type": "class_action",
+  "year_filed": 2020,
+  "year_filed_approx": true,
+  "filing_year_range": "2020-2025",
+  "multiple_filings": true,
+  "outcome_status": "settled",
+  "outcome_detail": "$4 billion settlement — the largest in Los Angeles County history and reportedly the largest sexual-abuse settlement against a municipality in U.S. history. Tentative agreement announced April 4, 2025; approved by the County Claims Board and then by the Board of Supervisors on April 29, 2025. Payments to be made over many years (county planning describes payouts through roughly fiscal year 2050-51, funded by reserves, judgment obligation bonds, and departmental budget cuts). In October 2025 the county agreed to add roughly $828 million to compensate additional survivors, bringing the potential total above $4.8 billion pending final approval.",
+  "settlement_amount_original": 4000000000,
+  "settlement_currency": "USD",
+  "settlement_date": "2025-04-29",
+  "criminal_status": "unknown",
+  "criminal_detail": "The claims span thousands of alleged perpetrators over six-plus decades, and most alleged abusers were never criminally charged; many are deceased or unidentified. As of the April 2025 settlement, county officials said two cases had been referred to the District Attorney for possible prosecution. Separately, in 2025 the California Attorney General charged 30 county probation officers over alleged 'gladiator fights' at Los Padrinos Juvenile Hall (child endangerment/abuse, conspiracy, battery — not sexual-assault charges), and dozens of Los Padrinos officers were placed on leave for misconduct including alleged sexual abuse.",
+  "officer_names": [],
+  "incident_date_approx": "1959 through the 2000s; most claims from the 1980s-2000s",
+  "description": "Thousands of plaintiffs sued the County of Los Angeles alleging they were sexually abused as children by county employees while in the county's care, principally at Probation Department juvenile facilities — most notably the MacLaren Children's Center in El Monte (operated 1961-2003) — as well as in juvenile halls, probation camps, and foster care overseen by other county departments. The mass litigation was made possible by California's AB 218, effective January 2020, which opened a lookback window waiving the statute of limitations for childhood sexual abuse claims. According to the complaints, abuse by probation officers, staff, and other county workers spanned from 1959 into the 2000s, with most claims arising from the 1980s through the 2000s. On April 29, 2025, the Los Angeles County Board of Supervisors approved a $4 billion settlement resolving more than 6,800 claims, the costliest settlement in county history; in October 2025 the county agreed to add roughly $828 million more for additional survivors.",
+  "notes": "Outside strict police-department definition (county government — juvenile probation, children's services, and other county departments; some claims also involve the Sheriff's and other departments). Aggregate mass litigation: thousands of individual AB 218 suits/claims resolved together and reported in aggregate, so kept as ONE record with multiple_filings=true.",
+  "inclusion_concern": null,
+  "sources": [
+    {"url": "https://laist.com/news/criminal-justice/la-county-4-billion-settlement-child-sex-abuse-case", "title": "In largest settlement in its history, LA County approves $4 billion in massive child abuse case", "publisher": "LAist", "published_date": "2025-04-29"},
+    {"url": "https://lacounty.gov/2025/04/04/la-county-reaches-4-billion-tentative-settlement-in-thousands-of-sexual-abuse-cases/", "title": "LA County Reaches $4 Billion Tentative Settlement in Thousands of Sexual Abuse Cases", "publisher": "County of Los Angeles", "published_date": "2025-04-04"},
+    {"url": "https://abc7.com/post/4-billion-settlement-sexual-abuse-claims-juvenile-facilities-is-expected-approved-today-la-county-supervisors/16277247/", "title": "$4 billion settlement in sexual abuse claims at juvenile facilities approved by LA County supervisors", "publisher": "ABC7 Los Angeles", "published_date": "2025-04-29"},
+    {"url": "https://www.courthousenews.com/la-county-board-approves-4-billion-settlement-over-sexual-abuse-claims-at-juvenile-facilities/", "title": "LA County board approves $4 billion settlement over sexual abuse claims at juvenile facilities", "publisher": "Courthouse News Service", "published_date": null},
+    {"url": "https://imprintnews.org/top-stories/a-staggering-tally-cases-alleging-sexual-abuse-of-children-in-los-angeles-county-custody-now-number-thousands/250619", "title": "A Staggering Tally: Cases Alleging Sexual Abuse of Children in Los Angeles County Custody Now Number Thousands", "publisher": "The Imprint", "published_date": null}
+  ],
+  "confidence_notes": "Filing years are approximate: AB 218's lookback window opened January 1, 2020 and individual suits were filed from 2020 onward (LAist describes the consolidated litigation as filed in 2021), with additional claims continuing through at least 2025 (covered by the October 2025 add-on of ~$828M). Claim counts vary by source (6,800+ vs. ~7,000 vs. 11,000+ including the later add-on). settlement_date uses the Board of Supervisors approval date (2025-04-29). No individual accused employees were named in the cited settlement coverage, so officer_names is empty. The October 2025 additional $828M figure comes from secondary legal-industry summaries and should be verified against primary coverage."
+}

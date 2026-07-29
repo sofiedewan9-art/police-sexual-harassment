@@ -1,0 +1,16 @@
+{
+  "row": 10,
+  "slug": "san-mateo-r10",
+  "fields": {
+    "agency": "San Mateo County Sheriff's Office",
+    "agency_category": "sheriff",
+    "country": "US",
+    "state_province": "CA",
+    "lawsuit_type": "internal",
+    "year_filed": 2022,
+    "outcome_status": "settled",
+    "settlement_amount_original": 8000000,
+    "criminal_status": "unknown"
+  },
+  "caveats": "Deputy/Detective Carryn Barker (former SWAT operator) sued San Mateo County over sexual harassment and a 2021 sexual assault by SWAT team leader Sgt. Andre Moniot; filed Nov 9, 2022 in San Mateo County Superior Court; $8M settlement reached July 2024 before a September trial, described as one of California's largest single-plaintiff harassment settlements; county admitted no fault. No source mentions criminal charges against Moniot (only an August 2022 internal affairs investigation; he no longer works for the office), so criminal_status is unknown rather than none_filed."
+}

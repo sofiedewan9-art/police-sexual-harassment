@@ -1,0 +1,16 @@
+{
+  "row": 20,
+  "slug": "harris-county-sheriff-s-office-2022-r20",
+  "fields": {
+    "agency": "Harris County Sheriff's Office",
+    "agency_category": "sheriff",
+    "country": "US",
+    "state_province": "TX",
+    "lawsuit_type": "civilian",
+    "year_filed": null,
+    "outcome_status": "dismissed",
+    "settlement_amount_original": null,
+    "criminal_status": "pleaded_guilty"
+  },
+  "caveats": "Shanita Terrell's federal Section 1983 suit (Terrell v. Harris County; defendants Harris County, Deputy Hines, Deputy Cannon, Sheriff Gonzalez) over a Feb 23, 2020 assault by off-duty Deputy Michael Hines. No source states the civil filing date (the suit existed by the Feb 3, 2022 Click2Houston article; 5th Cir. appeal no. 23-20281), so year_filed is null. District court dismissed for failure to state a claim; Fifth Circuit affirmed July 9, 2024 (qualified immunity for Cannon; supervisory/municipal claims inadequate) — outcome vs the agency is 'dismissed'. Claims against Hines were voluntarily dismissed; Terrell reached a confidential settlement with The Address bar in a separate state action (amount unknown, not the agency). Hines pleaded guilty to attempted sexual assault (June 2023 per ABC13) and received six years deferred adjudication/probation with sex-offender registration. Houston Public Media source returned HTTP 403 and was skipped; the second Fifth Circuit source (Justia) also returned 403, but the FindLaw copy of the same opinion loaded."
+}

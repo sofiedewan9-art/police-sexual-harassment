@@ -1,0 +1,16 @@
+{
+  "row": 15,
+  "slug": "louisville-metro-police-department-2017-r15",
+  "fields": {
+    "agency": "Louisville Metro Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "KY",
+    "lawsuit_type": "civilian",
+    "year_filed": 2017,
+    "outcome_status": "settled",
+    "settlement_amount_original": 3650000,
+    "criminal_status": "pleaded_guilty"
+  },
+  "caveats": "Seven plaintiffs (former LMPD Youth Explorer program participants) sued LMPD/Louisville Metro and Boy Scouts of America; multiple consolidated suits but not a class action, so lawsuit_type=civilian. Year filed: LPM and Spectrum say first suit filed March 2017 (Spectrum: March 8, 2017); WDRB in-depth says March 2018 — 2017 used per majority of sources. $3.65M settlement (Nov 2021), mostly paid by BSA's insurer with under $1M from Metro's insurance. Criminal: Spectrum says three officers pleaded guilty to federal charges; WDRB names Kenneth Betts, Brandon Wood, and Bradley Schuhman as convicted of sex-related federal crimes — pleaded_guilty chosen as the more specific mechanism. Former Major Curtis Flaherty was investigated but never charged. Three source URLs failed to fetch (whas11.com timeout, louisvilleky.gov 403, wdrb.com plea-deal article 429) and were skipped."
+}

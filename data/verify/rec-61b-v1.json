@@ -1,0 +1,16 @@
+{
+  "row": 61,
+  "slug": "new-york-city-police-department-2026-r61-b",
+  "fields": {
+    "agency": "New York City Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "NY",
+    "lawsuit_type": "internal",
+    "year_filed": 2026,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "charged"
+  },
+  "caveats": "Officer N.T. v. City of NY and Insp. Jeremy Scheublin, filed 3/6/2026, Bronx County Supreme Court; no responses filed as of 7/2026. Scheublin indicted 7/10/2026 (attempted rape, sex abuse, etc.), pleaded not guilty; victim in the criminal case is described as a sergeant."
+}

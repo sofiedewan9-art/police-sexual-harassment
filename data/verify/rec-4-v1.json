@@ -1,0 +1,16 @@
+{
+  "row": 4,
+  "slug": "los-angeles-r4",
+  "fields": {
+    "agency": "Los Angeles Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "CA",
+    "lawsuit_type": "internal",
+    "year_filed": 2024,
+    "outcome_status": "no_resolution_found",
+    "settlement_amount_original": null,
+    "criminal_status": "none_filed"
+  },
+  "caveats": "Plaintiff is Det. Kristine Klotz, a 29-year LAPD veteran, suing over gender-based/sexual harassment and hostile work environment in the Robbery-Homicide Division (supervising Det. Christopher Marsden allegedly compared female detectives to sex workers) plus retaliation for reporting it (demotion, reassignment, allegedly fabricated internal investigations). Colleague Det. Jennifer Hammer filed a separate complaint. Filed in Los Angeles County Superior Court in 2024 per two sources; the news.law piece is vague on date/court. Case was pending as of the sources (roughly late 2024: defense sought more time to respond; Klotz's rank and pay were restored after LA Times inquiry, though she stayed in the Valley) — sources show no resolution and are stale relative to 2026, so 'no_resolution_found' rather than 'ongoing'. Named defendants include Deputy Chief Marc Reina, Capts. Scot Williams and Robin Petillo, Lt. Blanca Lopez, and Marsden. No settlement (Klotz said she is 'not looking for a payday'); the $11M figure in coverage is aggregate LA payouts for LAPD gender-discrimination cases since 2019, not this case. No criminal charges mentioned against anyone — 'none_filed' inferred from silence."
+}

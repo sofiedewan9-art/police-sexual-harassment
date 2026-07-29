@@ -1,0 +1,46 @@
+{
+  "row": 12,
+  "slug": "nypd-r12",
+  "agency": "New York City Police Department",
+  "agency_category": "police",
+  "country": "US",
+  "state_province": "NY",
+  "lawsuit_type": "internal",
+  "year_filed": 2025,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "no_resolution_found",
+  "outcome_detail": "Suit filed July 24, 2025 in Manhattan Supreme Court; NYPD declined comment on the litigation at filing. Dedicated searches (July 2026) found no reporting of a settlement, verdict, or dismissal.",
+  "settlement_amount_original": null,
+  "settlement_currency": "USD",
+  "settlement_date": null,
+  "criminal_status": "none_filed",
+  "criminal_detail": "No criminal charges against Detective Carlos Zambrano were identified in coverage or dedicated searches; allegations were reported only in the civil suit.",
+  "officer_names": ["Carlos Zambrano"],
+  "incident_date_approx": "Alleged harassment beginning November 2022 and continuing over more than a year",
+  "description": "NYPD Detective Jasmin Walls sued the City of New York in Manhattan Supreme Court on July 24, 2025, alleging workplace sexual harassment and retaliation. According to the complaint, Detective Carlos Zambrano, assigned as her mentor at Brooklyn's 90th Precinct while she was on the detective track, subjected her to more than a year of harassment beginning in November 2022, including groping, sexually explicit messages, indecent exposure, and threats that she would be labeled a \"rat\" if she reported him. The suit alleges that when Walls reported the conduct, she was smeared with rumors, referred to NYPD Psychological Services, and stripped of her gun, shield, and ID, though a department psychologist cleared her the same day. The NYPD declined to comment on the litigation, and no resolution of the case had been reported as of July 2026.",
+  "notes": null,
+  "inclusion_concern": null,
+  "sources": [
+    {
+      "url": "https://nypost.com/2025/08/02/us-news/nypd-cop-says-she-was-sexually-harassed-punished-for-speaking-up/",
+      "title": "Exclusive | NYPD cop says she was sexually harassed, punished for speaking up",
+      "publisher": "New York Post",
+      "published_date": "2025-08-02"
+    },
+    {
+      "url": "https://www.yahoo.com/news/articles/nypd-detective-says-partner-sexually-194150228.html",
+      "title": "NYPD detective says partner sexually harassed her - and she was stripped of gun, badge when she reported it",
+      "publisher": "Yahoo News (New York Post syndication)",
+      "published_date": "2025-08-02"
+    },
+    {
+      "url": "https://www.aol.com/nypd-detective-says-partner-sexually-194150822.html",
+      "title": "NYPD detective says partner sexually harassed her - and she was stripped of gun, badge when she reported it",
+      "publisher": "AOL (New York Post syndication)",
+      "published_date": "2025-08-02"
+    }
+  ],
+  "confidence_notes": "Original NY Post URL could not be fetched directly (blocked); content verified via Yahoo syndication of the same Aug. 2, 2025 story. Filing date July 24, 2025 per court papers cited in that reporting. Case likely still active, but coded no_resolution_found because no post-filing coverage confirms current status. Absence of criminal charges against Zambrano is based on dedicated searches of news coverage and cannot be fully verified from news sources alone. Plaintiff is named in reporting as she brought the suit publicly."
+}

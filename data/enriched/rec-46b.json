@@ -1,0 +1,33 @@
+{
+  "row": 46,
+  "slug": "spokane-police-department-2022-r46-b",
+  "agency": "Spokane Police Department",
+  "agency_category": "police",
+  "country": "US",
+  "state_province": "WA",
+  "lawsuit_type": "civilian",
+  "year_filed": null,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "settled",
+  "outcome_detail": "$400,000 settlement by the City of Spokane, reported June 2, 2025.",
+  "settlement_amount_original": 400000,
+  "settlement_currency": "USD",
+  "settlement_date": "2025-06-02",
+  "criminal_status": "convicted",
+  "criminal_detail": "Former officer Nathan Nash was convicted by a Spokane jury in September 2022 of second-degree rape with aggravating circumstances in this plaintiff's case (the aggravator being violation of the trust placed in him as a law enforcement officer) and of third-degree rape of a second woman. He was sentenced in October 2022 to 14 years to life in prison and has been appealing.",
+  "officer_names": ["Nathan Nash"],
+  "incident_date_approx": "2019",
+  "description": "A woman sued the City of Spokane over former police officer Nathan Nash, who raped her in her home in 2019 while following up on a domestic-violence-related call he had responded to on duty. She testified at Nash's criminal trial that he began touching her inappropriately while examining a bruise on her leg, then pushed her onto a couch and raped her; a jury convicted him in September 2022 of second-degree rape with aggravating circumstances for violating the trust she placed in him as an officer, and he was sentenced to 14 years to life. Her suit alleged the city failed to prevent the assaults and to adequately track officer activities. In June 2025, the city agreed to pay her $400,000, following a $300,000 settlement in 2024 with the second woman Nash was convicted of raping (see companion record).",
+  "notes": "Companion record rec-46 covers the other woman's $300,000 settlement approved in March 2024; the two settlements total $700,000.",
+  "inclusion_concern": null,
+  "sources": [
+    {"url": "https://www.spokesman.com/stories/2025/jun/02/spokane-to-pay-400000-to-woman-raped-by-former-off/", "title": "Spokane to pay $400,000 to woman raped by former officer in 2019", "publisher": "The Spokesman-Review", "published_date": "2025-06-02"},
+    {"url": "https://www.krem.com/article/news/special-reports/more-to-every-story/spokane-taxpayers-cover-700k-settlements-former-police-officer-rape/293-c58780c3-2012-423d-bc17-fbe85730ecf6", "title": "More to Every Story: Spokane taxpayers cover $700K in settlements tied to former police officer's rape case in 2019", "publisher": "KREM 2", "published_date": null},
+    {"url": "https://www.khq.com/news/spokane-settles-400k-lawsuit-with-woman-raped-by-police-officer/article_5ae30b7f-e9ab-436b-b3f7-32a3ab7bce72.html", "title": "Spokane settles $400K lawsuit with woman raped by police officer", "publisher": "KHQ", "published_date": null},
+    {"url": "https://www.kxly.com/news/city-of-spokane-agrees-to-settlement-with-woman-raped-by-former-police-officer/article_8fba032b-ebe3-4075-ac3e-e00abcb9d393.html", "title": "City of Spokane agrees to settlement with woman raped by former police officer", "publisher": "KXLY", "published_date": null},
+    {"url": "https://www.spokesman.com/stories/2022/oct/13/former-spokane-police-officer-who-raped-women-on-d/", "title": "Woman confronts ex-Spokane Police officer who raped her while on duty as he's sentenced to 14 years to life", "publisher": "The Spokesman-Review", "published_date": "2022-10-13"}
+  ],
+  "confidence_notes": "The year this plaintiff filed her claim/lawsuit was not stated in available coverage, so year_filed is null. Settlement date is the date of press reports of the agreement (2025-06-02); the formal council approval date may differ slightly. Both orphan titles from the seed were recovered and included across rec-46 and rec-46b."
+}

@@ -1,0 +1,16 @@
+{
+  "row": 8,
+  "slug": "nypd-2026-r8",
+  "fields": {
+    "agency": "New York Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "NY",
+    "lawsuit_type": "internal",
+    "year_filed": 2026,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "charged"
+  },
+  "caveats": "Sources describe two related NYPD 46th Precinct suits: (1) a female officer ('N.T.') sued the NYPD and Inspector Jeremy Scheublin in March 2026 over a Jan 1, 2025 assault plus harassment/retaliation (amNY, News12); (2) Sgt. Avila and Officers Sosa filed a July 2026 harassment suit naming D.I. Juan Moran (CBS). Fields reflect the Scheublin suit, which matches the record slug. Both suits ongoing as of July 2026. Criminal: Scheublin indicted July 10, 2026 (attempted rape 1st, sexual abuse 1st, assault, unlawful imprisonment, forcible touching, official misconduct, obstruction); pleaded not guilty; suspended without pay; next court date Oct 30, 2026. MSN source returned no content (skipped). amNY notes Scheublin was previously named in eight settled suits totaling $481,000 (unrelated to this record's amount)."
+}

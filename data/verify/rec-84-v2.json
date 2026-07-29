@@ -1,0 +1,16 @@
+{
+  "row": 84,
+  "slug": "ottawa-police-service-2019-r84",
+  "fields": {
+    "agency": "Ottawa Police Service",
+    "agency_category": "police",
+    "country": "CA",
+    "state_province": "ON",
+    "lawsuit_type": "internal",
+    "year_filed": 2019,
+    "outcome_status": "settled",
+    "settlement_amount_original": null,
+    "criminal_status": "none_filed"
+  },
+  "caveats": "HRTO human rights complaint (filed May 2019), not a civil lawsuit; internal is closest fit. Settled Apr 2021, terms confidential; $805K was amount sought, not received. No criminal charges for 2011 assault; Benloss acquitted at 2022 PSA hearing; unrelated criminal charges withdrawn 2023."
+}

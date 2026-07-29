@@ -1,0 +1,16 @@
+{
+  "row": 88,
+  "slug": "surete-du-quebec-2022-r88",
+  "fields": {
+    "agency": "Sûreté du Québec",
+    "agency_category": "state_police",
+    "country": "CA",
+    "state_province": "QC",
+    "lawsuit_type": "class_action",
+    "year_filed": 2021,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "none_filed"
+  },
+  "caveats": "Val-d'Or class action vs Quebec AG/SQ filed Dec 13 2021 (not 2022); incl. sexual assault. Authorized May 27 2025, heading to trial. No charges vs Val-d'Or officers (2016); 2 retired officers (1 SQ) charged over separate-region incidents from same probe. One source URL dead (410)."
+}

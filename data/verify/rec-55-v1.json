@@ -1,0 +1,16 @@
+{
+  "row": 55,
+  "slug": "white-county-sheriff-s-office-white-county-jail-2026-r55",
+  "fields": {
+    "agency": "White County Sheriff's Office",
+    "agency_category": "sheriff",
+    "country": "US",
+    "state_province": "IN",
+    "lawsuit_type": "civilian",
+    "year_filed": 2026,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "pleaded_guilty"
+  },
+  "caveats": "Single source (Indiana Lawyer, May 6, 2026). Former inmate sued sheriff, CO Cottrell, and county commissioners in Marion Superior Court, filed May 1, 2026; pending. Cottrell pleaded guilty to one sexual misconduct count Mar 2026 (3 yrs, 2 suspended); second count dismissed in plea deal."
+}

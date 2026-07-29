@@ -1,0 +1,16 @@
+{
+  "row": 65,
+  "slug": "iron-mountain-police-department-2023-r65",
+  "fields": {
+    "agency": "Iron Mountain Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "MI",
+    "lawsuit_type": "internal",
+    "year_filed": 2023,
+    "outcome_status": "settled",
+    "settlement_amount_original": 475000,
+    "criminal_status": "none_filed"
+  },
+  "caveats": "Plaintiff Teresa (Carr) Williams, IMPD's first/only female officer, sued the City of Iron Mountain/IMPD in U.S. District Court (W.D. Mich.) on Feb 13, 2023 alleging sexual harassment, gender discrimination, and retaliation by Sgt. Garth Budek and Deputy Director Joseph Dumais; settled for $475,000 (paid by city's insurer, city denied liability), case dismissed with prejudice July 2024. No criminal charges against the accused harassers appear in sources. Williams herself pleaded no contest to unrelated disorderly conduct/lewd behavior charges from a 2022 Wisconsin traffic-stop incident; that is not the basis for criminal_status. NBC News source returned HTTP 403 and was skipped."
+}

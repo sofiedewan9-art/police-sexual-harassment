@@ -1,0 +1,16 @@
+{
+  "row": 77,
+  "slug": "edmonton-police-service-2023-r77",
+  "fields": {
+    "agency": "Edmonton Police Service",
+    "agency_category": "police",
+    "country": "CA",
+    "state_province": "AB",
+    "lawsuit_type": "civilian",
+    "year_filed": null,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "charged"
+  },
+  "caveats": "Civilian suit vs EPS/Const. Renzo Geronimo (Aug 2023 traffic-stop incident); filing year not stated in sources. Suit active as of Nov 2025 reporting. Officer criminally charged Nov 2025 (4 counts), case pending. 2 CBC sources returned 403 and were skipped."
+}

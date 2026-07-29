@@ -1,0 +1,68 @@
+You are an independent verification agent for a database of civil lawsuits involving sexual assault/harassment and law-enforcement agencies. Today is 2026-07-28. For each record below you get ONLY source URLs. Read the sources (WebFetch; if one fails, skip it — do NOT search for other articles) and independently derive the fields from the sources alone. Do not guess: if the sources don't establish a value, use null. Be skeptical and literal about what the sources actually say.
+
+For each record, write a JSON file to /Users/sofiedewan/police-sa-lawsuits/data/verify/rec-<key>-v2.json (the <key> is given per record):
+{
+  "row": <int>, "slug": "<given>",
+  "fields": {
+    "agency": "<official agency name as best supported by sources>",
+    "agency_category": "police|sheriff|state_police|corrections|juvenile|federal|campus|transit|other",
+    "country": "US|CA",
+    "state_province": "<2-letter>",
+    "lawsuit_type": "civilian|internal|class_action",
+    "year_filed": <int|null>,
+    "outcome_status": "settled|plaintiff_verdict|defense_verdict|dismissed|ongoing|no_resolution_found",
+    "settlement_amount_original": <number|null>,
+    "criminal_status": "none_filed|charged|convicted|pleaded_guilty|acquitted|charges_dropped|unknown"
+  },
+  "caveats": "<brief notes on anything ambiguous>"
+}
+Definitions: civilian = officer accused of assaulting a civilian; internal = employee suing own agency over workplace sexual assault/harassment; class_action = mass litigation. "ongoing" only if sources confirm the case is active; "no_resolution_found" if sources show no resolution. year_filed = year the CIVIL suit was filed. If no lawsuit exists in the sources, pick the closest lawsuit_type fit and say so in caveats.
+
+Final message: one line per record "rec-<key>: done". Nothing else.
+
+THE RECORDS:
+
+Record key=29, row=29, slug="west-virginia-state-police-2023-r29", sources:
+https://www.wtrf.com/west-virginia-state-police-investigation/west-virginia-state-police-investigation-72-new-lawsuits-say-women-and-minors-were-filmed-secretly-in-the-shower-alleges-rape-was-filmed-and-state-issued-laptop-showed-sexual-acts-performed-at-train/
+https://www.legalnewsline.com/west-virginia-record/plaintiffs-in-wvsp-hidden-camera-cases-could-get-1m-each/article_7ac6eaa8-2e55-40c0-8912-86012a441252.html
+https://wvmetronews.com/2025/11/20/trials-scheduled-for-lawsuits-in-state-police-hidden-camera-case/
+https://www.cnn.com/2023/06/29/us/west-virginia-state-police-hidden-camera-lawsuit
+https://www.wowktv.com/news/west-virginia/judge-rules-each-videotaping-at-west-virginia-state-police-academy-a-separate-offense/
+https://www.wdtv.com/2024/04/25/wv-state-police-hit-with-lawsuits-regarding-hidden-camera-womens-facilities/
+https://www.wboy.com/news/crime/wv-state-police-investigation-72-new-lawsuits-allege-sexual-misconduct-list-whistleblower-as-defendant/
+https://www.wvgazettemail.com/news/kanawha_valley/a-bucket-of-missing-evidence-ruling-sends-wvsp-hidden-camera-case-back-to-mediation/article_051166d1-9d33-4822-aaae-9966467576e5.html
+
+Record key=30, row=30, slug="west-virginia-state-police-2023-r30", sources:
+https://www.wboy.com/news/west-virginia/lawsuit-filed-against-west-virginia-state-police-trooper-who-allegedly-drugged-kidnapped-raped-woman/
+https://wvmetronews.com/2023/05/10/lawsuit-filed-from-victim-of-alleged-sexual-abuse-by-state-trooper/
+https://www.wboy.com/news/west-virginia/woman-says-she-was-drugged-kidnapped-and-raped-by-west-virginia-state-trooper/
+https://www.wowktv.com/news/west-virginia/west-virginia-state-police-investigation/trial-date-set-in-civil-suit-against-west-virginia-state-police-trooper/
+https://mountainstatespotlight.org/2023/04/03/wv-state-police-scandal-explained/
+https://wvmetronews.com/2023/04/06/attorney-says-logan-county-deputy-should-have-stepped-forward-when-told-about-rape-involving-state-police-trooper/
+
+Record key=30b, row=30, slug="west-virginia-state-police-2023-r30-b", sources:
+https://wvmetronews.com/2023/06/30/second-woman-files-suit-against-state-police-trooper-for-alleged-kidnap-rape-in-logan-county/
+https://www.wowktv.com/news/west-virginia/west-virginia-state-police-investigation/second-lawsuit-filed-against-west-virginia-state-police-trooper-who-allegedly-kidnapped-raped-woman/
+https://www.wowktv.com/news/west-virginia/west-virginia-state-police-investigation/second-person-accuses-west-virginia-state-police-trooper-of-drugging-kidnapping-raping-them/
+https://www.wtrf.com/west-virginia-state-police-investigation/west-virginia-state-police-investigation-trial-date-set-for-west-virginia-trooper-accused-of-sexually-assaulting-and-kidnapping-two-women/
+https://www.wsaz.com/2023/04/05/wsaz-investigates-second-alleged-rape-victim-file-lawsuit-against-wvsp/
+
+Record key=31, row=31, slug="sedgwick-county-sheriff-s-office-2018-r31", sources:
+https://www.prisonlegalnews.org/news/2023/sep/15/825-million-verdict-against-former-colorado-sheriff-detainees-sexual-assault-during-jail-transfer/
+https://www.lawweekcolorado.com/article/woman-wins-8-25-million-in-sexual-assault-lawsuit-against-former-sheriff/
+https://www.cbsnews.com/colorado/news/peattina-biggs-tom-hanna-sex-assault-lawsuit-colorado-sedgwick-county-sheriff-developmental-disabilities-wins/
+https://courthousenews.com/colorado-county-can-be-held-liable-for-sexual-assault-of-inmate-by-sheriff-10th-circuit-finds/
+https://law.justia.com/cases/federal/appellate-courts/ca10/23-1084/23-1084-2024-07-05.html
+https://www.publicjustice.net/case/whitson-v-hanna/
+https://www.9news.com/article/news/crime/former-sedgwick-county-sheriff-sentenced-for-misconduct/73-573526449
+https://www.9news.com/article/news/crime/former-sedgwick-county-sheriff-found-not-guilty-of-sexually-assaulting-at-risk-inmate/73-550883402
+
+Record key=32, row=32, slug="senatobia-police-department-2024-r32", sources:
+https://wreg.com/news/mid-south/10m-lawsuit-claims-ms-police-officer-sexually-assaulted-woman-during-traffic-stop/
+https://www.mississippifreepress.org/senatobia-police-officer-sexually-assaulted-woman-after-roadside-stop-lawsuit-alleges/
+https://www.wjtv.com/news/state/10-million-lawsuit-filed-against-mississippi-police-department/
+https://www.localmemphis.com/article/news/regional/federal-lawsuit-senatobia-police-department-officer-accused-of-sexually-assaulting-woman-during-traffic-stop/522-9b8cc8a7-1f98-42aa-a60d-c47de938996b
+https://www.fox13memphis.com/news/10m-lawsuit-claims-woman-sexually-assaulted-by-mississippi-police-officer/article_60952e36-194b-11ef-8251-5745a093dac4.html
+https://www.taterecord.com/city-chief-cleared-10m-lawsuit
+https://www.taterecord.com/right-officer-wrong-department
+

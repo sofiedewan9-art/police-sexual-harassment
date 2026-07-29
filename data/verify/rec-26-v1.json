@@ -1,0 +1,16 @@
+{
+  "row": 26,
+  "slug": "new-york-city-department-of-correction-r26",
+  "fields": {
+    "agency": "New York City Department of Correction",
+    "agency_category": "corrections",
+    "country": "US",
+    "state_province": "NY",
+    "lawsuit_type": "class_action",
+    "year_filed": 2023,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "none_filed"
+  },
+  "caveats": "Mass litigation of ~700-819 individual civil suits (not a certified class action) filed under New York's Adult Survivors Act one-year window (Nov 2022-Nov 2023; most coverage says window closed Nov 2023, so year_filed=2023; one CBS summary said 2024). Defendants: City of New York / NYC Department of Correction, mostly re: Rikers Island (Rose M. Singer Center); combined damages sought >$14.7B. Bulk of cases pending as of latest sources (Dec 2025 article shows continued new federal suits). Individual related settlements exist ($1.6M John Doe v. therapist Carlos Negron in 2024; $1.2M Benny Santiago case in 2017) but no global settlement, so amount=null. Criminal: no charges against correction officers shown in sources; Bronx DA assigned prosecutors to review cases (2024). One related staffer, physical therapist Carlos Negron, pleaded guilty in Feb 2022 to a felony criminal sexual act (individual federal case, not the ASA batch). NBC News source returned 403 and was skipped; gothamist/thecity.nyc URLs were read via their redirect hosts."
+}

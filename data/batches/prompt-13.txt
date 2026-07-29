@@ -1,0 +1,63 @@
+You are a research agent for a Policing Project (NYU Law) database of civil lawsuits involving sexual assault/harassment and law-enforcement agencies (US/Canada). Today is 2026-07-28. For EACH seed record below, research thoroughly via web search, then WRITE a JSON file per lawsuit to /Users/sofiedewan/police-sa-lawsuits/data/enriched/.
+
+RESEARCH PROCEDURE per record:
+1. Fetch the given source URL (WebFetch). If dead or paywalled, find the article by searching its exact title.
+2. Run a DEDICATED outcome search — settled / verdict / dismissed / still active? (e.g. "<agency> <officer> lawsuit settlement 2025"). Never assume from filing coverage alone.
+3. Search for any criminal case against the accused officer(s).
+4. More searches as needed for year filed, official agency name, facts (3–8 searches/record). Add every useful article to sources.
+5. If "Orphan titles" are listed, search each exact title and recover its URL; include in sources.
+
+GRANULARITY — ONE RECORD PER LAWSUIT:
+- The primary lawsuit goes in rec-<row>.json with the given slug.
+- If coverage documents ADDITIONAL distinct suits (different plaintiffs/filings) from the same scandal, write rec-<row>b.json (slug "<given slug>-b"), rec-<row>c.json (slug "<given slug>-c"), etc. — each a complete record with its own year/outcome/description and only its relevant sources; cross-reference companions in notes.
+- Class actions / consolidated mass litigation = ONE record, lawsuit_type="class_action".
+- If coverage reports many suits only in AGGREGATE (e.g. "$9.5M across 21 suits") and individual filings are not separately documented, keep ONE record with multiple_filings=true, filing_year_range set, and notes explaining the aggregate reporting.
+
+INCLUSION CHECK: the record must involve an actual filed civil lawsuit or formal claim (notice of claim, EEOC/human-rights complaint) with sexual assault/harassment central. If none exists, or sexual misconduct is not central to the claim, still complete the record but set "inclusion_concern" explaining why.
+
+JSON schema (exact keys, one file per lawsuit):
+{
+  "row": <int>, "slug": "<per rules above>",
+  "agency": "<official agency name>",
+  "agency_category": "police|sheriff|state_police|corrections|juvenile|federal|campus|transit|other",
+  "country": "US|CA", "state_province": "<2-letter>",
+  "lawsuit_type": "civilian|internal|class_action",
+  "year_filed": <int|null>, "year_filed_approx": <bool>, "filing_year_range": <"YYYY-YYYY"|null>, "multiple_filings": <bool>,
+  "outcome_status": "settled|plaintiff_verdict|defense_verdict|dismissed|ongoing|no_resolution_found",
+  "outcome_detail": "<amount, date, grounds, appeal status — or ''>",
+  "settlement_amount_original": <number|null>, "settlement_currency": "USD|CAD",
+  "settlement_date": <"YYYY-MM-DD"|null>,
+  "criminal_status": "none_filed|charged|convicted|pleaded_guilty|acquitted|charges_dropped|unknown",
+  "criminal_detail": "<charges, sentence, dates — or ''>",
+  "officer_names": ["<only accused officers already named in public reporting>"],
+  "incident_date_approx": "<free text>",
+  "description": "<3-6 sentences, language rules below>",
+  "notes": <"<flags>"|null>,
+  "inclusion_concern": <string|null>,
+  "sources": [{"url":"...","title":"...","publisher":"...","published_date":<"YYYY-MM-DD"|null>}],
+  "confidence_notes": "<anything uncertain>"
+}
+
+LAWSUIT TYPE: "civilian" = officer/deputy/jailer accused of sexually assaulting a civilian; "internal" = officer/employee suing their OWN agency over workplace sexual assault/harassment; "class_action" = class action / mass litigation.
+
+DESCRIPTION LANGUAGE RULES (strict — public site, defamation risk):
+- Attribute every unproven claim: "The suit alleges…", "According to the complaint…".
+- State conduct as fact ONLY where supported by a conviction, guilty plea, admission, or jury finding.
+- NEVER name victims — "a woman", "Jane Doe". Officer names only if already in cited reporting.
+- No editorializing, no pattern-drawing language.
+
+OUTCOME DISCIPLINE: "settled" only if a settlement is reported (amount+date in outcome_detail); "ongoing" only if coverage confirms the case is active; "no_resolution_found" if dedicated searches surface neither. Criminal track is separate from civil.
+
+NOTES flags when applicable: "Outside strict police-department definition (<category>)"; "Filed before 2021; included because resolution occurred in window"; companion-record cross-references.
+
+Final message: one line per FILE written: "rec-<key>: <agency> — <outcome_status> — <N> sources — CONCERN: <inclusion_concern or none>". Nothing else.
+
+THE SEED RECORDS:
+
+Record A: row=57, slug="stoughton-police-department-2021-r57". Agency hint: Stoughton Police Department, US/MA. Year hint: 2021 (ongoing, cause of death changed from "suicide" to "undetermined" in 2026). Seed outcome hint: ongoing, cause of death changed from "suicide" to "undetermined" in 2026. Source: How a Massachusetts Cop Allegedly Groomed, Controlled and Killed Sandra Birchmore; Former Massachusetts Police Officer Arrested in Connection with Murder of Young Woman; Sandra Birchmore's cause of death changed by Massachusetts medical examiner https://www.themarshallproject.org/2024/08/30/police-explorer-sexual-abuse-massachusetts-birchmore
+
+Record B: row=58, slug="deming-police-department-2026-r58". Agency hint: Deming Police Department, US/NM. Year hint: 2026 (ongoing). Seed outcome hint: ongoing. Source: Lawsuit holds Deming police, state accountable for ex-cop's sexual abuse; Lawsuit alleges teen girl abused by Deming Police officer; Lawsuit: Deming police officer assaulted 16-year-old girl for months while on the job https://www.abqjournal.com/news/lawsuit-holds-deming-police-state-accountable-for-ex-cops-sexual-abuse/2994900
+
+Record C: row=59, slug="san-mateo-police-department-2022-r59". Agency hint: San Mateo Police Department, US/CA. Year hint: 2022 (settled - $25M in March 2024). Seed outcome hint: settled - $25M in March 2024 ($25000000). Source: Police Abuse Attorney | Legal Help for Police Sexual Abuse https://www.sokolovelaw.com/personal-injury/sexual-abuse/police-assault/
+
+Record D: row=60, slug="new-york-city-police-department-2026-r60". Agency hint: New York City Police Department, US/NY. Year hint: 2026 (ongoing; Scheublin criminally indicted). Seed outcome hint: ongoing; Scheublin criminally indicted. Source: Bronx NYPD inspector hit with rape charges months after being sued for alleged sexual assault of female cop in precinct; NYPD inspector sexually assaulted a subordinate, Bronx prosecutors say; NYPD inspector told officer he wanted 'biracial babies' before alleged assault, lawsuit claims https://www.amny.com/law/bronx-nypd-inspector-rape-charges-lawsuit-07102026/

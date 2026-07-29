@@ -1,0 +1,16 @@
+{
+  "row": 80,
+  "slug": "royal-newfoundland-constabulary-2024-r80",
+  "fields": {
+    "agency": "Royal Newfoundland Constabulary",
+    "agency_category": "police",
+    "country": "CA",
+    "state_province": "NL",
+    "lawsuit_type": "civilian",
+    "year_filed": 2024,
+    "outcome_status": "no_resolution_found",
+    "settlement_amount_original": null,
+    "criminal_status": "none_filed"
+  },
+  "caveats": "One of two suits filed Mar 28, 2024 vs province re: retired Sgt. Robert Baldwin; this record = 2012 incident (woman driven to secluded area and assaulted). Plaintiff identity under publication ban. Claims untested in court as of May 2024; no outcome found. CBC and CP URLs failed (403/404)."
+}

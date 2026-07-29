@@ -1,0 +1,16 @@
+{
+  "row": 4,
+  "slug": "los-angeles-r4",
+  "fields": {
+    "agency": "Los Angeles Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "CA",
+    "lawsuit_type": "internal",
+    "year_filed": 2024,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "unknown"
+  },
+  "caveats": "Detective Kristine Klotz, a 29-year LAPD veteran, sued in Los Angeles County Superior Court (2024) alleging a hostile work environment / sexual harassment (a Robbery-Homicide supervisor allegedly compared female detectives to 'sex workers on Figueroa Street') and retaliation (demotion, reassignment, internal investigations) after she reported it; defendants include Deputy Chief Marc Reina, Captains Scot Williams and Robin Petillo, and Lt. Blanca Lopez. Harassment/retaliation, not sexual assault. 'ongoing' reflects status as of the articles (suit described as pending, defendants seeking time to respond); no resolution reported and articles appear to date from late 2024, so current status is unverified. Klotz was restored to detective rank and pay outside the litigation after press inquiries and planned to retire. No settlement amount for this case (city-wide totals of $11M+ for gender-bias cases since 2019 are contextual, not this suit). No source mentions criminal charges."
+}

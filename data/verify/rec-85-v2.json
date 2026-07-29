@@ -1,0 +1,16 @@
+{
+  "row": 85,
+  "slug": "saskatoon-police-service-2021-r85",
+  "fields": {
+    "agency": "Saskatoon Police Service",
+    "agency_category": "police",
+    "country": "CA",
+    "state_province": "SK",
+    "lawsuit_type": "civilian",
+    "year_filed": 2020,
+    "outcome_status": "no_resolution_found",
+    "settlement_amount_original": null,
+    "criminal_status": "none_filed"
+  },
+  "caveats": "Suit vs Const. Patrick Skinnider filed Oct 2020 in SK small claims (capped $30K), not 2021 as slug implies; alleged 2009 assaults. Sources end Feb 2021 with case pending (defence filed, denies). Crown declined charges in 2009; internal discipline for discreditable conduct."
+}

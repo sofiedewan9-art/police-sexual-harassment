@@ -1,0 +1,7 @@
+Record A: row=9, slug="unknown-agency-r9". Agency hint: (none — determine from source). Year hint: (none). Seed outcome hint: (none). Source: Female police officers detail workplace harassment, retaliation and culture challenges https://www.police1.com/women-in-law-enforcement/what-female-officers-say-about-harassment-and-culture-in-policing
+
+Record B: row=10, slug="san-mateo-r10". Agency hint: San Mateo, /CA. Year hint: (none). Seed outcome hint: (none). Source: San Mateo County Pays Historic $8,000,000 Settlement to End Sexual Harassment and Sex Discrimination Lawsuit https://www.prnewswire.com/news-releases/san-mateo-county-pays-historic-8-000-000-settlement-to-end-sexual-harassment-and-sex-discrimination-lawsuit-302203169.html
+
+Record C: row=11, slug="seattle-r11". Agency hint: Seattle, US/WA. Year hint: (none). Seed outcome hint: (none). Source: Seattle settles for $2.6M with female cops who claimed harassment | FOX 13 Seattle https://www.fox13seattle.com/news/seattle-female-cops-sexual-harassment
+
+Record D: row=12, slug="nypd-r12". Agency hint: NYPD, /NY. Year hint: (none). Seed outcome hint: (none). Source: Exclusive | NYPD cop says she was sexually harassed, punished for speaking up https://nypost.com/2025/08/02/us-news/nypd-cop-says-she-was-sexually-harassed-punished-for-speaking-up/

@@ -1,0 +1,16 @@
+{
+  "row": 36,
+  "slug": "chicago-police-department-2018-r36",
+  "fields": {
+    "agency": "Chicago Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "IL",
+    "lawsuit_type": "civilian",
+    "year_filed": null,
+    "outcome_status": "settled",
+    "settlement_amount_original": 100000,
+    "criminal_status": "pleaded_guilty"
+  },
+  "caveats": "Officer Corey Deanes made unwanted sexual contact with civilian women during a 2017 traffic stop and a 2018 911 response (plus 2011 harassment allegations). ProPublica/WBEZ report the city settled the lawsuit brought by the 2017 traffic-stop victim for $100,000, but no source gives the civil filing year, so year_filed is null (slug suggests 2018, unverified). Deanes was arrested May 2019, charged with felony aggravated battery, felony official misconduct, and misdemeanor battery, and pleaded guilty in 2020 to a reduced misdemeanor battery charge (2 years probation, decertified). WTTW source returned 403; WBEZ initially rate-limited but the same reporting was available via ProPublica."
+}

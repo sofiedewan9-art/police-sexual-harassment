@@ -1,0 +1,57 @@
+You are an independent verification agent for a database of civil lawsuits involving sexual assault/harassment and law-enforcement agencies. Today is 2026-07-28. For each record below you get ONLY source URLs. Read the sources (WebFetch; if one fails, skip it — do NOT search for other articles) and independently derive the fields from the sources alone. Do not guess: if the sources don't establish a value, use null.
+
+For each record, write a JSON file to /Users/sofiedewan/police-sa-lawsuits/data/verify/rec-<key>-v1.json (the <key> is given per record):
+{
+  "row": <int>, "slug": "<given>",
+  "fields": {
+    "agency": "<official agency name as best supported by sources>",
+    "agency_category": "police|sheriff|state_police|corrections|juvenile|federal|campus|transit|other",
+    "country": "US|CA",
+    "state_province": "<2-letter>",
+    "lawsuit_type": "civilian|internal|class_action",
+    "year_filed": <int|null>,
+    "outcome_status": "settled|plaintiff_verdict|defense_verdict|dismissed|ongoing|no_resolution_found",
+    "settlement_amount_original": <number|null>,
+    "criminal_status": "none_filed|charged|convicted|pleaded_guilty|acquitted|charges_dropped|unknown"
+  },
+  "caveats": "<brief notes on anything ambiguous>"
+}
+Definitions: civilian = officer accused of assaulting a civilian; internal = employee suing own agency over workplace sexual assault/harassment; class_action = mass litigation. "ongoing" only if sources confirm the case is active; "no_resolution_found" if sources show no resolution. year_filed = year the CIVIL suit was filed. If no lawsuit exists in the sources, pick the closest lawsuit_type fit and say so in caveats.
+
+Final message: one line per record "rec-<key>: done". Nothing else.
+
+THE RECORDS:
+
+Record key=61, row=61, slug="new-york-city-police-department-2026-r61", sources:
+https://www.thesandersfirmpc.com/another-sexual-harassment-lawsuit-hits-the-nypds-troubled-46th-precinct/
+https://www.cbsnews.com/newyork/news/nypd-inspector-jeremy-scheublin-attempted-rape-46-precinct-lawsuit/
+https://www.amny.com/law/bronx-nypd-inspector-rape-charges-lawsuit-07102026/
+
+Record key=61b, row=61, slug="new-york-city-police-department-2026-r61-b", sources:
+https://www.amny.com/law/bronx-nypd-inspector-rape-charges-lawsuit-07102026/
+https://gothamist.com/news/nypd-inspector-sexually-assaulted-a-subordinate-bronx-prosecutors-say
+https://www.cbsnews.com/newyork/news/nypd-inspector-jeremy-scheublin-attempted-rape-46-precinct-lawsuit/
+https://atlantablackstar.com/2026/07/07/white-nypd-commander-pinned-down-black-female-officer/
+https://www.thesandersfirmpc.com/legal-commentary-the-complaint-against-inspector-jeremy-scheublin-is-about-more-than-one-officer-it-is-about-what-the-nypd-tolerates/
+
+Record key=62, row=62, slug="new-york-city-police-department-2023-r62", sources:
+https://gothamist.com/news/nypd-officer-sues-city-claiming-years-of-sexual-abuse-by-union-rep
+https://crumiller.com/jamie-angelastro-nypd-sex-abuse-lawsui/
+https://www.courtlistener.com/docket/68030491/ciotti-v-city-of-new-york/
+https://issuu.com/survivorslaw/docs/complaint_against_nypd_-_filed
+
+Record key=63, row=63, slug="chicago-police-department-2020-r63", sources:
+https://abc7chicago.com/eddie-johnson-cynthia-donald-sexual-assault-lawsuit-chicago-police/14551160/
+https://chicago.suntimes.com/news/2020/10/15/21517846/eddie-johnson-former-chicago-police-superindent-lawsuit-accused-sex-assault-harassment
+https://www.fox32chicago.com/news/chicago-eddie-johnson-sexual-assault-lawsuit-dismissed
+https://news.wttw.com/2024/03/21/judge-dismisses-sexual-assault-suit-brought-chicago-police-officer-against-former-supt
+https://www.cbsnews.com/chicago/news/cythia-donald-sexual-harassment-lawsuit-dismissed-eddie-johnson/
+https://www.courtlistener.com/docket/18681459/donald-v-city-of-chicago/
+
+Record key=64, row=64, slug="la-vergne-police-department-2023-r64", sources:
+https://www.wsmv.com/2024/03/21/maegan-hall-former-officer-center-la-vergne-sex-scandal-reaches-500k-settlement-after-dismissing-lawsuit/
+https://www.newschannel5.com/news/city-of-lavergne-settles-lawsuit-owes-maegan-hall-half-a-million-dollars
+https://fox17.com/news/local/la-vergne-city-settles-lawsuit-with-former-officer-maegan-hall-over-sexual-misconduct-claims-tennessee-rutherford-county
+https://www.wkrn.com/news/local-news/la-vergne-settles-lawsuit-with-former-officer/
+https://en.wikipedia.org/wiki/La_Vergne_police_department_sex_scandal
+

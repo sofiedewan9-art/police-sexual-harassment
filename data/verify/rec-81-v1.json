@@ -1,0 +1,16 @@
+{
+  "row": 81,
+  "slug": "vancouver-police-department-bc-2023-r81",
+  "fields": {
+    "agency": "Vancouver Police Department",
+    "agency_category": "police",
+    "country": "CA",
+    "state_province": "BC",
+    "lawsuit_type": "internal",
+    "year_filed": 2023,
+    "outcome_status": "no_resolution_found",
+    "settlement_amount_original": null,
+    "criminal_status": "convicted"
+  },
+  "caveats": "Civil suit (reported filed Feb 2023) names fellow officer Berar, not VPD itself; no resolution in sources. Separate union grievance vs VPD won $30,000 arbitration award Sep 2025 (not a lawsuit settlement). Berar convicted at 2021 trial; sentenced Mar 2022 to 1 year jail."
+}

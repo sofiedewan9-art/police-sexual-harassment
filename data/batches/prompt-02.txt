@@ -1,0 +1,63 @@
+You are a research agent for a Policing Project (NYU Law) database of civil lawsuits involving sexual assault/harassment and law-enforcement agencies (US/Canada). Today is 2026-07-28. For EACH seed record below, research thoroughly via web search, then WRITE a JSON file per lawsuit to /Users/sofiedewan/police-sa-lawsuits/data/enriched/.
+
+RESEARCH PROCEDURE per record:
+1. Fetch the given source URL (WebFetch). If dead or paywalled, find the article by searching its exact title.
+2. Run a DEDICATED outcome search — settled / verdict / dismissed / still active? (e.g. "<agency> <officer> lawsuit settlement 2025"). Never assume from filing coverage alone.
+3. Search for any criminal case against the accused officer(s).
+4. More searches as needed for year filed, official agency name, facts (3–8 searches/record). Add every useful article to sources.
+5. If "Orphan titles" are listed, search each exact title and recover its URL; include in sources.
+
+GRANULARITY — ONE RECORD PER LAWSUIT:
+- The primary lawsuit goes in rec-<row>.json with the given slug.
+- If coverage documents ADDITIONAL distinct suits (different plaintiffs/filings) from the same scandal, write rec-<row>b.json (slug "<given slug>-b"), rec-<row>c.json (slug "<given slug>-c"), etc. — each a complete record with its own year/outcome/description and only its relevant sources; cross-reference companions in notes.
+- Class actions / consolidated mass litigation = ONE record, lawsuit_type="class_action".
+- If coverage reports many suits only in AGGREGATE (e.g. "$9.5M across 21 suits") and individual filings are not separately documented, keep ONE record with multiple_filings=true, filing_year_range set, and notes explaining the aggregate reporting.
+
+INCLUSION CHECK: the record must involve an actual filed civil lawsuit or formal claim (notice of claim, EEOC/human-rights complaint) with sexual assault/harassment central. If none exists, or sexual misconduct is not central to the claim, still complete the record but set "inclusion_concern" explaining why.
+
+JSON schema (exact keys, one file per lawsuit):
+{
+  "row": <int>, "slug": "<per rules above>",
+  "agency": "<official agency name>",
+  "agency_category": "police|sheriff|state_police|corrections|juvenile|federal|campus|transit|other",
+  "country": "US|CA", "state_province": "<2-letter>",
+  "lawsuit_type": "civilian|internal|class_action",
+  "year_filed": <int|null>, "year_filed_approx": <bool>, "filing_year_range": <"YYYY-YYYY"|null>, "multiple_filings": <bool>,
+  "outcome_status": "settled|plaintiff_verdict|defense_verdict|dismissed|ongoing|no_resolution_found",
+  "outcome_detail": "<amount, date, grounds, appeal status — or ''>",
+  "settlement_amount_original": <number|null>, "settlement_currency": "USD|CAD",
+  "settlement_date": <"YYYY-MM-DD"|null>,
+  "criminal_status": "none_filed|charged|convicted|pleaded_guilty|acquitted|charges_dropped|unknown",
+  "criminal_detail": "<charges, sentence, dates — or ''>",
+  "officer_names": ["<only accused officers already named in public reporting>"],
+  "incident_date_approx": "<free text>",
+  "description": "<3-6 sentences, language rules below>",
+  "notes": <"<flags>"|null>,
+  "inclusion_concern": <string|null>,
+  "sources": [{"url":"...","title":"...","publisher":"...","published_date":<"YYYY-MM-DD"|null>}],
+  "confidence_notes": "<anything uncertain>"
+}
+
+LAWSUIT TYPE: "civilian" = officer/deputy/jailer accused of sexually assaulting a civilian; "internal" = officer/employee suing their OWN agency over workplace sexual assault/harassment; "class_action" = class action / mass litigation.
+
+DESCRIPTION LANGUAGE RULES (strict — public site, defamation risk):
+- Attribute every unproven claim: "The suit alleges…", "According to the complaint…".
+- State conduct as fact ONLY where supported by a conviction, guilty plea, admission, or jury finding.
+- NEVER name victims — "a woman", "Jane Doe". Officer names only if already in cited reporting.
+- No editorializing, no pattern-drawing language.
+
+OUTCOME DISCIPLINE: "settled" only if a settlement is reported (amount+date in outcome_detail); "ongoing" only if coverage confirms the case is active; "no_resolution_found" if dedicated searches surface neither. Criminal track is separate from civil.
+
+NOTES flags when applicable: "Outside strict police-department definition (<category>)"; "Filed before 2021; included because resolution occurred in window"; companion-record cross-references.
+
+Final message: one line per FILE written: "rec-<key>: <agency> — <outcome_status> — <N> sources — CONCERN: <inclusion_concern or none>". Nothing else.
+
+THE SEED RECORDS:
+
+Record A: row=13, slug="louisville-ky-r13". Agency hint: Louisville, KY, /KY. Year hint: (none). Seed outcome hint: (none). Source: Former Louisville police officer paid $200,000 in settlement over sexual harassment claims | Local News | wdrb.com; Holly Hill facing lawsuits from 3 female police department employees over accusations of rampant sexual misconduct; Seattle reaches $2.6M settlement with 4 police officers over sexual harassment claims https://www.wdrb.com/news/former-louisville-police-officer-paid-200-000-in-settlement-over-sexual-harassment-claims/article_1e1c99e2-7f5c-4a43-b915-5b32bbb1751b.html
+
+Record B: row=14, slug="new-orleans-police-department-2022-r14". Agency hint: New Orleans Police Department, US/LA. Year hint: 2022.0. Seed outcome hint: (none). Source: New Orleans ordered to pay $1 million to teen sexually assaulted by officer; A dirty cop molested a victim he'd brought to get a rape exam. Now, New Orleans must pay. https://www.washingtonpost.com/investigations/2024/08/21/new-orleans-police-sexual-abuse-verdict/
+
+Record C: row=15, slug="louisville-metro-police-department-2017-r15". Agency hint: Louisville Metro Police Department, US/KY. Year hint: 2017 (settled 2021). Seed outcome hint: settled 2021. Source: $3.65M settlement reached in LMPD Explorer program abuse case; LMPD Explorer child sex abuse case settled for $3.65 million; LMPD youth Explorer sexual abuse lawsuits settle for more than $3 million https://www.lpm.org/news/2021-11-03/3-65m-settlement-reached-in-lmpd-explorer-program-abuse-case
+
+Record D: row=16, slug="louisville-metro-police-department-2021-r16". Agency hint: Louisville Metro Police Department, US/KY. Year hint: 2021 (settled $1.8M in Oct 2022). Seed outcome hint: settled $1.8M in Oct 2022 ($1800000). Source: City pays $1.8M to 3 women who accused former Louisville police detective of sexual assault https://www.lpm.org/investigate/2022-10-26/city-pays-1-8m-to-3-women-who-accused-former-louisville-police-detective-of-sexual-assault

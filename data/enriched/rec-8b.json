@@ -1,0 +1,31 @@
+{
+  "row": 8,
+  "slug": "nypd-2026-r8-b",
+  "agency": "New York City Police Department",
+  "agency_category": "police",
+  "country": "US",
+  "state_province": "NY",
+  "lawsuit_type": "internal",
+  "year_filed": 2026,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "ongoing",
+  "outcome_detail": "Suit filed on or about July 9, 2026 (reported as the day before the July 10, 2026 arraignment of Inspector Jeremy Scheublin) against the City of New York, Police Commissioner Jessica Tisch, and Deputy Inspector Juan O. Moran; newly pending as of July 2026. No resolution reported.",
+  "settlement_amount_original": null,
+  "settlement_currency": "USD",
+  "settlement_date": null,
+  "criminal_status": "none_filed",
+  "criminal_detail": "No criminal charges reported against Deputy Inspector Juan O. Moran, the individual accused in this suit. (Separately, his predecessor at the precinct, Inspector Jeremy Scheublin, was criminally charged in July 2026 over a different officer's allegations; see companion record rec-8.)",
+  "officer_names": ["Juan O. Moran"],
+  "incident_date_approx": "2025-2026",
+  "description": "A female NYPD sergeant and two female officers assigned to the 46th Precinct in the Bronx sued the City of New York, Police Commissioner Jessica Tisch, and Deputy Inspector Juan O. Moran, the precinct's commanding officer, in July 2026. The lawsuit alleges sexual harassment, a hostile work environment, retaliation, and racial discrimination. According to the complaint, Moran harassed the plaintiffs in various ways, including giving an unwanted tight hug, making sexual comments, and untying a knot securing one officer's dress, and the suit characterizes the precinct as a 'personal sexual playground.' The suit was filed a day before the criminal arraignment of Moran's predecessor at the precinct, Inspector Jeremy Scheublin, on attempted rape and related charges involving a different subordinate. The case remains pending.",
+  "notes": "Related suit from same scandal: see companion record rec-8 (March 2026 suit against Inspector Jeremy Scheublin).",
+  "inclusion_concern": null,
+  "sources": [
+    {"url": "https://www.cbsnews.com/newyork/news/nypd-inspector-jeremy-scheublin-attempted-rape-46-precinct-lawsuit/", "title": "NYPD inspector accused of attempted rape in Bronx, as lawsuit alleges sexual harassment at 46th Precinct", "publisher": "CBS New York", "published_date": "2026-07-10"},
+    {"url": "https://www.msn.com/en-us/news/other/nypd-inspector-accused-of-attempted-rape-in-bronx-as-lawsuit-alleges-sexual-harassment-at-46th-precinct/ar-AA27EJu9?ocid=BingNewsSerp", "title": "NYPD inspector accused of attempted rape in Bronx, as lawsuit alleges sexual harassment at 46th Precinct (syndicated)", "publisher": "MSN / CBS New York", "published_date": "2026-07-10"},
+    {"url": "https://gothamist.com/news/nypd-inspector-sexually-assaulted-a-subordinate-bronx-prosecutors-say", "title": "NYPD inspector sexually assaulted a subordinate, Bronx prosecutors say", "publisher": "Gothamist", "published_date": null}
+  ],
+  "confidence_notes": "The exact filing date (reported only as the day before the July 10, 2026 arraignment) and the court of filing were not confirmed. The three plaintiffs are named in public reporting but are omitted here under the victim-naming rule. The coordinator's instruction referenced 'Deputy Inspector Mora'; cited reporting spells the name Juan O. Moran, which is used here. All allegations against Moran, Tisch, and the City are unproven claims from the complaint; Moran faces no reported criminal charges. Incident date range is approximate, inferred from Moran taking command after Scheublin and the July 2026 filing."
+}

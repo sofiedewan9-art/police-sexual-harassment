@@ -1,0 +1,16 @@
+{
+  "row": 25,
+  "slug": "county-of-los-angeles-2020-r25",
+  "fields": {
+    "agency": "County of Los Angeles (Probation Department juvenile facilities and MacLaren Children's Center)",
+    "agency_category": "juvenile",
+    "country": "US",
+    "state_province": "CA",
+    "lawsuit_type": "class_action",
+    "year_filed": 2021,
+    "outcome_status": "settled",
+    "settlement_amount_original": 4000000000,
+    "criminal_status": "none_filed"
+  },
+  "caveats": "Mass litigation of ~6,800-7,000 claims against LA County (multiple departments, chiefly Probation juvenile halls and MacLaren Children's Center), enabled by California AB 218 (effective 2020, statute-of-limitations lookback window). LAist states the lawsuit was filed in 2021; individual claims were filed across the AB 218 window (2020-2022), so year_filed=2021 reflects the lead filing, not all claims. $4B settlement tentatively announced April 2025, unanimously approved by Board of Supervisors April 29, 2025; still subject to court approval per ABC7. criminal_status: no criminal charges against the sexual abusers were reported in accessible sources; two cases were referred to the DA for possible prosecution (investigations ongoing), and separately Los Padrinos officers face child-endangerment/battery charges over staged fights, not the sexual abuse claims (Courthouse News: those 30 officers were indicted by the California AG for facilitating 'gladiator fights', unrelated to the abuse suits). Courthouse News fetched via curl after initial 403 and confirms the April 29, 2025 unanimous board approval of 6,800+ claims dating to the late 1950s. Imprint source returned HTTP 403 and was skipped."
+}

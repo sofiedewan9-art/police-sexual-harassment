@@ -1,0 +1,16 @@
+{
+  "row": 88,
+  "slug": "surete-du-quebec-2022-r88",
+  "fields": {
+    "agency": "Sûreté du Québec",
+    "agency_category": "state_police",
+    "country": "CA",
+    "state_province": "QC",
+    "lawsuit_type": "class_action",
+    "year_filed": 2021,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "none_filed"
+  },
+  "caveats": "Suit names Attorney General of Quebec for SQ officers' acts. Authorization filed Dec 2021 (sources give Dec 13 and 14); authorized May 27, 2025, heading to trial. No charges against Val-d'Or SQ officers; a retired SQ officer was charged over other-region incidents. 3 of 6 URLs failed (403/410)."
+}

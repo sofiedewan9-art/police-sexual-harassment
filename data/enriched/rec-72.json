@@ -1,0 +1,31 @@
+{
+  "row": 72,
+  "slug": "los-angeles-county-sheriff-s-department-2025-r72",
+  "agency": "Los Angeles County Sheriff's Department",
+  "agency_category": "sheriff",
+  "country": "US",
+  "state_province": "CA",
+  "lawsuit_type": "internal",
+  "year_filed": 2025,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "ongoing",
+  "outcome_detail": "Active in Los Angeles Superior Court. On May 3, 2026, Judge Teresa A. Beaudet approved a stipulation requiring the county to release the plaintiff's personnel file and related records; trial is scheduled for October 13, 2027.",
+  "settlement_amount_original": null,
+  "settlement_currency": "USD",
+  "settlement_date": null,
+  "criminal_status": "none_filed",
+  "criminal_detail": "No criminal charges or criminal investigation related to the allegations have been reported in the coverage found.",
+  "officer_names": [],
+  "incident_date_approx": "Alleged abuse beginning around 2006 during the hiring process and spanning roughly six years, through an emotional breakdown and suicide attempt in November 2012",
+  "description": "A former Los Angeles County sheriff's deputy, suing as Jane Doe, filed a lawsuit in Los Angeles Superior Court in May 2025 against Los Angeles County over alleged sexual abuse by three high-ranking LASD supervisors. According to the complaint, beginning around 2006 an LASD division chief conditioned his help in getting her hired on sexual contact, later directed her to provide sex to a lieutenant and to a captain at the Twin Towers jail, and in 2010 coerced her into an abortion she did not want. The suit alleges the years of abuse led to an emotional breakdown and a suicide attempt in November 2012. Her claims include sexual battery, gender discrimination, assault and battery, negligence, negligent hiring and supervision, failure to prevent harassment, and civil rights violations; the three supervisors are described by rank but are not defendants. In May 2026 the court approved release of her personnel records to the litigation, and trial is set for October 2027.",
+  "notes": "The accused supervisors (a division chief, a lieutenant, and a Twin Towers captain) are not named in cited reporting and are not defendants in the suit; the county is the defendant.",
+  "inclusion_concern": null,
+  "sources": [
+    {"url": "https://mynewsla.com/crime/2026/05/03/former-laco-deputy-lasd-agree-on-release-of-her-personnel-records/", "title": "LASD, Ex-Deputy Agree on Release of Her Personnel Records", "publisher": "MyNewsLA", "published_date": "2026-05-03"},
+    {"url": "https://www.liveaction.org/news/los-angeles-deputy-sues-abuse-coerced-abortion", "title": "Former Los Angeles deputy sues department, alleging abuse and coerced abortion", "publisher": "Live Action News", "published_date": null},
+    {"url": "https://2urbangirls.com/2025/05/former-deputy-sues-county-alleging-wrongful-termination-for-reporting-sexual-abuse/", "title": "Former deputy sues County alleging wrongful termination for reporting sexual abuse", "publisher": "2UrbanGirls", "published_date": null}
+  ],
+  "confidence_notes": "Plaintiff is anonymous (Jane Doe) and the accused supervisors are identified only by rank, so no officer names are recorded. The 2UrbanGirls article (May 2025, same case per search context) returned HTTP 403 and its wrongful-termination framing could not be verified in full text. Dedicated searches found no reporting of any criminal track. Alleged conduct dates to 2006-2012, well before the 2025 filing."
+}

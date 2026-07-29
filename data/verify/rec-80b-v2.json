@@ -1,0 +1,16 @@
+{
+  "row": 80,
+  "slug": "royal-newfoundland-constabulary-2024-r80-b",
+  "fields": {
+    "agency": "Royal Newfoundland Constabulary",
+    "agency_category": "police",
+    "country": "CA",
+    "state_province": "NL",
+    "lawsuit_type": "civilian",
+    "year_filed": 2024,
+    "outcome_status": "no_resolution_found",
+    "settlement_amount_original": null,
+    "criminal_status": "none_filed"
+  },
+  "caveats": "Second of two parallel suits filed Mar 28, 2024 (amended Apr 29) vs NL government over alleged assaults by retired Sgt. Robert Baldwin; sources don't say which plaintiff (2012 vs 2014 incident) this record covers. Untested as of May 2024; no charges. CBC/CP links failed."
+}

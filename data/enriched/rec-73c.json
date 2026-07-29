@@ -1,0 +1,32 @@
+{
+  "row": 73,
+  "slug": "holly-hill-police-department-2025-r73-c",
+  "agency": "Holly Hill Police Department",
+  "agency_category": "police",
+  "country": "US",
+  "state_province": "FL",
+  "lawsuit_type": "internal",
+  "year_filed": 2025,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "ongoing",
+  "outcome_detail": "Filed March 20, 2025 in the U.S. District Court for the Middle District of Florida, Orlando Division; as of the latest coverage (late March 2025) the city had not publicly responded and no resolution had been reported.",
+  "settlement_amount_original": null,
+  "settlement_currency": "USD",
+  "settlement_date": null,
+  "criminal_status": "none_filed",
+  "criminal_detail": "A Volusia County grand jury declined in October 2024 to bring criminal charges against former Chief Jeffrey Miller; no criminal charges have been reported against any of the accused officers.",
+  "officer_names": ["Jeffrey Miller", "Christopher Yates"],
+  "incident_date_approx": "Alleged conduct over several years during Miller's tenure as chief; investigation became public in 2024",
+  "description": "A former Holly Hill Police Department employee filed a federal lawsuit against the City of Holly Hill on March 20, 2025, in the U.S. District Court for the Middle District of Florida, the third suit brought by a female department employee. The complaint alleges former Chief Jeffrey Miller and Captain Christopher Yates engaged in 'routine and predatory acts in the workplace towards women for years,' describing a 'campaign of relentless sexual harassment, assault, and battery.' It alleges the department fostered a 'boys club' environment tolerating unwanted physical contact, sexually explicit requests, and attempts to pay for sexual favors while on duty. Miller resigned in March 2024 and Yates later resigned after being placed on leave, following a Volusia County Sheriff's Office investigation.",
+  "notes": "Companion records: rec-73 and rec-73b (two suits filed Jan. 31, 2025 by other female employees over the same scandal).",
+  "inclusion_concern": null,
+  "sources": [
+    {"url": "https://mynews13.com/fl/orlando/news/2025/03/26/holly-hill-facing-lawsuits-from-3-female-police-department-employees-over-accusations-of-rampant-misconduct", "title": "Holly Hill facing lawsuits from 3 female police department employees over accusations of rampant sexual misconduct", "publisher": "Spectrum News 13", "published_date": "2025-03-26"},
+    {"url": "https://www.clickorlando.com/news/local/2025/03/25/routine-and-predatory-acts-woman-files-suit-against-holly-hill-over-police-misconduct-allegations/", "title": "'Routine and predatory acts:' Woman files suit against Holly Hill over police misconduct allegations", "publisher": "WKMG ClickOrlando", "published_date": "2025-03-25"},
+    {"url": "https://www.fox35orlando.com/news/former-holly-hill-police-chief-captain-accused-workplace-misconduct-federal-lawsuit", "title": "Former Holly Hill Police Chief, Captain accused of workplace misconduct in federal lawsuit", "publisher": "FOX 35 Orlando", "published_date": "2025-03-25"},
+    {"url": "https://www.clickorlando.com/news/local/2024/10/02/grand-jury-clears-ex-holly-hill-police-chief-amid-sexual-assault-allegations/", "title": "Grand jury clears ex-Holly Hill police chief amid sexual assault allegations", "publisher": "WKMG ClickOrlando", "published_date": "2024-10-02"}
+  ],
+  "confidence_notes": "FOX 35 identifies this as a federal filing in the Middle District of Florida; Spectrum News 13 gives the March 20, 2025 filing date. No coverage found after March 2025; 'ongoing' reflects the most recent reporting."
+}

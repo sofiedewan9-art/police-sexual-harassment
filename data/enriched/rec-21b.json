@@ -1,0 +1,32 @@
+{
+  "row": 21,
+  "slug": "phoenix-police-department-2021-r21-b",
+  "agency": "Phoenix Police Department",
+  "agency_category": "police",
+  "country": "US",
+  "state_province": "AZ",
+  "lawsuit_type": "civilian",
+  "year_filed": 2021,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "settled",
+  "outcome_detail": "$425,000 settlement placed before the Phoenix City Council for approval on November 17, 2021; reporting describes both Pena accusers as having been paid $425,000 each by the city in 2021.",
+  "settlement_amount_original": 425000,
+  "settlement_currency": "USD",
+  "settlement_date": "2021-11-17",
+  "criminal_status": "acquitted",
+  "criminal_detail": "Pena was indicted in August 2020 on seven felony counts involving three women, including the plaintiff in this suit. A jury acquitted him on two counts and deadlocked on five in May 2022; a retrial jury acquitted him on all remaining counts in August 2022.",
+  "officer_names": ["Sean Pena"],
+  "incident_date_approx": "August 5, 2019",
+  "description": "A second woman sued former Phoenix police officer Sean Pena and the City of Phoenix on June 18, 2021, in Maricopa County Superior Court; the case was later moved to the U.S. District Court for the District of Arizona. The complaint alleges that on August 5, 2019, after responding to her call for service, Pena sexually assaulted her in two encounters that evening, including forced sexual contact inside his patrol vehicle. The suit also alleges the department failed to properly investigate a 2018 sexual assault report against Pena or increase his supervision. The city settled the claim for $425,000, with the settlement before the City Council in November 2021. Pena was acquitted of all criminal charges across two trials in 2022.",
+  "notes": "Companion record to rec-21 (first accuser's suit, settled June 2021); both arise from the same scandal involving ex-officer Sean Pena.",
+  "inclusion_concern": null,
+  "sources": [
+    {"url": "https://www.phoenixnewtimes.com/news/sean-pena-phoenix-police-lawsuit-11678057/", "title": "'Sadistic History of Sexual Violence': Another Alleged Victim of Ex-Phoenix Cop Sues", "publisher": "Phoenix New Times", "published_date": "2021-07-28"},
+    {"url": "https://krdo.com/news/2021/11/17/city-of-phoenix-to-pay-over-5-million-in-two-separate-police-settlements/", "title": "City of Phoenix to pay over $5 million in two separate police settlements", "publisher": "KRDO (CNN Newsource)", "published_date": "2021-11-17"},
+    {"url": "https://www.azfamily.com/2022/05/19/jury-finds-phoenix-officer-accused-sexual-assault-not-guilty-2-counts-deadlock-other-charges/", "title": "Jury finds Phoenix officer accused of sexual assault not guilty on 2 counts; deadlock on other charges", "publisher": "Arizona's Family (azfamily.com)", "published_date": "2022-05-19"},
+    {"url": "https://www.azfamily.com/2022/08/16/former-phoenix-police-officer-acquitted-sexual-assault-charges-second-trial/", "title": "Former Phoenix police officer acquitted on sexual assault charges in second trial", "publisher": "Arizona's Family (azfamily.com)", "published_date": "2022-08-16"}
+  ],
+  "confidence_notes": "Settlement date of 2021-11-17 reflects the date the $425,000 settlement was reported as up for City Council vote (KRDO/CNN Newsource); the exact vote date was not independently confirmed. Later 12 News/FOX 10 reporting confirms both accusers were paid $425,000 each in 2021. The plaintiff is a named public plaintiff in reporting but is not named here per victim-naming rule."
+}

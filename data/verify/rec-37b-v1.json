@@ -1,0 +1,16 @@
+{
+  "row": 37,
+  "slug": "multnomah-county-sheriff-s-office-2026-r37-b",
+  "fields": {
+    "agency": "Multnomah County Sheriff's Office",
+    "agency_category": "sheriff",
+    "country": "US",
+    "state_province": "OR",
+    "lawsuit_type": "civilian",
+    "year_filed": 2026,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "charged"
+  },
+  "caveats": "Second lawsuit against former corrections deputy Edwin Diaz, by a different former inmate (alleged assault Sept 2024). KATU (published 2026-04-08) says the suit was filed in federal court on Friday 2026-04-05; OPB (2026-04-07) confirms a second woman suing Multnomah County and the deputy but gives no filing date. Suit pending, seeks jury trial and damages, so 'ongoing'. Criminal: Diaz indicted June 2025 on ~25 counts, no trial date, so 'charged'. Agency is the sheriff's office though the setting is the county jail."
+}

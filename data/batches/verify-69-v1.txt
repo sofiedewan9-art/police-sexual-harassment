@@ -1,0 +1,53 @@
+You are an independent verification agent for a database of civil lawsuits involving sexual assault/harassment and law-enforcement agencies. Today is 2026-07-28. For each record below you get ONLY source URLs. Read the sources (WebFetch; if one fails, skip it — do NOT search for other articles) and independently derive the fields from the sources alone. Do not guess: if the sources don't establish a value, use null.
+
+For each record, write a JSON file to /Users/sofiedewan/police-sa-lawsuits/data/verify/rec-<key>-v1.json (the <key> is given per record):
+{
+  "row": <int>, "slug": "<given>",
+  "fields": {
+    "agency": "<official agency name as best supported by sources>",
+    "agency_category": "police|sheriff|state_police|corrections|juvenile|federal|campus|transit|other",
+    "country": "US|CA",
+    "state_province": "<2-letter>",
+    "lawsuit_type": "civilian|internal|class_action",
+    "year_filed": <int|null>,
+    "outcome_status": "settled|plaintiff_verdict|defense_verdict|dismissed|ongoing|no_resolution_found",
+    "settlement_amount_original": <number|null>,
+    "criminal_status": "none_filed|charged|convicted|pleaded_guilty|acquitted|charges_dropped|unknown"
+  },
+  "caveats": "<brief notes on anything ambiguous>"
+}
+Definitions: civilian = officer accused of assaulting a civilian; internal = employee suing own agency over workplace sexual assault/harassment; class_action = mass litigation. "ongoing" only if sources confirm the case is active; "no_resolution_found" if sources show no resolution. year_filed = year the CIVIL suit was filed. If no lawsuit exists in the sources, pick the closest lawsuit_type fit and say so in caveats.
+
+Final message: one line per record "rec-<key>: done". Nothing else.
+
+THE RECORDS:
+
+Record key=69, row=69, slug="harris-county-constable-s-office-precinct-1-2021-r69", sources:
+https://lawandcrime.com/lawsuit/houston-cops-molested-female-deputies-during-undercover-stings-forced-one-to-be-penetrated-in-both-her-vagina-and-anus-by-known-rapist-lawsuit/
+https://www.nbcnews.com/news/us-news/current-former-texas-constable-s-deputies-file-lawsuit-alleging-abuse-n1268303
+https://www.khou.com/article/news/local/lawsuit-settlement-precinct-1-female-deputies-harris-county/285-23476f54-bae7-4e33-96c9-98e5a402945b
+https://www.houstonpublicmedia.org/articles/news/harris-county/2024/06/05/489776/harris-county-to-pay-1-5-million-settling-sexual-misconduct-lawsuit-involving-constable-deputies/
+https://www.nbcdfw.com/news/local/texas-news/harris-county-constable-human-trafficking-unit-settlement/3561337/
+https://abc13.com/post/harris-county-commissioners-pay-15m-former-pct-1/14915198/
+https://www.houstonpublicmedia.org/articles/news/criminal-justice/2021/07/08/402618/fbi-investigating-harris-county-constables-after-female-deputies-allege-sexual-assault/
+https://communityimpact.com/houston/heights-river-oaks-montrose/2021/09/01/harris-county-precinct-1-constable-alan-rosen-dismissed-from-lawsuit-alleging-superiors-harass-endanger-female-deputies/
+
+Record key=70, row=70, slug="central-connecticut-state-university-police-department-2018-", sources:
+https://www.wtnh.com/news/connecticut/hartford/ccsu-to-pay-1-75-million-settlement-of-claims-accusing-campus-police-officers-of-sexual-harassment-assault/
+https://www.campussafetymagazine.com/news/female-officer-ccsu-rape-lawsuit/91995/
+https://www.fox61.com/article/news/local/outreach/awareness-months/lawsuit-filed-against-ccsu-police-accusing-officer-of-sexual-assault/520-6296f3c7-8272-459e-b862-c6d23b449dc4
+http://www.newbritainherald.com/NBH-New+Britain+News/377307/female-officer-at-ccsu-awarded-175-million-in-settlement-with-university-over-lawsuit-alleging-she-was-raped-by-another-officer
+
+Record key=71, row=71, slug="los-angeles-police-department-2023-r71", sources:
+https://www.nbclosangeles.com/investigations/lapd-officer-says-he-can-no-longer-remain-silent-about-alleged-hazing-and-assault-while-participating-in-police-football-program/3353139/
+https://www.nbclosangeles.com/investigations/city-of-la-denies-allegations-seeks-to-shift-liability-in-lawsuit-alleging-sexual-hazing-at-lapd-football-team/3359233/
+https://www.yahoo.com/news/detective-alleges-sexual-hazing-lapds-161015154.html
+https://mynewsla.com/crime/2024/09/12/judge-to-review-personnel-records-in-alleged-lapd-football-team-hazing/
+https://www.foxnews.com/us/lapd-football-team-faces-disturbing-sex-abuse-claims-beer-can-attack-lawsuit
+https://www.legalreader.com/los-angeles-liability-police-centurions-football-team-lawsuit/
+
+Record key=72, row=72, slug="los-angeles-county-sheriff-s-department-2025-r72", sources:
+https://mynewsla.com/crime/2026/05/03/former-laco-deputy-lasd-agree-on-release-of-her-personnel-records/
+https://www.liveaction.org/news/los-angeles-deputy-sues-abuse-coerced-abortion
+https://2urbangirls.com/2025/05/former-deputy-sues-county-alleging-wrongful-termination-for-reporting-sexual-abuse/
+

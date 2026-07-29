@@ -1,0 +1,16 @@
+{
+  "row": 20,
+  "slug": "harris-county-sheriff-s-office-2022-r20",
+  "fields": {
+    "agency": "Harris County Sheriff's Office",
+    "agency_category": "sheriff",
+    "country": "US",
+    "state_province": "TX",
+    "lawsuit_type": "civilian",
+    "year_filed": 2021,
+    "outcome_status": "dismissed",
+    "settlement_amount_original": null,
+    "criminal_status": "pleaded_guilty"
+  },
+  "caveats": "Shanita Terrell's federal civil-rights suit (Terrell v. Harris County) against Harris County, Sheriff Ed Gonzalez, and deputies Cannon/Hines over a Feb. 23, 2020 assault was dismissed with prejudice (qualified immunity / insufficient Monell allegations); the Fifth Circuit affirmed July 9, 2024 — hence 'dismissed' for the claim against the agency. Year filed: the Fifth Circuit opinion says roughly 18 months after the incident (~2021), though a Feb. 2022 news article context could suggest early 2022. A separate state-court suit against The Address bar settled confidentially (amount unknown; not paid by the agency), and the state claim against Hines was still pending as of Aug. 2023. Hines pleaded guilty in 2023 to attempted sexual assault but received 6 years deferred adjudication (technically not a conviction). The findlaw.com source returned HTTP 403 and was skipped (the Justia copy of the same 5th Cir. opinion was used)."
+}

@@ -1,0 +1,16 @@
+{
+  "row": 7,
+  "slug": "unknown-agency-r7",
+  "fields": {
+    "agency": "Worcester Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "MA",
+    "lawsuit_type": "civilian",
+    "year_filed": 2016,
+    "outcome_status": "plaintiff_verdict",
+    "settlement_amount_original": 2500000,
+    "criminal_status": "convicted"
+  },
+  "caveats": "Civil suit: woman raped in Aug 2013 by then-officer Rajat Sharda sued Sharda, the City of Worcester, ex-City Manager Michael O'Brien, and ex-Chief Gary Gemme; filed 2016 (Aug per thisweekinworcester; reported Nov 2, 2016 by wwlp), moved from state to federal court. Outcome: thisweekinworcester (citing the Dec 2024 DOJ pattern-or-practice report) says Sharda was 'ordered to pay victim $2.5 million in federal court' -- a court-ordered judgment against Sharda personally, not a negotiated settlement, and possibly a default judgment; the outcome of claims against the city/officials is not stated in the sources, so plaintiff_verdict and the $2.5M amount rest on that single secondhand reference. Criminal: Sharda convicted in 2015 of rape and related counts (aggravated rape, lewdness, witness intimidation etc., arrested Feb 2014), sentenced to 5-7 years; conviction affirmed by the MA Appeals Court on April 21, 2022 (Commonwealth v. Sharda, 21-P-98). Failed sources: apnews.com (unfetchable), boston.com 2016 article (403). The DOJ investigation (2022-2024, findings released Dec 2024) found a WPD pattern of sexual misconduct against suspected sex workers but is an investigation, not a lawsuit."
+}

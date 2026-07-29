@@ -1,0 +1,16 @@
+{
+  "row": 12,
+  "slug": "nypd-r12",
+  "fields": {
+    "agency": "New York Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "NY",
+    "lawsuit_type": "internal",
+    "year_filed": 2025,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "unknown"
+  },
+  "caveats": "Detective Jasmin Walls (Brooklyn 90th Precinct) sued alleging sexual harassment/assault by partner Detective Carlos Zambrano and retaliation after reporting; filed July 24, 2025 in Manhattan Supreme Court seeking unspecified damages. Sources (Aug 2025) describe active/pending litigation, so 'ongoing' is based on sources ~1 year old; no later status available. Zambrano remained on the job per sources; no criminal charges mentioned, so criminal_status 'unknown'. NY Post source could not be fetched (blocked) and was skipped; Yahoo and AOL carried the same syndicated article."
+}

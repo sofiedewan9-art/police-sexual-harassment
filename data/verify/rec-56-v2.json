@@ -1,0 +1,16 @@
+{
+  "row": 56,
+  "slug": "clark-county-sheriff-s-office-2022-r56",
+  "fields": {
+    "agency": "Clark County Sheriff's Office",
+    "agency_category": "sheriff",
+    "country": "US",
+    "state_province": "IN",
+    "lawsuit_type": "class_action",
+    "year_filed": 2022,
+    "outcome_status": "settled",
+    "settlement_amount_original": 328000,
+    "criminal_status": "charges_dropped"
+  },
+  "caveats": "Mass litigation (~28-30 women, federal suits from June/July 2022, S.D. Ind.), not a certified class per PLN. Settled 2024: $328,000 per PLN/WDRB (25 detainees); LPM cites $370,500 total. Charges vs. jailer David Lowe dismissed Feb 2025. Ex-Sheriff Noel guilty of unrelated corruption."
+}

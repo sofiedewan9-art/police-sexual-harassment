@@ -1,0 +1,33 @@
+{
+  "row": 35,
+  "slug": "west-palm-beach-police-department-2026-r35",
+  "agency": "West Palm Beach Police Department",
+  "agency_category": "police",
+  "country": "US",
+  "state_province": "FL",
+  "lawsuit_type": "civilian",
+  "year_filed": 2026,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "ongoing",
+  "outcome_detail": "Federal lawsuit reported as newly filed in May 2026; no responsive rulings, settlement, or judgment reported as of July 2026. The parallel criminal case against the former officer was also still pending in available coverage.",
+  "settlement_amount_original": null,
+  "settlement_currency": "USD",
+  "settlement_date": null,
+  "criminal_status": "charged",
+  "criminal_detail": "Justice Feeley-Carim, 30, turned himself in at the Palm Beach County Main Detention Center on August 30, 2025 on charges of false imprisonment, simple battery, and misuse of official position stemming from the March 26, 2025 Walmart parking lot incident. He had been fired April 16, 2025 while on probationary status. His attorney says he 'vehemently denies these false accusations.' No plea or trial outcome reported as of July 2026.",
+  "officer_names": ["Justice Feeley-Carim"],
+  "incident_date_approx": "March 26, 2025",
+  "description": "A 38-year-old woman, proceeding as Jane Doe, filed a federal lawsuit against the City of West Palm Beach, reported in May 2026, over an alleged March 26, 2025 incident involving then-rookie police officer Justice Feeley-Carim. According to the lawsuit and the related arrest report, Feeley-Carim used his marked patrol car to block in a parked car at a Walmart on 45th Street, detained the woman for about 20 minutes, made sexual advances, and ordered her to touch him sexually, which she says she did out of fear of arrest. The suit alleges city leaders fostered 'a culture of lawlessness' in the police department and showed deliberate indifference, noting that internal affairs had already received two complaints about Feeley-Carim before the incident. Feeley-Carim was fired in April 2025 and criminally charged in August 2025 with false imprisonment, simple battery, and misuse of official position; he denies the allegations. The civil case is in its early stages.",
+  "notes": null,
+  "inclusion_concern": null,
+  "sources": [
+    {"url": "https://www.yahoo.com/news/articles/woman-sues-west-palm-over-130446119.html", "title": "Woman sues West Palm over ignored complaints against her alleged attacker", "publisher": "The Palm Beach Post (via Yahoo News)", "published_date": "2026-05-21"},
+    {"url": "https://www.wptv.com/news/region-c-palm-beach-county/west-palm-beach/former-west-palm-beach-police-officer-arrested-months-after-misconduct-complaint", "title": "Former West Palm Beach police officer arrested months after misconduct complaint", "publisher": "WPTV", "published_date": null},
+    {"url": "https://www.wptv.com/news/region-c-palm-beach-county/west-palm-beach/former-west-palm-beach-officer-faced-multiple-internal-investigations-before-termination", "title": "Former West Palm Beach police officer faced multiple internal investigations before termination", "publisher": "WPTV", "published_date": null},
+    {"url": "https://www.yahoo.com/news/articles/west-palm-beach-police-arrest-201317797.html", "title": "West Palm Beach police arrest former officer accused of sexual misconduct while on duty", "publisher": "Yahoo News", "published_date": null},
+    {"url": "https://www.yahoo.com/news/articles/former-west-palm-beach-officer-200200946.html", "title": "Former West Palm Beach officer accused of false imprisonment, battery from on-duty stop", "publisher": "Yahoo News", "published_date": null}
+  ],
+  "confidence_notes": "Exact filing date and court/case number not given in available coverage (Palm Beach Post article updated May 21, 2026 describes a 'federal lawsuit'); year_filed 2026 is inferred from the reporting date and the seed hint. WPTV reported hire date of September 3, 2024 in earlier coverage and three internal affairs investigations (IA #25-048, 25-071, 25-081); the civil suit references two prior complaints before the incident. Criminal case still pending in latest coverage found."
+}

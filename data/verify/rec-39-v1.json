@@ -1,0 +1,16 @@
+{
+  "row": 39,
+  "slug": "chisago-county-sheriff-s-office-2024-r39",
+  "fields": {
+    "agency": "Chisago County Sheriff's Office",
+    "agency_category": "sheriff",
+    "country": "US",
+    "state_province": "MN",
+    "lawsuit_type": "civilian",
+    "year_filed": 2023,
+    "outcome_status": "settled",
+    "settlement_amount_original": 7500000,
+    "criminal_status": "pleaded_guilty"
+  },
+  "caveats": "One source (bringmethenews.com) returned HTTP 403 and was skipped. Victim Darcey Duncan (former sheriff Richard 'Rick' Duncan's sister-in-law, a civilian, not an employee) sued Duncan and Chisago County over a 2017 blackmail scheme used to coerce sexual acts. Minnesota Lawyer and Chisago County Press both give a 2023 filing (U.S. District Court, D. Minn., Section 1983); note the slug says 2024 but sources say 2023. Settled for $7.5 million, approved by the county board / Minnesota Counties Insurance Trust in February 2026. Criminal: Duncan pleaded guilty (Nov 2023) to criminal sexual conduct in the third degree; sentenced to about six months jail (178 days per one source) plus 15 years probation and sex-offender registration. Sources vary between 'convicted' and 'pleaded guilty'; the conviction was via guilty plea, so 'pleaded_guilty'. A separate, earlier $1.1M sexual-harassment verdict by a female employee is a different case and not this record."
+}

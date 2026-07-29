@@ -1,0 +1,16 @@
+{
+  "row": 64,
+  "slug": "la-vergne-police-department-2023-r64",
+  "fields": {
+    "agency": "La Vergne Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "TN",
+    "lawsuit_type": "internal",
+    "year_filed": 2023,
+    "outcome_status": "settled",
+    "settlement_amount_original": 500000,
+    "criminal_status": "none_filed"
+  },
+  "caveats": "Maegan Hall v. City of La Vergne et al., filed 2/2023, federal court; $500k settlement (city denied liability; insurer paid). Fox17/Wikipedia date settlement 3/2024; one WSMV fetch said 12/2024, likely erroneous. No charges over the misconduct; ex-chief Davis later charged in unrelated matters."
+}

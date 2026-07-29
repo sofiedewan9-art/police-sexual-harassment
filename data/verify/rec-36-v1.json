@@ -1,0 +1,16 @@
+{
+  "row": 36,
+  "slug": "chicago-police-department-2018-r36",
+  "fields": {
+    "agency": "Chicago Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "IL",
+    "lawsuit_type": "civilian",
+    "year_filed": null,
+    "outcome_status": "settled",
+    "settlement_amount_original": 100000,
+    "criminal_status": "pleaded_guilty"
+  },
+  "caveats": "Officer Corey Deanes. ProPublica/WBEZ report a $100,000 settlement to the woman (23) he harassed/touched during an Aug. 28, 2017 traffic stop; the filing year of that civil suit is not stated in the sources (slug suggests 2018), so year_filed is null. Deanes was arrested May 7, 2019 on felony aggravated battery and official misconduct plus misdemeanor battery counts covering three incidents (Aug. 2017-July 2018), and per WBEZ pleaded guilty in 2020 to a reduced misdemeanor battery charge, receiving two years' probation and loss of Illinois certification. WTTW source returned 403 and could not be read."
+}

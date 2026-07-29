@@ -1,0 +1,32 @@
+{
+  "row": 86,
+  "slug": "royal-canadian-mounted-police-2021-r86-b",
+  "agency": "Royal Canadian Mounted Police",
+  "agency_category": "federal",
+  "country": "CA",
+  "state_province": "ON",
+  "lawsuit_type": "class_action",
+  "year_filed": 2020,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "ongoing",
+  "outcome_detail": "Certified by the Federal Court on June 6, 2023. Opt-out period open until March 25, 2026. No settlement or trial judgment reported as of July 2026; class counsel notes no money is currently available.",
+  "settlement_amount_original": null,
+  "settlement_currency": "CAD",
+  "settlement_date": null,
+  "criminal_status": "unknown",
+  "criminal_detail": "The class action targets systemic conduct rather than named officers; no criminal prosecutions tied to the class claims were identified in coverage.",
+  "officer_names": [],
+  "incident_date_approx": "Class period May 14, 1953 to present (class members alive as of July 20, 2018)",
+  "description": "This Federal Court class action, filed July 20, 2020 against the Attorney General of Canada, is brought on behalf of all First Nations, Inuit and Metis persons who allege they were physically or sexually assaulted by RCMP members during arrest, detainment, or while being held in custody between May 14, 1953 and the present, outside the Territories. According to the claim, the assaults reflect systemic racism and misconduct in RCMP policing of Indigenous people, and the action seeks financial compensation as well as commitments to structural reform. The action was certified on June 6, 2023, and the opt-out period runs until March 25, 2026. Members of the certified Nasogaluak class action covering the Territories (rec-86) are excluded from this class.",
+  "notes": "Companion record to rec-86 (Nasogaluak, Territories); this nationwide action explicitly includes sexual assault within its class definition and excludes Nasogaluak class members. Class spans all provinces outside the Territories; state_province recorded as ON (Federal Court, national scope) — see confidence_notes.",
+  "inclusion_concern": "Sexual assault is expressly included in the class definition but sits alongside physical assault; sexual misconduct is a core covered harm rather than the sole focus.",
+  "sources": [
+    {"url": "https://www.murphybattista.com/practice-areas/class-action-lawsuits/rcmp-indigenous-racism-and-assault-case/", "title": "RCMP Indigenous Racism and Assault Class Action", "publisher": "Murphy Battista LLP", "published_date": null},
+    {"url": "https://cooperregel.ca/cases/rcmp-class-action-south/", "title": "RCMP Class Action – South", "publisher": "Cooper Regel LLP", "published_date": null},
+    {"url": "https://www.newswire.ca/news-releases/indigenous-persons-who-were-assaulted-at-any-time-while-being-held-in-custody-or-detention-by-the-rcmp-may-be-affected-by-a-class-action-853794728.html", "title": "Indigenous Persons Who Were Assaulted at Any Time While Being Held in Custody or Detention by the RCMP may be Affected by a Class Action", "publisher": "CNW / Newswire.ca", "published_date": null},
+    {"url": "https://www.theglobeandmail.com/politics/article-court-certifies-class-action-alleging-abuse-of-indigenous-people-by/", "title": "Court certifies class action alleging abuse of Indigenous people by RCMP in territories", "publisher": "The Globe and Mail", "published_date": null}
+  ],
+  "confidence_notes": "Created as a companion record because the seed's orphan title 'RCMP Indigenous Racism and Assault Class Action' resolved to this distinct, separately filed and certified nationwide action rather than the Nasogaluak suit. The class is Canada-wide outside the Territories, so no single province applies; ON was recorded as the Federal Court's principal registry location and should be treated as a placeholder. Representative plaintiff name not confirmed from available coverage. Filing date (2020-07-20), certification date (2023-06-06) and opt-out deadline (2026-03-25) are from class counsel pages."
+}

@@ -1,0 +1,33 @@
+{
+  "row": 13,
+  "slug": "louisville-ky-r13",
+  "agency": "Louisville Metro Police Department",
+  "agency_category": "police",
+  "country": "US",
+  "state_province": "KY",
+  "lawsuit_type": "internal",
+  "year_filed": 2024,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "settled",
+  "outcome_detail": "$200,000 settlement paid to the plaintiff, reported/confirmed December 2025 (WDRB, Dec. 17, 2025). Settlement allowed the plaintiff to avoid protracted litigation.",
+  "settlement_amount_original": 200000,
+  "settlement_currency": "USD",
+  "settlement_date": null,
+  "criminal_status": "none_filed",
+  "criminal_detail": "No criminal charges reported against either accused officer. Justin LeMon was terminated by LMPD in April 2024 for 'conduct unbecoming' violations; the internal investigation did not sustain the sexual harassment/abuse allegations against him. Dale Cottongim received a reprimand and transfer and was exonerated on the sexual harassment allegation.",
+  "officer_names": ["Justin LeMon", "Dale Cottongim"],
+  "incident_date_approx": "2023 (during plaintiff's field training, including November 2023)",
+  "description": "A female Louisville Metro Police Department officer, Christine Silk, sued Louisville Metro Government in June 2024 (Jefferson Circuit Court, No. 24-CI-004228) over sexual harassment she said she experienced as a recruit and trainee. The suit alleged that her field training officer, Justin LeMon, subjected her to unwanted physical contact, exposed himself, sent sexually charged text messages including a nude photo, requested nude pictures, and made demeaning comments; a second training-unit officer, Dale Cottongim, was also named. According to reporting, LeMon was terminated in April 2024 for conduct unbecoming violations, though the harassment allegations were not sustained internally, and Cottongim was reprimanded and transferred. The city settled the suit for $200,000, as reported in December 2025. No criminal charges were filed against either officer.",
+  "notes": "Seed row 13 bundled three unrelated articles; the two non-Louisville cases (Holly Hill, FL and Seattle, WA) are recorded separately as companion records rec-13b and rec-13c.",
+  "inclusion_concern": null,
+  "sources": [
+    {"url": "https://www.wdrb.com/news/former-louisville-police-officer-paid-200-000-in-settlement-over-sexual-harassment-claims/article_1e1c99e2-7f5c-4a43-b915-5b32bbb1751b.html", "title": "Former Louisville police officer paid $200,000 in settlement over sexual harassment claims", "publisher": "WDRB", "published_date": "2025-12-17"},
+    {"url": "https://www.whas11.com/article/news/local/louisville-police-officer-files-sexual-harassment-lawsuit-lmpd-christine-silk/417-2c48dac3-bb3e-4db2-af98-14ec0cc42058", "title": "Two Louisville police officers named in sexual harassment lawsuit involving nude photos", "publisher": "WHAS11", "published_date": null},
+    {"url": "https://www.wave3.com/2024/06/18/lmpd-officer-sues-department-sexual-harassment-claims/", "title": "LMPD officer sues department on sexual harassment claims", "publisher": "WAVE 3 News", "published_date": "2024-06-18"},
+    {"url": "https://www.wdrb.com/in-depth/louisville-police-recruit-was-sent-nude-photo-sexually-harassed-by-2-supervisors-lawsuit-says/article_8ba85432-2d9f-11ef-a3ec-7b27d6084480.html", "title": "Louisville police recruit was sent nude photo, sexually harassed by 2 supervisors, lawsuit says", "publisher": "WDRB", "published_date": null},
+    {"url": "https://www.lpm.org/news/2025-05-06/louisville-mayor-responds-to-lmpd-sexual-harassment-issues-consent-decree-uncertainty", "title": "Louisville mayor responds to LMPD sexual harassment issues, consent decree uncertainty", "publisher": "Louisville Public Media", "published_date": "2025-05-06"}
+  ],
+  "confidence_notes": "Exact settlement date not reported (WDRB confirmed the $200,000 figure in a Dec. 17, 2025 article, updated Dec. 19, 2025), so settlement_date is null. The plaintiff (Christine Silk) is a named public plaintiff-officer, not a sexual-assault victim identified against her will; she is named in the description because she brought the public suit under her own name. Some search-result phrasing suggested the settlement may have been reached in late 2025 or confirmed in 2026; the primary WDRB article dates it to December 2025."
+}

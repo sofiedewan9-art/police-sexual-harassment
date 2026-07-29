@@ -1,0 +1,16 @@
+{
+  "row": 76,
+  "slug": "salt-lake-county-sheriff-s-office-2022-r76",
+  "fields": {
+    "agency": "Salt Lake County Sheriff's Office",
+    "agency_category": "sheriff",
+    "country": "US",
+    "state_province": "UT",
+    "lawsuit_type": "internal",
+    "year_filed": 2022,
+    "outcome_status": "no_resolution_found",
+    "settlement_amount_original": null,
+    "criminal_status": "unknown"
+  },
+  "caveats": "Cadet sued county/SLCSO/ex-supervisor Brandon Hartley; filed 3rd District Court Oct 2022, moved to federal court Nov 2022. Latest sources (Dec 2022) show case pending; no later info. kslnewsradio source failed (403). No criminal charges mentioned; plaintiff said she was discouraged from reporting."
+}

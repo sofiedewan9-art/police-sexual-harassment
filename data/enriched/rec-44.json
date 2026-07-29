@@ -1,0 +1,33 @@
+{
+  "row": 44,
+  "slug": "granger-police-department-2024-r44",
+  "agency": "Granger Police Department",
+  "agency_category": "police",
+  "country": "US",
+  "state_province": "WA",
+  "lawsuit_type": "civilian",
+  "year_filed": 2024,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "settled",
+  "outcome_detail": "The City of Granger settled for $700,000 on May 22, 2025 (announced late May 2025), after roughly a year of litigation on the suit filed May 17, 2024.",
+  "settlement_amount_original": 700000,
+  "settlement_currency": "USD",
+  "settlement_date": "2025-05-22",
+  "criminal_status": "none_filed",
+  "criminal_detail": "The Yakima County Prosecutor determined there was insufficient evidence to file criminal charges against Trejo. In July 2023 a judge granted the woman a 10-year sexual assault protection order against him. Trejo was placed on administrative leave and is no longer employed by the city.",
+  "officer_names": ["Glen Trejo"],
+  "incident_date_approx": "Beginning July 2022, continuing over about a year",
+  "description": "A woman in her mid-twenties sued the City of Granger, Washington on May 17, 2024 over the conduct of former Granger police officer Glen Trejo. The suit alleged that beginning in July 2022 Trejo forced her into a sexual relationship, pressuring her into sex acts while, according to the complaint, she did not consent but felt she had no choice because he was a police officer and feared harm to herself or her children if she refused. The complaint also alleged the city was negligent in handling her case, training its employees, and providing adequate supervision, and that city officials, including the former mayor and a police lieutenant, attempted to cover up the misconduct. The Yakima County Prosecutor declined to file criminal charges, citing insufficient evidence, though a judge granted the woman a 10-year sexual assault protection order against Trejo in July 2023. The city settled the lawsuit for $700,000 on May 22, 2025.",
+  "notes": null,
+  "inclusion_concern": null,
+  "sources": [
+    {"url": "https://www.applevalleynewsnow.com/news/granger-settles-alleged-sexual-assault-lawsuit-involving-former-police-officer-for-700-000/article_9ebf915c-3ce6-429e-8384-ba8ef883321f.html", "title": "Granger settles alleged sexual assault lawsuit involving former police officer for $700,000", "publisher": "Apple Valley News Now", "published_date": "2025-05-30"},
+    {"url": "https://www.yakimaherald.com/news/local/crime_and_courts/granger-settles-lawsuit-over-officer-accused-of-forcing-woman-to-have-sex-with-him/article_7ba56ddd-8d1d-4415-9784-e14afa732320.html", "title": "Granger settles lawsuit over officer accused of forcing woman to have sex with him", "publisher": "Yakima Herald-Republic", "published_date": "2025-06-02"},
+    {"url": "https://www.nbcrightnow.com/news/city-of-granger-granger-police-settle-sexual-assault-lawsuit-involving-former-officer/article_96ded7cd-9a8e-46cd-8ea8-0d0604f4b64a.html", "title": "City of Granger, Granger Police settle sexual assault lawsuit involving former officer", "publisher": "NBC Right Now", "published_date": null},
+    {"url": "https://kimatv.com/news/local/city-of-granger-and-police-department-settles-sexual-assault-lawsuit", "title": "City of Granger and Police Department Settles Sexual Assault Lawsuit", "publisher": "KIMA-TV", "published_date": null},
+    {"url": "https://www.yakimaherald.com/news/local/lower_valley/former-granger-police-chief-says-city-retaliated-against-him-for-investigating-officer/article_ddc90778-9bac-11ee-b2a7-7b41d105bf47.html", "title": "Former Granger police chief says city retaliated against him for investigating officer", "publisher": "Yakima Herald-Republic", "published_date": null}
+  ],
+  "confidence_notes": "The court where the May 17, 2024 suit was filed was not specified in coverage (likely Yakima County Superior Court or E.D. Wash.). Settlement date of May 22, 2025 comes from the Yakima Herald-Republic; the seed and Apple Valley News Now confirm the $700,000 amount. Sources give Trejo's age as 42 and 44 in different 2025 articles. Alleged cover-up participants (former mayor Jose Trevino, Lt. Juan Ceja) are allegations from the complaint only. The final Yakima Herald-Republic source concerns a related whistleblower-retaliation claim by the former police chief who investigated Trejo; that suit is employment-retaliation, not sexual misconduct, so no companion record was created."
+}

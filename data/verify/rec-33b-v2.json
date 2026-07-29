@@ -1,0 +1,16 @@
+{
+  "row": 33,
+  "slug": "warren-police-department-2025-r33-b",
+  "fields": {
+    "agency": "Warren Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "OH",
+    "lawsuit_type": "civilian",
+    "year_filed": 2025,
+    "outcome_status": "no_resolution_found",
+    "settlement_amount_original": null,
+    "criminal_status": "convicted"
+  },
+  "caveats": "Fourth woman (civilian, 33, of Niles OH) filed suit July 7, 2025 in N.D. Ohio against City of Warren, Chief Erik Merkel, and ex-officer Michael Edwards Jr., alleging on-duty sexual assault in fall 2023. Sources are filing-announcement coverage only (July 2025); no later status or resolution shown, so no_resolution_found rather than ongoing. WKBN source returned 403. Edwards convicted fall 2024 and serving 34-39 years; sources here noted he was appealing (appeal later failed per record-33 sources)."
+}

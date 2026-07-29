@@ -163,16 +163,30 @@ for (const file of enrichedFiles) {
     seed = { ...seed, id: splitId, slug: splitSlug };
   }
 
-  const rec = JSON.parse(readFileSync(path.join(ROOT, "data/enriched", file), "utf8"));
   const key = `${row}${letter}`;
+  let rec;
+  try {
+    rec = JSON.parse(readFileSync(path.join(ROOT, "data/enriched", file), "utf8"));
+  } catch (e) {
+    console.log(`row ${key}: UNPARSEABLE enriched file, skipping — ${e.message.slice(0, 60)}`);
+    skipped++;
+    continue;
+  }
   const v1Path = path.join(ROOT, "data/verify", `rec-${key}-v1.json`);
   const v2Path = path.join(ROOT, "data/verify", `rec-${key}-v2.json`);
   let confidence = {};
   const conflictFields = [];
 
   if (existsSync(v1Path) && existsSync(v2Path)) {
-    const v1 = JSON.parse(readFileSync(v1Path, "utf8")).fields ?? {};
-    const v2 = JSON.parse(readFileSync(v2Path, "utf8")).fields ?? {};
+    let v1, v2;
+    try {
+      v1 = JSON.parse(readFileSync(v1Path, "utf8")).fields ?? {};
+      v2 = JSON.parse(readFileSync(v2Path, "utf8")).fields ?? {};
+    } catch (e) {
+      console.log(`row ${key}: UNPARSEABLE verify file, skipping — ${e.message.slice(0, 60)}`);
+      skipped++;
+      continue;
+    }
     for (const f of AUDITED) {
       const verdict = agreement(f, rec[f], v1[f], v2[f]);
       confidence[f] = verdict;

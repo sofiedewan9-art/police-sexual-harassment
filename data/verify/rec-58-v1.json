@@ -1,0 +1,16 @@
+{
+  "row": 58,
+  "slug": "deming-police-department-2026-r58",
+  "fields": {
+    "agency": "Deming Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "NM",
+    "lawsuit_type": "civilian",
+    "year_filed": 2026,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "pleaded_guilty"
+  },
+  "caveats": "Jane Doe suit filed Feb 2026 in 6th Judicial District Court (Luna County) vs officer Jesus Lopez Jr., City of Deming, and NM Dept. of Public Safety. Lopez pleaded guilty July 30, 2025 to federal child-exploitation charges; not yet sentenced. KRQE and DOJ URLs returned 403."
+}

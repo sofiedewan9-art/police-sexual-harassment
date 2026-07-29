@@ -1,0 +1,16 @@
+{
+  "row": 37,
+  "slug": "multnomah-county-sheriff-s-office-2026-r37",
+  "fields": {
+    "agency": "Multnomah County Sheriff's Office",
+    "agency_category": "sheriff",
+    "country": "US",
+    "state_province": "OR",
+    "lawsuit_type": "civilian",
+    "year_filed": 2026,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "charged"
+  },
+  "caveats": "Both KGW source URLs timed out and were skipped; verification rests on the KATU article (published 2026-03-31) and the MCSO statement. Suit was filed 2026-03-31 in U.S. District Court in Portland by a former female inmate against ex-corrections deputy Edwin Diaz; a settlement conference was scheduled for April 1 but no resolution was reported, so 'ongoing' reflects status as of early April 2026. Accused was a corrections deputy at the county jail, but the employing agency is the sheriff's office, hence agency_category 'sheriff'. Diaz was indicted June 2025 on 25 counts (sexual abuse, custodial sexual misconduct, official misconduct) and pleaded not guilty; no trial date set in sources."
+}

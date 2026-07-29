@@ -1,0 +1,33 @@
+{
+  "row": 22,
+  "slug": "phoenix-police-department-2019-r22",
+  "agency": "Phoenix Police Department",
+  "agency_category": "police",
+  "country": "US",
+  "state_province": "AZ",
+  "lawsuit_type": "civilian",
+  "year_filed": 2019,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "settled",
+  "outcome_detail": "The Phoenix City Council voted 7-2 to approve a payment of up to $1.6 million in December 2019 to settle the $12.5 million notice of claim, before any lawsuit was filed.",
+  "settlement_amount_original": 1600000,
+  "settlement_currency": "USD",
+  "settlement_date": "2019-12-19",
+  "criminal_status": "none_filed",
+  "criminal_detail": "No criminal charges were reported against any officer. Following an internal investigation completed in February 2019, the officer who conducted the search was suspended for 40 hours for violating department policy. Documents reported by ABC15 indicated the officer admitted the body-cavity search was against the law. The claimant herself was described by police as a drug-investigation suspect but was not charged in connection with the stop.",
+  "officer_names": ["Timaree Murphy", "Jason Hamernick", "Aaron Lentz"],
+  "incident_date_approx": "December 26, 2018",
+  "description": "A Phoenix woman filed a $12.5 million notice of claim against the City of Phoenix in June 2019, alleging that after a December 26, 2018 traffic stop she was taken to a south Phoenix police substation where a female officer subjected her to a warrantless, non-consensual body-cavity search that she characterized as sexual assault. According to the claim, hospital staff who treated her afterward documented rectal bleeding and signs of sexual assault, and the claim accused officers of sexual assault and battery, wrongful arrest, false imprisonment, gross negligence, and intentional infliction of emotional distress. Department policy required a warrant or consent and a medical doctor for such a search. An internal investigation resulted in a 40-hour suspension for the officer who performed the search. The City Council approved a settlement of up to $1.6 million in December 2019, resolving the claim before a lawsuit was filed.",
+  "notes": "Resolved at the notice-of-claim stage; no civil complaint was ever filed in court.",
+  "inclusion_concern": null,
+  "sources": [
+    {"url": "https://www.abc15.com/news/region-phoenix-metro/central-phoenix/phoenix-woman-claims-she-was-sexually-assaulted-by-phoenix-police-files-12m-notice-of-claim-against-city", "title": "Phoenix woman claims she was sexually assaulted by Phoenix police; files $12M notice of claim against city", "publisher": "ABC15 Arizona", "published_date": null},
+    {"url": "https://ktar.com/arizona-news/phoenix-council-oks-1-6m-payment-to-settle-body-cavity-search-claim/2890140/", "title": "Phoenix council OKs $1.6M payment to settle body cavity search claim", "publisher": "KTAR News", "published_date": "2019-12-19"},
+    {"url": "https://www.phoenixnewtimes.com/news/cavity-search-phoenix-police-illegal-erica-reynolds-claim-settle-11408536", "title": "City to Pay $1.6 Million to Victim of Illegal Cavity Search by Phoenix Police", "publisher": "Phoenix New Times", "published_date": null},
+    {"url": "https://www.abc15.com/news/region-phoenix-metro/central-phoenix/documents-phoenix-police-officer-admits-body-cavity-search-on-woman-was-against-the-law", "title": "Documents: Phoenix police officer admits body-cavity search on woman was against the law", "publisher": "ABC15 Arizona", "published_date": null},
+    {"url": "https://www.phoenixnewtimes.com/news/phoenix-officer-suspended-over-cavity-search-11318316/", "title": "Phoenix Police Suspended Officer Involved in Unwarranted Body Cavity Search", "publisher": "Phoenix New Times", "published_date": null}
+  ],
+  "confidence_notes": "Settlement date 2019-12-19 is the publication date of KTAR's same-day report of the council vote; the exact vote date may have been a day earlier. Reporting names Timaree Murphy as the officer who performed the search and Jason Hamernick and Aaron Lentz as the officers who called for it; only Murphy was reported disciplined. Seed hint gave year 2019 for the claim, matching the June 2019 notice of claim. The claimant is a named public claimant in reporting but is not named here per victim-naming rule."
+}

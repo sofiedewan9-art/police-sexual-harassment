@@ -1,0 +1,64 @@
+You are a research agent for a Policing Project (NYU Law) database of civil lawsuits involving sexual assault/harassment and law-enforcement agencies (US/Canada). Today is 2026-07-28. For EACH seed record below, research thoroughly via web search, then WRITE a JSON file per lawsuit to /Users/sofiedewan/police-sa-lawsuits/data/enriched/.
+
+RESEARCH PROCEDURE per record:
+1. Fetch the given source URL (WebFetch). If dead or paywalled, find the article by searching its exact title.
+2. Run a DEDICATED outcome search — settled / verdict / dismissed / still active? (e.g. "<agency> <officer> lawsuit settlement 2025"). Never assume from filing coverage alone.
+3. Search for any criminal case against the accused officer(s).
+4. More searches as needed for year filed, official agency name, facts (3–8 searches/record). Add every useful article to sources.
+5. If "Orphan titles" are listed, search each exact title and recover its URL; include in sources.
+
+GRANULARITY — ONE RECORD PER LAWSUIT:
+- The primary lawsuit goes in rec-<row>.json with the given slug.
+- If coverage documents ADDITIONAL distinct suits (different plaintiffs/filings) from the same scandal, write rec-<row>b.json (slug "<given slug>-b"), rec-<row>c.json (slug "<given slug>-c"), etc. — each a complete record with its own year/outcome/description and only its relevant sources; cross-reference companions in notes.
+- Class actions / consolidated mass litigation = ONE record, lawsuit_type="class_action".
+- If coverage reports many suits only in AGGREGATE (e.g. "$9.5M across 21 suits") and individual filings are not separately documented, keep ONE record with multiple_filings=true, filing_year_range set, and notes explaining the aggregate reporting.
+
+INCLUSION CHECK: the record must involve an actual filed civil lawsuit or formal claim (notice of claim, EEOC/human-rights complaint) with sexual assault/harassment central. If none exists, or sexual misconduct is not central to the claim, still complete the record but set "inclusion_concern" explaining why.
+
+JSON schema (exact keys, one file per lawsuit):
+{
+  "row": <int>, "slug": "<per rules above>",
+  "agency": "<official agency name>",
+  "agency_category": "police|sheriff|state_police|corrections|juvenile|federal|campus|transit|other",
+  "country": "US|CA", "state_province": "<2-letter>",
+  "lawsuit_type": "civilian|internal|class_action",
+  "year_filed": <int|null>, "year_filed_approx": <bool>, "filing_year_range": <"YYYY-YYYY"|null>, "multiple_filings": <bool>,
+  "outcome_status": "settled|plaintiff_verdict|defense_verdict|dismissed|ongoing|no_resolution_found",
+  "outcome_detail": "<amount, date, grounds, appeal status — or ''>",
+  "settlement_amount_original": <number|null>, "settlement_currency": "USD|CAD",
+  "settlement_date": <"YYYY-MM-DD"|null>,
+  "criminal_status": "none_filed|charged|convicted|pleaded_guilty|acquitted|charges_dropped|unknown",
+  "criminal_detail": "<charges, sentence, dates — or ''>",
+  "officer_names": ["<only accused officers already named in public reporting>"],
+  "incident_date_approx": "<free text>",
+  "description": "<3-6 sentences, language rules below>",
+  "notes": <"<flags>"|null>,
+  "inclusion_concern": <string|null>,
+  "sources": [{"url":"...","title":"...","publisher":"...","published_date":<"YYYY-MM-DD"|null>}],
+  "confidence_notes": "<anything uncertain>"
+}
+
+LAWSUIT TYPE: "civilian" = officer/deputy/jailer accused of sexually assaulting a civilian; "internal" = officer/employee suing their OWN agency over workplace sexual assault/harassment; "class_action" = class action / mass litigation.
+
+DESCRIPTION LANGUAGE RULES (strict — public site, defamation risk):
+- Attribute every unproven claim: "The suit alleges…", "According to the complaint…".
+- State conduct as fact ONLY where supported by a conviction, guilty plea, admission, or jury finding.
+- NEVER name victims — "a woman", "Jane Doe". Officer names only if already in cited reporting.
+- No editorializing, no pattern-drawing language.
+
+OUTCOME DISCIPLINE: "settled" only if a settlement is reported (amount+date in outcome_detail); "ongoing" only if coverage confirms the case is active; "no_resolution_found" if dedicated searches surface neither. Criminal track is separate from civil.
+
+NOTES flags when applicable: "Outside strict police-department definition (<category>)"; "Filed before 2021; included because resolution occurred in window"; companion-record cross-references.
+
+Final message: one line per FILE written: "rec-<key>: <agency> — <outcome_status> — <N> sources — CONCERN: <inclusion_concern or none>". Nothing else.
+
+THE SEED RECORDS:
+
+Record A: row=33, slug="warren-police-department-2025-r33". Agency hint: Warren Police Department, US/OH. Year hint: 2025 (ongoing). Seed outcome hint: ongoing. Source: 3 women sue Warren, police over sexual misconduct claims; https://www.tribtoday.com/news/local-news/2025/03/3-women-sue-warren-police-over-sexual-misconduct-claims/
+Orphan titles (find their URLs): "Victim of former officer files $1M lawsuit against Warren City and police chief;"; "Fourth woman files sexual assault lawsuit against City of Warren, police chief, former officer"
+
+Record B: row=34, slug="metropolitan-police-department-washington-dc-2020-r34". Agency hint: Metropolitan Police Department (Washington, DC), US/DC. Year hint: 2020 (settled 2022). Seed outcome hint: settled 2022. Source: ACLU-DC Sues D.C. Police Officer for Sexually Abusive Search; Mwimanzi v. Wilson – Challenging Unconstitutional Sexually Invasive Search by MPD Officer https://www.acludc.org/press-releases/aclu-dc-sues-dc-police-officer-sexually-abusive-search/
+
+Record C: row=35, slug="west-palm-beach-police-department-2026-r35". Agency hint: West Palm Beach Police Department, US/FL. Year hint: 2026 (ongoing). Seed outcome hint: ongoing. Source: Woman sues West Palm over ignored complaints against her alleged attacker https://www.yahoo.com/news/articles/woman-sues-west-palm-over-130446119.html
+
+Record D: row=36, slug="chicago-police-department-2018-r36". Agency hint: Chicago Police Department, US/IL. Year hint: 2018 (settled - $100,000). Seed outcome hint: settled - $100,000 ($100000). Source: Chicago Police Fail to Investigate Officers Repeatedly Accused of Sexual Assault — ProPublica https://www.propublica.org/article/chicago-police-officers-sexual-assault-allegations

@@ -1,0 +1,16 @@
+{
+  "row": 86,
+  "slug": "royal-canadian-mounted-police-2021-r86",
+  "fields": {
+    "agency": "Royal Canadian Mounted Police",
+    "agency_category": "federal",
+    "country": "CA",
+    "state_province": "NT",
+    "lawsuit_type": "class_action",
+    "year_filed": 2018,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "unknown"
+  },
+  "caveats": "Both CBC URLs 403'd. Sources describe the Nasogaluak excessive-force class action; no sexual assault alleged in fetched sources. Covers NT/NU/YT; NT used as lead plaintiff's territory. Filed 2018, certified 2021; proceeding after SCC dismissed appeal Dec 2023."
+}

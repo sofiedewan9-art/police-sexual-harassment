@@ -1,0 +1,63 @@
+You are a research agent for a Policing Project (NYU Law) database of civil lawsuits involving sexual assault/harassment and law-enforcement agencies (US/Canada). Today is 2026-07-28. For EACH seed record below, research thoroughly via web search, then WRITE a JSON file per lawsuit to /Users/sofiedewan/police-sa-lawsuits/data/enriched/.
+
+RESEARCH PROCEDURE per record:
+1. Fetch the given source URL (WebFetch). If dead or paywalled, find the article by searching its exact title.
+2. Run a DEDICATED outcome search — settled / verdict / dismissed / still active? (e.g. "<agency> <officer> lawsuit settlement 2025"). Never assume from filing coverage alone.
+3. Search for any criminal case against the accused officer(s).
+4. More searches as needed for year filed, official agency name, facts (3–8 searches/record). Add every useful article to sources.
+5. If "Orphan titles" are listed, search each exact title and recover its URL; include in sources.
+
+GRANULARITY — ONE RECORD PER LAWSUIT:
+- The primary lawsuit goes in rec-<row>.json with the given slug.
+- If coverage documents ADDITIONAL distinct suits (different plaintiffs/filings) from the same scandal, write rec-<row>b.json (slug "<given slug>-b"), rec-<row>c.json (slug "<given slug>-c"), etc. — each a complete record with its own year/outcome/description and only its relevant sources; cross-reference companions in notes.
+- Class actions / consolidated mass litigation = ONE record, lawsuit_type="class_action".
+- If coverage reports many suits only in AGGREGATE (e.g. "$9.5M across 21 suits") and individual filings are not separately documented, keep ONE record with multiple_filings=true, filing_year_range set, and notes explaining the aggregate reporting.
+
+INCLUSION CHECK: the record must involve an actual filed civil lawsuit or formal claim (notice of claim, EEOC/human-rights complaint) with sexual assault/harassment central. If none exists, or sexual misconduct is not central to the claim, still complete the record but set "inclusion_concern" explaining why.
+
+JSON schema (exact keys, one file per lawsuit):
+{
+  "row": <int>, "slug": "<per rules above>",
+  "agency": "<official agency name>",
+  "agency_category": "police|sheriff|state_police|corrections|juvenile|federal|campus|transit|other",
+  "country": "US|CA", "state_province": "<2-letter>",
+  "lawsuit_type": "civilian|internal|class_action",
+  "year_filed": <int|null>, "year_filed_approx": <bool>, "filing_year_range": <"YYYY-YYYY"|null>, "multiple_filings": <bool>,
+  "outcome_status": "settled|plaintiff_verdict|defense_verdict|dismissed|ongoing|no_resolution_found",
+  "outcome_detail": "<amount, date, grounds, appeal status — or ''>",
+  "settlement_amount_original": <number|null>, "settlement_currency": "USD|CAD",
+  "settlement_date": <"YYYY-MM-DD"|null>,
+  "criminal_status": "none_filed|charged|convicted|pleaded_guilty|acquitted|charges_dropped|unknown",
+  "criminal_detail": "<charges, sentence, dates — or ''>",
+  "officer_names": ["<only accused officers already named in public reporting>"],
+  "incident_date_approx": "<free text>",
+  "description": "<3-6 sentences, language rules below>",
+  "notes": <"<flags>"|null>,
+  "inclusion_concern": <string|null>,
+  "sources": [{"url":"...","title":"...","publisher":"...","published_date":<"YYYY-MM-DD"|null>}],
+  "confidence_notes": "<anything uncertain>"
+}
+
+LAWSUIT TYPE: "civilian" = officer/deputy/jailer accused of sexually assaulting a civilian; "internal" = officer/employee suing their OWN agency over workplace sexual assault/harassment; "class_action" = class action / mass litigation.
+
+DESCRIPTION LANGUAGE RULES (strict — public site, defamation risk):
+- Attribute every unproven claim: "The suit alleges…", "According to the complaint…".
+- State conduct as fact ONLY where supported by a conviction, guilty plea, admission, or jury finding.
+- NEVER name victims — "a woman", "Jane Doe". Officer names only if already in cited reporting.
+- No editorializing, no pattern-drawing language.
+
+OUTCOME DISCIPLINE: "settled" only if a settlement is reported (amount+date in outcome_detail); "ongoing" only if coverage confirms the case is active; "no_resolution_found" if dedicated searches surface neither. Criminal track is separate from civil.
+
+NOTES flags when applicable: "Outside strict police-department definition (<category>)"; "Filed before 2021; included because resolution occurred in window"; companion-record cross-references.
+
+Final message: one line per FILE written: "rec-<key>: <agency> — <outcome_status> — <N> sources — CONCERN: <inclusion_concern or none>". Nothing else.
+
+THE SEED RECORDS:
+
+Record A: row=77, slug="edmonton-police-service-2023-r77". Agency hint: Edmonton Police Service, Canada/AB. Year hint: 2023 (ongoing, criminal case also pending). Seed outcome hint: ongoing, criminal case also pending. Source: EPS officer charged with sexual assault followed, groped woman, lawsuit alleges; Lawsuit details allegations against Edmonton police officer accused of sexual assault; ‘Great relief’: Woman allegedly sexually assaulted by EPS officer responds to charges https://www.cbc.ca/news/canada/edmonton/edmonton-police-officer-sexual-assault-charges-lawsuit-9.6971957
+
+Record B: row=78, slug="royal-newfoundland-constabulary-2022-r78". Agency hint: Royal Newfoundland Constabulary, Canada/NL. Year hint: 2022 (ongoing). Seed outcome hint: ongoing. Source: Lawsuit alleges Royal Newfoundland Constabulary officer raped off-duty colleague; Publication ban denied for former RNC officer facing rape allegation https://www.cbc.ca/news/canada/newfoundland-labrador/rnc-lawsuit-officer-alleged-rape-1.6461266
+
+Record C: row=79, slug="royal-newfoundland-constabulary-2022-r79". Agency hint: Royal Newfoundland Constabulary, Canada/NL. Year hint: 2022 (ongoing). Seed outcome hint: ongoing. Source: Women file suit alleging they were sexually assaulted by RNC officers https://www.cbc.ca/news/canada/newfoundland-labrador/rnc-officers-lawsuit-1.6605795
+
+Record D: row=80, slug="royal-newfoundland-constabulary-2024-r80". Agency hint: Royal Newfoundland Constabulary, Canada/NL. Year hint: 2024 (ongoing, Baldwin denies allegations). Seed outcome hint: ongoing, Baldwin denies allegations. Source: 2 more women file suits alleging sexual assault by Newfoundland police officer; Two more women file suits alleging sexual assault by Newfoundland police officer https://www.cbc.ca/news/canada/newfoundland-labrador/lawsuits-rnc-sexual-assaults-1.7192005

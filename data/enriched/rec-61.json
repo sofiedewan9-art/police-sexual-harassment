@@ -1,0 +1,31 @@
+{
+  "row": 61,
+  "slug": "new-york-city-police-department-2026-r61",
+  "agency": "New York City Police Department",
+  "agency_category": "police",
+  "country": "US",
+  "state_province": "NY",
+  "lawsuit_type": "internal",
+  "year_filed": 2026,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "ongoing",
+  "outcome_detail": "Filed July 9, 2026 in New York State Supreme Court, Bronx County; newly filed and active as of late July 2026 with no reported rulings or settlement.",
+  "settlement_amount_original": null,
+  "settlement_currency": "USD",
+  "settlement_date": null,
+  "criminal_status": "none_filed",
+  "criminal_detail": "No criminal charges against Deputy Inspector Juan O. Moran have been reported as of July 2026. (A separate criminal case against the precinct's previous commander, Jeremy Scheublin, is tracked in companion record rec-61b.)",
+  "officer_names": ["Juan O. Moran"],
+  "incident_date_approx": "circa 2025-2026, during Moran's tenure as commanding officer of the 46th Precinct",
+  "description": "NYPD Sergeant Osmairys Avila and Police Officers Pamela Sosa and Brittany Romero, three Latina members of the Bronx's 46th Precinct, sued the City of New York, Police Commissioner Jessica Tisch, and Deputy Inspector Juan O. Moran, the precinct's commanding officer, on July 9, 2026. The suit alleges sexual harassment, a hostile work environment, retaliation, and race, ethnicity, and national-origin discrimination under the New York State and New York City Human Rights Laws. According to the complaint, Moran used his command authority to gain private access to subordinate women, made sexualized comments, engaged in unwanted touching, and retaliated through disciplinary paperwork and probationary processes when they resisted or complained. The complaint also argues the NYPD should have imposed heightened oversight at the precinct given prior sexual-misconduct allegations against its previous commanding officer. The case was newly filed and active as of July 2026.",
+  "notes": "Companion record rec-61b covers a separate March 2026 lawsuit by another 46th Precinct officer against former commanding officer Jeremy Scheublin, part of the same precinct scandal.",
+  "inclusion_concern": null,
+  "sources": [
+    {"url": "https://www.thesandersfirmpc.com/another-sexual-harassment-lawsuit-hits-the-nypds-troubled-46th-precinct/", "title": "Another Sexual Harassment Lawsuit Hits the NYPD's Troubled 46th Precinct", "publisher": "The Sanders Firm, P.C.", "published_date": "2026-07-09"},
+    {"url": "https://www.cbsnews.com/newyork/news/nypd-inspector-jeremy-scheublin-attempted-rape-46-precinct-lawsuit/", "title": "NYPD inspector accused of attempted rape in Bronx, as lawsuit alleges sexual harassment at 46th Precinct", "publisher": "CBS New York", "published_date": null},
+    {"url": "https://www.amny.com/law/bronx-nypd-inspector-rape-charges-lawsuit-07102026/", "title": "Bronx NYPD inspector hit with rape charges months after being sued for alleged sexual assault of female cop in precinct", "publisher": "amNewYork", "published_date": "2026-07-10"}
+  ],
+  "confidence_notes": "Filing date and court from plaintiffs' law firm announcement (The Sanders Firm), corroborated by CBS New York and amNewYork coverage. Case is very recent; no docket-level confirmation of current status beyond July 2026 reporting. Incident date range inferred from Moran succeeding Scheublin (who commanded from December 2023) and is approximate."
+}

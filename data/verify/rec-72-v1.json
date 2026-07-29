@@ -1,0 +1,16 @@
+{
+  "row": 72,
+  "slug": "los-angeles-county-sheriff-s-department-2025-r72",
+  "fields": {
+    "agency": "Los Angeles County Sheriff's Department",
+    "agency_category": "sheriff",
+    "country": "US",
+    "state_province": "CA",
+    "lawsuit_type": "internal",
+    "year_filed": 2025,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "unknown"
+  },
+  "caveats": "Former deputy (Jane Doe) sued county May 2025 over sexual abuse/trafficking by three LASD supervisors, coerced 2010 abortion, and retaliatory 2014 firing. Ongoing: trial set Oct 13, 2027 (source dated May 2026). No mention of criminal charges. 2 of 3 sources retrievable (one 403)."
+}

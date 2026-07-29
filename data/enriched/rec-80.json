@@ -1,0 +1,33 @@
+{
+  "row": 80,
+  "slug": "royal-newfoundland-constabulary-2024-r80",
+  "agency": "Royal Newfoundland Constabulary",
+  "agency_category": "police",
+  "country": "CA",
+  "state_province": "NL",
+  "lawsuit_type": "civilian",
+  "year_filed": 2024,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "ongoing",
+  "outcome_detail": "No resolution reported as of mid-2026; 2026 coverage continues to describe the Baldwin-related suits as active litigation against the provincial government. Baldwin denies all allegations.",
+  "settlement_amount_original": null,
+  "settlement_currency": "CAD",
+  "settlement_date": null,
+  "criminal_status": "none_filed",
+  "criminal_detail": "No criminal charges have been laid in relation to the allegations; the plaintiffs' lawyer said the women chose civil suits because they lost confidence in the criminal courts.",
+  "officer_names": ["Robert Baldwin"],
+  "incident_date_approx": "2012, St. John's area",
+  "description": "In one of two lawsuits filed March 28, 2024 (amended April 29, 2024) in the Supreme Court of Newfoundland and Labrador, a woman alleges that in 2012 an on-duty Royal Newfoundland Constabulary officer, Sgt. Robert Baldwin, offered her a ride home from a night of drinking in downtown St. John's, drove her instead to a secluded area, and forced her to perform oral sex and to have intercourse with him. The statement of claim names the Government of Newfoundland and Labrador, which is responsible for the force, as the sole defendant, and alleges the RNC knew Baldwin was frequently in downtown St. John's outside his assigned area and did nothing to investigate, discipline or control him. Baldwin, who has since retired, denies all allegations through his lawyer. The allegations have not been tested in court.",
+  "notes": "Companion record rec-80b covers the second suit filed the same day by a different plaintiff (2014 allegations). Other companion records from the same scandal: rec-78 (RNC officer's suit, Jan. 2022) and rec-79 (seven-women suit, Sept. 2022). These 2024 filings brought the total to four civil cases involving ten women.",
+  "inclusion_concern": null,
+  "sources": [
+    {"url": "https://www.cbc.ca/news/canada/newfoundland-labrador/lawsuits-rnc-sexual-assaults-1.7192005", "title": "2 more women file suits alleging sexual assault by Newfoundland police officer", "publisher": "CBC News", "published_date": "2024-05-02"},
+    {"url": "https://www.theglobeandmail.com/canada/article-two-more-women-file-suits-alleging-sexual-assault-by-newfoundland/", "title": "Two more women file suits alleging sexual assault by Newfoundland police officer", "publisher": "The Globe and Mail", "published_date": "2024-05-02"},
+    {"url": "https://www.thecanadianpressnews.ca/atlantic/two-more-women-file-suits-alleging-sexual-assault-by-newfoundland-police-officer/article_ff3e44bd-bc2e-50bf-9512-5a69ab5003a4.html", "title": "Two more women file suits alleging sexual assault by Newfoundland police officer", "publisher": "The Canadian Press", "published_date": "2024-05-02"},
+    {"url": "https://lethbridgeherald.com/news/national-news/2024/05/02/two-more-women-file-suits-alleging-sexual-assault-by-newfoundland-police-officer/", "title": "Two more women file suits alleging sexual assault by Newfoundland police officer", "publisher": "Lethbridge Herald (The Canadian Press)", "published_date": "2024-05-02"},
+    {"url": "https://www.cbc.ca/news/canada/newfoundland-labrador/former-rnc-officer-says-force-ignored-pretty-significant-issues-9.7172860", "title": "Former RNC officer says force ignored 'pretty significant issues'", "publisher": "CBC News", "published_date": null}
+  ],
+  "confidence_notes": "Coverage reports the two March 2024 suits together; the assignment of the 2012 incident to this record and the 2014 incident to rec-80b follows the order in the CBC/Canadian Press reporting. Plaintiff names are under publication ban. 'Ongoing' is based on May 2026 coverage describing the suits as active; no settlement, dismissal, or trial has been reported."
+}

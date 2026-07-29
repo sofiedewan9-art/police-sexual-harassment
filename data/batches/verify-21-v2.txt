@@ -1,0 +1,60 @@
+You are an independent verification agent for a database of civil lawsuits involving sexual assault/harassment and law-enforcement agencies. Today is 2026-07-28. For each record below you get ONLY source URLs. Read the sources (WebFetch; if one fails, skip it — do NOT search for other articles) and independently derive the fields from the sources alone. Do not guess: if the sources don't establish a value, use null. Be skeptical and literal about what the sources actually say.
+
+For each record, write a JSON file to /Users/sofiedewan/police-sa-lawsuits/data/verify/rec-<key>-v2.json (the <key> is given per record):
+{
+  "row": <int>, "slug": "<given>",
+  "fields": {
+    "agency": "<official agency name as best supported by sources>",
+    "agency_category": "police|sheriff|state_police|corrections|juvenile|federal|campus|transit|other",
+    "country": "US|CA",
+    "state_province": "<2-letter>",
+    "lawsuit_type": "civilian|internal|class_action",
+    "year_filed": <int|null>,
+    "outcome_status": "settled|plaintiff_verdict|defense_verdict|dismissed|ongoing|no_resolution_found",
+    "settlement_amount_original": <number|null>,
+    "criminal_status": "none_filed|charged|convicted|pleaded_guilty|acquitted|charges_dropped|unknown"
+  },
+  "caveats": "<brief notes on anything ambiguous>"
+}
+Definitions: civilian = officer accused of assaulting a civilian; internal = employee suing own agency over workplace sexual assault/harassment; class_action = mass litigation. "ongoing" only if sources confirm the case is active; "no_resolution_found" if sources show no resolution. year_filed = year the CIVIL suit was filed. If no lawsuit exists in the sources, pick the closest lawsuit_type fit and say so in caveats.
+
+Final message: one line per record "rec-<key>: done". Nothing else.
+
+THE RECORDS:
+
+Record key=21, row=21, slug="phoenix-police-department-2021-r21", sources:
+https://www.kjzz.org/2021-06-02/content-1688390-phoenix-settles-rape-claim-against-former-police-officer
+https://patch.com/arizona/phoenix/phoenix-oks-425k-settlement-police-sexual-assault-case
+https://www.phoenixnewtimes.com/news/sean-pena-phoenix-police-lawsuit-11678057/
+https://www.12news.com/article/news/local/arizona/former-phoenix-police-officer-sean-pena-accused-of-sex-assault-acquitted-on-2-counts/75-9df49f58-d52e-41b5-85be-38fbfc5667c0
+https://www.azfamily.com/2022/08/16/former-phoenix-police-officer-acquitted-sexual-assault-charges-second-trial/
+
+Record key=21b, row=21, slug="phoenix-police-department-2021-r21-b", sources:
+https://www.phoenixnewtimes.com/news/sean-pena-phoenix-police-lawsuit-11678057/
+https://krdo.com/news/2021/11/17/city-of-phoenix-to-pay-over-5-million-in-two-separate-police-settlements/
+https://www.azfamily.com/2022/05/19/jury-finds-phoenix-officer-accused-sexual-assault-not-guilty-2-counts-deadlock-other-charges/
+https://www.azfamily.com/2022/08/16/former-phoenix-police-officer-acquitted-sexual-assault-charges-second-trial/
+
+Record key=22, row=22, slug="phoenix-police-department-2019-r22", sources:
+https://www.abc15.com/news/region-phoenix-metro/central-phoenix/phoenix-woman-claims-she-was-sexually-assaulted-by-phoenix-police-files-12m-notice-of-claim-against-city
+https://ktar.com/arizona-news/phoenix-council-oks-1-6m-payment-to-settle-body-cavity-search-claim/2890140/
+https://www.phoenixnewtimes.com/news/cavity-search-phoenix-police-illegal-erica-reynolds-claim-settle-11408536
+https://www.abc15.com/news/region-phoenix-metro/central-phoenix/documents-phoenix-police-officer-admits-body-cavity-search-on-woman-was-against-the-law
+https://www.phoenixnewtimes.com/news/phoenix-officer-suspended-over-cavity-search-11318316/
+
+Record key=23, row=23, slug="kansas-city-police-department-2023-r23", sources:
+https://www.kcur.org/news/2023-11-06/kansas-city-kansas-empowered-police-to-exploit-and-humiliate-black-community-lawsuit-says
+https://www.kshb.com/news/local-news/5-women-file-lawsuit-against-former-kck-detective-roger-golubski-unified-government-former-police-chiefs
+https://www.kcur.org/news/2025-02-03/golubski-civil-rights-lawsuit-dismissal-women-appeal
+https://www.kcur.org/news/2024-12-02/roger-golubski-died-suicide-kansas-city-kckpd-police-abuse
+https://www.kcur.org/news/2025-12-02/roger-golubski-death-one-year
+
+Record key=24, row=24, slug="san-diego-county-sheriff-s-department-2017-r24", sources:
+https://ktla.com/news/local-news/san-diego-county-pays-more-than-4-6-million-to-settle-sex-misconduct-lawsuits-against-ex-deputy/
+https://www.cbs8.com/article/news/investigations/new-settlements-in-former-deputy-sex-assault-scandal-taxpayers-have-paid-nearly-5-million-to-settle-over-a-dozen-lawsuits/509-9fe81e49-2d94-4092-bd0a-368c36824148
+https://dlawgroup.com/richard-fischer-released-from-jail-after-sexual-assaults/
+https://www.kpbs.org/news/2019/dec/10/sentencing-san-diego-sheriff-deputy-sexual-assault/
+https://www.kpbs.org/news/public-safety/2020/05/28/ex-sheriffs-deputy-who-assaulted-16-women-freed
+https://www.cbs8.com/article/news/local/former-deputy-richard-fischer-loses-appeal-ordered-back-to-prison/509-38326cf6-31f7-4d9e-9197-56ce3ba662f7
+https://news.yahoo.com/san-diego-county-deputy-leaves-184439901.html
+

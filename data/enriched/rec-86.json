@@ -1,0 +1,33 @@
+{
+  "row": 86,
+  "slug": "royal-canadian-mounted-police-2021-r86",
+  "agency": "Royal Canadian Mounted Police",
+  "agency_category": "federal",
+  "country": "CA",
+  "state_province": "NT",
+  "lawsuit_type": "class_action",
+  "year_filed": 2018,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "ongoing",
+  "outcome_detail": "Certified by the Federal Court June 23, 2021 (Justice Glennys McVeigh); certification upheld by the Federal Court of Appeal in 2023 with modifications; Supreme Court of Canada dismissed Canada's leave application December 14, 2023. Canada filed its statement of defence in July 2024 and plaintiffs replied the same month. Claim seeks $500 million in damages plus $100 million in punitive damages. No settlement or trial judgment reported as of July 2026.",
+  "settlement_amount_original": null,
+  "settlement_currency": "CAD",
+  "settlement_date": null,
+  "criminal_status": "unknown",
+  "criminal_detail": "The class action targets systemic conduct rather than named officers; no criminal prosecutions of specific officers arising from the class claims were identified in coverage.",
+  "officer_names": [],
+  "incident_date_approx": "Alleged systemic conduct from 1928 to present across Yukon, Northwest Territories and Nunavut; representative plaintiff's alleged assault occurred November 2017 in Tuktoyaktuk, N.W.T.",
+  "description": "Joe David Nasogaluak, an Inuk man from Tuktoyaktuk, N.W.T., is the representative plaintiff in a class action filed in Federal Court in December 2018 against the federal government over RCMP conduct toward Indigenous people in the Yukon, Northwest Territories and Nunavut. The suit alleges systemic negligence, breach of fiduciary duty and Charter breaches, claiming officers routinely used excessive force — including beating, pepper-spraying and shooting — against Indigenous people; Nasogaluak alleges he was arrested and assaulted without cause in November 2017 as a teenager. The action was certified on June 23, 2021, certification survived Canada's appeals, and the Supreme Court of Canada dismissed the government's final leave application on December 14, 2023. The case remained in active litigation as of 2024, with the claim seeking $500 million in damages and $100 million in punitive damages.",
+  "notes": "Filed December 18, 2018 (before 2021); seed year hint of 2021 reflects the certification date. Companion record rec-86b covers the related, separately certified nationwide RCMP class action (outside the Territories) that expressly includes sexual assault and excludes members of this Nasogaluak class.",
+  "inclusion_concern": "Coverage and class counsel describe this class action as centred on excessive physical force/assaults against Indigenous people in the Territories; sexual assault or harassment is not identified as a central element of the certified claims. Included per seed record, but it may fall outside a sexual assault/harassment-focused database; the companion nationwide action (rec-86b) explicitly covers sexual assault.",
+  "sources": [
+    {"url": "https://www.cbc.ca/news/canada/north/class-action-rcmp-abuse-indigenous-people-certified-1.6076962", "title": "Class action alleging RCMP abuse of Indigenous people in Northern Canada certified", "publisher": "CBC News", "published_date": "2021-06-23"},
+    {"url": "https://www.cbc.ca/news/canada/north/supreme-court-dismiss-appeal-indigenous-class-action-joe-david-nasogaluak-1.7060318", "title": "Supreme Court of Canada dismisses federal effort to appeal Indigenous class action against RCMP in the North", "publisher": "CBC News", "published_date": "2023-12-14"},
+    {"url": "https://cooperregel.ca/cases/rcmp-class-action-north/", "title": "RCMP Class Action – North", "publisher": "Cooper Regel LLP", "published_date": null},
+    {"url": "https://cabinradio.ca/88441/news/justice/canada-appealing-certification-of-rcmp-class-action/", "title": "Canada appealing certification of RCMP class action", "publisher": "Cabin Radio", "published_date": null},
+    {"url": "https://panow.com/2021/06/23/class-action-alleging-rcmp-abuse-of-indigenous-people-in-northern-canada-certified/", "title": "Class action alleging RCMP abuse of Indigenous people in Northern Canada certified", "publisher": "paNOW / The Canadian Press", "published_date": "2021-06-23"}
+  ],
+  "confidence_notes": "Class spans Yukon, Northwest Territories and Nunavut; state_province set to NT (representative plaintiff's home territory) per seed hint. Sources conflict slightly on the Federal Court of Appeal date (reported variously as May 2022 and March 2023); outcome_detail states 2023 per class counsel's timeline (Canada v. Nasogaluak, 2023 FCA). SCC leave dismissal date of 2023-12-14 is from CBC coverage. Orphan title 'RCMP Indigenous Racism and Assault Class Action' resolved to the Murphy Battista page, which describes the distinct nationwide action recorded as rec-86b."
+}

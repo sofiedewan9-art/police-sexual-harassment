@@ -1,0 +1,16 @@
+{
+  "row": 28,
+  "slug": "new-york-city-police-department-2023-r28",
+  "fields": {
+    "agency": "New York City Police Department (Transit Bureau)",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "NY",
+    "lawsuit_type": "internal",
+    "year_filed": 2023,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "none_filed"
+  },
+  "caveats": "Lorna Beach-Mathura v. Eric Adams et al.: former civilian administrative aide in the Transit Bureau/NYC Transit Police alleges then-transit officer Adams demanded oral sex and sexually assaulted her in 1993 after she sought help with a promotion, plus employment discrimination and retaliation - classified internal (workplace assault by a colleague, with the City, NYPD Transit Bureau, and Guardians Association also named). Summons filed Nov 22, 2023 under the Adult Survivors Act (year_filed=2023); full complaint filed March 18, 2024, so some sources call it a '2024 lawsuit'. Agency note: in 1993 the Transit Police was a separate MTA-affiliated department (merged into NYPD in 1995); NYPD is the named defendant, but agency_category could arguably be 'transit'. Status: active as of March 2026 - city said Adams had 'no interest' in settling (Aug 2025) and the Corporation Counsel moved in March 2026 to stop representing him; no settlement, verdict, or dismissal in sources. No criminal charges over the alleged assault (Adams' unrelated federal corruption indictment was dropped). CNN (451) and UPI (403) fetched via curl; thecity.nyc URLs redirect to thecityreporter.nyc (apparent rebrand) and were read there; Courthouse News fetched via curl after 403."
+}

@@ -1,0 +1,52 @@
+You are an independent verification agent for a database of civil lawsuits involving sexual assault/harassment and law-enforcement agencies. Today is 2026-07-28. For each record below you get ONLY source URLs. Read the sources (WebFetch; if one fails, skip it — do NOT search for other articles) and independently derive the fields from the sources alone. Do not guess: if the sources don't establish a value, use null.
+
+For each record, write a JSON file to /Users/sofiedewan/police-sa-lawsuits/data/verify/rec-<key>-v1.json (the <key> is given per record):
+{
+  "row": <int>, "slug": "<given>",
+  "fields": {
+    "agency": "<official agency name as best supported by sources>",
+    "agency_category": "police|sheriff|state_police|corrections|juvenile|federal|campus|transit|other",
+    "country": "US|CA",
+    "state_province": "<2-letter>",
+    "lawsuit_type": "civilian|internal|class_action",
+    "year_filed": <int|null>,
+    "outcome_status": "settled|plaintiff_verdict|defense_verdict|dismissed|ongoing|no_resolution_found",
+    "settlement_amount_original": <number|null>,
+    "criminal_status": "none_filed|charged|convicted|pleaded_guilty|acquitted|charges_dropped|unknown"
+  },
+  "caveats": "<brief notes on anything ambiguous>"
+}
+Definitions: civilian = officer accused of assaulting a civilian; internal = employee suing own agency over workplace sexual assault/harassment; class_action = mass litigation. "ongoing" only if sources confirm the case is active; "no_resolution_found" if sources show no resolution. year_filed = year the CIVIL suit was filed. If no lawsuit exists in the sources, pick the closest lawsuit_type fit and say so in caveats.
+
+Final message: one line per record "rec-<key>: done". Nothing else.
+
+THE RECORDS:
+
+Record key=73, row=73, slug="holly-hill-police-department-2025-r73", sources:
+https://mynews13.com/fl/orlando/news/2025/03/26/holly-hill-facing-lawsuits-from-3-female-police-department-employees-over-accusations-of-rampant-misconduct
+https://floridapolitics.com/archives/727818-lawsuit-outlines-salacious-sexual-harassment-allegations-at-holly-hill-police-department/
+https://www.clickorlando.com/news/local/2024/10/02/grand-jury-clears-ex-holly-hill-police-chief-amid-sexual-assault-allegations/
+
+Record key=73b, row=73, slug="holly-hill-police-department-2025-r73-b", sources:
+https://mynews13.com/fl/orlando/news/2025/03/26/holly-hill-facing-lawsuits-from-3-female-police-department-employees-over-accusations-of-rampant-misconduct
+https://www.clickorlando.com/news/local/2024/10/02/grand-jury-clears-ex-holly-hill-police-chief-amid-sexual-assault-allegations/
+
+Record key=73c, row=73, slug="holly-hill-police-department-2025-r73-c", sources:
+https://mynews13.com/fl/orlando/news/2025/03/26/holly-hill-facing-lawsuits-from-3-female-police-department-employees-over-accusations-of-rampant-misconduct
+https://www.clickorlando.com/news/local/2025/03/25/routine-and-predatory-acts-woman-files-suit-against-holly-hill-over-police-misconduct-allegations/
+https://www.fox35orlando.com/news/former-holly-hill-police-chief-captain-accused-workplace-misconduct-federal-lawsuit
+https://www.clickorlando.com/news/local/2024/10/02/grand-jury-clears-ex-holly-hill-police-chief-amid-sexual-assault-allegations/
+
+Record key=75, row=75, slug="pima-county-sheriff-s-department-2023-r75", sources:
+https://tucson.com/news/local/crime-and-courts/pima-county-and-sheriffs-department-named-in-notice-of-claim/article_93757674-1444-11ee-8527-3340231b98d3.html
+https://www.kold.com/2025/07/22/lawsuit-against-sheriff-nanos-chief-staff-dismissed/
+https://azpm.org/p/headlines/2025/2/24/223818-deputy-sentenced-to-one-year-in-jail-in-high-profile-pima-sheriffs-rape-case/
+https://news.azpm.org/s/100035-former-pima-county-deputy-ricardo-garcia-found-guilty-of-attempted-sexual-assault-and-sexual-abuse/
+https://tucson.com/news/local/crime-courts/pima-county-sheriffs-department-ricardo-garcia-chris-nanos/article_142e13f4-6b9f-11ef-b0a5-cb6de69c4fad.html
+
+Record key=76, row=76, slug="salt-lake-county-sheriff-s-office-2022-r76", sources:
+https://www.ksl.com/article/50534513/utah-sheriffs-cadet-sues-claiming-sexual-harassment-assaults-by-ex-supervisor
+https://www.sltrib.com/news/2022/12/06/salt-lake-county-sheriffs-office/
+https://kslnewsradio.com/1980178/salt-lake-county-sheriffs-office-being-sued-after-former-cadet-reports-abuse/
+https://ksltv.com/local-news/utah-sheriffs-cadet-sues-claiming-sexual-harassment-assaults-by-ex-supervisor/513963/
+

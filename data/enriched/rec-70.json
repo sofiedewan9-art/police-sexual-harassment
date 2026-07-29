@@ -1,0 +1,32 @@
+{
+  "row": 70,
+  "slug": "central-connecticut-state-university-police-department-2018-",
+  "agency": "Central Connecticut State University Police Department",
+  "agency_category": "campus",
+  "country": "US",
+  "state_province": "CT",
+  "lawsuit_type": "internal",
+  "year_filed": 2019,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "settled",
+  "outcome_detail": "$1.75 million settlement paid by CCSU, reported August 31, 2020.",
+  "settlement_amount_original": 1750000,
+  "settlement_currency": "USD",
+  "settlement_date": null,
+  "criminal_status": "none_filed",
+  "criminal_detail": "No criminal charges against Curtis Lollar in connection with these allegations were found in public reporting; he was fired by CCSU in September 2018 following an investigation.",
+  "officer_names": ["Curtis Lollar"],
+  "incident_date_approx": "Alleged rapes twice in summer 2014 (on duty) and once in fall 2016; harassment reportedly continuing until Lollar's September 2018 firing",
+  "description": "A female Central Connecticut State University police officer filed a federal lawsuit in March 2019 against the university, alleging that fellow campus officer Curtis Lollar raped her three times — twice while on duty in the summer of 2014 and once at his home in 2016. According to the complaint, when she reported the incidents she was publicly shamed, denied backup on calls, and required to keep working alongside Lollar for nearly a year. The suit alleged the department fostered an environment in which sexual harassment and assault were the norm, hired officers despite disciplinary red flags, and failed to investigate officers' alleged sexual harassment of students; an independent Shipman & Goodwin investigation of the department reached similar conclusions. Lollar was fired in September 2018. CCSU agreed to pay the officer a $1.75 million settlement, reported in August 2020.",
+  "notes": "Filed before 2021; included because seed dataset covers it. Seed year hint was 2018 (the year Lollar was fired); reporting indicates the lawsuit was filed in March 2019.",
+  "inclusion_concern": null,
+  "sources": [
+    {"url": "https://www.wtnh.com/news/connecticut/hartford/ccsu-to-pay-1-75-million-settlement-of-claims-accusing-campus-police-officers-of-sexual-harassment-assault/", "title": "CCSU to pay $1.75 million settlement of claims accusing campus police officers of sexual harassment, assault", "publisher": "WTNH News 8", "published_date": null},
+    {"url": "https://www.campussafetymagazine.com/news/female-officer-ccsu-rape-lawsuit/91995/", "title": "Female Officer Wins Settlement Against CCSU in Rape Lawsuit", "publisher": "Campus Safety Magazine", "published_date": "2020-08-31"},
+    {"url": "https://www.fox61.com/article/news/local/outreach/awareness-months/lawsuit-filed-against-ccsu-police-accusing-officer-of-sexual-assault/520-6296f3c7-8272-459e-b862-c6d23b449dc4", "title": "Lawsuit filed against CCSU police, accusing officer of sexual assault", "publisher": "FOX61", "published_date": null},
+    {"url": "http://www.newbritainherald.com/NBH-New+Britain+News/377307/female-officer-at-ccsu-awarded-175-million-in-settlement-with-university-over-lawsuit-alleging-she-was-raped-by-another-officer", "title": "Female officer at CCSU awarded $1.75 million in settlement with university over lawsuit alleging she was raped by another officer", "publisher": "New Britain Herald", "published_date": null}
+  ],
+  "confidence_notes": "Slug retained exactly as given (including trailing hyphen). The seed's 2018 year hint conflicts with reporting that the federal suit was filed in March 2019; 2019 used. Exact settlement execution date not reported (coverage dated August 31, 2020), so settlement_date is null. The WTNH seed URL returned HTTP 403; article confirmed via its exact title in search results. Criminal-track searches surfaced no charges against Lollar, but no source affirmatively states charges were declined."
+}

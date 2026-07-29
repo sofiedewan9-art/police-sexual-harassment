@@ -1,0 +1,30 @@
+{
+  "row": 67,
+  "slug": "solano-county-sheriff-s-office-2025-r67",
+  "agency": "Solano County Sheriff's Office",
+  "agency_category": "sheriff",
+  "country": "US",
+  "state_province": "CA",
+  "lawsuit_type": "internal",
+  "year_filed": 2025,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "ongoing",
+  "outcome_detail": "Federal suit (Doe v. County of Solano, No. 2:25-cv-03155, E.D. Cal.) filed October 2025; court granted plaintiff's motion to proceed under a pseudonym on November 3, 2025; the county denies the allegations. No resolution reported as of July 2026.",
+  "settlement_amount_original": null,
+  "settlement_currency": "USD",
+  "settlement_date": null,
+  "criminal_status": "none_filed",
+  "criminal_detail": "The plaintiff reported the alleged assaults to the Vacaville Police Department on December 18, 2024; following an independent criminal investigation, the district attorney's office declined to file criminal charges.",
+  "officer_names": ["John Robertson"],
+  "incident_date_approx": "2021-2024 (alleged abuse beginning around her October 2021 hiring; reported to police December 2024)",
+  "description": "A Solano County sheriff's deputy, proceeding as Jane Doe, filed a federal lawsuit in October 2025 in the Eastern District of California against Solano County and sheriff's office officials. The suit alleges that senior Deputy John Robertson raped, sexually assaulted, harassed, and stalked her over multiple years beginning in 2021, and that she believed she was going to die during one assault. According to the complaint, former Sheriff Thomas Ferrara, Sheriff Brad DeWall, and Captain Jackson Harris knew of her reports and participated in retaliation against her, including spreading confidential investigation details and restricting her assignments. She reported the alleged assaults to the Vacaville Police Department in December 2024, and prosecutors declined to file criminal charges after an independent investigation. The county denies the allegations in the complaint, and the case remains pending.",
+  "notes": "Ferrara, DeWall, and Harris are named in reporting as defendants accused of retaliation/failure to act, not of sexual assault; Robertson is the officer accused of the assaults.",
+  "inclusion_concern": null,
+  "sources": [
+    {"url": "https://www.vallejosun.com/lawsuit-solano-deputy-thought-she-was-going-to-die-when-colleague-raped-her/", "title": "Lawsuit: Solano deputy 'thought she was going to die' when colleague raped her", "publisher": "Vallejo Sun", "published_date": "2025-12-05"},
+    {"url": "https://www.leagle.com/decision/infdco20251104a69", "title": "Doe v. County of Solano, No. 2:25-cv-03155 (E.D. Cal.) — order granting motion to proceed under pseudonym", "publisher": "Leagle", "published_date": "2025-11-03"}
+  ],
+  "confidence_notes": "Latest substantive coverage found is December 5, 2025 (Vallejo Sun); dedicated searches for a settlement, dismissal, or other resolution through July 2026 found none, so status is coded ongoing based on the recent filing, the November 2025 court order, and the county's active denial. One source summary indicated the docket shows a November 2025 filing date while the Vallejo Sun reports the suit was filed in October 2025; October used per the primary news source."
+}

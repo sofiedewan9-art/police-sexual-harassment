@@ -1,0 +1,16 @@
+{
+  "row": 2,
+  "slug": "massachusetts-state-police-2026-r2",
+  "fields": {
+    "agency": "Massachusetts State Police",
+    "agency_category": "state_police",
+    "country": "US",
+    "state_province": "MA",
+    "lawsuit_type": "civilian",
+    "year_filed": 2026,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "unknown"
+  },
+  "caveats": "Sources describe two related Karen Read civil suits: (1) filed Nov 17-18, 2025 in Bristol Superior Court against MSP investigators (Proctor, Bukhenik, Tully) and civilian witnesses, removed to US District Court (MA) Nov 26, 2025 and still pending as of Jan 2026 (motions to dismiss filed, no ruling reported); (2) filed June 4, 2026 (ABC says June 5) in Bristol Superior Court against Massachusetts State Police and Town of Canton for civil conspiracy and negligent hiring/training/supervision. Slug year points to the 2026 suit, so year_filed=2026. This is not a sexual-assault lawsuit per se: plaintiff is a civilian alleging a corrupt/biased investigation; the sexual content is sexist/misogynistic and sexualized-dehumanizing texts about Read by Trooper Michael Proctor and Canton Sgt. Sean Goode, who also allegedly texted about sexually assaulting romantic partners as they slept. 'civilian' chosen as closest fit (civilian plaintiff vs. agency), though no officer is accused of sexually assaulting her. No source mentions criminal charges against the officers (Proctor was fired March 2025 and POST-decertified Dec 2025; Goode resigned June 2026), so criminal_status=unknown. Suit also names Town of Canton PD as co-defendant alongside MSP."
+}

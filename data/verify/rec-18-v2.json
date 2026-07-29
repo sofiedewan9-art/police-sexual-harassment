@@ -1,0 +1,16 @@
+{
+  "row": 18,
+  "slug": "philadelphia-police-department-2023-r18",
+  "fields": {
+    "agency": "Philadelphia Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "PA",
+    "lawsuit_type": "civilian",
+    "year_filed": null,
+    "outcome_status": "no_resolution_found",
+    "settlement_amount_original": null,
+    "criminal_status": "pleaded_guilty"
+  },
+  "caveats": "None of the accessible sources mention any civil lawsuit against Heron or the city; they cover only the criminal case. lawsuit_type set to 'civilian' as closest fit since the ex-officer was accused of assaulting civilians (48 identified victims, many minors, some assaults in his patrol car). Heron pleaded guilty Oct 20, 2023 (initially 218 charges) and was sentenced to 15-40 years in state prison. Kensington Voice source failed to load (TLS certificate error) and was skipped."
+}

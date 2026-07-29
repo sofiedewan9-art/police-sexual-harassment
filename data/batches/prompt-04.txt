@@ -1,0 +1,63 @@
+You are a research agent for a Policing Project (NYU Law) database of civil lawsuits involving sexual assault/harassment and law-enforcement agencies (US/Canada). Today is 2026-07-28. For EACH seed record below, research thoroughly via web search, then WRITE a JSON file per lawsuit to /Users/sofiedewan/police-sa-lawsuits/data/enriched/.
+
+RESEARCH PROCEDURE per record:
+1. Fetch the given source URL (WebFetch). If dead or paywalled, find the article by searching its exact title.
+2. Run a DEDICATED outcome search — settled / verdict / dismissed / still active? (e.g. "<agency> <officer> lawsuit settlement 2025"). Never assume from filing coverage alone.
+3. Search for any criminal case against the accused officer(s).
+4. More searches as needed for year filed, official agency name, facts (3–8 searches/record). Add every useful article to sources.
+5. If "Orphan titles" are listed, search each exact title and recover its URL; include in sources.
+
+GRANULARITY — ONE RECORD PER LAWSUIT:
+- The primary lawsuit goes in rec-<row>.json with the given slug.
+- If coverage documents ADDITIONAL distinct suits (different plaintiffs/filings) from the same scandal, write rec-<row>b.json (slug "<given slug>-b"), rec-<row>c.json (slug "<given slug>-c"), etc. — each a complete record with its own year/outcome/description and only its relevant sources; cross-reference companions in notes.
+- Class actions / consolidated mass litigation = ONE record, lawsuit_type="class_action".
+- If coverage reports many suits only in AGGREGATE (e.g. "$9.5M across 21 suits") and individual filings are not separately documented, keep ONE record with multiple_filings=true, filing_year_range set, and notes explaining the aggregate reporting.
+
+INCLUSION CHECK: the record must involve an actual filed civil lawsuit or formal claim (notice of claim, EEOC/human-rights complaint) with sexual assault/harassment central. If none exists, or sexual misconduct is not central to the claim, still complete the record but set "inclusion_concern" explaining why.
+
+JSON schema (exact keys, one file per lawsuit):
+{
+  "row": <int>, "slug": "<per rules above>",
+  "agency": "<official agency name>",
+  "agency_category": "police|sheriff|state_police|corrections|juvenile|federal|campus|transit|other",
+  "country": "US|CA", "state_province": "<2-letter>",
+  "lawsuit_type": "civilian|internal|class_action",
+  "year_filed": <int|null>, "year_filed_approx": <bool>, "filing_year_range": <"YYYY-YYYY"|null>, "multiple_filings": <bool>,
+  "outcome_status": "settled|plaintiff_verdict|defense_verdict|dismissed|ongoing|no_resolution_found",
+  "outcome_detail": "<amount, date, grounds, appeal status — or ''>",
+  "settlement_amount_original": <number|null>, "settlement_currency": "USD|CAD",
+  "settlement_date": <"YYYY-MM-DD"|null>,
+  "criminal_status": "none_filed|charged|convicted|pleaded_guilty|acquitted|charges_dropped|unknown",
+  "criminal_detail": "<charges, sentence, dates — or ''>",
+  "officer_names": ["<only accused officers already named in public reporting>"],
+  "incident_date_approx": "<free text>",
+  "description": "<3-6 sentences, language rules below>",
+  "notes": <"<flags>"|null>,
+  "inclusion_concern": <string|null>,
+  "sources": [{"url":"...","title":"...","publisher":"...","published_date":<"YYYY-MM-DD"|null>}],
+  "confidence_notes": "<anything uncertain>"
+}
+
+LAWSUIT TYPE: "civilian" = officer/deputy/jailer accused of sexually assaulting a civilian; "internal" = officer/employee suing their OWN agency over workplace sexual assault/harassment; "class_action" = class action / mass litigation.
+
+DESCRIPTION LANGUAGE RULES (strict — public site, defamation risk):
+- Attribute every unproven claim: "The suit alleges…", "According to the complaint…".
+- State conduct as fact ONLY where supported by a conviction, guilty plea, admission, or jury finding.
+- NEVER name victims — "a woman", "Jane Doe". Officer names only if already in cited reporting.
+- No editorializing, no pattern-drawing language.
+
+OUTCOME DISCIPLINE: "settled" only if a settlement is reported (amount+date in outcome_detail); "ongoing" only if coverage confirms the case is active; "no_resolution_found" if dedicated searches surface neither. Criminal track is separate from civil.
+
+NOTES flags when applicable: "Outside strict police-department definition (<category>)"; "Filed before 2021; included because resolution occurred in window"; companion-record cross-references.
+
+Final message: one line per FILE written: "rec-<key>: <agency> — <outcome_status> — <N> sources — CONCERN: <inclusion_concern or none>". Nothing else.
+
+THE SEED RECORDS:
+
+Record A: row=21, slug="phoenix-police-department-2021-r21". Agency hint: Phoenix Police Department, US/AZ. Year hint: 2021 (settled - $425,000 to each of two accusers in 2021, but officer acquitted). Seed outcome hint: settled - $425,000 to each of two accusers in 2021, but officer acquitted ($425000). Source: Phoenix Settles Rape Claim Against Former Police Officer; Jury acquits former Phoenix officer of sex assault charges, deadlocks on other crimes; ‘Sadistic History of Sexual Violence’: Another Alleged Victim of Ex-Phoenix Cop Sues https://www.kjzz.org/2021-06-02/content-1688390-phoenix-settles-rape-claim-against-former-police-officer
+
+Record B: row=22, slug="phoenix-police-department-2019-r22". Agency hint: Phoenix Police Department, US/AZ. Year hint: 2019 (settled for $1.6 million). Seed outcome hint: settled for $1.6 million ($1600000). Source: Phoenix woman claims she was sexually assaulted by Phoenix police; files $12M notice of claim against city https://www.abc15.com/news/region-phoenix-metro/central-phoenix/phoenix-woman-claims-she-was-sexually-assaulted-by-phoenix-police-files-12m-notice-of-claim-against-city
+
+Record C: row=23, slug="kansas-city-police-department-2023-r23". Agency hint: Kansas City Police Department, US/KS. Year hint: 2023 (ongoing). Seed outcome hint: ongoing. Source: Kansas City, Kansas, empowered police to exploit and humiliate Black community, lawsuit says; Roger Golubski, ex-KCKPD detective accused of abuse, dead of apparent suicide before trial https://www.kcur.org/news/2023-11-06/kansas-city-kansas-empowered-police-to-exploit-and-humiliate-black-community-lawsuit-says
+
+Record D: row=24, slug="san-diego-county-sheriff-s-department-2017-r24". Agency hint: San Diego County Sheriff's Department, US/CA. Year hint: 2017-2023 (settled - over $9.5M total across 21 suits). Seed outcome hint: settled - over $9.5M total across 21 suits ($9500000). Source: San Diego County pays more than $4.6 million to settle sex misconduct lawsuits against ex-deputy; New settlements in former deputy sex assault scandal | Taxpayers have paid nearly $5 million to settle over a dozen lawsuits https://ktla.com/news/local-news/san-diego-county-pays-more-than-4-6-million-to-settle-sex-misconduct-lawsuits-against-ex-deputy/

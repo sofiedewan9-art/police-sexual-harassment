@@ -1,0 +1,63 @@
+You are a research agent for a Policing Project (NYU Law) database of civil lawsuits involving sexual assault/harassment and law-enforcement agencies (US/Canada). Today is 2026-07-28. For EACH seed record below, research thoroughly via web search, then WRITE a JSON file per lawsuit to /Users/sofiedewan/police-sa-lawsuits/data/enriched/.
+
+RESEARCH PROCEDURE per record:
+1. Fetch the given source URL (WebFetch). If dead or paywalled, find the article by searching its exact title.
+2. Run a DEDICATED outcome search — settled / verdict / dismissed / still active? (e.g. "<agency> <officer> lawsuit settlement 2025"). Never assume from filing coverage alone.
+3. Search for any criminal case against the accused officer(s).
+4. More searches as needed for year filed, official agency name, facts (3–8 searches/record). Add every useful article to sources.
+5. If "Orphan titles" are listed, search each exact title and recover its URL; include in sources.
+
+GRANULARITY — ONE RECORD PER LAWSUIT:
+- The primary lawsuit goes in rec-<row>.json with the given slug.
+- If coverage documents ADDITIONAL distinct suits (different plaintiffs/filings) from the same scandal, write rec-<row>b.json (slug "<given slug>-b"), rec-<row>c.json (slug "<given slug>-c"), etc. — each a complete record with its own year/outcome/description and only its relevant sources; cross-reference companions in notes.
+- Class actions / consolidated mass litigation = ONE record, lawsuit_type="class_action".
+- If coverage reports many suits only in AGGREGATE (e.g. "$9.5M across 21 suits") and individual filings are not separately documented, keep ONE record with multiple_filings=true, filing_year_range set, and notes explaining the aggregate reporting.
+
+INCLUSION CHECK: the record must involve an actual filed civil lawsuit or formal claim (notice of claim, EEOC/human-rights complaint) with sexual assault/harassment central. If none exists, or sexual misconduct is not central to the claim, still complete the record but set "inclusion_concern" explaining why.
+
+JSON schema (exact keys, one file per lawsuit):
+{
+  "row": <int>, "slug": "<per rules above>",
+  "agency": "<official agency name>",
+  "agency_category": "police|sheriff|state_police|corrections|juvenile|federal|campus|transit|other",
+  "country": "US|CA", "state_province": "<2-letter>",
+  "lawsuit_type": "civilian|internal|class_action",
+  "year_filed": <int|null>, "year_filed_approx": <bool>, "filing_year_range": <"YYYY-YYYY"|null>, "multiple_filings": <bool>,
+  "outcome_status": "settled|plaintiff_verdict|defense_verdict|dismissed|ongoing|no_resolution_found",
+  "outcome_detail": "<amount, date, grounds, appeal status — or ''>",
+  "settlement_amount_original": <number|null>, "settlement_currency": "USD|CAD",
+  "settlement_date": <"YYYY-MM-DD"|null>,
+  "criminal_status": "none_filed|charged|convicted|pleaded_guilty|acquitted|charges_dropped|unknown",
+  "criminal_detail": "<charges, sentence, dates — or ''>",
+  "officer_names": ["<only accused officers already named in public reporting>"],
+  "incident_date_approx": "<free text>",
+  "description": "<3-6 sentences, language rules below>",
+  "notes": <"<flags>"|null>,
+  "inclusion_concern": <string|null>,
+  "sources": [{"url":"...","title":"...","publisher":"...","published_date":<"YYYY-MM-DD"|null>}],
+  "confidence_notes": "<anything uncertain>"
+}
+
+LAWSUIT TYPE: "civilian" = officer/deputy/jailer accused of sexually assaulting a civilian; "internal" = officer/employee suing their OWN agency over workplace sexual assault/harassment; "class_action" = class action / mass litigation.
+
+DESCRIPTION LANGUAGE RULES (strict — public site, defamation risk):
+- Attribute every unproven claim: "The suit alleges…", "According to the complaint…".
+- State conduct as fact ONLY where supported by a conviction, guilty plea, admission, or jury finding.
+- NEVER name victims — "a woman", "Jane Doe". Officer names only if already in cited reporting.
+- No editorializing, no pattern-drawing language.
+
+OUTCOME DISCIPLINE: "settled" only if a settlement is reported (amount+date in outcome_detail); "ongoing" only if coverage confirms the case is active; "no_resolution_found" if dedicated searches surface neither. Criminal track is separate from civil.
+
+NOTES flags when applicable: "Outside strict police-department definition (<category>)"; "Filed before 2021; included because resolution occurred in window"; companion-record cross-references.
+
+Final message: one line per FILE written: "rec-<key>: <agency> — <outcome_status> — <N> sources — CONCERN: <inclusion_concern or none>". Nothing else.
+
+THE SEED RECORDS:
+
+Record A: row=81, slug="vancouver-police-department-bc-2023-r81". Agency hint: Vancouver Police Department (BC), Canada/BC. Year hint: 2023 (civil suit ongoing; related grievance won, $30K award in 2025). Seed outcome hint: civil suit ongoing; related grievance won, $30K award in 2025 ($30000). Source: Vancouver police officer suing former colleague convicted of sexually assaulting her; Former Vancouver police officer awarded $30,000 after years-long grievance process; Vancouver officer sexually assaulted colleague, but police group chat targeted victim: investigation https://globalnews.ca/news/9510966/vpd-officer-suing-sexual-assault/
+
+Record B: row=82, slug="london-police-service-2022-r82". Agency hint: London Police Service, Canada/ON. Year hint: 2022 (ongoing). Seed outcome hint: ongoing. Source: Oneida First Nation woman sues London, Ont., police, alleging officers sexually abused her for years; Retired London cop charged with sexually assaulting woman who says she tried for years to get help https://www.cbc.ca/news/canada/london/oneida-assault-allegations-lawsuit-london-police-1.6646135
+
+Record C: row=83, slug="durham-regional-police-service-2019-r83". Agency hint: Durham Regional Police Service, Canada/ON. Year hint: 2019 (ongoing). Seed outcome hint: ongoing. Source: Police coverup, corruption and harassment case to move ahead in Ottawa court; $2M of taxpayer money already spent investigating alleged Durham police corruption https://www.cbc.ca/news/canada/ottawa/alleged-durham-police-corruption-harassment-lawsuit-ottawa-court-1.7248578
+
+Record D: row=84, slug="ottawa-police-service-2019-r84". Agency hint: Ottawa Police Service, Canada/ON. Year hint: 2019 (settled in 2021 - confidential, amount unknown). Seed outcome hint: settled in 2021 - confidential, amount unknown. Source: Police board settled human rights complaint with officer alleging sexual assault; Ottawa police officer fears losing 'dream job' after alleged sexual assault https://amp.cbc.ca/news/canada/ottawa/police-board-settled-human-rights-complaint-with-officer-alleging-sexual-assault-1.6330446

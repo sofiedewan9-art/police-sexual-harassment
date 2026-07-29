@@ -1,0 +1,16 @@
+{
+  "row": 21,
+  "slug": "phoenix-police-department-2021-r21",
+  "fields": {
+    "agency": "Phoenix Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "AZ",
+    "lawsuit_type": "civilian",
+    "year_filed": null,
+    "outcome_status": "settled",
+    "settlement_amount_original": 425000,
+    "criminal_status": "acquitted"
+  },
+  "caveats": "This is the Krystofer Lee claim against former officer Sean Pena (June 1, 2019 in-custody assault). Phoenix City Council unanimously approved the $425,000 settlement on June 2, 2021. Sources call it a claim/lawsuit but never give a filing date, so year_filed is null. Pena was indicted Aug 2020 on 7 felony counts; first trial (May 2022) not guilty on 2 counts with hung jury on 5, retrial (Aug 2022) not guilty on all remaining counts, hence acquitted. One source (12news.com) could not be fetched (timeout)."
+}

@@ -1,0 +1,16 @@
+{
+  "row": 15,
+  "slug": "louisville-metro-police-department-2017-r15",
+  "fields": {
+    "agency": "Louisville Metro Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "KY",
+    "lawsuit_type": "civilian",
+    "year_filed": 2017,
+    "outcome_status": "settled",
+    "settlement_amount_original": 3650000,
+    "criminal_status": "pleaded_guilty"
+  },
+  "caveats": "LMPD Youth Explorer program abuse: 7 plaintiffs (former teen Explorer cadets) sued Louisville Metro Government and Boy Scouts of America; first suit filed March 8, 2017 in Jefferson Circuit Court, moved to federal court in 2018 (one source dates the federal filing March 2018). Settled for $3.65M announced Nov 1, 2021; Boy Scouts' insurer (Old Republic) paid over $3M, city self-insurance the remainder. lawsuit_type set to civilian since cadets were program participants, not employees; multiple consolidated suits but no source calls it a certified class action. Officers Kenneth Betts, Brandon Wood, and Brad Schuhmann were convicted of federal sex crimes; Spectrum News says three officers 'pleaded guilty to federal charges', other sources say 'convicted' - criminal_status set pleaded_guilty per that source. Two sources failed to load (whas11 timeout, louisvilleky.gov 403) and one (WDRB plea-deal article) returned 429 repeatedly; all skipped."
+}

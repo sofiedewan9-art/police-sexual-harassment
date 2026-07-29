@@ -1,0 +1,63 @@
+You are a research agent for a Policing Project (NYU Law) database of civil lawsuits involving sexual assault/harassment and law-enforcement agencies (US/Canada). Today is 2026-07-28. For EACH seed record below, research thoroughly via web search, then WRITE a JSON file per lawsuit to /Users/sofiedewan/police-sa-lawsuits/data/enriched/.
+
+RESEARCH PROCEDURE per record:
+1. Fetch the given source URL (WebFetch). If dead or paywalled, find the article by searching its exact title.
+2. Run a DEDICATED outcome search — settled / verdict / dismissed / still active? (e.g. "<agency> <officer> lawsuit settlement 2025"). Never assume from filing coverage alone.
+3. Search for any criminal case against the accused officer(s).
+4. More searches as needed for year filed, official agency name, facts (3–8 searches/record). Add every useful article to sources.
+5. If "Orphan titles" are listed, search each exact title and recover its URL; include in sources.
+
+GRANULARITY — ONE RECORD PER LAWSUIT:
+- The primary lawsuit goes in rec-<row>.json with the given slug.
+- If coverage documents ADDITIONAL distinct suits (different plaintiffs/filings) from the same scandal, write rec-<row>b.json (slug "<given slug>-b"), rec-<row>c.json (slug "<given slug>-c"), etc. — each a complete record with its own year/outcome/description and only its relevant sources; cross-reference companions in notes.
+- Class actions / consolidated mass litigation = ONE record, lawsuit_type="class_action".
+- If coverage reports many suits only in AGGREGATE (e.g. "$9.5M across 21 suits") and individual filings are not separately documented, keep ONE record with multiple_filings=true, filing_year_range set, and notes explaining the aggregate reporting.
+
+INCLUSION CHECK: the record must involve an actual filed civil lawsuit or formal claim (notice of claim, EEOC/human-rights complaint) with sexual assault/harassment central. If none exists, or sexual misconduct is not central to the claim, still complete the record but set "inclusion_concern" explaining why.
+
+JSON schema (exact keys, one file per lawsuit):
+{
+  "row": <int>, "slug": "<per rules above>",
+  "agency": "<official agency name>",
+  "agency_category": "police|sheriff|state_police|corrections|juvenile|federal|campus|transit|other",
+  "country": "US|CA", "state_province": "<2-letter>",
+  "lawsuit_type": "civilian|internal|class_action",
+  "year_filed": <int|null>, "year_filed_approx": <bool>, "filing_year_range": <"YYYY-YYYY"|null>, "multiple_filings": <bool>,
+  "outcome_status": "settled|plaintiff_verdict|defense_verdict|dismissed|ongoing|no_resolution_found",
+  "outcome_detail": "<amount, date, grounds, appeal status — or ''>",
+  "settlement_amount_original": <number|null>, "settlement_currency": "USD|CAD",
+  "settlement_date": <"YYYY-MM-DD"|null>,
+  "criminal_status": "none_filed|charged|convicted|pleaded_guilty|acquitted|charges_dropped|unknown",
+  "criminal_detail": "<charges, sentence, dates — or ''>",
+  "officer_names": ["<only accused officers already named in public reporting>"],
+  "incident_date_approx": "<free text>",
+  "description": "<3-6 sentences, language rules below>",
+  "notes": <"<flags>"|null>,
+  "inclusion_concern": <string|null>,
+  "sources": [{"url":"...","title":"...","publisher":"...","published_date":<"YYYY-MM-DD"|null>}],
+  "confidence_notes": "<anything uncertain>"
+}
+
+LAWSUIT TYPE: "civilian" = officer/deputy/jailer accused of sexually assaulting a civilian; "internal" = officer/employee suing their OWN agency over workplace sexual assault/harassment; "class_action" = class action / mass litigation.
+
+DESCRIPTION LANGUAGE RULES (strict — public site, defamation risk):
+- Attribute every unproven claim: "The suit alleges…", "According to the complaint…".
+- State conduct as fact ONLY where supported by a conviction, guilty plea, admission, or jury finding.
+- NEVER name victims — "a woman", "Jane Doe". Officer names only if already in cited reporting.
+- No editorializing, no pattern-drawing language.
+
+OUTCOME DISCIPLINE: "settled" only if a settlement is reported (amount+date in outcome_detail); "ongoing" only if coverage confirms the case is active; "no_resolution_found" if dedicated searches surface neither. Criminal track is separate from civil.
+
+NOTES flags when applicable: "Outside strict police-department definition (<category>)"; "Filed before 2021; included because resolution occurred in window"; companion-record cross-references.
+
+Final message: one line per FILE written: "rec-<key>: <agency> — <outcome_status> — <N> sources — CONCERN: <inclusion_concern or none>". Nothing else.
+
+THE SEED RECORDS:
+
+Record A: row=65, slug="iron-mountain-police-department-2023-r65". Agency hint: Iron Mountain Police Department, US/MI. Year hint: 2023 (settled - $475,000 in July 2024). Seed outcome hint: settled - $475,000 in July 2024 ($475000). Source: First female police officer in rural Michigan town says fellow cops relentlessly harassed and assaulted her; Former Iron Mountain officer reaches $475,000 settlement in sexual harassment lawsuit; IM settles suit filed by former city officer https://www.nbcnews.com/news/us-news/michigan-departments-first-female-cop-alleges-relentless-harassment-rcna76194
+
+Record B: row=66, slug="washington-state-criminal-justice-training-commission-traine". Agency hint: Washington State Criminal Justice Training Commission (trainer from Federal Way PD), US/WA. Year hint: 2024 (settled - $500,000 in 2025). Seed outcome hint: settled - $500,000 in 2025 ($500000). Source: WA police academy pays deputy $500K over sexual harassment lawsuit; Deputy’s Sexual Assault Lawsuit for Training Academy Misconduct Settles for $500,000; ‘Bigoted and toxic:’ Deputy settles with state academy, Federal Way PD over sex assault claims https://www.fox13seattle.com/news/wa-police-academy-500k-harassment
+
+Record C: row=67, slug="solano-county-sheriff-s-office-2025-r67". Agency hint: Solano County Sheriff's Office, US/CA. Year hint: 2025 (ongoing). Seed outcome hint: ongoing. Source: Lawsuit: Solano deputy ‘thought she was going to die’ when colleague raped her https://www.vallejosun.com/lawsuit-solano-deputy-thought-she-was-going-to-die-when-colleague-raped-her/
+
+Record D: row=68, slug="san-mateo-county-sheriff-s-office-2022-r68". Agency hint: San Mateo County Sheriff's Office, US/CA. Year hint: 2022 (settled - $8M in 2024). Seed outcome hint: settled - $8M in 2024 ($8000000). Source: Decorated sheriff’s deputy sues San Mateo County over workplace sexual harassment, assault; San Mateo County pays $8M for sex harassment suit https://www.almanacnews.com/news/2022/11/11/decorated-sheriffs-deputy-sues-san-mateo-county-over-workplace-sexual-harassment-assault/

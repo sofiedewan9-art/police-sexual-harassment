@@ -1,0 +1,16 @@
+{
+  "row": 21,
+  "slug": "phoenix-police-department-2021-r21-b",
+  "fields": {
+    "agency": "Phoenix Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "AZ",
+    "lawsuit_type": "civilian",
+    "year_filed": 2021,
+    "outcome_status": "settled",
+    "settlement_amount_original": 425000,
+    "criminal_status": "acquitted"
+  },
+  "caveats": "Second civil suit against ex-officer Sean Pena: Lisa Gutierrez filed June 18, 2021 in U.S. District Court of Arizona over an Aug 5, 2019 assault. KRDO (Nov 17, 2021) reports a $425,000 Phoenix council settlement vote for an 'unnamed woman' assaulted by Pena — plaintiff not named, but the Lee settlement was already approved June 2021, so this is presumed to be Gutierrez; azfamily (Aug 2022) confirms both Lee and Gutierrez settled with the city (amounts not given there). Pena acquitted across two criminal trials (May and Aug 2022)."
+}

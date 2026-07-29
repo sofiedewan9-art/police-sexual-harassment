@@ -1,0 +1,16 @@
+{
+  "row": 24,
+  "slug": "san-diego-county-sheriff-s-department-2017-r24",
+  "fields": {
+    "agency": "San Diego County Sheriff's Department",
+    "agency_category": "sheriff",
+    "country": "US",
+    "state_province": "CA",
+    "lawsuit_type": "civilian",
+    "year_filed": 2017,
+    "outcome_status": "settled",
+    "settlement_amount_original": 9500000,
+    "criminal_status": "pleaded_guilty"
+  },
+  "caveats": "Richard Fischer case: this row aggregates roughly 21 civil lawsuits by women he assaulted on duty (2015-2017); civil claims began in 2017. Settlement figure is the aggregate: dlawgroup says $9.5M across 21 settled suits, Yahoo says 'nearly $10 million' across at least 21 cases; individual settlements varied, and the county also paid over $1M for his civil defense. Two sources (ktla.com 403, both cbs8.com links timing out) were inaccessible, including the one citing an earlier $4.6M running total. Fischer pleaded guilty in Sept 2019 to 7 counts (4 felony assault under color of authority, 2 misdemeanor assault, 1 misdemeanor false imprisonment), sentenced Dec 2019 to 44 months in county jail; not required to register as a sex offender."
+}

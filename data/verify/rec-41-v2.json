@@ -1,0 +1,16 @@
+{
+  "row": 41,
+  "slug": "riverside-county-sheriff-s-department-2023-r41",
+  "fields": {
+    "agency": "Riverside County Sheriff's Department",
+    "agency_category": "sheriff",
+    "country": "US",
+    "state_province": "CA",
+    "lawsuit_type": "civilian",
+    "year_filed": 2023,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "pleaded_guilty"
+  },
+  "caveats": "Multiple related suits: a civil suit was filed ~Sept 26, 2023 in Riverside County Superior Court, and seven federal lawsuits were filed in April 2024 over deputy Christian Heidecker's sextortion of women in the Alternative Sentencing Program and an alleged county 'hush money' cover-up. year_filed=2023 reflects the earliest civil filing, matching the slug. Pre-litigation payments of $1,000-$5,000 the county offered/paid some victims are not lawsuit settlements, so settlement_amount is null. 'Ongoing' reflects status as of the most recent sources (April 2024), which report the federal suits as newly filed; no later status available. Heidecker pleaded guilty Feb 2024 to 13 felonies (extortion, witness intimidation, bribery) and was sentenced to 5 years."
+}

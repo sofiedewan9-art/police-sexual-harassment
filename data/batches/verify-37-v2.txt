@@ -1,0 +1,52 @@
+You are an independent verification agent for a database of civil lawsuits involving sexual assault/harassment and law-enforcement agencies. Today is 2026-07-28. For each record below you get ONLY source URLs. Read the sources (WebFetch; if one fails, skip it — do NOT search for other articles) and independently derive the fields from the sources alone. Do not guess: if the sources don't establish a value, use null. Be skeptical and literal about what the sources actually say.
+
+For each record, write a JSON file to /Users/sofiedewan/police-sa-lawsuits/data/verify/rec-<key>-v2.json (the <key> is given per record):
+{
+  "row": <int>, "slug": "<given>",
+  "fields": {
+    "agency": "<official agency name as best supported by sources>",
+    "agency_category": "police|sheriff|state_police|corrections|juvenile|federal|campus|transit|other",
+    "country": "US|CA",
+    "state_province": "<2-letter>",
+    "lawsuit_type": "civilian|internal|class_action",
+    "year_filed": <int|null>,
+    "outcome_status": "settled|plaintiff_verdict|defense_verdict|dismissed|ongoing|no_resolution_found",
+    "settlement_amount_original": <number|null>,
+    "criminal_status": "none_filed|charged|convicted|pleaded_guilty|acquitted|charges_dropped|unknown"
+  },
+  "caveats": "<brief notes on anything ambiguous>"
+}
+Definitions: civilian = officer accused of assaulting a civilian; internal = employee suing own agency over workplace sexual assault/harassment; class_action = mass litigation. "ongoing" only if sources confirm the case is active; "no_resolution_found" if sources show no resolution. year_filed = year the CIVIL suit was filed. If no lawsuit exists in the sources, pick the closest lawsuit_type fit and say so in caveats.
+
+Final message: one line per record "rec-<key>: done". Nothing else.
+
+THE RECORDS:
+
+Record key=37, row=37, slug="multnomah-county-sheriff-s-office-2026-r37", sources:
+https://www.kgw.com/article/news/crime/federal-civil-lawsuit-alleges-former-multnomah-county-corrections-deputy-sexually-assaulted-inmate/283-12e9a8e4-5503-4125-9431-0b29518c5e63
+https://katu.com/news/local/lawsuit-former-multnomah-sheriffs-deputy-raped-inmate-other-staff-retaliated-against-her-edwin-diaz-sheriff-odonnell-kohn-dpsst-county-jail-portland-oregon
+https://www.kgw.com/article/news/crime/multnomah-county-corrections-deputy-jail-sex-abuse-misconduct-assault/283-f08d97d0-4169-4fd9-a562-b34e6f56ea47
+https://www.mcso.us/news-information/statement-alleged-misconduct-corrections-deputy
+
+Record key=37b, row=37, slug="multnomah-county-sheriff-s-office-2026-r37-b", sources:
+https://www.opb.org/article/2026/04/07/multnomah-county-jail-portland-oregon-sexual-abuse-crime/
+https://katu.com/news/local/former-multnomah-county-deputy-second-lawsuit-alleging-sexual-assault-inmate-portland-oregon-jail-justice-center-oregon-edwin-diaz-clackamas-county-crime
+
+Record key=38, row=38, slug="multnomah-county-sheriff-s-office-2026-r38", sources:
+https://katu.com/news/local/federal-lawsuit-docs-multnomah-county-jail-deputy-groomed-female-inmate-for-sex-martin-jackson-portland-oregon
+https://www.koin.com/local/multnomah-county/lawsuit-claims-deputy-preyed-on-vulnerable-inmate-at-multnomah-county-detention-center/
+https://www.koin.com/local/multnomah-county/citing-insufficient-evidence-multnomah-county-declines-to-prosecute-deputy-accused-of-sex-abuse/
+
+Record key=39, row=39, slug="chisago-county-sheriff-s-office-2024-r39", sources:
+https://kstp.com/kstp-news/local-news/chisago-county-settles-lawsuit-over-sheriff-sex-assault-case-for-7-5-million/
+https://minnlawyer.com/2026/03/11/chisago-county-sheriff-abuse-lawsuit-7-5m-settlement/
+https://chisagocountypress.com/news/2026/feb/27/county-insurance-trust-to-pay-out-75-million/
+https://bringmethenews.com/minnesota-news/chisago-county-agrees-7-5m-settlement-with-victim-in-sheriff-sex-assault-case
+https://kstp.com/kstp-news/local-news/former-chisago-co-sheriff-rick-duncan-sentenced-to-jail-probation-after-2017-assault-blackmail/
+https://www.cbsnews.com/minnesota/news/new-lawsuit-accuses-former-chisago-county-sheriff-of-sexually-assaulting-woman-using-blackmail-scheme/
+https://www.cbsnews.com/minnesota/news/mother-blackmail-former-chisago-county-sheriff-wcco-investigation/
+
+Record key=40, row=40, slug="payette-county-sheriff-s-office-2025-r40", sources:
+https://www.spokesman.com/stories/2025/oct/02/ex-idaho-sheriffs-jail-deputy-could-be-sued-after-/
+https://www.yahoo.com/news/articles/ex-idaho-sheriff-jail-deputy-224627046.html
+

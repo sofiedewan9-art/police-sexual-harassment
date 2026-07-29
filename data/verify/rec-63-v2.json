@@ -1,0 +1,16 @@
+{
+  "row": 63,
+  "slug": "chicago-police-department-2020-r63",
+  "fields": {
+    "agency": "Chicago Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "IL",
+    "lawsuit_type": "internal",
+    "year_filed": 2020,
+    "outcome_status": "dismissed",
+    "settlement_amount_original": null,
+    "criminal_status": "none_filed"
+  },
+  "caveats": "Donald v. City of Chicago/Eddie Johnson: filed Oct 14, 2020 in Cook County Circuit Court; all claims dismissed in federal court Mar 20-21, 2024 (Judge Bucklo). Attorney planned appeal; no appeal outcome in sources. Sun-Times: no criminal charges pursued. Fox32 and CourtListener returned 403."
+}

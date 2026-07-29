@@ -1,0 +1,56 @@
+You are an independent verification agent for a database of civil lawsuits involving sexual assault/harassment and law-enforcement agencies. Today is 2026-07-28. For each record below you get ONLY source URLs. Read the sources (WebFetch; if one fails, skip it — do NOT search for other articles) and independently derive the fields from the sources alone. Do not guess: if the sources don't establish a value, use null.
+
+For each record, write a JSON file to /Users/sofiedewan/police-sa-lawsuits/data/verify/rec-<key>-v1.json (the <key> is given per record):
+{
+  "row": <int>, "slug": "<given>",
+  "fields": {
+    "agency": "<official agency name as best supported by sources>",
+    "agency_category": "police|sheriff|state_police|corrections|juvenile|federal|campus|transit|other",
+    "country": "US|CA",
+    "state_province": "<2-letter>",
+    "lawsuit_type": "civilian|internal|class_action",
+    "year_filed": <int|null>,
+    "outcome_status": "settled|plaintiff_verdict|defense_verdict|dismissed|ongoing|no_resolution_found",
+    "settlement_amount_original": <number|null>,
+    "criminal_status": "none_filed|charged|convicted|pleaded_guilty|acquitted|charges_dropped|unknown"
+  },
+  "caveats": "<brief notes on anything ambiguous>"
+}
+Definitions: civilian = officer accused of assaulting a civilian; internal = employee suing own agency over workplace sexual assault/harassment; class_action = mass litigation. "ongoing" only if sources confirm the case is active; "no_resolution_found" if sources show no resolution. year_filed = year the CIVIL suit was filed. If no lawsuit exists in the sources, pick the closest lawsuit_type fit and say so in caveats.
+
+Final message: one line per record "rec-<key>: done". Nothing else.
+
+THE RECORDS:
+
+Record key=17, row=17, slug="boston-police-department-2023-r17", sources:
+https://www.wbur.org/news/2023/06/08/patrick-rose-sex-abuse-victims-lawsuit-boston-police
+https://www.nbcboston.com/news/local/child-rape-victims-of-ex-boston-police-union-president-file-civil-suit/3063666/
+https://www.cbsnews.com/boston/news/patrick-rose-victims-lawsuit-boston-police-dcf/
+https://news.bloomberglaw.com/litigation/bostons-handling-of-cops-sexual-abuse-troubles-first-circuit
+https://news.bloomberglaw.com/litigation/boston-police-must-face-suit-over-handling-of-cops-sexual-abuse
+https://www.bostonglobe.com/2025/10/23/opinion/patrick-rose-child-molester-boston-police/
+https://www.universalhub.com/2023/city-state-union-all-knew-patrick-rose-was-raping
+
+Record key=18, row=18, slug="philadelphia-police-department-2023-r18", sources:
+https://www.cbsnews.com/philadelphia/news/patrick-heron-philadelphia-police-officer-sexual-assault-crime/
+https://www.inquirer.com/news/philadelphia/patrick-heron-philadelphia-police-officer-sexual-assault-guilty-prison-20231020.html
+https://whyy.org/articles/patrick-heron-ex-philadelphia-police-officer-sentencing-guilty-plea-sex-assault-cases/
+https://phillyda.org/news/former-ppd-officer-priest-convicted-in-separate-sexual-violence-cases-involving-child-victims/
+https://www.kensingtonvoice.com/patrick-heron-philly-cop-sex-assault-kensington/
+https://whyy.org/articles/patrick-heron-ppd-officer-charged-sexual-abuse-minors-citizen-complaints/
+
+Record key=19, row=19, slug="atlanta-police-department-2025-r19", sources:
+https://www.fox5atlanta.com/news/lawuit-atlanta-former-police-officer-teen-sexual-assault
+https://www.ajc.com/news/crime/teens-family-sues-former-atlanta-officer-city-over-sexual-assault/O7PDM35JLFCQFNUONJV5XZCDEU/
+https://atlnewsroom.com/news/article/atlanta-police-department-faces-federal-lawsuit-over-allegations-of-ignoring-sexual-predators-in-police-ranks/938
+https://www.wsbtv.com/news/local/atlanta/atlanta-police-sued-by-family-teen-who-accused-ex-officer-sexual-assault-after-crash/MCZVGHVTQNB7HEOKAVIERJI6OY/
+https://www.11alive.com/article/news/crime/family-sues-atlanta-after-ex-officer-pleads-guilty-to-sexual-assault/85-2e8cc3f4-016a-4099-864b-3ca584e80620
+
+Record key=20, row=20, slug="harris-county-sheriff-s-office-2022-r20", sources:
+https://abc13.com/post/michael-jarell-hines-shanita-terrell-hcso-deputy/13717039/
+https://www.houstonpublicmedia.org/articles/news/criminal-justice/2023/08/29/460769/he-should-have-had-jail-time-victim-speaks-out-after-former-harris-county-sheriffs-deputy-pleas-guilty-to-attempted-sexual-assault/
+https://www.click2houston.com/news/local/2022/02/03/should-never-work-around-women-deputy-accused-of-sexually-assaulting-woman-after-nightclub-had-prior-charge-involving-child/
+https://caselaw.findlaw.com/court/us-5th-circuit/116360293.html
+https://law.justia.com/cases/federal/appellate-courts/ca5/23-20281/23-20281-2024-07-09.html
+https://www.cbsnews.com/projects/2026/moonlighting/qualified-immunity-police-officers-off-duty-misconduct/
+

@@ -1,0 +1,16 @@
+{
+  "row": 79,
+  "slug": "royal-newfoundland-constabulary-2022-r79",
+  "fields": {
+    "agency": "Royal Newfoundland Constabulary",
+    "agency_category": "police",
+    "country": "CA",
+    "state_province": "NL",
+    "lawsuit_type": "civilian",
+    "year_filed": 2022,
+    "outcome_status": "no_resolution_found",
+    "settlement_amount_original": null,
+    "criminal_status": "convicted"
+  },
+  "caveats": "Single suit filed Sept 9, 2022 by 7 civilian women vs province over on-duty RNC officer assaults (2001-2017); multi-plaintiff but not a certified class action, so coded civilian. criminal_status reflects Snelgrove (convicted 2021, upheld 2023); Baldwin and others uncharged. Some URLs 403'd."
+}

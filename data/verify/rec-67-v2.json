@@ -1,0 +1,16 @@
+{
+  "row": 67,
+  "slug": "solano-county-sheriff-s-office-2025-r67",
+  "fields": {
+    "agency": "Solano County Sheriff's Office",
+    "agency_category": "sheriff",
+    "country": "US",
+    "state_province": "CA",
+    "lawsuit_type": "internal",
+    "year_filed": 2025,
+    "outcome_status": "no_resolution_found",
+    "settlement_amount_original": null,
+    "criminal_status": "none_filed"
+  },
+  "caveats": "Jane Doe, a Solano County sheriff's deputy, filed suit in federal court in October 2025 against Deputy John Robertson, former Sheriff Thomas Ferrara, Sheriff Brad DeWall, and Captain Jackson Harris, alleging Robertson raped, assaulted, and strangled her repeatedly between Aug 2022 and June 2023 and that the agency retaliated after she reported to Vacaville PD in Dec 2024. The accessible source (Vallejo Sun) reports the filing only and shows no resolution, hence no_resolution_found; the second source (leagle.com decision dated Nov 2025, which likely indicates active litigation) returned 403 and was skipped, so 'ongoing' could not be confirmed. Criminal_status: the DA's office 'declined criminal charges' per the sheriff's office spokesperson, so none_filed; Robertson was reinstated with no discipline reported."
+}

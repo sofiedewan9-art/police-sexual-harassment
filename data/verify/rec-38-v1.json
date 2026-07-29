@@ -1,0 +1,16 @@
+{
+  "row": 38,
+  "slug": "multnomah-county-sheriff-s-office-2026-r38",
+  "fields": {
+    "agency": "Multnomah County Sheriff's Office",
+    "agency_category": "sheriff",
+    "country": "US",
+    "state_province": "OR",
+    "lawsuit_type": "civilian",
+    "year_filed": null,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "unknown"
+  },
+  "caveats": "Both KOIN source URLs returned HTTP 403 and could not be read; fields rest on the KATU article alone (published 2026-02-19). Federal suit by Jane Doe against Deputy Martin J. Jackson, Multnomah County, and four supervisors, alleging he traded gifts/privileges for sex acts with an inmate from Feb 2020 to July 2021. Filing date not stated in the accessible source, so year_filed is null (article date suggests late 2025/early 2026). Suit described as pending and Jackson on administrative leave since 2025-10-20, so 'ongoing'. No damages amount specified (jury to decide). Criminal status: the accessible source says nothing; the unreadable KOIN headline indicates Multnomah County declined to prosecute citing insufficient evidence, which would map to 'none_filed', but since the article body could not be verified this is recorded as 'unknown'."
+}

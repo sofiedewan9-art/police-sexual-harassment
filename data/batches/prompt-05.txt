@@ -1,0 +1,64 @@
+You are a research agent for a Policing Project (NYU Law) database of civil lawsuits involving sexual assault/harassment and law-enforcement agencies (US/Canada). Today is 2026-07-28. For EACH seed record below, research thoroughly via web search, then WRITE a JSON file per lawsuit to /Users/sofiedewan/police-sa-lawsuits/data/enriched/.
+
+RESEARCH PROCEDURE per record:
+1. Fetch the given source URL (WebFetch). If dead or paywalled, find the article by searching its exact title.
+2. Run a DEDICATED outcome search — settled / verdict / dismissed / still active? (e.g. "<agency> <officer> lawsuit settlement 2025"). Never assume from filing coverage alone.
+3. Search for any criminal case against the accused officer(s).
+4. More searches as needed for year filed, official agency name, facts (3–8 searches/record). Add every useful article to sources.
+5. If "Orphan titles" are listed, search each exact title and recover its URL; include in sources.
+
+GRANULARITY — ONE RECORD PER LAWSUIT:
+- The primary lawsuit goes in rec-<row>.json with the given slug.
+- If coverage documents ADDITIONAL distinct suits (different plaintiffs/filings) from the same scandal, write rec-<row>b.json (slug "<given slug>-b"), rec-<row>c.json (slug "<given slug>-c"), etc. — each a complete record with its own year/outcome/description and only its relevant sources; cross-reference companions in notes.
+- Class actions / consolidated mass litigation = ONE record, lawsuit_type="class_action".
+- If coverage reports many suits only in AGGREGATE (e.g. "$9.5M across 21 suits") and individual filings are not separately documented, keep ONE record with multiple_filings=true, filing_year_range set, and notes explaining the aggregate reporting.
+
+INCLUSION CHECK: the record must involve an actual filed civil lawsuit or formal claim (notice of claim, EEOC/human-rights complaint) with sexual assault/harassment central. If none exists, or sexual misconduct is not central to the claim, still complete the record but set "inclusion_concern" explaining why.
+
+JSON schema (exact keys, one file per lawsuit):
+{
+  "row": <int>, "slug": "<per rules above>",
+  "agency": "<official agency name>",
+  "agency_category": "police|sheriff|state_police|corrections|juvenile|federal|campus|transit|other",
+  "country": "US|CA", "state_province": "<2-letter>",
+  "lawsuit_type": "civilian|internal|class_action",
+  "year_filed": <int|null>, "year_filed_approx": <bool>, "filing_year_range": <"YYYY-YYYY"|null>, "multiple_filings": <bool>,
+  "outcome_status": "settled|plaintiff_verdict|defense_verdict|dismissed|ongoing|no_resolution_found",
+  "outcome_detail": "<amount, date, grounds, appeal status — or ''>",
+  "settlement_amount_original": <number|null>, "settlement_currency": "USD|CAD",
+  "settlement_date": <"YYYY-MM-DD"|null>,
+  "criminal_status": "none_filed|charged|convicted|pleaded_guilty|acquitted|charges_dropped|unknown",
+  "criminal_detail": "<charges, sentence, dates — or ''>",
+  "officer_names": ["<only accused officers already named in public reporting>"],
+  "incident_date_approx": "<free text>",
+  "description": "<3-6 sentences, language rules below>",
+  "notes": <"<flags>"|null>,
+  "inclusion_concern": <string|null>,
+  "sources": [{"url":"...","title":"...","publisher":"...","published_date":<"YYYY-MM-DD"|null>}],
+  "confidence_notes": "<anything uncertain>"
+}
+
+LAWSUIT TYPE: "civilian" = officer/deputy/jailer accused of sexually assaulting a civilian; "internal" = officer/employee suing their OWN agency over workplace sexual assault/harassment; "class_action" = class action / mass litigation.
+
+DESCRIPTION LANGUAGE RULES (strict — public site, defamation risk):
+- Attribute every unproven claim: "The suit alleges…", "According to the complaint…".
+- State conduct as fact ONLY where supported by a conviction, guilty plea, admission, or jury finding.
+- NEVER name victims — "a woman", "Jane Doe". Officer names only if already in cited reporting.
+- No editorializing, no pattern-drawing language.
+
+OUTCOME DISCIPLINE: "settled" only if a settlement is reported (amount+date in outcome_detail); "ongoing" only if coverage confirms the case is active; "no_resolution_found" if dedicated searches surface neither. Criminal track is separate from civil.
+
+NOTES flags when applicable: "Outside strict police-department definition (<category>)"; "Filed before 2021; included because resolution occurred in window"; companion-record cross-references.
+
+Final message: one line per FILE written: "rec-<key>: <agency> — <outcome_status> — <N> sources — CONCERN: <inclusion_concern or none>". Nothing else.
+
+THE SEED RECORDS:
+
+Record A: row=25, slug="county-of-los-angeles-2020-r25". Agency hint: County of Los Angeles, US/CA. Year hint: 2020 (settled 2025- $4 billion to thousands of victims, largest LA county financial settlement). Seed outcome hint: settled 2025- $4 billion to thousands of victims, largest LA county financial settlement ($4000000000). Source: In largest settlement in its history, LA County approves $4 billion in massive child abuse case; https://laist.com/news/criminal-justice/la-county-4-billion-settlement-child-sex-abuse-case
+Orphan titles (find their URLs): "LA County Reaches $4 Billion Tentative Settlement in Thousands of Sexual Abuse Cases"
+
+Record B: row=26, slug="new-york-city-department-of-correction-r26". Agency hint: New York City Department of Correction, US/NY. Year hint: Ongoing. Seed outcome hint: Ongoing. Seed note: Corrections agency, not techincally a police department. Source: Hundreds of lawsuits allege decades of sexual abuse at Rikers Island; 719 sexual assault lawsuits over alleged abuse at Rikers Island seek $14 billion from NYC; More than half of NYC civil sex abuse suits stem from Rikers Island: report https://www.nbcnews.com/news/nbcblk/sexual-abuse-lawsuits-rikers-island-new-york-adult-survivors-act-rcna126898
+
+Record C: row=27, slug="new-york-city-police-department-2018-r27". Agency hint: New York City Police Department, US/NY. Year hint: 2018 (settled - $125K from city in Sept 2022). Seed outcome hint: settled - $125K from city in Sept 2022 ($125000). Source: NYC settles lawsuit with woman who accused two NYPD officers of raping her; NYC to pay $125K to woman who accused two NYPD cops of rape in last-minute civil suit settlement https://www.upi.com/Top_News/US/2022/09/10/nyc-settles-lawsuit-woman-accused-two-nypd-officers-raping-her/5031662857737/
+
+Record D: row=28, slug="new-york-city-police-department-2023-r28". Agency hint: New York City Police Department, US/NY. Year hint: 2023 (ongoing, per latest coverage found). Seed outcome hint: ongoing, per latest coverage found. Source: Ex-NYPD Colleague Accuses Eric Adams of Sexual Assault in Civil Lawsuit; Lawsuit Accuses Eric Adams of Sexual Assault Three Decades Ago https://www.thecity.nyc/2024/03/18/eric-adams-lawsuit-sexual-assault-allegations/

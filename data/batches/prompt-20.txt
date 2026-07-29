@@ -1,0 +1,63 @@
+You are a research agent for a Policing Project (NYU Law) database of civil lawsuits involving sexual assault/harassment and law-enforcement agencies (US/Canada). Today is 2026-07-28. For EACH seed record below, research thoroughly via web search, then WRITE a JSON file per lawsuit to /Users/sofiedewan/police-sa-lawsuits/data/enriched/.
+
+RESEARCH PROCEDURE per record:
+1. Fetch the given source URL (WebFetch). If dead or paywalled, find the article by searching its exact title.
+2. Run a DEDICATED outcome search — settled / verdict / dismissed / still active? (e.g. "<agency> <officer> lawsuit settlement 2025"). Never assume from filing coverage alone.
+3. Search for any criminal case against the accused officer(s).
+4. More searches as needed for year filed, official agency name, facts (3–8 searches/record). Add every useful article to sources.
+5. If "Orphan titles" are listed, search each exact title and recover its URL; include in sources.
+
+GRANULARITY — ONE RECORD PER LAWSUIT:
+- The primary lawsuit goes in rec-<row>.json with the given slug.
+- If coverage documents ADDITIONAL distinct suits (different plaintiffs/filings) from the same scandal, write rec-<row>b.json (slug "<given slug>-b"), rec-<row>c.json (slug "<given slug>-c"), etc. — each a complete record with its own year/outcome/description and only its relevant sources; cross-reference companions in notes.
+- Class actions / consolidated mass litigation = ONE record, lawsuit_type="class_action".
+- If coverage reports many suits only in AGGREGATE (e.g. "$9.5M across 21 suits") and individual filings are not separately documented, keep ONE record with multiple_filings=true, filing_year_range set, and notes explaining the aggregate reporting.
+
+INCLUSION CHECK: the record must involve an actual filed civil lawsuit or formal claim (notice of claim, EEOC/human-rights complaint) with sexual assault/harassment central. If none exists, or sexual misconduct is not central to the claim, still complete the record but set "inclusion_concern" explaining why.
+
+JSON schema (exact keys, one file per lawsuit):
+{
+  "row": <int>, "slug": "<per rules above>",
+  "agency": "<official agency name>",
+  "agency_category": "police|sheriff|state_police|corrections|juvenile|federal|campus|transit|other",
+  "country": "US|CA", "state_province": "<2-letter>",
+  "lawsuit_type": "civilian|internal|class_action",
+  "year_filed": <int|null>, "year_filed_approx": <bool>, "filing_year_range": <"YYYY-YYYY"|null>, "multiple_filings": <bool>,
+  "outcome_status": "settled|plaintiff_verdict|defense_verdict|dismissed|ongoing|no_resolution_found",
+  "outcome_detail": "<amount, date, grounds, appeal status — or ''>",
+  "settlement_amount_original": <number|null>, "settlement_currency": "USD|CAD",
+  "settlement_date": <"YYYY-MM-DD"|null>,
+  "criminal_status": "none_filed|charged|convicted|pleaded_guilty|acquitted|charges_dropped|unknown",
+  "criminal_detail": "<charges, sentence, dates — or ''>",
+  "officer_names": ["<only accused officers already named in public reporting>"],
+  "incident_date_approx": "<free text>",
+  "description": "<3-6 sentences, language rules below>",
+  "notes": <"<flags>"|null>,
+  "inclusion_concern": <string|null>,
+  "sources": [{"url":"...","title":"...","publisher":"...","published_date":<"YYYY-MM-DD"|null>}],
+  "confidence_notes": "<anything uncertain>"
+}
+
+LAWSUIT TYPE: "civilian" = officer/deputy/jailer accused of sexually assaulting a civilian; "internal" = officer/employee suing their OWN agency over workplace sexual assault/harassment; "class_action" = class action / mass litigation.
+
+DESCRIPTION LANGUAGE RULES (strict — public site, defamation risk):
+- Attribute every unproven claim: "The suit alleges…", "According to the complaint…".
+- State conduct as fact ONLY where supported by a conviction, guilty plea, admission, or jury finding.
+- NEVER name victims — "a woman", "Jane Doe". Officer names only if already in cited reporting.
+- No editorializing, no pattern-drawing language.
+
+OUTCOME DISCIPLINE: "settled" only if a settlement is reported (amount+date in outcome_detail); "ongoing" only if coverage confirms the case is active; "no_resolution_found" if dedicated searches surface neither. Criminal track is separate from civil.
+
+NOTES flags when applicable: "Outside strict police-department definition (<category>)"; "Filed before 2021; included because resolution occurred in window"; companion-record cross-references.
+
+Final message: one line per FILE written: "rec-<key>: <agency> — <outcome_status> — <N> sources — CONCERN: <inclusion_concern or none>". Nothing else.
+
+THE SEED RECORDS:
+
+Record A: row=85, slug="saskatoon-police-service-2021-r85". Agency hint: Saskatoon Police Service, Canada/SK. Year hint: 2021 (ongoing). Seed outcome hint: ongoing. Source: Lawsuit accuses Saskatoon police officer of sexual assault, abuse of power; Saskatoon police officer being sued for alleged sexual assault claims woman consented; 'I told him no so many times': Lawsuit accuses Saskatoon police officer of abusing power, forcing sex https://www.cbc.ca/news/canada/saskatoon/saskatoon-police-officer-patrick-skinnider-lawsuit-1.5884194
+
+Record B: row=86, slug="royal-canadian-mounted-police-2021-r86". Agency hint: Royal Canadian Mounted Police, Canada/NT/NU/YT (+ rest of Canada). Year hint: Certified 2021 (ongoing). Seed outcome hint: ongoing. Source: Class action alleging RCMP abuse of Indigenous people in Northern Canada certified; Supreme Court of Canada dismisses federal effort to appeal Indigenous class action against RCMP in the North; RCMP Indigenous Racism and Assault Class Action https://www.cbc.ca/news/canada/north/class-action-rcmp-abuse-indigenous-people-certified-1.6076962
+
+Record C: row=87, slug="saint-john-police-force-2013-r87". Agency hint: Saint John Police Force, Canada/NB. Year hint: 2013 (settled - $16.5 million in 2026). Seed outcome hint: settled - $16.5 million in 2026 ($16500000). Source: City of Saint John vicariously liable in sexual predator class action, judge rules; Lawyers for Saint John, victims propose settlement in Estabrooks lawsuit; Victims of Saint John police officer convicted of sexual assault to receive compensationVictims of Saint John police officer convicted of sexual assault to receive compensation https://www.cbc.ca/news/canada/new-brunswick/saint-john-liable-kenneth-estabrooks-police-officer-class-action-lawsuit-sexual-assault-1.6601122
+
+Record D: row=88, slug="surete-du-quebec-2022-r88". Agency hint: Surete du Quebec, Canada/QC. Year hint: 2022 (ongoing, authorization hearing in March 2025). Seed outcome hint: ongoing, authorization hearing in March 2025. Source: Discriminatory practices and abuse of Indigenous people by officers of the Sûreté du Québec in the Vallée-de-l’Or MRC; A New Class Action has been filed: Discriminatory practices and abuses against Indigenous people by SQ officers in Val-d’Or https://tjl.quebec/en/class-actions/caavd/

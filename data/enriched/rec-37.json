@@ -1,0 +1,32 @@
+{
+  "row": 37,
+  "slug": "multnomah-county-sheriff-s-office-2026-r37",
+  "agency": "Multnomah County Sheriff's Office",
+  "agency_category": "sheriff",
+  "country": "US",
+  "state_province": "OR",
+  "lawsuit_type": "civilian",
+  "year_filed": 2026,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "ongoing",
+  "outcome_detail": "Filed March 31, 2026 in U.S. District Court in Portland; active as of April 2026 with a jury trial requested. No settlement, judgment, or dismissal reported as of 2026-07-28.",
+  "settlement_amount_original": null,
+  "settlement_currency": "USD",
+  "settlement_date": null,
+  "criminal_status": "charged",
+  "criminal_detail": "Diaz was indicted by a Multnomah County grand jury and arrested in June 2025 on 25 counts, including three counts of second-degree sexual abuse, three counts of first-degree custodial sexual misconduct, two counts of second-degree custodial sexual misconduct, and 17 counts of first-degree official misconduct. The criminal investigation began in October 2024 after a detective received an anonymous note from an incarcerated person. No trial date had been set as of April 2026.",
+  "officer_names": ["Edwin Diaz"],
+  "incident_date_approx": "2024 (over several months while the plaintiff was in custody at the Multnomah County jail)",
+  "description": "A former inmate of the Multnomah County jail filed a federal civil lawsuit on March 31, 2026, in U.S. District Court in Portland against former corrections deputy Edwin Diaz, Multnomah County, Sheriff Nicole Morrisey O'Donnell, a jail sergeant, and unnamed staff. The suit alleges that Diaz groomed the woman, who was suffering from mental illness, with special attention and privileges, escalated to unwanted physical contact, and raped her after she threatened to report him. According to the complaint, jail medical staff mishandled her injuries and a sergeant dismissed her report. Diaz was separately indicted in June 2025 on 25 criminal counts, including sexual abuse and custodial sexual misconduct, and that prosecution remained pending as of April 2026. The civil case was active as of April 2026.",
+  "notes": "Companion record rec-37b covers a second, separately filed April 2026 lawsuit by a different woman against Diaz and Multnomah County. Rows 37/38 involve the same agency but different deputies: rec-38 concerns former deputy Martin Jackson and is unrelated litigation.",
+  "inclusion_concern": null,
+  "sources": [
+    {"url": "https://www.kgw.com/article/news/crime/federal-civil-lawsuit-alleges-former-multnomah-county-corrections-deputy-sexually-assaulted-inmate/283-12e9a8e4-5503-4125-9431-0b29518c5e63", "title": "Federal civil lawsuit alleges former Multnomah County corrections deputy sexually assaulted inmate, ignored pleas for help", "publisher": "KGW", "published_date": null},
+    {"url": "https://katu.com/news/local/lawsuit-former-multnomah-sheriffs-deputy-raped-inmate-other-staff-retaliated-against-her-edwin-diaz-sheriff-odonnell-kohn-dpsst-county-jail-portland-oregon", "title": "Lawsuit: Former Multnomah Sheriffs Deputy raped inmate, other staff retaliated against her", "publisher": "KATU", "published_date": "2026-03-31"},
+    {"url": "https://www.kgw.com/article/news/crime/multnomah-county-corrections-deputy-jail-sex-abuse-misconduct-assault/283-f08d97d0-4169-4fd9-a562-b34e6f56ea47", "title": "Multnomah County corrections deputy charged with sex abuse, misconduct", "publisher": "KGW", "published_date": null},
+    {"url": "https://www.mcso.us/news-information/statement-alleged-misconduct-corrections-deputy", "title": "Statement on Alleged Misconduct by Corrections Deputy", "publisher": "Multnomah County Sheriff's Office", "published_date": null}
+  ],
+  "confidence_notes": "The seed KGW article repeatedly timed out on fetch; its content is assumed to cover the same March 31, 2026 filing described in same-day KATU reporting (both describe a federal civil suit alleging Diaz sexually assaulted an inmate whose pleas for help were ignored). Filing date and court come from KATU. Criminal-count breakdown comes from June 2025 KGW/wire reporting on the indictment. It is not confirmed from available coverage whether this plaintiff is one of the victims in the criminal case."
+}

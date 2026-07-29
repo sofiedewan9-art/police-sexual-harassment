@@ -1,0 +1,16 @@
+{
+  "row": 70,
+  "slug": "central-connecticut-state-university-police-department-2018-",
+  "fields": {
+    "agency": "Central Connecticut State University Police Department",
+    "agency_category": "campus",
+    "country": "US",
+    "state_province": "CT",
+    "lawsuit_type": "internal",
+    "year_filed": 2019,
+    "outcome_status": "settled",
+    "settlement_amount_original": 1750000,
+    "criminal_status": "unknown"
+  },
+  "caveats": "Only 1 of 4 sources retrievable (Campus Safety Magazine, 8/31/2020); others 403/429/timeout. It says suit filed March 2019, though slug implies 2018. Female officer sued over rapes by fellow officer Curtis Lollar; settled $1.75M. Lollar fired 2018; source silent on criminal charges."
+}

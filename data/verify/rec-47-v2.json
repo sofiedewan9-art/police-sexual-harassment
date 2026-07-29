@@ -1,0 +1,16 @@
+{
+  "row": 47,
+  "slug": "letcher-county-sheriff-s-office-2024-r47",
+  "fields": {
+    "agency": "Letcher County Sheriff's Office",
+    "agency_category": "sheriff",
+    "country": "US",
+    "state_province": "KY",
+    "lawsuit_type": "civilian",
+    "year_filed": 2022,
+    "outcome_status": "settled",
+    "settlement_amount_original": null,
+    "criminal_status": "pleaded_guilty"
+  },
+  "caveats": "Adkins v. Fields, E.D. Ky. 7:22-CV-7, filed Jan 31, 2022 by Sabrina Adkins (and Estate of Jennifer Hill, whose claims were dismissed as time-barred) against deputy/court security officer Ben Fields, the Letcher County Sheriff (official capacity), and Eastern Kentucky Correctional Services, alleging Fields coerced sex from women he supervised on home incarceration (threats over jail/ankle-monitor fees). Settled March 3, 2026 during jury selection; terms not disclosed, so amount is null. Fields pleaded guilty in state court to third-degree rape, third-degree sodomy, tampering with a prisoner monitoring device, and second-degree perjury (~6 months jail plus probation). Plaintiff was a supervisee, not an employee, hence 'civilian'. Then-sheriff Mickey Stines was deposed Sept 16, 2024 and days later shot Judge Kevin Mullins (separate murder case, not this lawsuit). Fox56 source returned 403."
+}

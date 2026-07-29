@@ -1,0 +1,33 @@
+{
+  "row": 27,
+  "slug": "new-york-city-police-department-2018-r27",
+  "agency": "New York City Police Department",
+  "agency_category": "police",
+  "country": "US",
+  "state_province": "NY",
+  "lawsuit_type": "civilian",
+  "year_filed": 2018,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "settled",
+  "outcome_detail": "New York City settled for $125,000 in September 2022, days before the civil trial was set to begin. The suit, filed in January 2018 in Brooklyn federal court against the city, the NYPD, and the two former detectives, had sought $50 million.",
+  "settlement_amount_original": 125000,
+  "settlement_currency": "USD",
+  "settlement_date": null,
+  "criminal_status": "pleaded_guilty",
+  "criminal_detail": "Detectives Eddie Martins and Richard Hall were arrested in October 2017 and initially charged with rape and kidnapping; both pleaded not guilty and resigned from the NYPD. Brooklyn prosecutors dropped the rape charges in March 2019. In August 2019 both pleaded guilty to bribery and official misconduct and were sentenced to five years of probation with no jail time.",
+  "officer_names": ["Eddie Martins", "Richard Hall"],
+  "incident_date_approx": "September 2017",
+  "description": "An 18-year-old woman, identified in court papers as Anna Doe, sued New York City, the NYPD, and former detectives Eddie Martins and Richard Hall in Brooklyn federal court in January 2018, seeking $50 million. According to the complaint, the two plainclothes detectives stopped her car near Coney Island in September 2017, found marijuana, took her into custody in their police van, and raped and sexually assaulted her while she was handcuffed. The detectives, who resigned from the NYPD, said the sexual contact was consensual; criminal rape charges against them were dropped in 2019, and both pleaded guilty to bribery and official misconduct, receiving five years' probation. The city settled the civil suit for $125,000 in September 2022, shortly before trial. The case prompted New York State to enact a law barring police officers from claiming consent for sexual contact with people in their custody.",
+  "notes": null,
+  "inclusion_concern": null,
+  "sources": [
+    {"url": "https://www.upi.com/Top_News/US/2022/09/10/nyc-settles-lawsuit-woman-accused-two-nypd-officers-raping-her/5031662857737/", "title": "NYC settles lawsuit with woman who accused two NYPD officers of raping her", "publisher": "UPI", "published_date": "2022-09-10"},
+    {"url": "https://www.rollingstone.com/culture/culture-news/nypd-officers-eddie-martins-richard-hall-plea-deal-878651/", "title": "NYPD Detectives Accused of Raping Teen Get Probation, Not Jail Time", "publisher": "Rolling Stone", "published_date": null},
+    {"url": "https://ny1.com/nyc/brooklyn/news/2019/08/29/anna-chambers-case-former-nypd-detectives-plead-guilty-will-get-probation", "title": "Anna Chambers Case: Former NYPD detectives plead guilty, will get probation", "publisher": "Spectrum News NY1", "published_date": "2019-08-29"},
+    {"url": "https://www.nbcnewyork.com/news/local/rape-charges-dropped-against-nypd-cops-arrested-for-sex-with-teen-woman-in-police-van/38990/", "title": "Rape Charges Dropped Against NYPD Cops Who Had Sex With Teen", "publisher": "NBC New York", "published_date": null},
+    {"url": "https://www.oxygen.com/very-real/its-now-illegal-for-new-york-police-officers-to-have-sex-with-people-they-arrest", "title": "After Anna Chambers Rape Case, Police Can't Have Sex With Detainees", "publisher": "Oxygen", "published_date": null}
+  ],
+  "confidence_notes": "The seed UPI article returned HTTP 403; its contents (the $125,000 settlement reached in September 2022 days before trial) were corroborated through search-result summaries citing the UPI piece. Exact settlement date not confirmed, so settlement_date is null; outcome_detail records September 2022. Filing date of January 2018 comes from contemporaneous coverage. The plaintiff litigated publicly under the name Anna Chambers ('Anna Doe' in court documents) but is not named in the description per the victim-naming rule; some source titles include that name."
+}

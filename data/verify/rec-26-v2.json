@@ -1,0 +1,16 @@
+{
+  "row": 26,
+  "slug": "new-york-city-department-of-correction-r26",
+  "fields": {
+    "agency": "New York City Department of Correction",
+    "agency_category": "corrections",
+    "country": "US",
+    "state_province": "NY",
+    "lawsuit_type": "class_action",
+    "year_filed": 2023,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "none_filed"
+  },
+  "caveats": "Mass litigation, not a certified class: ~700+ individual suits (694-719 per NBC/Gothamist counts; ~60% of the 1,256 NYC Adult Survivors Act filings) against the City of New York and NYC DOC over sexual abuse at Rikers Island, mainly the Rose M. Singer Center; collectively seeking $14.7B. Filed during the ASA one-year window (Nov 2022-Nov 24, 2023), so year_filed=2023 covers most but not all filings. Cases were still pending with no mass resolution in any source (Bronx DA formed a review team April 2024; no charges against officers reported in the ASA cases, hence none_filed - prosecutions were under review, not ruled out). Separate individual matters noted in sources: $1.6M pretrial settlement (May 2024) for a detainee abused by physical therapist Carlos Negron, who pleaded guilty in Feb 2022 to a felony criminal sexual act; a $1.2M settlement in 2017 in a suit involving guard Benny Santiago; and a new federal suit by Kyle Knight filed Dec 2025 (also unresolved). NBC News fetched via cached copy after initial 403; thecity.nyc URLs 301-redirect to thecityreporter.nyc (apparent rebrand of the same outlet) and were read there."
+}

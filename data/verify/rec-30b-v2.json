@@ -1,0 +1,16 @@
+{
+ "row": 30,
+ "slug": "west-virginia-state-police-2023-r30-b",
+ "fields": {
+  "agency": "West Virginia State Police",
+  "agency_category": "state_police",
+  "country": "US",
+  "state_province": "WV",
+  "lawsuit_type": "civilian",
+  "year_filed": 2023,
+  "outcome_status": "no_resolution_found",
+  "settlement_amount_original": null,
+  "criminal_status": "none_filed"
+ },
+ "caveats": "Second suit against the same WVSP trooper (Michael Miller), filed June 30, 2023 in Kanawha County Circuit Court over an alleged July 10, 2021 drugging/abduction/rape of a second woman taken from the Front Room bar in Logan County. Per WV MetroNews, named defendants in this second suit are Miller and two unnamed men (not WVSP itself), though Miller is a WVSP trooper; agency attribution follows the trooper's employer. criminal_status: WV MetroNews (Jun 30, 2023) says no criminal charges had been filed against Miller at publication, with FBI investigating - as of mid-2023 only. No resolution in accessible sources; a wtrf.com article whose headline indicates a trial date was set returned 403, so 'ongoing' could not be confirmed. Three sources inaccessible (two wowktv.com, one wtrf.com, all 403) and were skipped."
+}

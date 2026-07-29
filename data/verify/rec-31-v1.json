@@ -1,0 +1,16 @@
+{
+  "row": 31,
+  "slug": "sedgwick-county-sheriff-s-office-2018-r31",
+  "fields": {
+    "agency": "Sedgwick County Sheriff's Office",
+    "agency_category": "sheriff",
+    "country": "US",
+    "state_province": "CO",
+    "lawsuit_type": "civilian",
+    "year_filed": 2018,
+    "outcome_status": "plaintiff_verdict",
+    "settlement_amount_original": 8250000,
+    "criminal_status": "convicted"
+  },
+  "caveats": "Biggs/Whitson v. Hanna: detainee Peatinna Biggs (through guardian ad litem) sued former Sedgwick County (Colorado) Sheriff Thomas Hanna under 42 U.S.C. 1983 over sexual assault during an August 2016 jail transfer; filed 2018 (Case No. 1:18-cv-02076, D. Colo.). Federal jury verdict Oct 4, 2022: $8,250,000 ($3.25M compensatory + $5M punitive) — amount recorded is a jury verdict, not a settlement. Tenth Circuit (July 5, 2024) reversed the dismissal of the County/Sheriff's Department, holding them liable as well. criminal_status is a mixed verdict: Hanna was acquitted in 2018 of sexual assault on an at-risk person and second-degree kidnapping but CONVICTED of first-degree official misconduct (7 months jail with work release + probation per lawweekcolorado; prisonlegalnews reports the misconduct conviction May 8, 2018). Sources naming the county's state as Kansas (publicjustice fetch) are contradicted by all others; Colorado is correct. Failed sources skipped: courthousenews (403), justia (403), both 9news articles (timeouts on two attempts)."
+}

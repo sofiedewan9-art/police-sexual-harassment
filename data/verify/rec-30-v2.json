@@ -1,0 +1,16 @@
+{
+ "row": 30,
+ "slug": "west-virginia-state-police-2023-r30",
+ "fields": {
+  "agency": "West Virginia State Police",
+  "agency_category": "state_police",
+  "country": "US",
+  "state_province": "WV",
+  "lawsuit_type": "civilian",
+  "year_filed": 2023,
+  "outcome_status": "no_resolution_found",
+  "settlement_amount_original": null,
+  "criminal_status": "none_filed"
+ },
+ "caveats": "First of two suits against WVSP trooper (identified as Michael Miller by Mountain State Spotlight) over alleged Dec 17-18, 2021 drugging/abduction/rape of a woman taken from American Legion Post 19 in Logan County. Suit filed week of May 10, 2023 in Kanawha County Circuit Court; defendants include the trooper, WVSP, WV Dept. of Homeland Security, and American Legion Post 19. criminal_status: WV MetroNews (Apr 6, 2023) states explicitly 'There have been no criminal charges' with an FBI investigation underway - this is as of 2023; later charging status not established by accessible sources. No resolution appears in accessible sources; a source whose headline indicates a civil trial date was set (wowktv.com) returned 403, so 'ongoing' could not be confirmed. Three sources inaccessible (two wboy.com and one wowktv.com, all 403) and were skipped."
+}

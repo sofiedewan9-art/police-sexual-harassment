@@ -1,0 +1,16 @@
+{
+  "row": 62,
+  "slug": "new-york-city-police-department-2023-r62",
+  "fields": {
+    "agency": "New York City Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "NY",
+    "lawsuit_type": "internal",
+    "year_filed": 2023,
+    "outcome_status": "no_resolution_found",
+    "settlement_amount_original": null,
+    "criminal_status": "unknown"
+  },
+  "caveats": "Ciotti v. City of New York and Officer Jamie Angelastro (union rep), filed 11/22/2023 under Adult Survivors Act, federal court. CourtListener and Crumiller sources returned 403; only filing-day coverage available, so no resolution or criminal-charge info could be confirmed."
+}

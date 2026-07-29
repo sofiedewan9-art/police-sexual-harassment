@@ -1,0 +1,34 @@
+{
+  "row": 9,
+  "slug": "unknown-agency-r9",
+  "agency": "Unknown / multiple agencies (national survey commentary)",
+  "agency_category": "other",
+  "country": "US",
+  "state_province": null,
+  "lawsuit_type": "internal",
+  "year_filed": null,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "no_resolution_found",
+  "outcome_detail": "",
+  "settlement_amount_original": null,
+  "settlement_currency": "USD",
+  "settlement_date": null,
+  "criminal_status": "unknown",
+  "criminal_detail": "",
+  "officer_names": [],
+  "incident_date_approx": "Survey published November 2025; respondents described experiences across their careers",
+  "description": "This Police1 article (Nov. 6, 2025, by Terrence P. Dwyer, Esq.) analyzes qualitative comments from 184 respondents to a Police1 survey of female law enforcement officers about workplace sexual harassment, discrimination, and agency culture. According to the survey, 77% of respondents reported experiencing sexual harassment, while fewer than one in four incidents were reported to their agencies. The article is a commentary on survey findings and does not itself document a specific filed civil lawsuit. The only individual lawsuit it references is Detective Carryn Barker's suit against San Mateo County, which is captured separately in this database as record san-mateo-r10.",
+  "notes": "Companion cross-reference: the only lawsuit mentioned (Carryn Barker v. San Mateo County) is record san-mateo-r10 (rec-10.json). No distinct agency, plaintiff, or filing is attributable to this row.",
+  "inclusion_concern": "No actual filed civil lawsuit or formal claim is central to this source. It is survey-based commentary about harassment in policing generally; the single lawsuit it mentions is already covered by row 10 (san-mateo-r10). Recommend exclusion or treatment as background material.",
+  "sources": [
+    {
+      "url": "https://www.police1.com/women-in-law-enforcement/what-female-officers-say-about-harassment-and-culture-in-policing",
+      "title": "Female police officers detail workplace harassment, retaliation and culture challenges",
+      "publisher": "Police1",
+      "published_date": "2025-11-06"
+    }
+  ],
+  "confidence_notes": "Source verified directly. Article is authored analysis of Police1 survey data (184 qualitative responses); no agency, state, filing year, or outcome can be assigned. Fields such as lawsuit_type and settlement_currency are placeholders required by schema and carry no meaning for this record."
+}

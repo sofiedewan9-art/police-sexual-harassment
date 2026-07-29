@@ -1,0 +1,16 @@
+{
+  "row": 33,
+  "slug": "warren-police-department-2025-r33",
+  "fields": {
+    "agency": "Warren Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "OH",
+    "lawsuit_type": "civilian",
+    "year_filed": 2025,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "convicted"
+  },
+  "caveats": "Suit filed March 25, 2025 in U.S. District Court (N.D. Ohio) by three plaintiffs (Monica Mason, Caitlin Brannan, Lori Hemberger) against the City of Warren, Chief Erik Merkel, and former officer Michael Edwards Jr. Defendants denied liability May 2025; related litigation deadlines extend into mid-2026, so case confirmed active. Edwards convicted Sept. 23, 2024 (rape, sexual battery, GSI, extortion, theft in office), sentenced 34-39 years; convictions affirmed on appeal April 2026 and Ohio Supreme Court declined review. Three WKBN source URLs returned 403 and one WFMJ URL returned 429, so they could not be read; fields derived from remaining sources."
+}

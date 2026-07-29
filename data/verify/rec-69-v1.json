@@ -1,0 +1,16 @@
+{
+  "row": 69,
+  "slug": "harris-county-constable-s-office-precinct-1-2021-r69",
+  "fields": {
+    "agency": "Harris County Constable's Office, Precinct 1",
+    "agency_category": "other",
+    "country": "US",
+    "state_province": "TX",
+    "lawsuit_type": "internal",
+    "year_filed": 2021,
+    "outcome_status": "settled",
+    "settlement_amount_original": 1500000,
+    "criminal_status": "unknown"
+  },
+  "caveats": "TX constable's office: county law enforcement but neither police nor sheriff, so 'other'. Deputies sued own agency over abuse in undercover stings (internal). FBI probe reported 2021; sources fetched don't say whether charges resulted. Only 3 of 8 sources retrievable (403s/timeout)."
+}

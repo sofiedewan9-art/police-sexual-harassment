@@ -1,0 +1,63 @@
+You are a research agent for a Policing Project (NYU Law) database of civil lawsuits involving sexual assault/harassment and law-enforcement agencies (US/Canada). Today is 2026-07-28. For EACH seed record below, research thoroughly via web search, then WRITE a JSON file per lawsuit to /Users/sofiedewan/police-sa-lawsuits/data/enriched/.
+
+RESEARCH PROCEDURE per record:
+1. Fetch the given source URL (WebFetch). If dead or paywalled, find the article by searching its exact title.
+2. Run a DEDICATED outcome search — settled / verdict / dismissed / still active? (e.g. "<agency> <officer> lawsuit settlement 2025"). Never assume from filing coverage alone.
+3. Search for any criminal case against the accused officer(s).
+4. More searches as needed for year filed, official agency name, facts (3–8 searches/record). Add every useful article to sources.
+5. If "Orphan titles" are listed, search each exact title and recover its URL; include in sources.
+
+GRANULARITY — ONE RECORD PER LAWSUIT:
+- The primary lawsuit goes in rec-<row>.json with the given slug.
+- If coverage documents ADDITIONAL distinct suits (different plaintiffs/filings) from the same scandal, write rec-<row>b.json (slug "<given slug>-b"), rec-<row>c.json (slug "<given slug>-c"), etc. — each a complete record with its own year/outcome/description and only its relevant sources; cross-reference companions in notes.
+- Class actions / consolidated mass litigation = ONE record, lawsuit_type="class_action".
+- If coverage reports many suits only in AGGREGATE (e.g. "$9.5M across 21 suits") and individual filings are not separately documented, keep ONE record with multiple_filings=true, filing_year_range set, and notes explaining the aggregate reporting.
+
+INCLUSION CHECK: the record must involve an actual filed civil lawsuit or formal claim (notice of claim, EEOC/human-rights complaint) with sexual assault/harassment central. If none exists, or sexual misconduct is not central to the claim, still complete the record but set "inclusion_concern" explaining why.
+
+JSON schema (exact keys, one file per lawsuit):
+{
+  "row": <int>, "slug": "<per rules above>",
+  "agency": "<official agency name>",
+  "agency_category": "police|sheriff|state_police|corrections|juvenile|federal|campus|transit|other",
+  "country": "US|CA", "state_province": "<2-letter>",
+  "lawsuit_type": "civilian|internal|class_action",
+  "year_filed": <int|null>, "year_filed_approx": <bool>, "filing_year_range": <"YYYY-YYYY"|null>, "multiple_filings": <bool>,
+  "outcome_status": "settled|plaintiff_verdict|defense_verdict|dismissed|ongoing|no_resolution_found",
+  "outcome_detail": "<amount, date, grounds, appeal status — or ''>",
+  "settlement_amount_original": <number|null>, "settlement_currency": "USD|CAD",
+  "settlement_date": <"YYYY-MM-DD"|null>,
+  "criminal_status": "none_filed|charged|convicted|pleaded_guilty|acquitted|charges_dropped|unknown",
+  "criminal_detail": "<charges, sentence, dates — or ''>",
+  "officer_names": ["<only accused officers already named in public reporting>"],
+  "incident_date_approx": "<free text>",
+  "description": "<3-6 sentences, language rules below>",
+  "notes": <"<flags>"|null>,
+  "inclusion_concern": <string|null>,
+  "sources": [{"url":"...","title":"...","publisher":"...","published_date":<"YYYY-MM-DD"|null>}],
+  "confidence_notes": "<anything uncertain>"
+}
+
+LAWSUIT TYPE: "civilian" = officer/deputy/jailer accused of sexually assaulting a civilian; "internal" = officer/employee suing their OWN agency over workplace sexual assault/harassment; "class_action" = class action / mass litigation.
+
+DESCRIPTION LANGUAGE RULES (strict — public site, defamation risk):
+- Attribute every unproven claim: "The suit alleges…", "According to the complaint…".
+- State conduct as fact ONLY where supported by a conviction, guilty plea, admission, or jury finding.
+- NEVER name victims — "a woman", "Jane Doe". Officer names only if already in cited reporting.
+- No editorializing, no pattern-drawing language.
+
+OUTCOME DISCIPLINE: "settled" only if a settlement is reported (amount+date in outcome_detail); "ongoing" only if coverage confirms the case is active; "no_resolution_found" if dedicated searches surface neither. Criminal track is separate from civil.
+
+NOTES flags when applicable: "Outside strict police-department definition (<category>)"; "Filed before 2021; included because resolution occurred in window"; companion-record cross-references.
+
+Final message: one line per FILE written: "rec-<key>: <agency> — <outcome_status> — <N> sources — CONCERN: <inclusion_concern or none>". Nothing else.
+
+THE SEED RECORDS:
+
+Record A: row=29, slug="west-virginia-state-police-2023-r29". Agency hint: West Virginia State Police, US/WV. Year hint: 2023-2024 (ongoing; court ruled insurance limit of $1M per plaintiff in 2025). Seed outcome hint: ongoing; court ruled insurance limit of $1M per plaintiff in 2025 ($1000000). Source: West Virginia State Police Investigation: 72 new lawsuits say women and minors were filmed secretly in the shower; Sexual assault allegedly happened on academy grounds; Plaintiffs in WVSP hidden camera cases could get $1M each https://www.wtrf.com/west-virginia-state-police-investigation/west-virginia-state-police-investigation-72-new-lawsuits-say-women-and-minors-were-filmed-secretly-in-the-shower-alleges-rape-was-filmed-and-state-issued-laptop-showed-sexual-acts-performed-at-train/
+
+Record B: row=30, slug="west-virginia-state-police-2023-r30". Agency hint: West Virginia State Police, US/WV. Year hint: 2023 (ongoing). Seed outcome hint: ongoing. Source: Lawsuit filed against West Virginia State Police trooper who allegedly drugged, kidnapped, raped woman; Second lawsuit filed against West Virginia State Police trooper who allegedly kidnapped, raped woman https://www.wboy.com/news/west-virginia/lawsuit-filed-against-west-virginia-state-police-trooper-who-allegedly-drugged-kidnapped-raped-woman/
+
+Record C: row=31, slug="sedgwick-county-sheriff-s-office-2018-r31". Agency hint: Sedgwick County Sheriff's Office, US/CO. Year hint: 2018 ($8.25M awarded by federal jury in Oct 2022). Seed outcome hint: $8.25M awarded by federal jury in Oct 2022 ($8250000). Source: $8.25 Million Verdict Against Former Colorado Sheriff for Detainee’s Sexual Assault During Jail Transfer https://www.prisonlegalnews.org/news/2023/sep/15/825-million-verdict-against-former-colorado-sheriff-detainees-sexual-assault-during-jail-transfer/
+
+Record D: row=32, slug="senatobia-police-department-2024-r32". Agency hint: Senatobia Police Department, US/MS. Year hint: 2024 (ongoing, PD denies allegations). Seed outcome hint: ongoing, PD denies allegations. Source: $10M lawsuit claims MS police officer sexually assaulted woman during traffic stop; Senatobia Police Officer Sexually Assaulted Woman After Roadside Stop, Lawsuit Alleges; $10 million lawsuit filed against Mississippi police department https://wreg.com/news/mid-south/10m-lawsuit-claims-ms-police-officer-sexually-assaulted-woman-during-traffic-stop/

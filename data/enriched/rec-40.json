@@ -1,0 +1,30 @@
+{
+  "row": 40,
+  "slug": "payette-county-sheriff-s-office-2025-r40",
+  "agency": "Payette County Sheriff's Office",
+  "agency_category": "sheriff",
+  "country": "US",
+  "state_province": "ID",
+  "lawsuit_type": "civilian",
+  "year_filed": 2025,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "no_resolution_found",
+  "outcome_detail": "A pre-suit Idaho tort claim (notice of claim) was filed in September 2025 on the woman's behalf, seeking at least $300,000 and alleging violations of her Eighth and Fourteenth Amendment rights. Dedicated searches as of 2026-07-28 found no coverage of a subsequently filed civil lawsuit, settlement, or other resolution.",
+  "settlement_amount_original": null,
+  "settlement_currency": "USD",
+  "settlement_date": null,
+  "criminal_status": "pleaded_guilty",
+  "criminal_detail": "Larsen pleaded guilty in April 2025 to two misdemeanor counts of sexual battery. In May 2025 he was sentenced to two years of supervised probation, 20 days in the Washington County Jail, and 20 days on a sheriff's labor detail. He resigned from the Payette County Sheriff's Office and was decertified by Idaho Peace Officer Standards and Training in July 2025.",
+  "officer_names": ["Devon Larsen"],
+  "incident_date_approx": "Early 2025 (reported as 'earlier this year' in October 2025 coverage)",
+  "description": "A tort claim filed in September 2025 against Payette County alleges that former sheriff's jail deputy Devon Larsen cornered a 22-year-old woman, who was pregnant and incarcerated at the Payette County Jail, in her cell and kissed and sexually groped her, in violation of her Eighth and Fourteenth Amendment rights. Larsen pleaded guilty in April 2025 to two misdemeanor counts of sexual battery and was sentenced in May 2025 to two years of supervised probation, 20 days in jail, and 20 days on a sheriff's labor detail; the sentencing judge called the offenses serious violations of law by someone in a position of authority. Larsen resigned from the agency and was decertified as a peace officer in July 2025. Reporting noted that a data-entry error had hidden the criminal case from Idaho's online court database until the tort claim was filed. The claim, seeking at least $300,000, was a required precursor to a lawsuit; no subsequent civil filing had been reported as of mid-2026.",
+  "notes": "Formal pre-suit claim rather than a filed lawsuit: Idaho law requires a tort claim notice before suing a county. Seed data characterized the matter as ongoing; outcome_status is recorded as no_resolution_found because no coverage confirms a filed or active civil case after the September 2025 claim.",
+  "inclusion_concern": null,
+  "sources": [
+    {"url": "https://www.spokesman.com/stories/2025/oct/02/ex-idaho-sheriffs-jail-deputy-could-be-sued-after-/", "title": "Ex-Idaho sheriff's jail deputy could be sued after groping incarcerated woman", "publisher": "The Spokesman-Review (Idaho Statesman)", "published_date": "2025-10-02"},
+    {"url": "https://www.yahoo.com/news/articles/ex-idaho-sheriff-jail-deputy-224627046.html", "title": "Ex-Idaho sheriff's jail deputy could be sued after groping incarcerated woman", "publisher": "Yahoo News (syndicated Idaho Statesman)", "published_date": null}
+  ],
+  "confidence_notes": "Coverage of this matter traces to a single Idaho Statesman report (syndicated by The Spokesman-Review and Yahoo News); the tort claim was filed by attorney Jane Gordon in September 2025. year_filed=2025 refers to the tort claim, not a lawsuit. No follow-up reporting on whether a lawsuit was ultimately filed within Idaho's post-claim window was found as of 2026-07-28."
+}

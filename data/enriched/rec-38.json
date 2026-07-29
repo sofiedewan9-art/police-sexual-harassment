@@ -1,0 +1,31 @@
+{
+  "row": 38,
+  "slug": "multnomah-county-sheriff-s-office-2026-r38",
+  "agency": "Multnomah County Sheriff's Office",
+  "agency_category": "sheriff",
+  "country": "US",
+  "state_province": "OR",
+  "lawsuit_type": "civilian",
+  "year_filed": 2026,
+  "year_filed_approx": true,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "ongoing",
+  "outcome_detail": "Federal lawsuit reported as filed by mid-February 2026; case pending in early 2026 with follow-on coverage of the DA's February 24, 2026 declination memo. No settlement, judgment, or dismissal reported as of 2026-07-28.",
+  "settlement_amount_original": null,
+  "settlement_currency": "USD",
+  "settlement_date": null,
+  "criminal_status": "none_filed",
+  "criminal_detail": "The Multnomah County District Attorney's Office declined to prosecute Jackson. In a February 24, 2026 memo, the office said it was closing the case for insufficient evidence on a potential charge of second-degree custodial sexual misconduct. Jackson was placed on administrative leave on October 20, 2025 after the woman reported him to the sheriff's office.",
+  "officer_names": ["Martin Jackson"],
+  "incident_date_approx": "Approximately March 2020 through July 2021, at the Multnomah County Detention Center; contact allegedly continued after her release",
+  "description": "A woman filed a federal lawsuit against former Multnomah County corrections deputy Martin Jackson, Multnomah County, and several sheriff's office supervisors, alleging Jackson groomed her and engaged in a sexual relationship with her while she was incarcerated at the Multnomah County Detention Center from around March 2020 until her release in July 2021. According to the complaint, Jackson traded gifts such as blankets and clothing and released her early from her cell in exchange for sex acts, and led her to believe he wanted a future with her although he was married. The suit alleges that reports about the relationship prompted a Prison Rape Elimination Act investigation that the county closed after Jackson denied the allegations. Jackson was placed on administrative leave in October 2025, and in February 2026 the district attorney's office declined to bring criminal charges, citing insufficient evidence. The civil case was pending as of early 2026.",
+  "notes": "Same agency as rec-37/rec-37b but a different deputy and unrelated litigation.",
+  "inclusion_concern": null,
+  "sources": [
+    {"url": "https://katu.com/news/local/federal-lawsuit-docs-multnomah-county-jail-deputy-groomed-female-inmate-for-sex-martin-jackson-portland-oregon", "title": "Federal lawsuit docs: Multnomah County Jail Deputy groomed female inmate for sex", "publisher": "KATU", "published_date": "2026-02-19"},
+    {"url": "https://www.koin.com/local/multnomah-county/lawsuit-claims-deputy-preyed-on-vulnerable-inmate-at-multnomah-county-detention-center/", "title": "Lawsuit claims deputy preyed on vulnerable inmate at Multnomah County Detention Center", "publisher": "KOIN", "published_date": null},
+    {"url": "https://www.koin.com/local/multnomah-county/citing-insufficient-evidence-multnomah-county-declines-to-prosecute-deputy-accused-of-sex-abuse/", "title": "Citing insufficient evidence, Multnomah County declines to prosecute deputy accused of sex abuse", "publisher": "KOIN", "published_date": null}
+  ],
+  "confidence_notes": "Exact filing date and court district not confirmed (coverage describes it as a federal lawsuit; KATU story published February 19, 2026); year_filed_approx set true because the suit could have been filed in late 2025. KOIN pages returned HTTP 403 on direct fetch; declination details come from search-result excerpts of the KOIN article. 'Ongoing' is based on the case being newly filed with active follow-on coverage through late February 2026; no later status coverage was found as of 2026-07-28."
+}

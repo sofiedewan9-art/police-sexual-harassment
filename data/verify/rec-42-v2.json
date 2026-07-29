@@ -1,0 +1,16 @@
+{
+  "row": 42,
+  "slug": "killen-police-department-2025-r42",
+  "fields": {
+    "agency": "Killen Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "AL",
+    "lawsuit_type": "civilian",
+    "year_filed": 2025,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "pleaded_guilty"
+  },
+  "caveats": "Jane Doe filed a federal lawsuit (reported Sept 4, 2025) against the Town of Killen, its police chief, and former officer Jarrod Webster over a Nov 12, 2023 traffic stop in which Webster handcuffed and sexually assaulted her. 'Ongoing' reflects status as of the Sept 2025 article; no later status available. Webster pleaded guilty (March 2025) to federal deprivation of rights under color of law and sexual exploitation of children and was sentenced May 28, 2025 to 15 years. Three sources (both whnt.com links and the 1819news link) and the justice.gov press release returned HTTP 403 and were skipped; fields rest on waff.com and 256today.com."
+}

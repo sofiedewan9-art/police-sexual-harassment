@@ -1,0 +1,16 @@
+{
+  "row": 2,
+  "slug": "massachusetts-state-police-2026-r2",
+  "fields": {
+    "agency": "Massachusetts State Police",
+    "agency_category": "state_police",
+    "country": "US",
+    "state_province": "MA",
+    "lawsuit_type": "civilian",
+    "year_filed": 2026,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "none_filed"
+  },
+  "caveats": "Sources describe two related Karen Read civil suits: (1) a conspiracy/cover-up suit against investigators (Proctor, Bukhenik, Tully) and trial witnesses, filed in Bristol Superior Court Nov 17-18, 2025 (sources conflict on 17 vs 18) and removed to federal court Nov 25, 2025, with motions to dismiss pending as of Jan 2026; (2) a negligent hiring/training/supervision and civil conspiracy suit against the Massachusetts State Police and Town of Canton, filed in Bristol Superior Court in June 2026. The slug/agency indicates the June 2026 suit against MSP, so year_filed=2026 and outcome=ongoing (newly filed, pending, Canton not yet served per June 2026 coverage). This is not a sexual-assault lawsuit: plaintiff is a civilian alleging she was framed for murder; the sexual/misogynistic element is explicit, misogynistic texts (including references to sexual assault) between ex-Trooper Michael Proctor and ex-Canton Sgt. Sean Goode cited as evidence of bias, so 'civilian' is the closest fit but imperfect. Criminal status refers to the officers: no source mentions any criminal charges against Proctor or Goode despite detailed coverage (Proctor fired March 2025 and POST-decertified Dec 23, 2025; Goode resigned June 2026) — 'none_filed' inferred from that silence, not an explicit statement. Read herself was acquitted of murder in June 2025 (convicted only of misdemeanor OUI). One source (WFAA-style ABC piece) gave the June filing as June 5, 2026."
+}

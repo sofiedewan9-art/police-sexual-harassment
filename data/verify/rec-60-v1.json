@@ -1,0 +1,16 @@
+{
+  "row": 60,
+  "slug": "new-york-city-police-department-2026-r60",
+  "fields": {
+    "agency": "New York City Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "NY",
+    "lawsuit_type": "internal",
+    "year_filed": 2026,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "charged"
+  },
+  "caveats": "Officer 'N.T.' sued Inspector Jeremy Scheublin and City of NY on March 6, 2026 (Bronx Supreme Court) over Jan 1, 2025 assault at 46th Precinct; suit pending. Scheublin arraigned July 10, 2026 on attempted rape/sexual abuse/assault; pleaded not guilty. Gothamist URL redirected and was skipped."
+}

@@ -1,0 +1,16 @@
+{
+ "row": 41,
+ "slug": "riverside-county-sheriff-s-department-2023-r41",
+ "fields": {
+  "agency": "Riverside County Sheriff's Department",
+  "agency_category": "sheriff",
+  "country": "US",
+  "state_province": "CA",
+  "lawsuit_type": "civilian",
+  "year_filed": 2023,
+  "outcome_status": "no_resolution_found",
+  "settlement_amount_original": null,
+  "criminal_status": "pleaded_guilty"
+ },
+ "caveats": "Correctional deputy Christian Heidecker sexually abused/extorted women on house arrest (Alternative Sentencing Program). First civil filings by two victims reported Sept 26-27, 2023 (year_filed=2023); seven additional federal lawsuits filed in U.S. District Court, Riverside, in late March 2024 alleging a county hush-money cover-up scheme. No civil resolution appears in sources (latest: April 2024). settlement_amount_original is null: the $1,000-$5,000 payments/offers reported were pre-litigation 'hush money' releases, not lawsuit settlements. Heidecker pleaded guilty Feb 26, 2024 to 13 felony counts (extortion, witness intimidation/dissuasion, bribery, sex act) and was sentenced to 5 years in state prison in March 2024. One source (ktla.com) returned 403 and was skipped. Some sources say 'Sheriff's Office' vs 'Sheriff's Department'."
+}

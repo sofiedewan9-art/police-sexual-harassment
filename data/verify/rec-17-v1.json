@@ -1,0 +1,16 @@
+{
+  "row": 17,
+  "slug": "boston-police-department-2023-r17",
+  "fields": {
+    "agency": "Boston Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "MA",
+    "lawsuit_type": "civilian",
+    "year_filed": 2023,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "pleaded_guilty"
+  },
+  "caveats": "Suit filed June 8, 2023 in federal court by two victims of ex-officer/union president Patrick Rose against the City of Boston, BPD officials, DCF, and the patrolmen's union. District court dismissed it in 2024, but the First Circuit reversed in July 2025 and the case was proceeding (motion-to-dismiss hearing scheduled Oct. 27 per an Oct. 2025 Boston Globe piece), so status is ongoing as of latest sources. No settlement reported. Rose pleaded guilty (2022) to 21 counts of child rape/sexual assault, sentenced to 10-13 years. The universalhub.com source returned HTTP 403 and was skipped."
+}

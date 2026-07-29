@@ -1,0 +1,16 @@
+{
+  "row": 33,
+  "slug": "warren-police-department-2025-r33-c",
+  "fields": {
+    "agency": "Warren Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "OH",
+    "lawsuit_type": "civilian",
+    "year_filed": 2026,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "convicted"
+  },
+  "caveats": "$1 million suit filed in federal court by an unnamed victim of former officer Michael Edwards Jr. against the City of Warren and Chief Erik Merkel (Edwards himself not named a defendant per Tribune Chronicle). Filing date reported as Feb. 18, 2026 (WFMJ) vs Feb. 19, 2026 (Tribune Chronicle). $1M is compensatory damages sought, not a settlement. Case newly filed/pending as of the sources. Edwards convicted 2024, 34-39 years. WKBN URL returned 403 and nationaltoday URL 404; hoodline URL 403 — not readable."
+}

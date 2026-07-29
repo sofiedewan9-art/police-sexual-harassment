@@ -1,0 +1,16 @@
+{
+  "row": 37,
+  "slug": "multnomah-county-sheriff-s-office-2026-r37",
+  "fields": {
+    "agency": "Multnomah County Sheriff's Office",
+    "agency_category": "sheriff",
+    "country": "US",
+    "state_province": "OR",
+    "lawsuit_type": "civilian",
+    "year_filed": 2026,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "charged"
+  },
+  "caveats": "Both KGW source URLs failed to load (timeouts); fields derived from the KATU article (published 2026-03-31) and the MCSO statement (2025-06-20). Federal civil suit filed 2026-03-31 in U.S. District Court in Portland by a former inmate against Multnomah County, Sheriff Morrisey O'Donnell, Deputy Edwin Diaz, Sgt. Kohn, and unnamed defendants. Diaz was a corrections deputy at the county jail (agency is the sheriff's office, hence category 'sheriff' rather than 'corrections'). Criminal side: Diaz arrested June 2025 and indicted (KATU cites 25 counts incl. sexual abuse and custodial sexual misconduct; MCSO statement enumerates counts slightly differently); no trial date set in sources, so 'charged'. Lawsuit newly filed and active (settlement conference scheduled, jury trial requested)."
+}

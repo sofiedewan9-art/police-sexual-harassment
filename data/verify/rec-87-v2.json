@@ -1,0 +1,16 @@
+{
+  "row": 87,
+  "slug": "saint-john-police-force-2013-r87",
+  "fields": {
+    "agency": "Saint John Police Force",
+    "agency_category": "police",
+    "country": "CA",
+    "state_province": "NB",
+    "lawsuit_type": "class_action",
+    "year_filed": 2013,
+    "outcome_status": "settled",
+    "settlement_amount_original": 16500000,
+    "criminal_status": "convicted"
+  },
+  "caveats": "Defendant is City of Saint John (vicariously liable for officer Kenneth Estabrooks, abuse 1953-75). Filed 2013 (one source says 2012); certified 2017. $16.5M CAD settlement approved by NB Court of King's Bench 2026. Estabrooks convicted 1999 (4 counts indecent assault, 6 yrs), died 2005 in custody."
+}

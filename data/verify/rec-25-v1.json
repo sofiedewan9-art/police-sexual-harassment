@@ -1,0 +1,16 @@
+{
+  "row": 25,
+  "slug": "county-of-los-angeles-2020-r25",
+  "fields": {
+    "agency": "Los Angeles County Probation Department",
+    "agency_category": "juvenile",
+    "country": "US",
+    "state_province": "CA",
+    "lawsuit_type": "class_action",
+    "year_filed": 2021,
+    "outcome_status": "settled",
+    "settlement_amount_original": 4000000000,
+    "criminal_status": "none_filed"
+  },
+  "caveats": "Mass litigation under California AB 218 (statute-of-limitations revival effective 2020), not a certified class action; LAist says it stemmed from a single lawsuit filed in 2021 that expanded to ~6,800-7,000 claimants, so year_filed=2021 though the slug suggests 2020 (AB 218 window opened 2020). Claims span multiple county departments (Probation, DCFS/MacLaren Children's Center, Parks, Health Services, Sheriff, Fire), with Probation Department juvenile facilities and MacLaren Children's Center the primary sites; 'agency' reflects the primary department. $4B settlement approved unanimously by the Board of Supervisors April 29, 2025. Criminal: sources say only two abuse cases were referred to the DA for possible prosecution (no charges shown for the sexual abuse itself); separate criminal charges against probation officers concern instigating fights at juvenile halls, not the sexual abuse claims. Two of five sources (courthousenews.com, imprintnews.org) returned 403 and were skipped."
+}

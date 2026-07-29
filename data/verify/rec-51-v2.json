@@ -1,0 +1,16 @@
+{
+  "row": 51,
+  "slug": "missouri-state-highway-patrol-2024-r51",
+  "fields": {
+    "agency": "Missouri State Highway Patrol",
+    "agency_category": "state_police",
+    "country": "US",
+    "state_province": "MO",
+    "lawsuit_type": "civilian",
+    "year_filed": 2024,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "pleaded_guilty"
+  },
+  "caveats": "Doe 1 v. McKnight, 1:24-cv-00217 (E.D. Mo.), filed Nov 21 2024 vs ex-trooper McKnight and MSHP; open, trial Sept 2026. Conduct: warrantless phone searches/photographing women's nude images at stops (not physical assault). Pleaded guilty Dec 2025, ~21 months. DOJ source 403'd."
+}

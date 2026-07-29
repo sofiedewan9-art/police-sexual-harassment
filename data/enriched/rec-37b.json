@@ -1,0 +1,30 @@
+{
+  "row": 37,
+  "slug": "multnomah-county-sheriff-s-office-2026-r37-b",
+  "agency": "Multnomah County Sheriff's Office",
+  "agency_category": "sheriff",
+  "country": "US",
+  "state_province": "OR",
+  "lawsuit_type": "civilian",
+  "year_filed": 2026,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "ongoing",
+  "outcome_detail": "Filed in early April 2026 in federal court in Oregon; newly filed and active as of April 2026, seeking a jury trial and unspecified damages. No resolution reported as of 2026-07-28.",
+  "settlement_amount_original": null,
+  "settlement_currency": "USD",
+  "settlement_date": null,
+  "criminal_status": "charged",
+  "criminal_detail": "Diaz was indicted by a Multnomah County grand jury in June 2025 on 25 counts, including second-degree sexual abuse, first- and second-degree custodial sexual misconduct, and first-degree official misconduct. No trial date had been set as of April 2026.",
+  "officer_names": ["Edwin Diaz"],
+  "incident_date_approx": "March-September 2024, including an alleged assault on September 1, 2024",
+  "description": "A second woman who was incarcerated at the Multnomah County jail between March and September 2024 filed a federal lawsuit in early April 2026 against former corrections deputy Edwin Diaz and Multnomah County. The suit alleges that Diaz volunteered for overtime shifts in her housing unit, gave her special treatment such as extra time out of her cell, and demanded sexual favors in return, fondling her in her cell out of view of security cameras, sending sexually explicit letters, and sexually assaulting her on September 1, 2024. The complaint also alleges the county failed to investigate and act on earlier reports about Diaz dating back to 2022, and that chronic understaffing and reliance on overtime left inmates vulnerable. Diaz was indicted in June 2025 on 25 criminal counts related to his on-duty conduct, and that case was pending as of April 2026. The civil suit was active as of April 2026.",
+  "notes": "Companion record to rec-37, which covers the first lawsuit (filed March 31, 2026) against the same deputy by a different plaintiff; attorneys described the two plaintiffs' accounts as involving similar targeting patterns.",
+  "inclusion_concern": null,
+  "sources": [
+    {"url": "https://www.opb.org/article/2026/04/07/multnomah-county-jail-portland-oregon-sexual-abuse-crime/", "title": "Second woman sues Multnomah County, jail deputy over sexual abuse claims", "publisher": "OPB", "published_date": "2026-04-07"},
+    {"url": "https://katu.com/news/local/former-multnomah-county-deputy-second-lawsuit-alleging-sexual-assault-inmate-portland-oregon-jail-justice-center-oregon-edwin-diaz-clackamas-county-crime", "title": "Former Multnomah County Deputy faces second lawsuit alleging sexual assault of inmate", "publisher": "KATU", "published_date": "2026-04-08"}
+  ],
+  "confidence_notes": "KATU reported the suit was filed 'Friday' before its April 8, 2026 story (i.e., April 3, 2026), but the exact filing date and court division were not confirmed, so the record states 'early April 2026.' Damages amount unspecified in coverage."
+}

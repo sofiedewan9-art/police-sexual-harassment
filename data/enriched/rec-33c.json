@@ -1,0 +1,33 @@
+{
+  "row": 33,
+  "slug": "warren-police-department-2025-r33-c",
+  "agency": "Warren Police Department",
+  "agency_category": "police",
+  "country": "US",
+  "state_province": "OH",
+  "lawsuit_type": "civilian",
+  "year_filed": 2026,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "ongoing",
+  "outcome_detail": "Filed late February 2026 in the U.S. District Court for the Northern District of Ohio, seeking $1 million. Newly filed and active; no responsive rulings, settlement or judgment reported as of July 2026.",
+  "settlement_amount_original": null,
+  "settlement_currency": "USD",
+  "settlement_date": null,
+  "criminal_status": "convicted",
+  "criminal_detail": "Michael Edwards Jr. (not a named defendant in this suit) was convicted in September 2024 of rape, sexual battery, gross sexual imposition, extortion and other charges involving six victims, and is serving 34 to 39 years in prison; convictions upheld on appeal, Ohio Supreme Court declined review.",
+  "officer_names": ["Michael Edwards Jr."],
+  "incident_date_approx": "2019-2020 (alleged assaults)",
+  "description": "A woman who says she was a victim of former Warren police officer Michael Edwards Jr. filed a $1 million federal lawsuit in February 2026 in the U.S. District Court for the Northern District of Ohio against the City of Warren and Police Chief Erik Merkel. According to the complaint, Edwards sexually assaulted her at least three times while on duty in 2019 and 2020, and stalked and tracked her down after she left a residence on Maryland Street. The suit alleges that before and after those assaults, the city and Merkel knew of similar allegations against Edwards and failed to act. Edwards, who is not named as a defendant in this filing, was convicted in 2024 of rape and related charges involving six victims and is serving a 34-to-39-year prison sentence. The case is in its early stages.",
+  "notes": "Companion records: rec-33 (three-plaintiff suit, March 2025) and rec-33b (fourth woman's suit, July 2025). Reporting suggests Edwards was likely omitted as a defendant to avoid encumbering the suit with his criminal appeals.",
+  "inclusion_concern": null,
+  "sources": [
+    {"url": "https://www.wkbn.com/news/local-news/warren-news/victim-of-former-officer-files-1m-lawsuit-against-warren-city-and-police-chief/", "title": "Victim of former officer Michael Edwards files $1M lawsuit against Warren City and Police Chief Erik Merkel", "publisher": "WKBN", "published_date": null},
+    {"url": "https://www.tribtoday.com/news/local-news/2026/02/1-million-lawsuit-filed-against-warren/", "title": "$1 million lawsuit filed against Warren", "publisher": "Tribune Chronicle", "published_date": null},
+    {"url": "https://www.wfmj.com/story/53446538/lawsuit-filed-against-city-of-warren-regarding-former-police-officer-convicted-of-rape", "title": "Warren police again accused of ignoring sexual assault in million dollar suit", "publisher": "WFMJ", "published_date": null},
+    {"url": "https://hoodline.com/2026/02/warren-cop-scandal-explodes-as-woman-slaps-city-chief-with-1m-suit/", "title": "Warren Cop Scandal Explodes As Woman Slaps City, Chief With $1M Suit", "publisher": "Hoodline", "published_date": null},
+    {"url": "https://nationaltoday.com/us/oh/warren-oh/news/2026/02/27/former-warren-police-officer-sued-for-1-million-over-sex-crimes/", "title": "Former Warren Police Officer Sued for $1 Million Over Sex Crimes", "publisher": "Warren Today (National Today)", "published_date": "2026-02-27"}
+  ],
+  "confidence_notes": "This record was recovered from the first orphan title in the seed. Reporting says the suit was 'filed Thursday' with aggregator coverage dated February 27, 2026, so the filing was on or about February 26, 2026. The $1 million figure is the amount sought, not a settlement."
+}

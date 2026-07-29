@@ -1,0 +1,32 @@
+{
+  "row": 84,
+  "slug": "ottawa-police-service-2019-r84",
+  "agency": "Ottawa Police Service",
+  "agency_category": "police",
+  "country": "CA",
+  "state_province": "ON",
+  "lawsuit_type": "internal",
+  "year_filed": 2019,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "settled",
+  "outcome_detail": "Confidential settlement of the Human Rights Tribunal of Ontario complaint reached in April 2021 between the officer and the Ottawa Police Services Board, publicly confirmed by the board chair in January 2022; terms and amount undisclosed. The complainant had sought $805,000 in damages plus systemic remedies.",
+  "settlement_amount_original": null,
+  "settlement_currency": "CAD",
+  "settlement_date": null,
+  "criminal_status": "none_filed",
+  "criminal_detail": "The Ontario Provincial Police investigated the 2011 sexual assault allegation against Const. Kevin Benloss but no criminal charges were laid, despite reporting that the OPP believed there were grounds to do so. Benloss was charged under the Police Services Act in November 2020 (discreditable conduct and insubordination), suspended with pay in September 2020, and acquitted of the disciplinary charges on November 16, 2022. A criminal sexual assault charge against Benloss in a separate, unrelated 2022 case was withdrawn in March 2023.",
+  "officer_names": ["Kevin Benloss"],
+  "incident_date_approx": "Alleged sexual assault March 13, 2011; alleged systemic sexism, propositioning and stalking from 2011 through the May 2019 complaint",
+  "description": "A female Ottawa Police Service constable filed a 45-page complaint with the Human Rights Tribunal of Ontario in May 2019 against the Ottawa Police Services Board, naming nearly two dozen OPS employees and seeking $805,000 in damages plus training and policy remedies. According to the complaint, a fellow constable, Kevin Benloss, sexually assaulted her in 2011 when she was a rookie, after driving her to his house instead of taking her home and giving her a \"fizzy\" drink; the complaint also alleged years of systemic sexism, including sexualized comments from colleagues and stalking by another officer after a relationship ended. The board reached a confidential settlement of the complaint in April 2021, which was publicly confirmed in January 2022; the terms were not disclosed. No criminal charges were laid against Benloss over the 2011 allegation, and he was acquitted of related Police Services Act disciplinary charges in November 2022.",
+  "notes": "Formal claim is a Human Rights Tribunal of Ontario complaint rather than a civil lawsuit (included under project rules covering formal human-rights complaints). The complainant was identified only by the pseudonym \"Anne\" in a CBC Fifth Estate investigation.",
+  "inclusion_concern": null,
+  "sources": [
+    {"url": "https://www.cbc.ca/news/canada/ottawa/police-board-settled-human-rights-complaint-with-officer-alleging-sexual-assault-1.6330446", "title": "Police board settled human rights complaint with officer alleging sexual assault", "publisher": "CBC News", "published_date": "2022-01-28"},
+    {"url": "https://www.cbc.ca/news/canada/ottawa/ottawa-police-officer-sexually-assaulated-human-rights-tribunal-complaint-1.5619420", "title": "Ottawa police officer fears losing 'dream job' after alleged sexual assault", "publisher": "CBC News", "published_date": "2020-06-19"},
+    {"url": "https://www.cbc.ca/news/canada/ottawa/kevin-benloss-ottawa-police-accusation-charge-1.6653165", "title": "Ottawa cop acquitted of sexual misconduct against rookie colleague", "publisher": "CBC News", "published_date": "2022-11-16"},
+    {"url": "https://www.cbc.ca/news/canada/ottawa/ottawa-police-officer-kevin-benloss-criminal-charges-withdrawn-1.6769660", "title": "Charges withdrawn against Ottawa cop accused of sexual assault", "publisher": "CBC News", "published_date": "2023-03-06"}
+  ],
+  "confidence_notes": "Settlement month (April 2021) is per the board chair's January 2022 statement; the seed hint's 'settled in 2021' is consistent, but no exact settlement date or amount is public, so settlement_date and settlement_amount_original are null. The withdrawn March 2023 criminal charge against Benloss arose from a separate 2022 complainant, not the 2011 incident in this complaint."
+}

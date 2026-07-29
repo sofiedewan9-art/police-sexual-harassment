@@ -1,0 +1,33 @@
+{
+  "row": 83,
+  "slug": "durham-regional-police-service-2019-r83",
+  "agency": "Durham Regional Police Service",
+  "agency_category": "police",
+  "country": "CA",
+  "state_province": "ON",
+  "lawsuit_type": "internal",
+  "year_filed": 2022,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "ongoing",
+  "outcome_detail": "In April 2024, Ontario Superior Court Justice Kerry Lee McVey dismissed the defendants' motion to dismiss for lack of jurisdiction and allowed the $40.5-million suit to proceed (2024 ONSC 2309, court file CV-22-00089537); as of July 2024 no statements of defence had been filed. No settlement or judgment reported as of July 2026.",
+  "settlement_amount_original": null,
+  "settlement_currency": "CAD",
+  "settlement_date": null,
+  "criminal_status": "none_filed",
+  "criminal_detail": "No criminal charges reported against any officer over the conduct alleged in this lawsuit. The plaintiff's civilian ex-husband, a co-defendant, pleaded guilty on January 29, 2019 to eight counts including multiple assaults, assault with a weapon and uttering death threats, and was sentenced to 79 days in jail. Separately, defendant officer Uday Jaswal was charged by Ontario's Special Investigations Unit in June 2024 with sexual assault over an unrelated 2011 incident involving a female colleague and in 2025 pleaded guilty to a lesser charge of breach of trust, receiving a six-month conditional sentence including 60 days of house arrest. Police Act disciplinary charges against Jaswal (including for allegedly sexually harassing three Ottawa police employees) and against Insp. Nick Lisi dissolved when each left policing.",
+  "officer_names": ["Paul Martin", "Uday Jaswal", "Todd Rollauer", "Nick Lisi"],
+  "incident_date_approx": "March 2016 through about 2020 (alleged workplace harassment beginning March 2016; alleged retaliation, enabled domestic abuse 2017, and disciplinary prosecution dismissed in 2020)",
+  "description": "A female Durham Regional Police Service sergeant, along with her four children, is suing the service, its police board, her ex-husband and 17 current and former members — including former chief Paul Martin, former deputy chiefs Uday Jaswal and Todd Rollauer, and Insp. Nick Lisi — for $40.5 million in a suit commenced in 2022 in Ottawa. According to the claim, her supervisor Lisi bullied her and made demeaning and inappropriate sexual comments beginning in 2016, and after she filed an internal complaint she became the target of retaliation, abuse of power and a coverup. The suit further alleges officers solicited damaging information from her ex-husband and enabled his escalating domestic abuse; court files document alleged physical and sexual abuse including \"forced\" and \"non-consensual sex\", smothering with a pillow and death threats. The ex-husband pleaded guilty in January 2019 to eight offences, including multiple assaults and uttering death threats. In April 2024, an Ontario Superior Court justice dismissed the defendants' jurisdictional motion, allowing the case to proceed; none of the civil allegations has been proven in court.",
+  "notes": "Seed year hint 2019 appears to reflect when Ontario's solicitor general triggered the Ontario Civilian Police Commission investigation of Durham police and when the plaintiff's disciplinary-tribunal factum was filed, not the civil filing (court file CV-22-00089537 indicates 2022 commencement, consistent with CBC's July 2024 report that the case was launched two years earlier). Defendants include the plaintiff's civilian ex-husband; her lawyer has received an unverified death certificate for him from Mexico.",
+  "inclusion_concern": "Sexual assault/harassment is not the central claim. The suit centres on workplace bullying, retaliation, corruption and coverup; the sexual components are the supervisor's alleged sexualized comments and the alleged domestic sexual abuse committed by the plaintiff's civilian ex-husband, which officers allegedly enabled. No officer is accused in the suit of sexually assaulting the plaintiff.",
+  "sources": [
+    {"url": "https://www.cbc.ca/news/canada/ottawa/alleged-durham-police-corruption-harassment-lawsuit-ottawa-court-1.7248578", "title": "Police coverup, corruption and harassment case to move ahead in Ottawa court", "publisher": "CBC News", "published_date": "2024-07-02"},
+    {"url": "https://www.cbc.ca/news/canada/ottawa/investigation-durham-police-cost-money-1.7253075", "title": "$2M of taxpayer money already spent investigating alleged Durham police corruption", "publisher": "CBC News", "published_date": "2024-07-08"},
+    {"url": "https://irp.cdn-website.com/da830f9d/files/uploaded/Whiteway_et._al._v._Durham_Regional_Police_Service_et_al-_2024_ONSC_2309_(CV-22-00089537)_(1).pdf", "title": "Whiteway et al v. Durham Regional Police Service et al, 2024 ONSC 2309 (CV-22-00089537)", "publisher": "Ontario Superior Court of Justice", "published_date": null},
+    {"url": "https://www.cbc.ca/news/canada/ottawa/jaswal-charged-1.7245898", "title": "Ex-deputy police chief Uday Jaswal charged with sexual assault", "publisher": "CBC News", "published_date": null},
+    {"url": "https://www.cbc.ca/news/canada/ottawa/uday-jaswal-9.6964625", "title": "Judge approves 'more lenient' breach of trust plea by former OPS deputy chief", "publisher": "CBC News", "published_date": null}
+  ],
+  "confidence_notes": "'Ongoing' status is based on July 2024 coverage of the April 2024 ruling; no 2025-2026 coverage of the civil case's progress was found, though the related Ontario Civilian Police Commission investigation was still in the news in late 2025. The 2024 ONSC 2309 decision PDF could not be text-extracted locally, so the exact filing date within 2022 is unconfirmed. Jaswal's criminal case concerned a 2011 incident unrelated to this lawsuit's allegations, which is why criminal_status is recorded as none_filed with detail."
+}

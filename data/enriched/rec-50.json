@@ -1,0 +1,32 @@
+{
+  "row": 50,
+  "slug": "webster-county-jail-webster-county-2021-r50",
+  "agency": "Webster County Jail (Webster County, Kentucky)",
+  "agency_category": "corrections",
+  "country": "US",
+  "state_province": "KY",
+  "lawsuit_type": "civilian",
+  "year_filed": 2021,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "no_resolution_found",
+  "outcome_detail": "Williams et al v. Webster County, Kentucky et al, 4:21-cv-00093 (W.D. Ky.), filed September 13, 2021. In April 2022 the court partially granted defendant Arthur Dale Collins's motion to stay his pre-trial obligations pending the related criminal proceeding against him. Dedicated searches found no reporting of a settlement, judgment or dismissal as of July 2026.",
+  "settlement_amount_original": null,
+  "settlement_currency": "USD",
+  "settlement_date": null,
+  "criminal_status": "charged",
+  "criminal_detail": "Arthur Dale Collins was arrested January 30, 2021 on charges including official misconduct, video voyeurism, assault and sexual abuse, and bonded out the next day; a hearing was set for December 2, 2021. The April 2022 federal stay order references his ongoing criminal proceeding. No public reporting on the final disposition of the charges was found.",
+  "officer_names": ["Arthur Dale Collins"],
+  "incident_date_approx": "2020 (various times, Webster County Jail)",
+  "description": "Women who had been incarcerated at the Webster County Jail filed a federal civil rights lawsuit on September 13, 2021 in the U.S. District Court for the Western District of Kentucky against Webster County, former deputy Arthur Dale Collins, other jail staff and former Jailer Morgan McKinley. The suit alleges that Collins sexually abused women prisoners at various times in 2020, including tasing women for his own sexual gratification, verbal sexual harassment, ordering women to engage in sexual acts, and groping, intimidating and threatening them. According to the complaint, a supervising sergeant participated in some conduct, another deputy knew of the abuse, and the jailer was on notice of complaints but allowed the abuse to continue. Collins was arrested in January 2021 on charges including sexual abuse and video voyeurism. No resolution of the civil case has been publicly reported.",
+  "notes": "Outside strict police-department definition (corrections). Federal docket lists plaintiffs Tanisha Williams, Rachael Berry, Alyssa Lovell and Jennifer McDaniel; initial coverage described two Jane Doe plaintiffs. A separate 2022 arrest of Webster County deputy jailer Aaron Drewicz-Stewart for soliciting sex from inmates is a different matter with no documented lawsuit and is not included as a record.",
+  "inclusion_concern": null,
+  "sources": [
+    {"url": "https://www.fggfirm.com/in-the-news/women-sue-webster-county-for-sexual-abuse-in-jail", "title": "Women Sue Webster County for Sexual Abuse in Jail", "publisher": "Friedman, Gilbert + Gerhardstein", "published_date": "2021-09-14"},
+    {"url": "https://www.14news.com/2021/09/14/women-file-lawsuit-against-former-webster-co-deputy/", "title": "Women file lawsuit against former Webster Co. Deputy", "publisher": "14 News (WFIE)", "published_date": "2021-09-14"},
+    {"url": "https://law.justia.com/cases/federal/district-courts/kentucky/kywdce/4:2021cv00093/122825/45/", "title": "Tanisha Williams, et al v. Webster County, Kentucky et al, No. 4:2021cv00093 - Document 45 (W.D. Ky. 2022)", "publisher": "Justia", "published_date": null},
+    {"url": "https://www.govinfo.gov/app/details/USCOURTS-kywd-4_21-cv-00093", "title": "Tanisha Williams, et al v. Webster County, Kentucky et al - 4:21-cv-00093", "publisher": "GovInfo (U.S. Courts)", "published_date": null}
+  ],
+  "confidence_notes": "Civil case disposition could not be confirmed from public sources; PACER review of 4:21-cv-00093 would resolve it. Final outcome of Collins's criminal charges (state court) was not found in news coverage; criminal_status reflects charges filed as of the latest reporting. News accounts differ on filing date (September 8 vs. 13, 2021); the fggfirm announcement (September 13) is used."
+}

@@ -1,0 +1,56 @@
+You are an independent verification agent for a database of civil lawsuits involving sexual assault/harassment and law-enforcement agencies. Today is 2026-07-28. For each record below you get ONLY source URLs. Read the sources (WebFetch; if one fails, skip it — do NOT search for other articles) and independently derive the fields from the sources alone. Do not guess: if the sources don't establish a value, use null. Be skeptical and literal about what the sources actually say.
+
+For each record, write a JSON file to /Users/sofiedewan/police-sa-lawsuits/data/verify/rec-<key>-v2.json (the <key> is given per record):
+{
+  "row": <int>, "slug": "<given>",
+  "fields": {
+    "agency": "<official agency name as best supported by sources>",
+    "agency_category": "police|sheriff|state_police|corrections|juvenile|federal|campus|transit|other",
+    "country": "US|CA",
+    "state_province": "<2-letter>",
+    "lawsuit_type": "civilian|internal|class_action",
+    "year_filed": <int|null>,
+    "outcome_status": "settled|plaintiff_verdict|defense_verdict|dismissed|ongoing|no_resolution_found",
+    "settlement_amount_original": <number|null>,
+    "criminal_status": "none_filed|charged|convicted|pleaded_guilty|acquitted|charges_dropped|unknown"
+  },
+  "caveats": "<brief notes on anything ambiguous>"
+}
+Definitions: civilian = officer accused of assaulting a civilian; internal = employee suing own agency over workplace sexual assault/harassment; class_action = mass litigation. "ongoing" only if sources confirm the case is active; "no_resolution_found" if sources show no resolution. year_filed = year the CIVIL suit was filed. If no lawsuit exists in the sources, pick the closest lawsuit_type fit and say so in caveats.
+
+Final message: one line per record "rec-<key>: done". Nothing else.
+
+THE RECORDS:
+
+Record key=53, row=53, slug="saratoga-springs-police-department-2023-r53", sources:
+https://www.sltrib.com/news/2023/01/10/saratoga-springs-officials/
+https://www.abc4.com/news/central-utah/saratoga-springs-police-officer-sexually-assaulted-woman-lawsuit-alleges/
+https://kutv.com/news/local/lawsuit-filed-against-police-department-city-of-saratoga-springs-alleging-sexual-assault
+https://www.deseret.com/utah/2023/1/11/23549918/utah-woman-sexual-harassment-claim-former-police-officer-cover-up/
+https://www.ksl.com/article/51157009/woman-suing-saratoga-springs-police-is-suspect-in-arson-investigation
+https://dockets.justia.com/docket/utah/utdce/2:2023cv00019/137028
+
+Record key=54, row=54, slug="la-plata-county-sheriff-s-office-2025-r54", sources:
+https://www.cpr.org/2025/09/05/female-inmates-lawsuit-la-plata-county-sheriffs-office-strip-searches/
+https://coloradosun.com/2025/09/04/class-action-lawsuit-la-plata-jail-commander-strip-search-video/
+https://www.usnews.com/news/us/articles/2025-08-15/colorado-jails-ex-commander-sued-over-allegedly-watching-strip-search-videos-of-over-100-women
+https://www.the-journal.com/articles/la-plata-jail-commander-accused-in-strip-search-case-faces-second-class-action-suit/
+https://clearinghouse.net/case/46925/
+https://cbi.colorado.gov/news-article/la-plata-county-jail-commander-charged-with-117-counts-of-invasion-of-privacy
+https://www.durangoherald.com/articles/former-la-plata-county-jail-commander-pleads-not-guilty-trial-date-set/
+https://www.durangoherald.com/articles/invasion-of-privacy-trial-for-former-la-plata-county-jail-commander-postponed/
+
+Record key=55, row=55, slug="white-county-sheriff-s-office-white-county-jail-2026-r55", sources:
+https://www.theindianalawyer.com/articles/former-white-county-jail-inmate-sues-sheriff-government-over-correctional-officers-sexual-misconduct
+
+Record key=56, row=56, slug="clark-county-sheriff-s-office-2022-r56", sources:
+https://www.newsweek.com/clark-county-jail-indiana-prison-rape-sexual-assault-lawsuit-clark-county-sheriff-1728341
+https://lawandcrime.com/lawsuit/dozens-of-inmates-raped-assaulted-and-harassed-after-jailer-sold-male-prisoner-a-key-to-womens-wing-federal-lawsuit-claims/
+https://www.cbsnews.com/news/28-female-inmates-sexual-assault-clark-county-jail-indiana-guard-sold-cell-keys-lawsuits
+https://www.prisonlegalnews.org/news/2024/oct/15/indiana-sheriff-pleads-guilty-corruption-county-pays-328000-jail-detainees-night-terror/
+https://www.cnn.com/2022/07/30/us/female-inmates-rape-assault-indiana-lawsuit/index.html
+https://www.lpm.org/news/2024-04-04/settlements-reached-in-lawsuits-related-to-2021-southern-indiana-jail-breach
+https://www.newsandtribune.com/news/tentative-settlement-reached-in-clark-county-jail-night-of-terror-lawsuits/article_0b8b2ec0-533c-11ee-a7a8-bbfca784f827.html
+https://www.wdrb.com/news/crime-reports/clark-county-judge-dismisses-case-against-former-corrections-officer/article_a394ab1c-eb37-11ef-ab6b-33885ed09b02.html
+https://www.lpm.org/news/2025-02-28/guard-cleared-in-clark-county-jail-key-theft
+

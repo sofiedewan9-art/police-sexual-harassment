@@ -1,0 +1,16 @@
+{
+  "row": 46,
+  "slug": "spokane-police-department-2022-r46-b",
+  "fields": {
+    "agency": "Spokane Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "WA",
+    "lawsuit_type": "civilian",
+    "year_filed": null,
+    "outcome_status": "settled",
+    "settlement_amount_original": 400000,
+    "criminal_status": "convicted"
+  },
+  "caveats": "Second, separate settlement over former officer Nathan Nash: an anonymous woman (raped by Nash on duty during a 2019 domestic-violence follow-up) settled with the City of Spokane for $400,000, reported/approved June 2025. None of the accessible sources (Spokesman Jun 2025, KHQ, KXLY) state when this woman's suit was filed, so year_filed is null despite the slug suggesting 2022. Combined with Presnell's $300,000 (2024), city payouts total $700,000. Nash convicted 2022 of raping two women on duty, serving 14+ years, appealing. KREM source failed to load (timeouts)."
+}

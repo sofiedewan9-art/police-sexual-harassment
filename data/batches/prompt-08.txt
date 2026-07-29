@@ -1,0 +1,63 @@
+You are a research agent for a Policing Project (NYU Law) database of civil lawsuits involving sexual assault/harassment and law-enforcement agencies (US/Canada). Today is 2026-07-28. For EACH seed record below, research thoroughly via web search, then WRITE a JSON file per lawsuit to /Users/sofiedewan/police-sa-lawsuits/data/enriched/.
+
+RESEARCH PROCEDURE per record:
+1. Fetch the given source URL (WebFetch). If dead or paywalled, find the article by searching its exact title.
+2. Run a DEDICATED outcome search — settled / verdict / dismissed / still active? (e.g. "<agency> <officer> lawsuit settlement 2025"). Never assume from filing coverage alone.
+3. Search for any criminal case against the accused officer(s).
+4. More searches as needed for year filed, official agency name, facts (3–8 searches/record). Add every useful article to sources.
+5. If "Orphan titles" are listed, search each exact title and recover its URL; include in sources.
+
+GRANULARITY — ONE RECORD PER LAWSUIT:
+- The primary lawsuit goes in rec-<row>.json with the given slug.
+- If coverage documents ADDITIONAL distinct suits (different plaintiffs/filings) from the same scandal, write rec-<row>b.json (slug "<given slug>-b"), rec-<row>c.json (slug "<given slug>-c"), etc. — each a complete record with its own year/outcome/description and only its relevant sources; cross-reference companions in notes.
+- Class actions / consolidated mass litigation = ONE record, lawsuit_type="class_action".
+- If coverage reports many suits only in AGGREGATE (e.g. "$9.5M across 21 suits") and individual filings are not separately documented, keep ONE record with multiple_filings=true, filing_year_range set, and notes explaining the aggregate reporting.
+
+INCLUSION CHECK: the record must involve an actual filed civil lawsuit or formal claim (notice of claim, EEOC/human-rights complaint) with sexual assault/harassment central. If none exists, or sexual misconduct is not central to the claim, still complete the record but set "inclusion_concern" explaining why.
+
+JSON schema (exact keys, one file per lawsuit):
+{
+  "row": <int>, "slug": "<per rules above>",
+  "agency": "<official agency name>",
+  "agency_category": "police|sheriff|state_police|corrections|juvenile|federal|campus|transit|other",
+  "country": "US|CA", "state_province": "<2-letter>",
+  "lawsuit_type": "civilian|internal|class_action",
+  "year_filed": <int|null>, "year_filed_approx": <bool>, "filing_year_range": <"YYYY-YYYY"|null>, "multiple_filings": <bool>,
+  "outcome_status": "settled|plaintiff_verdict|defense_verdict|dismissed|ongoing|no_resolution_found",
+  "outcome_detail": "<amount, date, grounds, appeal status — or ''>",
+  "settlement_amount_original": <number|null>, "settlement_currency": "USD|CAD",
+  "settlement_date": <"YYYY-MM-DD"|null>,
+  "criminal_status": "none_filed|charged|convicted|pleaded_guilty|acquitted|charges_dropped|unknown",
+  "criminal_detail": "<charges, sentence, dates — or ''>",
+  "officer_names": ["<only accused officers already named in public reporting>"],
+  "incident_date_approx": "<free text>",
+  "description": "<3-6 sentences, language rules below>",
+  "notes": <"<flags>"|null>,
+  "inclusion_concern": <string|null>,
+  "sources": [{"url":"...","title":"...","publisher":"...","published_date":<"YYYY-MM-DD"|null>}],
+  "confidence_notes": "<anything uncertain>"
+}
+
+LAWSUIT TYPE: "civilian" = officer/deputy/jailer accused of sexually assaulting a civilian; "internal" = officer/employee suing their OWN agency over workplace sexual assault/harassment; "class_action" = class action / mass litigation.
+
+DESCRIPTION LANGUAGE RULES (strict — public site, defamation risk):
+- Attribute every unproven claim: "The suit alleges…", "According to the complaint…".
+- State conduct as fact ONLY where supported by a conviction, guilty plea, admission, or jury finding.
+- NEVER name victims — "a woman", "Jane Doe". Officer names only if already in cited reporting.
+- No editorializing, no pattern-drawing language.
+
+OUTCOME DISCIPLINE: "settled" only if a settlement is reported (amount+date in outcome_detail); "ongoing" only if coverage confirms the case is active; "no_resolution_found" if dedicated searches surface neither. Criminal track is separate from civil.
+
+NOTES flags when applicable: "Outside strict police-department definition (<category>)"; "Filed before 2021; included because resolution occurred in window"; companion-record cross-references.
+
+Final message: one line per FILE written: "rec-<key>: <agency> — <outcome_status> — <N> sources — CONCERN: <inclusion_concern or none>". Nothing else.
+
+THE SEED RECORDS:
+
+Record A: row=37, slug="multnomah-county-sheriff-s-office-2026-r37". Agency hint: Multnomah County Sheriff's Office, US/OR. Year hint: 2026 (ongoing). Seed outcome hint: ongoing. Source: Federal civil lawsuit alleges former Multnomah County corrections deputy sexually assaulted inmate, ignored pleas for help; Former Multnomah County Deputy faces second lawsuit alleging sexual assault of inmate https://www.kgw.com/article/news/crime/federal-civil-lawsuit-alleges-former-multnomah-county-corrections-deputy-sexually-assaulted-inmate/283-12e9a8e4-5503-4125-9431-0b29518c5e63
+
+Record B: row=38, slug="multnomah-county-sheriff-s-office-2026-r38". Agency hint: Multnomah County Sheriff's Office, US/OR. Year hint: 2026 (ongoing). Seed outcome hint: ongoing. Source: Federal lawsuit docs: Multnomah County Jail Deputy groomed female inmate for sex https://katu.com/news/local/federal-lawsuit-docs-multnomah-county-jail-deputy-groomed-female-inmate-for-sex-martin-jackson-portland-oregon
+
+Record C: row=39, slug="chisago-county-sheriff-s-office-2024-r39". Agency hint: Chisago County Sheriff's Office, US/MN. Year hint: 2024 (settled - $7.5M 2026). Seed outcome hint: settled - $7.5M 2026 ($7500000). Source: Chisago County settles lawsuit over sheriff sex assault case for $7.5M; Chisago County agrees $7.5M settlement with victim in sheriff sex assault case; Chisago County settles lawsuit over sheriff sex assault case for $7.5M https://kstp.com/kstp-news/local-news/chisago-county-settles-lawsuit-over-sheriff-sex-assault-case-for-7-5-million/
+
+Record D: row=40, slug="payette-county-sheriff-s-office-2025-r40". Agency hint: Payette County Sheriff's Office, US/ID. Year hint: 2025 (pre-suit tort claim filed; ongoing). Seed outcome hint: pre-suit tort claim filed; ongoing. Source: Ex-Idaho sheriff’s jail deputy could be sued after groping incarcerated woman https://www.spokesman.com/stories/2025/oct/02/ex-idaho-sheriffs-jail-deputy-could-be-sued-after-/

@@ -1,0 +1,16 @@
+{
+  "row": 5,
+  "slug": "michigan-state-police-r5",
+  "fields": {
+    "agency": "Michigan State Police",
+    "agency_category": "state_police",
+    "country": "US",
+    "state_province": "MI",
+    "lawsuit_type": "internal",
+    "year_filed": 2024,
+    "outcome_status": "no_resolution_found",
+    "settlement_amount_original": null,
+    "criminal_status": "unknown"
+  },
+  "caveats": "3 of 4 sources failed to load (wlns.com returned 403 twice; detroitnews.com returned 402). Only usable source was the plaintiff attorney's site (okeefelaw.net), which announced the suit at filing: former trooper Megan Valerie Moryc v. Michigan State Police, filed 6/28/2024 in the 56th Circuit Court for Eaton County, MI, under the Elliott-Larsen Civil Rights Act, alleging sexual discrimination/harassment and retaliation (internal/employment suit). No resolution reported in the accessible source, and it does not confirm current case status as of 2026. No criminal charges against the alleged harassers are mentioned (the source notes MSP opened a 'baseless criminal perjury investigation' against the plaintiff herself), so criminal_status is unknown."
+}

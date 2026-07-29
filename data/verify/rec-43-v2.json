@@ -1,0 +1,16 @@
+{
+  "row": 43,
+  "slug": "columbia-police-department-2025-r43",
+  "fields": {
+    "agency": "Columbia Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "SC",
+    "lawsuit_type": "civilian",
+    "year_filed": 2025,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "charged"
+  },
+  "caveats": "Taylor Ishmal (spelled 'Isham' in one source) sued the City of Columbia, Columbia Police Department, and former officer Caleb Hickmon-Payne over a Jan 31, 2025 wrongful arrest (vacated warrant) and sexual assault during transport to jail; suit filed ~March 12-13, 2025, court not specified, unspecified damages/jury trial demanded. 'Ongoing' reflects status as of the March 2025 lawsuit sources; no later civil-case status available. Hickmon-Payne was fired Feb 7, 2025, charged March 12, 2025 (assault & battery 2nd degree, misconduct in office) and received additional charges Oct 20, 2025 (criminal sexual conduct 3rd degree, misconduct in office, from a separate in-custody incident); criminal case pending as of Oct 2025, so criminal_status=charged. One source (wltx.com) timed out and was skipped."
+}

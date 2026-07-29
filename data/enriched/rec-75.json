@@ -1,0 +1,33 @@
+{
+  "row": 75,
+  "slug": "pima-county-sheriff-s-department-2023-r75",
+  "agency": "Pima County Sheriff's Department",
+  "agency_category": "sheriff",
+  "country": "US",
+  "state_province": "AZ",
+  "lawsuit_type": "internal",
+  "year_filed": 2023,
+  "year_filed_approx": true,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "ongoing",
+  "outcome_detail": "Claims against Sheriff Chris Nanos and chief of staff Cameron Johnson were dismissed July 21, 2025, after the plaintiff's attorney agreed to dismiss them in exchange for production of documents including the internal affairs investigation; claims against Ricardo Garcia remained active as of July 2025.",
+  "settlement_amount_original": null,
+  "settlement_currency": "USD",
+  "settlement_date": null,
+  "criminal_status": "convicted",
+  "criminal_detail": "Ricardo 'Ricky' Garcia was convicted by a jury in December 2024 of attempted sexual assault and sexual abuse (acquitted of sexual assault) and was sentenced on February 24, 2025, to one year in jail, three years of probation, and sex-offender registration. Separately, the Arizona Attorney General found in 2024 that no crimes were committed in the department's handling of the case.",
+  "officer_names": ["Ricardo Garcia"],
+  "incident_date_approx": "December 2022 (school resources unit Christmas party)",
+  "description": "A Pima County Sheriff's Department deputy filed a $900,000 notice of claim in June 2023 — a precursor to a lawsuit — against Pima County, Sheriff Chris Nanos, chief of staff Cameron Johnson, and Sgt. Ricardo Garcia, seeking $225,000 from each. According to the claim, Garcia, then her supervisor in the school resources unit, sexually assaulted her at a December 2022 Christmas party at his home, and the department responded inadequately. Garcia was criminally convicted in December 2024 of attempted sexual assault and sexual abuse and was sentenced in February 2025 to one year in jail, three years of probation, and sex-offender registration. In the civil case, claims against Nanos and Johnson were dismissed in July 2025 under an agreement tied to the county producing internal affairs records, while claims against Garcia remained active.",
+  "notes": null,
+  "inclusion_concern": null,
+  "sources": [
+    {"url": "https://tucson.com/news/local/crime-and-courts/pima-county-and-sheriffs-department-named-in-notice-of-claim/article_93757674-1444-11ee-8527-3340231b98d3.html", "title": "$900K claim filed by deputy against colleague, others in sex-assault case", "publisher": "Arizona Daily Star (tucson.com)", "published_date": null},
+    {"url": "https://www.kold.com/2025/07/22/lawsuit-against-sheriff-nanos-chief-staff-dismissed/", "title": "Lawsuit against Sheriff Nanos, his chief of staff dismissed", "publisher": "KOLD News 13", "published_date": "2025-07-22"},
+    {"url": "https://azpm.org/p/headlines/2025/2/24/223818-deputy-sentenced-to-one-year-in-jail-in-high-profile-pima-sheriffs-rape-case/", "title": "Deputy sentenced to one year in jail in high-profile Pima Sheriff's rape case", "publisher": "AZPM", "published_date": "2025-02-24"},
+    {"url": "https://news.azpm.org/s/100035-former-pima-county-deputy-ricardo-garcia-found-guilty-of-attempted-sexual-assault-and-sexual-abuse/", "title": "Former Pima County Sheriff's Sergeant Ricardo Garcia found guilty of attempted sexual assault and sexual abuse", "publisher": "AZPM", "published_date": null},
+    {"url": "https://tucson.com/news/local/crime-courts/pima-county-sheriffs-department-ricardo-garcia-chris-nanos/article_142e13f4-6b9f-11ef-b0a5-cb6de69c4fad.html", "title": "Arizona AG: No crimes in sheriff's department handling of deputy's alleged rape", "publisher": "Arizona Daily Star (tucson.com)", "published_date": null}
+  ],
+  "confidence_notes": "The seed source is the June 2023 notice of claim; the exact filing date of the subsequent civil lawsuit was not found in coverage, so year_filed=2023 is marked approximate. Reported counts vary slightly between outlets (some report two counts each of attempted sexual assault and sexual abuse). Nanos and Johnson were defendants over the department's response, not accused of sexual misconduct, so they are omitted from officer_names."
+}

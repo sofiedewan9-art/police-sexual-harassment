@@ -1,0 +1,32 @@
+{
+  "row": 33,
+  "slug": "warren-police-department-2025-r33-b",
+  "agency": "Warren Police Department",
+  "agency_category": "police",
+  "country": "US",
+  "state_province": "OH",
+  "lawsuit_type": "civilian",
+  "year_filed": 2025,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "ongoing",
+  "outcome_detail": "Filed July 2025 in the U.S. District Court for the Northern District of Ohio; active as of 2026 alongside the related March 2025 case, with proceedings that had been paused during Edwards' criminal appeals now moving forward. No settlement or judgment reported.",
+  "settlement_amount_original": null,
+  "settlement_currency": "USD",
+  "settlement_date": null,
+  "criminal_status": "convicted",
+  "criminal_detail": "Michael Edwards Jr. was convicted in September 2024 on charges including rape, sexual battery, gross sexual imposition, extortion and theft in office involving six victims, and sentenced to 34 to 39 years in prison; his convictions and sentence were upheld on appeal and the Ohio Supreme Court declined review.",
+  "officer_names": ["Michael Edwards Jr."],
+  "incident_date_approx": "February 2023 (first encounter) through fall 2023 (alleged assault)",
+  "description": "A fourth woman, a 33-year-old Niles resident, filed a lawsuit in July 2025 in the U.S. District Court for the Northern District of Ohio against former Warren police officer Michael Edwards Jr., Police Chief Erik Merkel, and the City of Warren. According to the complaint, the woman met Edwards in February 2023 when he responded to a 911 call about a friend's drug overdose, and he allegedly continued contacting her afterward, culminating in a sexual assault in fall 2023 while she was heavily intoxicated. The suit alleges a widespread practice of on-duty Warren officers committing sexual assaults, sexual coercion and sexual extortion against vulnerable women, and claims Merkel and the city failed to investigate complaints or curb Edwards' behavior. The plaintiff seeks compensatory damages, punitive damages, and attorney fees, and has demanded a jury trial. Edwards was convicted in 2024 of rape and related charges and is serving a 34-to-39-year sentence.",
+  "notes": "Companion records: rec-33 (three-plaintiff suit filed March 2025) and rec-33c ($1 million suit filed February 2026) arise from the same scandal.",
+  "inclusion_concern": null,
+  "sources": [
+    {"url": "https://www.wfmj.com/story/52906120/fourth-woman-files-sexual-assault-lawsuit-against-city-of-warren-police-chief-former-officer", "title": "Fourth woman files sexual assault lawsuit against City of Warren, police chief, former officer", "publisher": "WFMJ", "published_date": null},
+    {"url": "https://www.tribtoday.com/news/local-news/2025/07/4th-woman-files-lawsuit-against-former-officer/", "title": "4th woman files lawsuit against former officer", "publisher": "Tribune Chronicle", "published_date": null},
+    {"url": "https://www.wkbn.com/news/local-news/youngstown-news/fourth-woman-files-sexual-assault-lawsuit-against-former-warren-officer-chief-also-named-in-lawsuit/", "title": "Fourth woman files sexual assault lawsuit against Michael Edwards Jr., Chief Erik Merkel, City of Warren, Ohio also named in lawsuit", "publisher": "WKBN", "published_date": null},
+    {"url": "https://www.yahoo.com/news/fourth-woman-files-sexual-assault-122118671.html", "title": "Fourth woman files sexual assault lawsuit against former Warren officer; chief also named in lawsuit", "publisher": "Yahoo News (WKBN)", "published_date": null}
+  ],
+  "confidence_notes": "Filed on a Monday in July 2025 per reporting (Tribune Chronicle URL dated 2025/07); exact filing date not confirmed. This record was recovered from the second orphan title listed in the seed. Current individual docket status of this specific suit (versus the consolidated coverage of all Edwards-related suits) is not separately reported."
+}

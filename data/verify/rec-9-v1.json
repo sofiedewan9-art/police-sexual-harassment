@@ -1,0 +1,16 @@
+{
+  "row": 9,
+  "slug": "unknown-agency-r9",
+  "fields": {
+    "agency": null,
+    "agency_category": "police",
+    "country": "US",
+    "state_province": null,
+    "lawsuit_type": "internal",
+    "year_filed": null,
+    "outcome_status": "no_resolution_found",
+    "settlement_amount_original": null,
+    "criminal_status": "unknown"
+  },
+  "caveats": "The sole source is a general Police1 article summarizing survey responses from 184 female officers about harassment/culture in policing; it describes NO specific lawsuit for this record. It briefly references the San Mateo County (Carryn Barker) case, which is a separate record. lawsuit_type 'internal' chosen as closest fit since the article concerns officers harassed within their own agencies; agency, state, year, and settlement cannot be established."
+}

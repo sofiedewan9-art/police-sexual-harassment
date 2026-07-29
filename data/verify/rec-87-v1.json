@@ -1,0 +1,16 @@
+{
+  "row": 87,
+  "slug": "saint-john-police-force-2013-r87",
+  "fields": {
+    "agency": "Saint John Police Force",
+    "agency_category": "police",
+    "country": "CA",
+    "state_province": "NB",
+    "lawsuit_type": "class_action",
+    "year_filed": 2013,
+    "outcome_status": "settled",
+    "settlement_amount_original": 16500000,
+    "criminal_status": "convicted"
+  },
+  "caveats": "5 of 8 URLs (all CBC) returned 403 and were skipped. Sources name Estabrooks as a Saint John police officer; defendant is City of Saint John. Settlement is CAD $16.5M; approval date differs across sources (Mar 12 vs Apr 13, 2026). Conviction (6-yr sentence) noted, plea vs trial unstated."
+}

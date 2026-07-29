@@ -1,0 +1,16 @@
+{
+  "row": 44,
+  "slug": "granger-police-department-2024-r44",
+  "fields": {
+    "agency": "Granger Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "WA",
+    "lawsuit_type": "civilian",
+    "year_filed": 2024,
+    "outcome_status": "settled",
+    "settlement_amount_original": 700000,
+    "criminal_status": "none_filed"
+  },
+  "caveats": "A young woman sued the City of Granger, Granger Police Department, former officer Glen Trejo, former Mayor Jose Trevino, and Lt. Juan Ceja, alleging Trejo forced her into a sexual relationship (beginning ~July 2022) and officials covered it up; filed May 17, 2024 in Yakima County Superior Court; settled for $700,000 on May 22, 2025. Yakima County prosecutor declined to file criminal charges against Trejo (insufficient evidence), though a court granted the victim a 10-year sexual assault protection order. A related tort claim by fired police chief Esteven Araguz alleging retaliation is separate from this record. Two sources failed: nbcrightnow.com returned HTTP 429 and kimatv.com redirected to an unrelated homepage; both skipped."
+}

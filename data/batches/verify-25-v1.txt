@@ -1,0 +1,54 @@
+You are an independent verification agent for a database of civil lawsuits involving sexual assault/harassment and law-enforcement agencies. Today is 2026-07-28. For each record below you get ONLY source URLs. Read the sources (WebFetch; if one fails, skip it — do NOT search for other articles) and independently derive the fields from the sources alone. Do not guess: if the sources don't establish a value, use null.
+
+For each record, write a JSON file to /Users/sofiedewan/police-sa-lawsuits/data/verify/rec-<key>-v1.json (the <key> is given per record):
+{
+  "row": <int>, "slug": "<given>",
+  "fields": {
+    "agency": "<official agency name as best supported by sources>",
+    "agency_category": "police|sheriff|state_police|corrections|juvenile|federal|campus|transit|other",
+    "country": "US|CA",
+    "state_province": "<2-letter>",
+    "lawsuit_type": "civilian|internal|class_action",
+    "year_filed": <int|null>,
+    "outcome_status": "settled|plaintiff_verdict|defense_verdict|dismissed|ongoing|no_resolution_found",
+    "settlement_amount_original": <number|null>,
+    "criminal_status": "none_filed|charged|convicted|pleaded_guilty|acquitted|charges_dropped|unknown"
+  },
+  "caveats": "<brief notes on anything ambiguous>"
+}
+Definitions: civilian = officer accused of assaulting a civilian; internal = employee suing own agency over workplace sexual assault/harassment; class_action = mass litigation. "ongoing" only if sources confirm the case is active; "no_resolution_found" if sources show no resolution. year_filed = year the CIVIL suit was filed. If no lawsuit exists in the sources, pick the closest lawsuit_type fit and say so in caveats.
+
+Final message: one line per record "rec-<key>: done". Nothing else.
+
+THE RECORDS:
+
+Record key=25, row=25, slug="county-of-los-angeles-2020-r25", sources:
+https://laist.com/news/criminal-justice/la-county-4-billion-settlement-child-sex-abuse-case
+https://lacounty.gov/2025/04/04/la-county-reaches-4-billion-tentative-settlement-in-thousands-of-sexual-abuse-cases/
+https://abc7.com/post/4-billion-settlement-sexual-abuse-claims-juvenile-facilities-is-expected-approved-today-la-county-supervisors/16277247/
+https://www.courthousenews.com/la-county-board-approves-4-billion-settlement-over-sexual-abuse-claims-at-juvenile-facilities/
+https://imprintnews.org/top-stories/a-staggering-tally-cases-alleging-sexual-abuse-of-children-in-los-angeles-county-custody-now-number-thousands/250619
+
+Record key=26, row=26, slug="new-york-city-department-of-correction-r26", sources:
+https://www.nbcnews.com/news/nbcblk/sexual-abuse-lawsuits-rikers-island-new-york-adult-survivors-act-rcna126898
+https://www.cbsnews.com/newyork/news/rikers-island-sexual-assault-lawsuits/
+https://www.amny.com/news/nyc-civil-sex-abuse-suits-rikers-island/
+https://gothamist.com/news/late-night-sex-assaults-invasive-searches-the-700-women-alleging-abuse-at-rikers
+https://gothamist.com/news/bronx-da-assigns-team-of-prosecutors-to-review-rikers-sexual-assault-cases
+https://www.thecity.nyc/2025/12/18/rikers-sexual-assault-lawsuit-kyle-knight/
+https://www.thecity.nyc/2024/05/13/rikers-settlement-therapist-sex-assault/
+
+Record key=27, row=27, slug="new-york-city-police-department-2018-r27", sources:
+https://www.upi.com/Top_News/US/2022/09/10/nyc-settles-lawsuit-woman-accused-two-nypd-officers-raping-her/5031662857737/
+https://www.rollingstone.com/culture/culture-news/nypd-officers-eddie-martins-richard-hall-plea-deal-878651/
+https://ny1.com/nyc/brooklyn/news/2019/08/29/anna-chambers-case-former-nypd-detectives-plead-guilty-will-get-probation
+https://www.nbcnewyork.com/news/local/rape-charges-dropped-against-nypd-cops-arrested-for-sex-with-teen-woman-in-police-van/38990/
+https://www.oxygen.com/very-real/its-now-illegal-for-new-york-police-officers-to-have-sex-with-people-they-arrest
+
+Record key=28, row=28, slug="new-york-city-police-department-2023-r28", sources:
+https://www.thecity.nyc/2024/03/18/eric-adams-lawsuit-sexual-assault-allegations/
+https://www.upi.com/Top_News/US/2023/11/23/NYC-Mayor-Eric-Adams-accused-sexual-assault-adult-survivors-suit/5431700755084/
+https://www.cnn.com/2023/11/23/us/eric-adams-adult-survivors-act/index.html
+https://www.courthousenews.com/eric-adams-has-no-interest-in-settling-sexual-assault-suit/
+https://www.thecity.nyc/2026/03/17/eric-adams-sexual-assault-legal-defense/
+

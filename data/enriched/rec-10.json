@@ -1,0 +1,70 @@
+{
+  "row": 10,
+  "slug": "san-mateo-r10",
+  "agency": "San Mateo County Sheriff's Office",
+  "agency_category": "sheriff",
+  "country": "US",
+  "state_province": "CA",
+  "lawsuit_type": "internal",
+  "year_filed": 2022,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "settled",
+  "outcome_detail": "$8,000,000 settlement announced July 2024, reached shortly before a September 2024 trial date and before a ruling on whether Sheriff Christina Corpus could be deposed. Reported as a record payout for a county sexual harassment case in California.",
+  "settlement_amount_original": 8000000,
+  "settlement_currency": "USD",
+  "settlement_date": null,
+  "criminal_status": "none_filed",
+  "criminal_detail": "No criminal charges against Andre Moniot were identified in coverage; the matter was reported only as civil litigation. Moniot no longer works for the Sheriff's Office.",
+  "officer_names": ["Andre Moniot"],
+  "incident_date_approx": "Alleged harassment beginning in 2018 after plaintiff joined the SWAT team; alleged sexual assault at a SWAT team gathering in October 2021",
+  "description": "Sheriff's Detective Carryn Barker, a decorated deputy and the second woman to qualify for San Mateo County's SWAT team, sued San Mateo County in November 2022 over workplace sexual harassment and sex discrimination. The suit alleged that SWAT Team Leader Andre Moniot subjected her to years of vulgar comments and inappropriate touching beginning in 2018, and that he sexually assaulted her at a SWAT gathering in October 2021 by wrestling her to the ground and groping her in front of colleagues. According to the complaint and deposition testimony cited by her attorneys, multiple high-ranking officers were told of the alleged harassment by early 2021 but the county failed to investigate or protect her until after she filed suit. In July 2024, San Mateo County paid $8 million to settle the case, reported as a record for a county sexual harassment case in California.",
+  "notes": null,
+  "inclusion_concern": null,
+  "sources": [
+    {
+      "url": "https://www.prnewswire.com/news-releases/san-mateo-county-pays-historic-8-000-000-settlement-to-end-sexual-harassment-and-sex-discrimination-lawsuit-302203169.html",
+      "title": "San Mateo County Pays Historic $8,000,000 Settlement to End Sexual Harassment and Sex Discrimination Lawsuit",
+      "publisher": "PR Newswire (Franklin Law P.C.)",
+      "published_date": "2024-07-22"
+    },
+    {
+      "url": "https://www.almanacnews.com/news/2024/07/20/san-mateo-county-paying-8m-to-settle-sexual-harassment-lawsuit-from-former-swat-team-member/",
+      "title": "San Mateo County paying $8M to settle sexual harassment lawsuit from former SWAT team member",
+      "publisher": "The Almanac",
+      "published_date": "2024-07-20"
+    },
+    {
+      "url": "https://abc7news.com/post/exclusive-interview-san-mateo-county-detective-sexual-harassment-suit/15101928/",
+      "title": "EXCLUSIVE: San Mateo County detective opens up after winning $8M sexual harassment suit settlement",
+      "publisher": "ABC7 San Francisco",
+      "published_date": null
+    },
+    {
+      "url": "https://www.smdailyjournal.com/news/local/san-mateo-county-pays-8m-for-sex-harassment-suit/article_ceccf700-4644-11ef-bd3c-c75a68f60e90.html",
+      "title": "San Mateo County pays $8M for sex harassment suit",
+      "publisher": "San Mateo Daily Journal",
+      "published_date": null
+    },
+    {
+      "url": "https://www.rwcpulse.com/top-story/2022/11/14/decorated-sheriffs-deputy-sues-san-mateo-county-over-workplace-sexual-harassment-assault/",
+      "title": "Decorated sheriff's deputy sues San Mateo County over workplace sexual harassment, assault",
+      "publisher": "Redwood City Pulse",
+      "published_date": "2022-11-14"
+    },
+    {
+      "url": "https://padailypost.com/2022/11/14/deputy-sues-sheriffs-department-claiming-sex-assault-harassment-and-that-higher-ups-emailed-porn/",
+      "title": "Deputy sues sheriff's department claiming sex assault, harassment and that higher-ups emailed porn to each other",
+      "publisher": "Palo Alto Daily Post",
+      "published_date": "2022-11-14"
+    },
+    {
+      "url": "https://localnewsmatters.org/2024/07/22/san-mateo-county-paying-8m-to-settle-sexual-harassment-lawsuit-from-ex-swat-member/",
+      "title": "San Mateo County paying $8M to settle sexual harassment lawsuit from ex-SWAT member",
+      "publisher": "Local News Matters",
+      "published_date": "2024-07-22"
+    }
+  ],
+  "confidence_notes": "Filing date confirmed by two Nov. 14, 2022 news reports. Exact settlement execution date not published (announced ~July 19-22, 2024), so settlement_date left null. Plaintiff is named in reporting as she brought the suit publicly; description otherwise follows attribution rules. No criminal case against Moniot found in a dedicated search, but absence of charges cannot be fully verified from news coverage alone."
+}

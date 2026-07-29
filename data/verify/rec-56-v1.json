@@ -1,0 +1,16 @@
+{
+  "row": 56,
+  "slug": "clark-county-sheriff-s-office-2022-r56",
+  "fields": {
+    "agency": "Clark County Sheriff's Office",
+    "agency_category": "sheriff",
+    "country": "US",
+    "state_province": "IN",
+    "lawsuit_type": "class_action",
+    "year_filed": 2022,
+    "outcome_status": "settled",
+    "settlement_amount_original": 328000,
+    "criminal_status": "charges_dropped"
+  },
+  "caveats": "Mass litigation (~30 federal suits, ~28 women; first suits Jun/Jul 2022), not a certified class. Settled 2024: PLN reports $328,000 county payout; LPM (Feb 2025) reports $370,500 - amounts conflict. All charges vs jailer Lowe dismissed Feb 2025; Sheriff Noel's guilty plea was unrelated corruption."
+}

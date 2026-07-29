@@ -1,0 +1,16 @@
+{
+  "row": 63,
+  "slug": "chicago-police-department-2020-r63",
+  "fields": {
+    "agency": "Chicago Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "IL",
+    "lawsuit_type": "internal",
+    "year_filed": 2020,
+    "outcome_status": "dismissed",
+    "settlement_amount_original": null,
+    "criminal_status": "none_filed"
+  },
+  "caveats": "Donald v. Johnson/City of Chicago, filed 10/14/2020 in Cook County Circuit Court, resolved in federal court (Judge Bucklo dismissed all claims 3/2024). Attorney planned appeal; no appeal outcome in sources. Donald's counsel said she never pursued criminal charges."
+}

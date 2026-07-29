@@ -1,0 +1,16 @@
+{
+  "row": 83,
+  "slug": "durham-regional-police-service-2019-r83",
+  "fields": {
+    "agency": "Durham Regional Police Service",
+    "agency_category": "police",
+    "country": "CA",
+    "state_province": "ON",
+    "lawsuit_type": "internal",
+    "year_filed": 2022,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "pleaded_guilty"
+  },
+  "caveats": "Whiteway v DRPS filed Jun 2022 (CV-22-00089537), $40.5M claimed; Apr 2024 ONSC 2309 denied dismissal, case proceeding. Slug year 2019 = OCPC probe, not filing. Defendant Jaswal pleaded guilty Nov 2025 to breach of trust (reduced from sexual assault) re a separate 2011 Ottawa incident."
+}

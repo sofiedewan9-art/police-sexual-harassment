@@ -1,0 +1,16 @@
+{
+  "row": 29,
+  "slug": "west-virginia-state-police-2023-r29",
+  "fields": {
+    "agency": "West Virginia State Police",
+    "agency_category": "state_police",
+    "country": "US",
+    "state_province": "WV",
+    "lawsuit_type": "class_action",
+    "year_filed": 2023,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "unknown"
+  },
+  "caveats": "Hidden-camera litigation over the WVSP Academy women's locker room/shower: 80+ individual lawsuits plus a class-action suit (mass litigation, so class_action; plaintiffs include both female law-enforcement employees and civilians/minors, so the civilian/internal split is mixed). Filings span 2023-2024 per case numbers; first suits filed 2023. Ongoing confirmed: Nov 2025 source reports first trial scheduled May 18, 2026, with mediation continuing; Sept 2025 ruling set insurance limit at $1M per plaintiff (a coverage cap, not a settlement, so amount is null). Sources mention an FBI/federal investigation but no criminal-charge outcome, hence criminal_status unknown. Four of eight sources were inaccessible (403/451: wtrf.com, cnn.com, wowktv.com, wboy.com) and were skipped."
+}

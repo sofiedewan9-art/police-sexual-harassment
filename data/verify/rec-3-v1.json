@@ -1,0 +1,16 @@
+{
+  "row": 3,
+  "slug": "rowlett-texas-r3",
+  "fields": {
+    "agency": "Rowlett Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "TX",
+    "lawsuit_type": "internal",
+    "year_filed": null,
+    "outcome_status": "no_resolution_found",
+    "settlement_amount_original": null,
+    "criminal_status": "none_filed"
+  },
+  "caveats": "NO lawsuit appears in the sources. Coverage describes an internal affairs / Professional Standards investigation of Rowlett PD Sgt. Ryan Doherty after a Jan 28, 2025 formal complaint: allegations of sexually harassing/pursuing female coworkers (initiating relationships with direct reports, soliciting officers for threesomes). Investigation sustained two allegations (inappropriate relationship with a female Rowlett officer; untruthfulness with investigators); Chief approved termination but Doherty resigned in lieu of termination (June 2025 per CBS) under a separation agreement with confidentiality/non-disparagement and neutral-reference clauses. 'internal' chosen as closest fit because the alleged victims were fellow employees, but no civil suit was filed per sources, hence year_filed=null and no_resolution_found. Officer Victoria Bailey, a central figure, died by suicide in Oct 2024 before the investigation concluded. Criminal status: Rowlett PD made Brady disclosures to Dallas and Rockwall County DAs, but no charges are reported in any source — 'none_filed' inferred from absence of any mention. The separation agreement is not a lawsuit settlement, so settlement_amount=null. One source (WFAA) failed to load (timeout, two attempts) and was skipped."
+}

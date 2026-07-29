@@ -1,0 +1,30 @@
+{
+  "row": 73,
+  "slug": "holly-hill-police-department-2025-r73-b",
+  "agency": "Holly Hill Police Department",
+  "agency_category": "police",
+  "country": "US",
+  "state_province": "FL",
+  "lawsuit_type": "internal",
+  "year_filed": 2025,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "ongoing",
+  "outcome_detail": "Filed January 31, 2025 (second of two suits filed that day); as of the latest coverage (March 2025) no settlement, verdict, or dismissal had been reported.",
+  "settlement_amount_original": null,
+  "settlement_currency": "USD",
+  "settlement_date": null,
+  "criminal_status": "none_filed",
+  "criminal_detail": "A Volusia County grand jury declined in October 2024 to bring criminal charges against former Chief Jeffrey Miller; no criminal charges have been reported against any of the accused officers.",
+  "officer_names": ["Jeffrey Miller", "Christopher Yates", "Shannon Fountain", "Tom Bentley"],
+  "incident_date_approx": "Alleged conduct spanning several years during Miller's tenure as chief, surfacing publicly in 2024",
+  "description": "A second female Holly Hill Police Department employee filed suit against the City of Holly Hill on January 31, 2025, the same day as a companion suit by a coworker. According to the complaints, the women endured years of sexual harassment including unwanted touching, indecent exposure, and propositions for sex acts; one plaintiff described being locked in an office where then-Chief Jeffrey Miller allegedly ground against her coworker's lap, and the suits allege Sergeant Shannon Fountain sent explicit photos and made degrading comments. The plaintiffs allege they faced retaliation after reporting the misconduct. The suits followed a June 2024 Volusia County Sheriff's Office investigation that prompted the resignations of Miller, Captain Christopher Yates, and Fountain.",
+  "notes": "Companion records: rec-73 (first suit filed Jan. 31, 2025) and rec-73c (third suit filed Mar. 20, 2025 in federal court).",
+  "inclusion_concern": null,
+  "sources": [
+    {"url": "https://mynews13.com/fl/orlando/news/2025/03/26/holly-hill-facing-lawsuits-from-3-female-police-department-employees-over-accusations-of-rampant-misconduct", "title": "Holly Hill facing lawsuits from 3 female police department employees over accusations of rampant sexual misconduct", "publisher": "Spectrum News 13", "published_date": "2025-03-26"},
+    {"url": "https://www.clickorlando.com/news/local/2024/10/02/grand-jury-clears-ex-holly-hill-police-chief-amid-sexual-assault-allegations/", "title": "Grand jury clears ex-Holly Hill police chief amid sexual assault allegations", "publisher": "WKMG ClickOrlando", "published_date": "2024-10-02"}
+  ],
+  "confidence_notes": "Coverage does not clearly attribute each specific allegation to a specific one of the two January 31, 2025 suits; description summarizes allegations reported across the filings. Court for the January filings not specified in available coverage. No coverage found after March 2025."
+}

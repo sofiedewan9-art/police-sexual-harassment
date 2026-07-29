@@ -1,0 +1,16 @@
+{
+  "row": 82,
+  "slug": "london-police-service-2022-r82-b",
+  "fields": {
+    "agency": "London Police Service",
+    "agency_category": "police",
+    "country": "CA",
+    "state_province": "ON",
+    "lawsuit_type": "civilian",
+    "year_filed": 2022,
+    "outcome_status": "no_resolution_found",
+    "settlement_amount_original": null,
+    "criminal_status": "charged"
+  },
+  "caveats": "Separate $4M suit for Antone's 2 daughters, allegedly fathered by Const. Lane; $4M is claim, not settlement. Described as filed in Nov 2022 article (exact filing year inferred); no status updates in sources. Lane criminally charged Feb 2025 with 2 counts of sexual assault."
+}

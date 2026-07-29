@@ -1,0 +1,16 @@
+{
+  "row": 75,
+  "slug": "pima-county-sheriff-s-department-2023-r75",
+  "fields": {
+    "agency": "Pima County Sheriff's Department",
+    "agency_category": "sheriff",
+    "country": "US",
+    "state_province": "AZ",
+    "lawsuit_type": "internal",
+    "year_filed": null,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "convicted"
+  },
+  "caveats": "Notice of claim 6/26/2023 ($900k demand, not settlement); suit filing year not in sources. Claims vs Nanos/Cameron dismissed 7/21/2025 by agreement; suit vs Garcia active per 7/2025 source. Garcia convicted 12/2024 (attempted sex assault, sex abuse). One tucson.com source failed (429)."
+}

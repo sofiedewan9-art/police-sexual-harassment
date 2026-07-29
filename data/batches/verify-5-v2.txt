@@ -1,0 +1,59 @@
+You are an independent verification agent for a database of civil lawsuits involving sexual assault/harassment and law-enforcement agencies. Today is 2026-07-28. For each record below you get ONLY source URLs. Read the sources (WebFetch; if one fails, skip it — do NOT search for other articles) and independently derive the fields from the sources alone. Do not guess: if the sources don't establish a value, use null. Be skeptical and literal about what the sources actually say.
+
+For each record, write a JSON file to /Users/sofiedewan/police-sa-lawsuits/data/verify/rec-<key>-v2.json (the <key> is given per record):
+{
+  "row": <int>, "slug": "<given>",
+  "fields": {
+    "agency": "<official agency name as best supported by sources>",
+    "agency_category": "police|sheriff|state_police|corrections|juvenile|federal|campus|transit|other",
+    "country": "US|CA",
+    "state_province": "<2-letter>",
+    "lawsuit_type": "civilian|internal|class_action",
+    "year_filed": <int|null>,
+    "outcome_status": "settled|plaintiff_verdict|defense_verdict|dismissed|ongoing|no_resolution_found",
+    "settlement_amount_original": <number|null>,
+    "criminal_status": "none_filed|charged|convicted|pleaded_guilty|acquitted|charges_dropped|unknown"
+  },
+  "caveats": "<brief notes on anything ambiguous>"
+}
+Definitions: civilian = officer accused of assaulting a civilian; internal = employee suing own agency over workplace sexual assault/harassment; class_action = mass litigation. "ongoing" only if sources confirm the case is active; "no_resolution_found" if sources show no resolution. year_filed = year the CIVIL suit was filed. If no lawsuit exists in the sources, pick the closest lawsuit_type fit and say so in caveats.
+
+Final message: one line per record "rec-<key>: done". Nothing else.
+
+THE RECORDS:
+
+Record key=5, row=5, slug="michigan-state-police-r5", sources:
+https://www.wlns.com/6newsinvestigates/big-boys-club-the-degradation-of-women/
+https://www.detroitnews.com/story/news/local/michigan/2024/07/01/former-trooper-accuses-michigan-state-police-sexual-discrimination/74269218007/
+https://okeefelaw.net/news/lawsuit-filed-against-michigan-state-police-alleges-discrimination-and-retaliation/
+https://www.wlns.com/6newsinvestigates/brimacombe-faces-perjury-allegations-in-msp-troopers-lawsuit/
+
+Record key=5b, row=5, slug="michigan-state-police-r5-b", sources:
+https://www.wlns.com/6newsinvestigates/big-boys-club-former-michigan-state-police-trooper-files-federal-lawsuit/
+https://www.yahoo.com/news/articles/big-boys-club-former-michigan-195600561.html
+https://www.wlns.com/6newsinvestigates/big-boys-club-the-degradation-of-women/
+https://www.wlns.com/6newsinvestigates/brimacombe-faces-perjury-allegations-in-msp-troopers-lawsuit/
+
+Record key=7, row=7, slug="unknown-agency-r7", sources:
+https://apnews.com/article/worcester-police-commercial-sex-trade-excessive-force-8087f1185fc5c2e97aaeb2ead5a27d37
+https://thisweekinworcester.com/doj-report-wpd-sexual-misconduct/
+https://www.boston.com/news/local-news/2016/11/02/woman-files-suit-against-city-ex-cop-convicted-of-2013-rape/
+https://www.wwlp.com/news/woman-files-suit-against-worcester-ex-cop-convicted-of-rape/
+http://worcesterherald.com/2016/11/woman-raped-by-former-worcester-police-officer-rajat-sharda-files-lawsuit-against-city/
+https://www.cbsnews.com/boston/news/worcester-police-officer-charged-with-rape/
+https://caselaw.findlaw.com/court/ma-court-of-appeals/2169621.html
+https://www.boston.com/news/local-news/2024/12/10/justice-department-investigation-finds-worcester-police-officers-sexually-assaulted-suspected-sex-workers/
+
+Record key=8, row=8, slug="nypd-2026-r8", sources:
+https://www.cbsnews.com/newyork/news/nypd-inspector-jeremy-scheublin-attempted-rape-46-precinct-lawsuit/
+https://www.msn.com/en-us/news/other/nypd-inspector-accused-of-attempted-rape-in-bronx-as-lawsuit-alleges-sexual-harassment-at-46th-precinct/ar-AA27EJu9?ocid=BingNewsSerp
+https://www.amny.com/law/bronx-nypd-inspector-rape-charges-lawsuit-07102026/
+https://gothamist.com/news/nypd-inspector-sexually-assaulted-a-subordinate-bronx-prosecutors-say
+https://bronx.news12.com/lawsuit-bronx-nypd-inspector-accused-of-sexually-assaulting-female-officer
+https://www.norwoodnews.org/update-former-commanding-officer-of-52nd-precinct-arrested-for-attempted-rape/
+
+Record key=8b, row=8, slug="nypd-2026-r8-b", sources:
+https://www.cbsnews.com/newyork/news/nypd-inspector-jeremy-scheublin-attempted-rape-46-precinct-lawsuit/
+https://www.msn.com/en-us/news/other/nypd-inspector-accused-of-attempted-rape-in-bronx-as-lawsuit-alleges-sexual-harassment-at-46th-precinct/ar-AA27EJu9?ocid=BingNewsSerp
+https://gothamist.com/news/nypd-inspector-sexually-assaulted-a-subordinate-bronx-prosecutors-say
+

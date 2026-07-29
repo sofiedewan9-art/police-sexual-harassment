@@ -1,0 +1,16 @@
+{
+  "row": 27,
+  "slug": "new-york-city-police-department-2018-r27",
+  "fields": {
+    "agency": "New York City Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "NY",
+    "lawsuit_type": "civilian",
+    "year_filed": 2018,
+    "outcome_status": "settled",
+    "settlement_amount_original": 125000,
+    "criminal_status": "pleaded_guilty"
+  },
+  "caveats": "Anna Chambers ('Anna Doe') case: NYPD detectives Eddie Martins and Richard Hall accused of raping an 18-year-old in custody in a police van, Sept 15, 2017. Civil suit against the city, NYPD, and both detectives filed January 2018 (per Oxygen); settled for $125,000 in September 2022, days before trial (UPI; amount confirmed by defense lawyers to the Daily News, and settlement was 'expected to become final within 30 days'). Criminal: originally charged with first-degree rape, kidnapping, etc.; rape and ~40 other counts dropped March 2019 over credibility issues; both pleaded guilty to bribery and official misconduct in August 2019 and received 5 years probation. criminal_status=pleaded_guilty reflects the lesser charges, not rape. Case prompted 2018 NY law barring police sexual contact with detainees."
+}

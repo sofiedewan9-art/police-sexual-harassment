@@ -1,0 +1,32 @@
+{
+  "row": 76,
+  "slug": "salt-lake-county-sheriff-s-office-2022-r76",
+  "agency": "Salt Lake County Sheriff's Office",
+  "agency_category": "sheriff",
+  "country": "US",
+  "state_province": "UT",
+  "lawsuit_type": "internal",
+  "year_filed": 2022,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "no_resolution_found",
+  "outcome_detail": "Salt Lake County denied the allegations in a November 14, 2022 federal-court response; dedicated searches surfaced no reporting on a settlement, verdict, or dismissal after December 2022.",
+  "settlement_amount_original": null,
+  "settlement_currency": "USD",
+  "settlement_date": null,
+  "criminal_status": "none_filed",
+  "criminal_detail": "No criminal charges against Brandon Hartley have been reported. Per the complaint, the plaintiff's attempts to file police reports were dismissed once the reports were identified as concerning Hartley.",
+  "officer_names": ["Brandon Hartley"],
+  "incident_date_approx": "April-June 2021, during the plaintiff's time in the sheriff's academy",
+  "description": "A former Salt Lake County Sheriff's Office academy cadet sued Salt Lake County, the sheriff's office, and her former supervisor, academy instructor Brandon Hartley, in Utah's 3rd District Court in October 2022; the case was moved to federal court in November 2022. The suit alleges Hartley initiated contact via Snapchat in spring 2021, visited her home, sexually assaulted her in office closets, and offered to pass her on a required physical test in exchange for sexual acts, framing this as a pattern of unlawful sex discrimination and unwelcome sexual harassment. Hartley resigned in 2021 during an internal affairs investigation into an allegation that he had sexually assaulted another woman at the academy the previous year; Sheriff Rosie Rivera said the findings would have led to his termination had he not resigned. Salt Lake County denied the allegations in its November 2022 court response.",
+  "notes": "Coverage references an earlier accusation by a female cadet from the prior academy year, but no separate lawsuit by that woman was found, so no companion record was created.",
+  "inclusion_concern": null,
+  "sources": [
+    {"url": "https://www.ksl.com/article/50534513/utah-sheriffs-cadet-sues-claiming-sexual-harassment-assaults-by-ex-supervisor", "title": "Utah sheriff's cadet sues, claiming sexual harassment, assaults by ex-supervisor", "publisher": "KSL.com", "published_date": "2022-12-08"},
+    {"url": "https://www.sltrib.com/news/2022/12/06/salt-lake-county-sheriffs-office/", "title": "Former Salt Lake County sheriff's academy instructor sexually assaulted female recruits, lawsuit alleges", "publisher": "The Salt Lake Tribune", "published_date": "2022-12-06"},
+    {"url": "https://kslnewsradio.com/1980178/salt-lake-county-sheriffs-office-being-sued-after-former-cadet-reports-abuse/", "title": "Salt Lake County Sheriff's Office being sued after former cadet reports abuse", "publisher": "KSL NewsRadio", "published_date": null},
+    {"url": "https://ksltv.com/local-news/utah-sheriffs-cadet-sues-claiming-sexual-harassment-assaults-by-ex-supervisor/513963/", "title": "Utah sheriff's cadet sues, claiming sexual harassment, assaults by ex-supervisor", "publisher": "KSL TV", "published_date": null}
+  ],
+  "confidence_notes": "Multiple dedicated outcome searches (settlement, dismissal, federal docket) found no coverage after December 2022, so outcome_status is no_resolution_found rather than ongoing. Seed hint said 'ongoing' but no coverage confirms the case remains active. All allegations remain unproven claims from the complaint; no criminal case was located."
+}

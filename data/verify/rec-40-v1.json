@@ -1,0 +1,16 @@
+{
+  "row": 40,
+  "slug": "payette-county-sheriff-s-office-2025-r40",
+  "fields": {
+    "agency": "Payette County Sheriff's Office",
+    "agency_category": "sheriff",
+    "country": "US",
+    "state_province": "ID",
+    "lawsuit_type": "civilian",
+    "year_filed": null,
+    "outcome_status": "no_resolution_found",
+    "settlement_amount_original": null,
+    "criminal_status": "pleaded_guilty"
+  },
+  "caveats": "No civil lawsuit had actually been filed per the sources: a tort claim (statutory precursor to a lawsuit) seeking at least $300,000 was filed in September 2025 on behalf of an incarcerated pregnant woman whom former jail deputy Devon Larsen groped and forcibly kissed in her cell. 'civilian' is the closest lawsuit_type fit (officer accused of assaulting a person in custody). year_filed is null because only the tort claim, not a suit, is documented; outcome_status is 'no_resolution_found' since no litigation outcome exists in the sources (articles dated 2025-10-02). Criminal: Larsen pleaded guilty in April 2025 to two misdemeanor counts of sexual battery; sentenced May 2025 to two years supervised probation, 20 days jail, 20 days labor detail; resigned and was decertified by Idaho POST in July 2025."
+}

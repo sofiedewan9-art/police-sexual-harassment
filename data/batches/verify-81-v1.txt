@@ -1,0 +1,53 @@
+You are an independent verification agent for a database of civil lawsuits involving sexual assault/harassment and law-enforcement agencies. Today is 2026-07-28. For each record below you get ONLY source URLs. Read the sources (WebFetch; if one fails, skip it — do NOT search for other articles) and independently derive the fields from the sources alone. Do not guess: if the sources don't establish a value, use null.
+
+For each record, write a JSON file to /Users/sofiedewan/police-sa-lawsuits/data/verify/rec-<key>-v1.json (the <key> is given per record):
+{
+  "row": <int>, "slug": "<given>",
+  "fields": {
+    "agency": "<official agency name as best supported by sources>",
+    "agency_category": "police|sheriff|state_police|corrections|juvenile|federal|campus|transit|other",
+    "country": "US|CA",
+    "state_province": "<2-letter>",
+    "lawsuit_type": "civilian|internal|class_action",
+    "year_filed": <int|null>,
+    "outcome_status": "settled|plaintiff_verdict|defense_verdict|dismissed|ongoing|no_resolution_found",
+    "settlement_amount_original": <number|null>,
+    "criminal_status": "none_filed|charged|convicted|pleaded_guilty|acquitted|charges_dropped|unknown"
+  },
+  "caveats": "<brief notes on anything ambiguous>"
+}
+Definitions: civilian = officer accused of assaulting a civilian; internal = employee suing own agency over workplace sexual assault/harassment; class_action = mass litigation. "ongoing" only if sources confirm the case is active; "no_resolution_found" if sources show no resolution. year_filed = year the CIVIL suit was filed. If no lawsuit exists in the sources, pick the closest lawsuit_type fit and say so in caveats.
+
+Final message: one line per record "rec-<key>: done". Nothing else.
+
+THE RECORDS:
+
+Record key=81, row=81, slug="vancouver-police-department-bc-2023-r81", sources:
+https://globalnews.ca/news/9510966/vpd-officer-suing-sexual-assault/
+https://www.cbc.ca/news/canada/british-columbia/vancouver-officer-sexually-assaulted-colleague-police-group-chat-targeted-victim-1.7382600
+https://globalnews.ca/news/10870006/vpd-officer-sexually-assaulted-text-messages/
+https://cfjctoday.com/2025/10/02/former-vancouver-police-officer-awarded-30000-after-years-long-grievance-process/
+https://www.castanet.net/news/BC/363941/Former-Vancouver-police-officer-Jagraj-Berar-sentenced-to-one-year-behind-bars
+
+Record key=82, row=82, slug="london-police-service-2022-r82", sources:
+https://www.cbc.ca/news/canada/london/oneida-assault-allegations-lawsuit-london-police-1.6646135
+https://www.cbc.ca/news/canada/london/retired-london-cop-charged-with-sexually-assaulting-woman-who-says-she-tried-for-years-to-get-help-1.7462671
+https://www.nanda.ca/lawsuit-london-police-services-nation-wide-impact/
+
+Record key=82b, row=82, slug="london-police-service-2022-r82-b", sources:
+https://www.cbc.ca/news/canada/london/oneida-assault-allegations-lawsuit-london-police-1.6646135
+https://www.cbc.ca/news/canada/london/retired-london-cop-charged-with-sexually-assaulting-woman-who-says-she-tried-for-years-to-get-help-1.7462671
+
+Record key=83, row=83, slug="durham-regional-police-service-2019-r83", sources:
+https://www.cbc.ca/news/canada/ottawa/alleged-durham-police-corruption-harassment-lawsuit-ottawa-court-1.7248578
+https://www.cbc.ca/news/canada/ottawa/investigation-durham-police-cost-money-1.7253075
+https://irp.cdn-website.com/da830f9d/files/uploaded/Whiteway_et._al._v._Durham_Regional_Police_Service_et_al-_2024_ONSC_2309_(CV-22-00089537)_(1).pdf
+https://www.cbc.ca/news/canada/ottawa/jaswal-charged-1.7245898
+https://www.cbc.ca/news/canada/ottawa/uday-jaswal-9.6964625
+
+Record key=84, row=84, slug="ottawa-police-service-2019-r84", sources:
+https://www.cbc.ca/news/canada/ottawa/police-board-settled-human-rights-complaint-with-officer-alleging-sexual-assault-1.6330446
+https://www.cbc.ca/news/canada/ottawa/ottawa-police-officer-sexually-assaulated-human-rights-tribunal-complaint-1.5619420
+https://www.cbc.ca/news/canada/ottawa/kevin-benloss-ottawa-police-accusation-charge-1.6653165
+https://www.cbc.ca/news/canada/ottawa/ottawa-police-officer-kevin-benloss-criminal-charges-withdrawn-1.6769660
+

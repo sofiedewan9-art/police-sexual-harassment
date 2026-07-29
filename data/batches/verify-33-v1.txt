@@ -1,0 +1,69 @@
+You are an independent verification agent for a database of civil lawsuits involving sexual assault/harassment and law-enforcement agencies. Today is 2026-07-28. For each record below you get ONLY source URLs. Read the sources (WebFetch; if one fails, skip it — do NOT search for other articles) and independently derive the fields from the sources alone. Do not guess: if the sources don't establish a value, use null.
+
+For each record, write a JSON file to /Users/sofiedewan/police-sa-lawsuits/data/verify/rec-<key>-v1.json (the <key> is given per record):
+{
+  "row": <int>, "slug": "<given>",
+  "fields": {
+    "agency": "<official agency name as best supported by sources>",
+    "agency_category": "police|sheriff|state_police|corrections|juvenile|federal|campus|transit|other",
+    "country": "US|CA",
+    "state_province": "<2-letter>",
+    "lawsuit_type": "civilian|internal|class_action",
+    "year_filed": <int|null>,
+    "outcome_status": "settled|plaintiff_verdict|defense_verdict|dismissed|ongoing|no_resolution_found",
+    "settlement_amount_original": <number|null>,
+    "criminal_status": "none_filed|charged|convicted|pleaded_guilty|acquitted|charges_dropped|unknown"
+  },
+  "caveats": "<brief notes on anything ambiguous>"
+}
+Definitions: civilian = officer accused of assaulting a civilian; internal = employee suing own agency over workplace sexual assault/harassment; class_action = mass litigation. "ongoing" only if sources confirm the case is active; "no_resolution_found" if sources show no resolution. year_filed = year the CIVIL suit was filed. If no lawsuit exists in the sources, pick the closest lawsuit_type fit and say so in caveats.
+
+Final message: one line per record "rec-<key>: done". Nothing else.
+
+THE RECORDS:
+
+Record key=33, row=33, slug="warren-police-department-2025-r33", sources:
+https://www.tribtoday.com/news/local-news/2025/03/3-women-sue-warren-police-over-sexual-misconduct-claims/
+https://www.tribtoday.com/news/local-news/2025/05/city-police-chief-deny-liability-in-lawsuit/
+https://www.wkbn.com/news/local-news/lawsuit-filed-against-former-warren-officer-city-and-police-chief/
+https://www.wkbn.com/news/local-news/warren-news/appeals-court-ruling-on-former-officer-lifts-stay-on-federal-case/
+https://www.wkbn.com/news/local-news/warren-news/federal-lawsuit-against-city-and-former-officer-moves-forward/
+https://www.tribtoday.com/news/local-news/2026/04/convictions-sentence-upheld-for-ex-warren-cop/
+https://www.wfmj.com/story/52878333/lawsuit-against-imprisoned-former-warren-cop-could-stretch-into-next-year
+
+Record key=33b, row=33, slug="warren-police-department-2025-r33-b", sources:
+https://www.wfmj.com/story/52906120/fourth-woman-files-sexual-assault-lawsuit-against-city-of-warren-police-chief-former-officer
+https://www.tribtoday.com/news/local-news/2025/07/4th-woman-files-lawsuit-against-former-officer/
+https://www.wkbn.com/news/local-news/youngstown-news/fourth-woman-files-sexual-assault-lawsuit-against-former-warren-officer-chief-also-named-in-lawsuit/
+https://www.yahoo.com/news/fourth-woman-files-sexual-assault-122118671.html
+
+Record key=33c, row=33, slug="warren-police-department-2025-r33-c", sources:
+https://www.wkbn.com/news/local-news/warren-news/victim-of-former-officer-files-1m-lawsuit-against-warren-city-and-police-chief/
+https://www.tribtoday.com/news/local-news/2026/02/1-million-lawsuit-filed-against-warren/
+https://www.wfmj.com/story/53446538/lawsuit-filed-against-city-of-warren-regarding-former-police-officer-convicted-of-rape
+https://hoodline.com/2026/02/warren-cop-scandal-explodes-as-woman-slaps-city-chief-with-1m-suit/
+https://nationaltoday.com/us/oh/warren-oh/news/2026/02/27/former-warren-police-officer-sued-for-1-million-over-sex-crimes/
+
+Record key=34, row=34, slug="metropolitan-police-department-washington-dc-2020-r34", sources:
+https://www.acludc.org/press-releases/aclu-dc-sues-dc-police-officer-sexually-abusive-search/
+https://www.acludc.org/cases/mwimanzi-v-wilson-challenging-unconstitutional-sexually-invasive-search-mpd-officer/
+https://reason.com/2020/01/14/d-c-s-police-department-is-being-sued-again-for-sexually-violating-someone-during-a-search/
+https://www.wusa9.com/article/news/crime/aclu-dc-sues-dc-police-officer-for-sexually-abusive-search/65-cfef1651-1335-4274-9e2e-c8718d72bce7
+https://www.acludc.org/press-releases/victory-federal-court-holds-dc-law-allowing-broad-category-warrantless-searches/
+https://www.courtlistener.com/docket/16684195/mwimanzi-v-wilson/
+
+Record key=35, row=35, slug="west-palm-beach-police-department-2026-r35", sources:
+https://www.yahoo.com/news/articles/woman-sues-west-palm-over-130446119.html
+https://www.wptv.com/news/region-c-palm-beach-county/west-palm-beach/former-west-palm-beach-police-officer-arrested-months-after-misconduct-complaint
+https://www.wptv.com/news/region-c-palm-beach-county/west-palm-beach/former-west-palm-beach-officer-faced-multiple-internal-investigations-before-termination
+https://www.yahoo.com/news/articles/west-palm-beach-police-arrest-201317797.html
+https://www.yahoo.com/news/articles/former-west-palm-beach-officer-200200946.html
+
+Record key=36, row=36, slug="chicago-police-department-2018-r36", sources:
+https://www.propublica.org/article/chicago-police-officers-sexual-assault-allegations
+https://chicago.suntimes.com/crime/2019/5/15/18627531/corey-deanes-chicago-police-charged-bail-bond
+https://news.wttw.com/2019/05/08/officer-charged-after-inappropriate-contact-women-while-duty
+https://abc7chicago.com/chicago-police-officer-cpd-arrested/5291081/
+https://www.chicagocopa.org/copa-responds-to-decision-to-charge-chicago-police-officer-corey-deanes/
+https://www.wbez.org/criminal-justice/2025/05/27/chicago-police-officers-sexual-assault-allegations
+

@@ -1,0 +1,16 @@
+{
+  "row": 23,
+  "slug": "kansas-city-police-department-2023-r23",
+  "fields": {
+    "agency": "Kansas City, Kansas Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "KS",
+    "lawsuit_type": "civilian",
+    "year_filed": 2023,
+    "outcome_status": "dismissed",
+    "settlement_amount_original": null,
+    "criminal_status": "charged"
+  },
+  "caveats": "Five Black women (Newsom, Quinn, Houcks, Miller, Williams) filed a federal civil rights suit in November 2023 against the Unified Government of Wyandotte County/Kansas City, Kansas, ex-detective Roger Golubski, former chiefs, and other detectives over decades of sexual assault/exploitation. Not a class action. Dismissed January 2025 by Judge Toby Crouse on Kansas's two-year statute of limitations (not on the merits); plaintiffs' appeal was still pending as of Dec 2025 sources, so 'dismissed' reflects the current disposition. Criminal: Golubski was federally charged (arrested Sept 2022, pleaded not guilty) but died by suicide Dec 2, 2024, the day trial was to begin, terminating the case — never convicted or acquitted, so 'charged'."
+}

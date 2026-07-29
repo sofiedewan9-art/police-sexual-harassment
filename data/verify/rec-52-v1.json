@@ -1,0 +1,16 @@
+{
+  "row": 52,
+  "slug": "oklahoma-highway-patrol-2025-r52",
+  "fields": {
+    "agency": "Oklahoma Highway Patrol",
+    "agency_category": "state_police",
+    "country": "US",
+    "state_province": "OK",
+    "lawsuit_type": "civilian",
+    "year_filed": null,
+    "outcome_status": "no_resolution_found",
+    "settlement_amount_original": null,
+    "criminal_status": "charged"
+  },
+  "caveats": "No civil suit confirmed in accessible sources; victim reportedly hired attorney Scott Adams to pursue one (civilian is closest fit). Ex-trooper Jarquez Evans charged with first-degree rape and forcible oral sodomy (Jan 2025 traffic stop), pleaded not guilty; trial pending. KFOR and Justia docket pages returned 403."
+}

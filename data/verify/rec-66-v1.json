@@ -1,0 +1,16 @@
+{
+  "row": 66,
+  "slug": "washington-state-criminal-justice-training-commission-traine",
+  "fields": {
+    "agency": "Washington State Criminal Justice Training Commission",
+    "agency_category": "other",
+    "country": "US",
+    "state_province": "WA",
+    "lawsuit_type": "internal",
+    "year_filed": 2024,
+    "outcome_status": "settled",
+    "settlement_amount_original": 500000,
+    "criminal_status": "none_filed"
+  },
+  "caveats": "Kaitlyn Ricksecker (a cadet in 2022, later Everett PD officer/Snohomish County deputy) sued the WSCJTC, City of Federal Way/Federal Way PD, and instructor Richard Klein on April 26, 2024 in King County Superior Court over harassment/assault during Basic Law Enforcement Academy training (Aug-Nov 2022). Settled May 2025 for $500,000 combined ($200,000 from Federal Way's insurer, $300,000 from the state training commission). agency_category 'other' used because the CJTC is a state training academy, not a police force; the accused, Klein, was a Federal Way PD officer serving as instructor. lawsuit_type 'internal' is closest fit: plaintiff was a law-enforcement trainee harassed in a workplace/training context, though she was not a CJTC employee. No criminal charges against Klein in sources; CJTC pursued decertification and in Dec 2025 suspended his certification for one year with probation and remedial training. Seattle Times and trellis.law sources returned HTTP 403 and were skipped."
+}

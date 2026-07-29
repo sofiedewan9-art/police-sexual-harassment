@@ -1,0 +1,16 @@
+{
+  "row": 38,
+  "slug": "multnomah-county-sheriff-s-office-2026-r38",
+  "fields": {
+    "agency": "Multnomah County Sheriff's Office",
+    "agency_category": "sheriff",
+    "country": "US",
+    "state_province": "OR",
+    "lawsuit_type": "civilian",
+    "year_filed": 2026,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "unknown"
+  },
+  "caveats": "Both KOIN source URLs returned HTTP 403 and were skipped; verification rests solely on the KATU article (published 2026-02-19). Federal suit filed February 2026 by 'Jane Doe', a former inmate, alleging deputy Martin J. Jackson groomed her and traded privileges for sex acts from March 2020 to July 2021; names Jackson, Multnomah County, and several supervisors; damages to be determined by jury, no resolution reported, so 'ongoing' reflects status as of Feb 2026. The readable source mentions no criminal charges; the inaccessible KOIN headline suggests the county declined to prosecute citing insufficient evidence (which would imply 'none_filed'), but that content could not be verified, so criminal_status is 'unknown'. Deputy worked in the county jail/detention center; employing agency is the sheriff's office."
+}

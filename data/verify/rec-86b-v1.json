@@ -1,0 +1,16 @@
+{
+  "row": 86,
+  "slug": "royal-canadian-mounted-police-2021-r86-b",
+  "fields": {
+    "agency": "Royal Canadian Mounted Police",
+    "agency_category": "federal",
+    "country": "CA",
+    "state_province": null,
+    "lawsuit_type": "class_action",
+    "year_filed": 2020,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "unknown"
+  },
+  "caveats": "Sources cover two related Federal Court class actions vs Canada/RCMP over assaults (incl. sexual) of Indigenous detainees: 'South' action filed 2020-07-20, certified 2023-06-06 (year_filed from this); territories (Nasogaluak) certified 2021-06-23. Nationwide, so no province; no criminal info."
+}

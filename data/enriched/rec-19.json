@@ -1,0 +1,33 @@
+{
+  "row": 19,
+  "slug": "atlanta-police-department-2025-r19",
+  "agency": "Atlanta Police Department",
+  "agency_category": "police",
+  "country": "US",
+  "state_province": "GA",
+  "lawsuit_type": "civilian",
+  "year_filed": 2025,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "ongoing",
+  "outcome_detail": "Federal lawsuit filed May 8, 2025 against the City of Atlanta and former officer Anthony Anderson, seeking a jury trial and damages including punitive and treble damages and attorney fees. Coverage from May 2025 describes the case as pending; dedicated searches found no dismissal, settlement, or other resolution reported as of July 2026.",
+  "settlement_amount_original": null,
+  "settlement_currency": "USD",
+  "settlement_date": null,
+  "criminal_status": "pleaded_guilty",
+  "criminal_detail": "Anthony Anderson pleaded guilty in January 2025 to improper sexual contact by an employee or agent, making false statements/concealing facts, and violation of oath by a public officer, and was sentenced to 25 years with six to serve in prison.",
+  "officer_names": ["Anthony Anderson"],
+  "incident_date_approx": "August 2023",
+  "description": "The family of a Gwinnett County teenager filed a federal lawsuit on May 8, 2025 against the City of Atlanta and former Atlanta police officer Anthony Anderson. According to the complaint and arrest warrants, Anderson responded to the then-16-year-old's car crash in Atlanta in August 2023, called off responding medical personnel, and later picked her up in his squad car under the pretense of driving her home before forcing her to perform oral sex at a secluded location. Anderson pleaded guilty in January 2025 to improper sexual contact by an employee or agent, making false statements, and violation of oath by a public officer, and was sentenced to 25 years with six to serve. The suit also alleges the Atlanta Police Department negligently screened and hired officers, inadequately investigated civilian complaints, and ignored sexual misconduct by officers over a period reaching back to 2004. The family seeks a jury trial and damages, and the case remained pending with no reported resolution as of July 2026.",
+  "notes": null,
+  "inclusion_concern": null,
+  "sources": [
+    {"url": "https://www.fox5atlanta.com/news/lawuit-atlanta-former-police-officer-teen-sexual-assault", "title": "Family sues Atlanta, former police officer over teen's sexual assault", "publisher": "FOX 5 Atlanta", "published_date": "2025-05-14"},
+    {"url": "https://www.ajc.com/news/crime/teens-family-sues-former-atlanta-officer-city-over-sexual-assault/O7PDM35JLFCQFNUONJV5XZCDEU/", "title": "Teen's family sues former Atlanta officer, city over sexual assault", "publisher": "The Atlanta Journal-Constitution", "published_date": null},
+    {"url": "https://atlnewsroom.com/news/article/atlanta-police-department-faces-federal-lawsuit-over-allegations-of-ignoring-sexual-predators-in-police-ranks/938", "title": "Atlanta Police Department Faces Federal Lawsuit Over Allegations of Ignoring Sexual Predators in Police Ranks", "publisher": "ATL Newsroom", "published_date": "2025-05-13"},
+    {"url": "https://www.wsbtv.com/news/local/atlanta/atlanta-police-sued-by-family-teen-who-accused-ex-officer-sexual-assault-after-crash/MCZVGHVTQNB7HEOKAVIERJI6OY/", "title": "Atlanta police sued by family of teen who accused ex-officer of sexual assault after crash", "publisher": "WSB-TV Channel 2 Atlanta", "published_date": null},
+    {"url": "https://www.11alive.com/article/news/crime/family-sues-atlanta-after-ex-officer-pleads-guilty-to-sexual-assault/85-2e8cc3f4-016a-4099-864b-3ca584e80620", "title": "Family sues city, ex Atlanta Police officer after guilty plea in teen sexual assault case", "publisher": "11Alive (WXIA-TV)", "published_date": null}
+  ],
+  "confidence_notes": "Filing date of May 8, 2025 comes from WSB-TV coverage ('lawsuit filed on May 8'); the specific federal district (presumably N.D. Ga.) was not named in accessible coverage. Reports conflict on damages: one report referenced damages 'amounting to $250,000' while another described unspecified damages including punitive and treble damages, so no figure is recorded. Reports also vary on Anderson's hire year (2015 vs. March 2016) and on whether the incident date was August 2 or later in August 2023. The forced-oral-sex allegation is attributed to warrants/complaint; Anderson's guilty plea was to improper sexual contact and related offenses, not to a charge described in coverage as forcible assault. Outcome recorded as ongoing based on May 2025 pending-litigation coverage; no 2026 status coverage found."
+}

@@ -1,0 +1,16 @@
+{
+  "row": 61,
+  "slug": "new-york-city-police-department-2026-r61",
+  "fields": {
+    "agency": "New York City Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "NY",
+    "lawsuit_type": "internal",
+    "year_filed": 2026,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "none_filed"
+  },
+  "caveats": "Suit by Sgt. Avila and Officers Sosa and Romero v. City/Tisch/Dep. Insp. Juan Moran, filed 7/9/2026, Bronx Supreme Court. No criminal charges reported against Moran; the related indictment of ex-CO Jeremy Scheublin (7/10/2026) is a separate case covered by rec-61b."
+}

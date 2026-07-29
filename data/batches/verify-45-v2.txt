@@ -1,0 +1,62 @@
+You are an independent verification agent for a database of civil lawsuits involving sexual assault/harassment and law-enforcement agencies. Today is 2026-07-28. For each record below you get ONLY source URLs. Read the sources (WebFetch; if one fails, skip it — do NOT search for other articles) and independently derive the fields from the sources alone. Do not guess: if the sources don't establish a value, use null. Be skeptical and literal about what the sources actually say.
+
+For each record, write a JSON file to /Users/sofiedewan/police-sa-lawsuits/data/verify/rec-<key>-v2.json (the <key> is given per record):
+{
+  "row": <int>, "slug": "<given>",
+  "fields": {
+    "agency": "<official agency name as best supported by sources>",
+    "agency_category": "police|sheriff|state_police|corrections|juvenile|federal|campus|transit|other",
+    "country": "US|CA",
+    "state_province": "<2-letter>",
+    "lawsuit_type": "civilian|internal|class_action",
+    "year_filed": <int|null>,
+    "outcome_status": "settled|plaintiff_verdict|defense_verdict|dismissed|ongoing|no_resolution_found",
+    "settlement_amount_original": <number|null>,
+    "criminal_status": "none_filed|charged|convicted|pleaded_guilty|acquitted|charges_dropped|unknown"
+  },
+  "caveats": "<brief notes on anything ambiguous>"
+}
+Definitions: civilian = officer accused of assaulting a civilian; internal = employee suing own agency over workplace sexual assault/harassment; class_action = mass litigation. "ongoing" only if sources confirm the case is active; "no_resolution_found" if sources show no resolution. year_filed = year the CIVIL suit was filed. If no lawsuit exists in the sources, pick the closest lawsuit_type fit and say so in caveats.
+
+Final message: one line per record "rec-<key>: done". Nothing else.
+
+THE RECORDS:
+
+Record key=45, row=45, slug="claremont-police-department-2024-r45", sources:
+https://claremont-courier.com/latest-news/city-settles-civil-case-involving-former-police-officer-for-3-million-83945/
+https://steeringlaw.com/police-misconduct-blog/claremont-pays-nearly-3-million-to-woman-who-accused-police-officer-of-sexual-assault/
+https://claremont-courier.com/latest-news/former-cpd-officer-pleads-not-guilty-in-criminal-case-83199/
+https://claremont-courier.com/latest-news/ex-claremont-cop-arrested-for-felony-sexual-assault-city-named-in-20m-civil-suit-82537/
+https://ktla.com/news/local-news/allegations-of-on-duty-sexual-assault-prompt-arrest-of-former-southern-california-cop/
+https://claremont-courier.com/latest-news/trial-date-set-in-civil-case-involving-former-claremont-cop-83032/
+
+Record key=46, row=46, slug="spokane-police-department-2022-r46", sources:
+https://www.krem.com/article/news/local/spokane-city-council-to-vote-on-settlement-survivor-raped-by-former-police-officer/293-677325d5-a892-4f19-b970-6869f7f6d7ef
+https://www.spokesman.com/stories/2024/mar/25/spokane-to-pay-300000-to-woman-raped-by-former-off/
+https://www.krem.com/article/news/special-reports/more-to-every-story/spokane-taxpayers-cover-700k-settlements-former-police-officer-rape/293-c58780c3-2012-423d-bc17-fbe85730ecf6
+https://www.spokesman.com/stories/2022/oct/13/former-spokane-police-officer-who-raped-women-on-d/
+https://www.krem.com/article/news/former-spd-officer-nathan-nash-sentenced-to-14-years-in-prison/293-984d8efe-7547-4096-9572-ba61a384199b
+
+Record key=46b, row=46, slug="spokane-police-department-2022-r46-b", sources:
+https://www.spokesman.com/stories/2025/jun/02/spokane-to-pay-400000-to-woman-raped-by-former-off/
+https://www.krem.com/article/news/special-reports/more-to-every-story/spokane-taxpayers-cover-700k-settlements-former-police-officer-rape/293-c58780c3-2012-423d-bc17-fbe85730ecf6
+https://www.khq.com/news/spokane-settles-400k-lawsuit-with-woman-raped-by-police-officer/article_5ae30b7f-e9ab-436b-b3f7-32a3ab7bce72.html
+https://www.kxly.com/news/city-of-spokane-agrees-to-settlement-with-woman-raped-by-former-police-officer/article_8fba032b-ebe3-4075-ac3e-e00abcb9d393.html
+https://www.spokesman.com/stories/2022/oct/13/former-spokane-police-officer-who-raped-women-on-d/
+
+Record key=47, row=47, slug="letcher-county-sheriff-s-office-2024-r47", sources:
+https://spectrumnews1.com/ky/louisville/news/2024/09/20/stines-lawsuit
+https://www.lex18.com/news/covering-kentucky/letcher-county-womans-lawsuit-against-sheriffs-deputy-ends-in-settlement
+https://fox56news.com/news/kentucky/kentucky-courthouse-brothel-case-settled-minutes-before-trial/
+https://www.lex18.com/news/covering-kentucky/former-kentucky-deputy-convicted-of-sexual-abuse-loses-bid-to-dismiss-civil-lawsuit
+https://www.wymt.com/2025/09/23/judge-rules-civil-case-involving-former-letcher-co-officials-can-go-trial/
+https://caselaw.findlaw.com/court/us-dis-crt-e-d-ken-sou-div-pik/117775497.html
+https://mountain-topmedia.com/settlement-reached-in-letcher-courthouse-sex-scandal-lawsuit/
+
+Record key=48, row=48, slug="rankin-county-sheriff-s-office-with-one-richland-ms-pd-offic", sources:
+https://www.wlbt.com/2025/05/01/federal-civil-lawsuit-stemming-goon-squad-night-torture-settled-with-prejudice/
+https://www.mpbonline.org/blogs/news/more-than-two-years-after-a-night-of-horrors-michael-jenkins-and-eddie-parker-settle-with-rcso/
+https://www.djournal.com/mississippi-today/goon-squad-lawsuit-settled-for-2-5m/article_4319b648-36e0-4b5e-a6a1-a5ddf04ed770.html
+https://www.npr.org/2024/03/20/1239673883/mississippi-police-officer-deputies-goon-squad-sentenced-rankin-county-torture
+https://www.nbcnews.com/news/us-news/6-mississippi-goon-squad-officers-sentenced-15-45-years-state-charges-rcna147171
+

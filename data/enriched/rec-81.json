@@ -1,0 +1,33 @@
+{
+  "row": 81,
+  "slug": "vancouver-police-department-bc-2023-r81",
+  "agency": "Vancouver Police Department",
+  "agency_category": "police",
+  "country": "CA",
+  "state_province": "BC",
+  "lawsuit_type": "internal",
+  "year_filed": 2023,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "no_resolution_found",
+  "outcome_detail": "Civil claim filed February 2023 in B.C. seeking general, aggravated and special damages plus lost earnings; dedicated searches found no reported settlement, judgment or dismissal as of July 2026. A related union grievance against the VPD (filed May 2021) resulted in a $30,000 CAD labour-arbitration award to the plaintiff, decision dated September 26, 2025.",
+  "settlement_amount_original": null,
+  "settlement_currency": "CAD",
+  "settlement_date": null,
+  "criminal_status": "convicted",
+  "criminal_detail": "Jagraj Roger Berar was convicted in 2021 of sexually assaulting his fellow VPD officer (2019 incident in Whistler, B.C.) and sentenced to one year in jail (sentencing reported in 2021 by Global News and in 2022 by The Canadian Press); he was ordered to provide a DNA sample and placed on the provincial sex offender registry for 10 years.",
+  "officer_names": ["Jagraj Roger Berar"],
+  "incident_date_approx": "2019 (sexual assault at a social gathering in Whistler, B.C.); alleged workplace harassment and group-chat targeting of the victim from 2019 onward",
+  "description": "A female Vancouver Police Department officer filed a civil claim in February 2023 against Jagraj Roger Berar, a former VPD constable and colleague, over a 2019 sexual assault at a social gathering in Whistler, B.C. Berar was criminally convicted of the sexual assault in 2021 and sentenced to one year in jail. According to the claim, the plaintiff suffered post-traumatic stress, anxiety, depression and emotional anguish, and she seeks general, aggravated and special damages and compensation for lost earnings. In a related proceeding, a union grievance filed in May 2021 alleged the department mishandled her sexual harassment and discrimination complaints after the assault, including derogatory commentary about her court testimony shared in an officers' WhatsApp group chat; a labour arbitrator awarded her $30,000 against the VPD in a decision dated September 26, 2025. A Police Act disciplinary investigation found a former VPD sergeant committed discreditable conduct by sharing the group-chat commentary.",
+  "notes": "Civil defendant is the individual former officer, not the agency; the related union grievance and arbitration award targeted the Vancouver Police Department. Related Police Act disciplinary findings (November 2024) over the group-chat conduct.",
+  "inclusion_concern": null,
+  "sources": [
+    {"url": "https://globalnews.ca/news/9510966/vpd-officer-suing-sexual-assault/", "title": "Vancouver police officer suing former colleague convicted of sexually assaulting her", "publisher": "Global News", "published_date": "2023-02-24"},
+    {"url": "https://www.cbc.ca/news/canada/british-columbia/vancouver-officer-sexually-assaulted-colleague-police-group-chat-targeted-victim-1.7382600", "title": "Vancouver officer sexually assaulted colleague, but police group chat targeted victim: investigation", "publisher": "The Canadian Press via CBC News", "published_date": "2024-11-13"},
+    {"url": "https://globalnews.ca/news/10870006/vpd-officer-sexually-assaulted-text-messages/", "title": "Sexually assaulted VPD officer targeted by colleague in derogatory group chats", "publisher": "Global News", "published_date": null},
+    {"url": "https://cfjctoday.com/2025/10/02/former-vancouver-police-officer-awarded-30000-after-years-long-grievance-process/", "title": "Former Vancouver police officer awarded $30,000 after years-long grievance process", "publisher": "The Canadian Press via CFJC Today", "published_date": "2025-10-02"},
+    {"url": "https://www.castanet.net/news/BC/363941/Former-Vancouver-police-officer-Jagraj-Berar-sentenced-to-one-year-behind-bars", "title": "Former Vancouver police officer Jagraj Berar sentenced to one year behind bars", "publisher": "Castanet", "published_date": null}
+  ],
+  "confidence_notes": "Seed data described the civil suit as ongoing, but the last direct coverage of the civil claim found is from February 2023 (claim recently filed, awaiting response), so current status is unverified and recorded as no_resolution_found. Sources differ on the sentencing year (conviction 2021; one-year jail sentence reported as 2021 by Global News and 2022 by The Canadian Press). The 2025 $30,000 award was a labour-arbitration grievance outcome against the VPD, not a resolution of the civil suit against Berar."
+}

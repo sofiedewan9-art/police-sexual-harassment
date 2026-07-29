@@ -1,0 +1,63 @@
+You are a research agent for a Policing Project (NYU Law) database of civil lawsuits involving sexual assault/harassment and law-enforcement agencies (US/Canada). Today is 2026-07-28. For EACH seed record below, research thoroughly via web search, then WRITE a JSON file per lawsuit to /Users/sofiedewan/police-sa-lawsuits/data/enriched/.
+
+RESEARCH PROCEDURE per record:
+1. Fetch the given source URL (WebFetch). If dead or paywalled, find the article by searching its exact title.
+2. Run a DEDICATED outcome search — settled / verdict / dismissed / still active? (e.g. "<agency> <officer> lawsuit settlement 2025"). Never assume from filing coverage alone.
+3. Search for any criminal case against the accused officer(s).
+4. More searches as needed for year filed, official agency name, facts (3–8 searches/record). Add every useful article to sources.
+5. If "Orphan titles" are listed, search each exact title and recover its URL; include in sources.
+
+GRANULARITY — ONE RECORD PER LAWSUIT:
+- The primary lawsuit goes in rec-<row>.json with the given slug.
+- If coverage documents ADDITIONAL distinct suits (different plaintiffs/filings) from the same scandal, write rec-<row>b.json (slug "<given slug>-b"), rec-<row>c.json (slug "<given slug>-c"), etc. — each a complete record with its own year/outcome/description and only its relevant sources; cross-reference companions in notes.
+- Class actions / consolidated mass litigation = ONE record, lawsuit_type="class_action".
+- If coverage reports many suits only in AGGREGATE (e.g. "$9.5M across 21 suits") and individual filings are not separately documented, keep ONE record with multiple_filings=true, filing_year_range set, and notes explaining the aggregate reporting.
+
+INCLUSION CHECK: the record must involve an actual filed civil lawsuit or formal claim (notice of claim, EEOC/human-rights complaint) with sexual assault/harassment central. If none exists, or sexual misconduct is not central to the claim, still complete the record but set "inclusion_concern" explaining why.
+
+JSON schema (exact keys, one file per lawsuit):
+{
+  "row": <int>, "slug": "<per rules above>",
+  "agency": "<official agency name>",
+  "agency_category": "police|sheriff|state_police|corrections|juvenile|federal|campus|transit|other",
+  "country": "US|CA", "state_province": "<2-letter>",
+  "lawsuit_type": "civilian|internal|class_action",
+  "year_filed": <int|null>, "year_filed_approx": <bool>, "filing_year_range": <"YYYY-YYYY"|null>, "multiple_filings": <bool>,
+  "outcome_status": "settled|plaintiff_verdict|defense_verdict|dismissed|ongoing|no_resolution_found",
+  "outcome_detail": "<amount, date, grounds, appeal status — or ''>",
+  "settlement_amount_original": <number|null>, "settlement_currency": "USD|CAD",
+  "settlement_date": <"YYYY-MM-DD"|null>,
+  "criminal_status": "none_filed|charged|convicted|pleaded_guilty|acquitted|charges_dropped|unknown",
+  "criminal_detail": "<charges, sentence, dates — or ''>",
+  "officer_names": ["<only accused officers already named in public reporting>"],
+  "incident_date_approx": "<free text>",
+  "description": "<3-6 sentences, language rules below>",
+  "notes": <"<flags>"|null>,
+  "inclusion_concern": <string|null>,
+  "sources": [{"url":"...","title":"...","publisher":"...","published_date":<"YYYY-MM-DD"|null>}],
+  "confidence_notes": "<anything uncertain>"
+}
+
+LAWSUIT TYPE: "civilian" = officer/deputy/jailer accused of sexually assaulting a civilian; "internal" = officer/employee suing their OWN agency over workplace sexual assault/harassment; "class_action" = class action / mass litigation.
+
+DESCRIPTION LANGUAGE RULES (strict — public site, defamation risk):
+- Attribute every unproven claim: "The suit alleges…", "According to the complaint…".
+- State conduct as fact ONLY where supported by a conviction, guilty plea, admission, or jury finding.
+- NEVER name victims — "a woman", "Jane Doe". Officer names only if already in cited reporting.
+- No editorializing, no pattern-drawing language.
+
+OUTCOME DISCIPLINE: "settled" only if a settlement is reported (amount+date in outcome_detail); "ongoing" only if coverage confirms the case is active; "no_resolution_found" if dedicated searches surface neither. Criminal track is separate from civil.
+
+NOTES flags when applicable: "Outside strict police-department definition (<category>)"; "Filed before 2021; included because resolution occurred in window"; companion-record cross-references.
+
+Final message: one line per FILE written: "rec-<key>: <agency> — <outcome_status> — <N> sources — CONCERN: <inclusion_concern or none>". Nothing else.
+
+THE SEED RECORDS:
+
+Record A: row=69, slug="harris-county-constable-s-office-precinct-1-2021-r69". Agency hint: Harris County Constable's Office, Precinct 1, US/TX. Year hint: 2021 (settled - $1.5M to four women in June 2024). Seed outcome hint: settled - $1.5M to four women in June 2024 ($1500000). Source: Houston Cops 'Molested' Female Deputies During Undercover Stings, Forced One to Be 'Penetrated in Both Her Vagina and Anus' by 'Known Rapist': Lawsuit; Current and former Texas constable's deputies file lawsuit alleging abuse from commanding officers; Harris County to pay female constable deputies $1.5 million to sex scandal lawsuit https://lawandcrime.com/lawsuit/houston-cops-molested-female-deputies-during-undercover-stings-forced-one-to-be-penetrated-in-both-her-vagina-and-anus-by-known-rapist-lawsuit/
+
+Record B: row=70, slug="central-connecticut-state-university-police-department-2018-". Agency hint: Central Connecticut State University Police Department, US/CT. Year hint: 2018 (settled - $1.75M in 2020). Seed outcome hint: settled - $1.75M in 2020 ($1750000). Source: CCSU to pay $1.75 million settlement of claims accusing campus police officers of sexual harassment, assault; Female Officer Wins Settlement Against CCSU in Rape Lawsuit https://www.wtnh.com/news/connecticut/hartford/ccsu-to-pay-1-75-million-settlement-of-claims-accusing-campus-police-officers-of-sexual-harassment-assault/
+
+Record C: row=71, slug="los-angeles-police-department-2023-r71". Agency hint: Los Angeles Police Department, US/CA. Year hint: 2023 (ongoing). Seed outcome hint: ongoing. Source: LAPD officer says he can no longer remain silent about alleged hazing and assault while participating in police football program https://www.nbclosangeles.com/investigations/lapd-officer-says-he-can-no-longer-remain-silent-about-alleged-hazing-and-assault-while-participating-in-police-football-program/3353139/
+
+Record D: row=72, slug="los-angeles-county-sheriff-s-department-2025-r72". Agency hint: Los Angeles County Sheriff's Department, US/CA. Year hint: 2025 (ongoing). Seed outcome hint: ongoing. Source: LASD, Ex-Deputy Agree on Release of Her Personnel Records - MyNewsLA.com https://mynewsla.com/crime/2026/05/03/former-laco-deputy-lasd-agree-on-release-of-her-personnel-records/

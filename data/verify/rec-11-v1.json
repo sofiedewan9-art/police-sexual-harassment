@@ -1,0 +1,16 @@
+{
+  "row": 11,
+  "slug": "seattle-r11",
+  "fields": {
+    "agency": "Seattle Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "WA",
+    "lawsuit_type": "internal",
+    "year_filed": 2024,
+    "outcome_status": "settled",
+    "settlement_amount_original": 2600000,
+    "criminal_status": "unknown"
+  },
+  "caveats": "Four female officers (Lauren Truscott, Valerie Carson, Kame Spencer, Judinna 'Jean' Gulpan) sued the City of Seattle/SPD alleging sexual harassment, grooming, and gender discrimination by then-Chief Adrian Diaz, Lt. John O'Neil, and others. Sources agree filed in 2024 but differ on month (Fox13 says April 2024, KOMO says July 2024). Settled for $2.6M (originally sought $5M) in early June 2026; city did not admit wrongdoing. No source mentions criminal charges, so criminal_status is 'unknown'. KING5 source timed out and was skipped."
+}

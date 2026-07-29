@@ -1,0 +1,16 @@
+{
+  "row": 51,
+  "slug": "missouri-state-highway-patrol-2024-r51",
+  "fields": {
+    "agency": "Missouri State Highway Patrol",
+    "agency_category": "state_police",
+    "country": "US",
+    "state_province": "MO",
+    "lawsuit_type": "civilian",
+    "year_filed": 2024,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "pleaded_guilty"
+  },
+  "caveats": "Doe 1 v. McKnight, 1:24-cv-00217 (E.D. Mo.), filed 2024-11-21; docket active as of June 2026, jury trial set Sept 2026. Ex-trooper David McKnight pleaded guilty Dec 2025 to 9 counts of deprivation of rights (phone searches for nude images), ~21 months. Conduct is privacy/sexual misconduct, not physical assault. DOJ page 403."
+}

@@ -1,0 +1,16 @@
+{
+  "row": 16,
+  "slug": "louisville-metro-police-department-2021-r16",
+  "fields": {
+    "agency": "Louisville Metro Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "KY",
+    "lawsuit_type": "civilian",
+    "year_filed": 2020,
+    "outcome_status": "settled",
+    "settlement_amount_original": 1800000,
+    "criminal_status": "none_filed"
+  },
+  "caveats": "Former LMPD detective Brian Bailey accused of coercing confidential informants (civilian women) into sexual acts. Three Jane Doe plaintiffs sued Bailey, other officers, and the city: first suit filed October 2020, second November 2020, third joined 2021 - year_filed=2020 for the first filing although the slug says 2021. City of Louisville paid $1.8M settlement (LPM reports it finalized September 2022, announced Oct 26, 2022; WDRB's Feb 2023 article extraction oddly said 'October 2023' - 2022 per contemporaneous LPM reporting). Jefferson County grand jury returned a no true bill on felony sodomy charges Feb 22, 2023; misdemeanors time-barred; no criminal charges ever filed. Two sources skipped (whas11 429, one lpm.org fetch timeout)."
+}

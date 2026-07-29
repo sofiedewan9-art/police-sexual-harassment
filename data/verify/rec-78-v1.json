@@ -1,0 +1,16 @@
+{
+  "row": 78,
+  "slug": "royal-newfoundland-constabulary-2022-r78",
+  "fields": {
+    "agency": "Royal Newfoundland Constabulary",
+    "agency_category": "police",
+    "country": "CA",
+    "state_province": "NL",
+    "lawsuit_type": "internal",
+    "year_filed": 2022,
+    "outcome_status": "no_resolution_found",
+    "settlement_amount_original": null,
+    "criminal_status": "none_filed"
+  },
+  "caveats": "Plaintiff is an RNC officer suing the province over alleged 2014 rape by colleague Sgt. Robert Baldwin during an off-duty ride home in his patrol car; coded internal (employee vs own agency) though assault was off-duty. Filed Jan 13, 2022; no outcome in sources. 3 of 7 URLs failed (403)."
+}

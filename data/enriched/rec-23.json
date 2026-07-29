@@ -1,0 +1,33 @@
+{
+  "row": 23,
+  "slug": "kansas-city-police-department-2023-r23",
+  "agency": "Kansas City, Kansas Police Department (Unified Government of Wyandotte County and Kansas City, Kansas)",
+  "agency_category": "police",
+  "country": "US",
+  "state_province": "KS",
+  "lawsuit_type": "civilian",
+  "year_filed": 2023,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "dismissed",
+  "outcome_detail": "Dismissed in early February 2025 by U.S. District Judge Toby Crouse, who ruled Kansas's two-year statute of limitations had run and the plaintiffs offered no valid legal reason for the delay. The five plaintiffs appealed; as of December 2025 coverage the appeal remained pending, with no settlement reported.",
+  "settlement_amount_original": null,
+  "settlement_currency": "USD",
+  "settlement_date": null,
+  "criminal_status": "charged",
+  "criminal_detail": "Roger Golubski was indicted federally in September 2022 on six felony counts of civil rights violations for allegedly raping and kidnapping women, and in a second 2022 federal indictment for allegedly protecting a sex-trafficking operation. He died by suicide (per the Kansas Bureau of Investigation) at his Edwardsville home on December 2, 2024, the morning his federal trial was to begin in Topeka, ending the criminal case without a verdict. No other defendant officer was criminally charged.",
+  "officer_names": ["Roger Golubski", "Michael Kill", "Clayton Bye", "Dennis Ware"],
+  "incident_date_approx": "circa pre-1992 through 2006",
+  "description": "Five Black women filed a federal civil rights lawsuit on November 3, 2023, against the Unified Government of Wyandotte County and Kansas City, Kansas, four former police chiefs, and former detectives including Roger Golubski. The complaint alleges that from before 1992 through 2006 the government permitted an 'open and notorious police protection racket' in which officers engaged in sexual assault, rape, kidnapping, coercion, drug dealing, and sex trafficking, and that Golubski raped and sexually assaulted women while other detectives fabricated evidence and conducted abusive interrogations. The suit sought monetary damages and court-ordered supervision protocols. A federal judge dismissed the case in February 2025 on statute-of-limitations grounds, and the plaintiffs appealed. Golubski, who was separately under federal indictment for civil rights violations involving alleged rapes, died by suicide in December 2024 on the day his criminal trial was to begin.",
+  "notes": "Not a class action per contemporaneous reporting. Former chiefs Tom Dailey, James Swafford, Terry Ziegler, and Ronald Miller were named as defendants in supervisory capacities. Related Golubski litigation (wrongful-conviction suits by men allegedly framed by him, including a $12.5 million settlement with Lamonte McIntyre in 2022) is not recorded separately here because sexual misconduct is not central to those claims.",
+  "inclusion_concern": null,
+  "sources": [
+    {"url": "https://www.kcur.org/news/2023-11-06/kansas-city-kansas-empowered-police-to-exploit-and-humiliate-black-community-lawsuit-says", "title": "Kansas City, Kansas, empowered police to exploit and humiliate Black community, lawsuit says", "publisher": "KCUR", "published_date": "2023-11-06"},
+    {"url": "https://www.kshb.com/news/local-news/5-women-file-lawsuit-against-former-kck-detective-roger-golubski-unified-government-former-police-chiefs", "title": "5 women file lawsuit against former KCK detective Roger Golubski, Unified Government, former police chiefs", "publisher": "KSHB 41", "published_date": null},
+    {"url": "https://www.kcur.org/news/2025-02-03/golubski-civil-rights-lawsuit-dismissal-women-appeal", "title": "Judge threw out civil rights lawsuit against KCKPD, but 5 women will appeal", "publisher": "KCUR", "published_date": "2025-02-03"},
+    {"url": "https://www.kcur.org/news/2024-12-02/roger-golubski-died-suicide-kansas-city-kckpd-police-abuse", "title": "Roger Golubski, ex-KCKPD detective accused of abuse, dead of apparent suicide before trial", "publisher": "KCUR", "published_date": "2024-12-02"},
+    {"url": "https://www.kcur.org/news/2025-12-02/roger-golubski-death-one-year", "title": "Roger Golubski died a year ago. Victims say Kansas City, Kansas, hasn't delivered justice", "publisher": "KCUR", "published_date": "2025-12-02"}
+  ],
+  "confidence_notes": "Seed agency hint said 'Kansas City Police Department, US/KS'; the correct agency is the Kansas City, Kansas Police Department under the Unified Government (not the Missouri KCPD). Exact date and disposition of the 10th Circuit appeal after December 2025 not confirmed; outcome_status is 'dismissed' with appeal pending. The federal district was reported as federal court in Kansas (D. Kan.) via the Topeka criminal venue and Kansas judge, though the civil filing's district was not explicitly stated in fetched coverage. Plaintiffs are named public plaintiffs in reporting but are not named here per victim-naming rule."
+}

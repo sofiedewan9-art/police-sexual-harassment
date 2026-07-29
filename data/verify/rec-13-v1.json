@@ -1,0 +1,16 @@
+{
+  "row": 13,
+  "slug": "louisville-ky-r13",
+  "fields": {
+    "agency": "Louisville Metro Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "KY",
+    "lawsuit_type": "internal",
+    "year_filed": 2024,
+    "outcome_status": "settled",
+    "settlement_amount_original": 200000,
+    "criminal_status": "none_filed"
+  },
+  "caveats": "Officer Christine Silk sued LMPD/Louisville Metro (filed June 18, 2024, Jefferson Circuit Court) over sexual harassment by supervisors Justin LeMon and Dale Cottongim; WDRB reports a $200,000 settlement (Silk resigned Dec 2024). Sources conflict on LeMon's firing date (WDRB settlement article says terminated April 2024; LPM says fired April 2025). No source mentions criminal charges against either officer - only administrative discipline (LeMon fired, Cottongim reprimanded/transferred/exonerated) - so criminal_status is inferred as none_filed. WHAS11 source failed to fetch (timeout, 2 attempts)."
+}

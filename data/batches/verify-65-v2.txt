@@ -1,0 +1,57 @@
+You are an independent verification agent for a database of civil lawsuits involving sexual assault/harassment and law-enforcement agencies. Today is 2026-07-28. For each record below you get ONLY source URLs. Read the sources (WebFetch; if one fails, skip it — do NOT search for other articles) and independently derive the fields from the sources alone. Do not guess: if the sources don't establish a value, use null. Be skeptical and literal about what the sources actually say.
+
+For each record, write a JSON file to /Users/sofiedewan/police-sa-lawsuits/data/verify/rec-<key>-v2.json (the <key> is given per record):
+{
+  "row": <int>, "slug": "<given>",
+  "fields": {
+    "agency": "<official agency name as best supported by sources>",
+    "agency_category": "police|sheriff|state_police|corrections|juvenile|federal|campus|transit|other",
+    "country": "US|CA",
+    "state_province": "<2-letter>",
+    "lawsuit_type": "civilian|internal|class_action",
+    "year_filed": <int|null>,
+    "outcome_status": "settled|plaintiff_verdict|defense_verdict|dismissed|ongoing|no_resolution_found",
+    "settlement_amount_original": <number|null>,
+    "criminal_status": "none_filed|charged|convicted|pleaded_guilty|acquitted|charges_dropped|unknown"
+  },
+  "caveats": "<brief notes on anything ambiguous>"
+}
+Definitions: civilian = officer accused of assaulting a civilian; internal = employee suing own agency over workplace sexual assault/harassment; class_action = mass litigation. "ongoing" only if sources confirm the case is active; "no_resolution_found" if sources show no resolution. year_filed = year the CIVIL suit was filed. If no lawsuit exists in the sources, pick the closest lawsuit_type fit and say so in caveats.
+
+Final message: one line per record "rec-<key>: done". Nothing else.
+
+THE RECORDS:
+
+Record key=65, row=65, slug="iron-mountain-police-department-2023-r65", sources:
+https://www.nbcnews.com/news/us-news/michigan-departments-first-female-cop-alleges-relentless-harassment-rcna76194
+https://www.ironmountaindailynews.com/news/local-news/2024/08/im-settles-suit-filed-by-former-city-officer/
+https://www.ironmountaindailynews.com/news/local-news/2024/09/settlement-in-im-police-lawsuit-is-475000/
+https://wzmq19.com/news/338314/former-iron-mountain-officer-reaches-475000-settlement-in-sexual-harassment-lawsuit/
+https://www.uppermichiganssource.com/2024/08/30/settlement-reached-lawsuit-filed-by-former-iron-mountain-police-officer-against-city/
+https://www.uppermichiganssource.com/2023/02/21/former-officer-sues-iron-mountain-police-department-city-sexual-harassment/
+https://www.detroitnews.com/story/news/local/michigan/2023/02/21/lawsuit-iron-mountain-michigan-police-sexual-harassment-discrimination/69928689007/
+https://lawandcrime.com/lawsuit/first-woman-to-join-michigan-police-department-alleges-years-of-sex-discrimination-harassment-in-lawsuit/
+
+Record key=66, row=66, slug="washington-state-criminal-justice-training-commission-traine", sources:
+https://www.fox13seattle.com/news/wa-police-academy-500k-harassment
+https://www.stritmatter.com/blog-deputy-sexual-assault-lawsuit-training-academy-settlement/
+https://www.kiro7.com/news/local/bigoted-toxic-deputy-settles-with-state-academy-federal-way-pd-over-sex-assault-claims/SNNNKVQU2BBEPLE3CJXQJHRRGM/
+https://mynorthwest.com/local/state-academy-federal-way/4084548
+https://www.kentreporter.com/2025/05/16/federal-way-settles-in-harassment-case-against-police-officer/
+https://www.heraldnet.com/2024/05/06/everett-officer-alleges-sexual-harassment-at-state-police-academy/
+https://www.seattletimes.com/seattle-news/law-justice/wa-police-academy-faces-second-sexual-harassment-lawsuit/
+https://www.chronline.com/stories/washington-state-commission-acts-against-2-police-trainers-accused-of-sexual-harassment,394086
+https://trellis.law/case/53033/24-2-09343-5-sea/ricksecker-vs-washington-state-criminal-justice-training-commission-et-al
+
+Record key=66b, row=66, slug="washington-state-criminal-justice-training-commission-traine-b", sources:
+https://www.seattletimes.com/seattle-news/law-justice/former-cadets-sue-wa-police-academy-trainer-over-sexual-harassment-allegations/
+https://www.spokesman.com/stories/2023/oct/27/former-cadets-sue-wa-police-academy-trainer-over-s/
+https://www.heraldnet.com/news/snohomish-county-deputy-sues-police-academy-trainer-over-sexual-harassment-allegations/
+https://www.chronline.com/stories/washington-state-commission-acts-against-2-police-trainers-accused-of-sexual-harassment,394086
+https://www.yakimaherald.com/news/wa-commission-acts-against-two-police-trainers-accused-of-sexual-harassment/article_20d95d37-8709-5c85-9368-7e1b2ca8a424.html
+https://thecrimereport.org/2023/10/27/the-two-officers-in-the-suit-allege-that-officer-leland-allen-used-his-power-and-authority-to-sexually-harass-and-touch-the-female-recruits-of-an-academy-class-that-graduated-in-february-2022/
+
+Record key=67, row=67, slug="solano-county-sheriff-s-office-2025-r67", sources:
+https://www.vallejosun.com/lawsuit-solano-deputy-thought-she-was-going-to-die-when-colleague-raped-her/
+https://www.leagle.com/decision/infdco20251104a69
+

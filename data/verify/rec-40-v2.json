@@ -1,0 +1,16 @@
+{
+  "row": 40,
+  "slug": "payette-county-sheriff-s-office-2025-r40",
+  "fields": {
+    "agency": "Payette County Sheriff's Office",
+    "agency_category": "sheriff",
+    "country": "US",
+    "state_province": "ID",
+    "lawsuit_type": "civilian",
+    "year_filed": null,
+    "outcome_status": "no_resolution_found",
+    "settlement_amount_original": null,
+    "criminal_status": "pleaded_guilty"
+  },
+  "caveats": "No civil lawsuit had actually been filed as of the sources (both published 2025-10-02): the 22-year-old formerly incarcerated woman filed a tort claim in September 2025 (a precursor/notice required before suing) seeking at least $300,000 against the county over former jail deputy Devon Larsen groping and forcibly kissing her in her cell. lawsuit_type 'civilian' is the closest fit (incarcerated civilian vs. jail deputy); year_filed is null because only the tort claim, not a suit, is documented. Larsen pleaded guilty April 2025 to two misdemeanor counts of sexual battery; sentenced May 2025 to 2 years supervised probation, 20 days jail, 20 days labor detail; POST-decertified July 2025."
+}

@@ -1,0 +1,16 @@
+{
+  "row": 66,
+  "slug": "washington-state-criminal-justice-training-commission-traine-b",
+  "fields": {
+    "agency": "Washington State Criminal Justice Training Commission",
+    "agency_category": "other",
+    "country": "US",
+    "state_province": "WA",
+    "lawsuit_type": "internal",
+    "year_filed": 2023,
+    "outcome_status": "dismissed",
+    "settlement_amount_original": null,
+    "criminal_status": "none_filed"
+  },
+  "caveats": "Haydyn Wagner (Snohomish County Sheriff's deputy) and Aimee Allen (Port Orchard police officer) sued instructor LeLand Allen, the WSCJTC, and the Port of Seattle Police Department on Oct 13, 2023 (King County Superior Court per the Yakima Herald piece) over sexual harassment/touching of female recruits in Basic Law Enforcement Academy Class 828. A judge dismissed the case in May (2025 per the Yakima Herald article's timeline); an appeal is pending, so 'dismissed' reflects the latest resolution in the sources. agency_category 'other' because WSCJTC is a state training commission, not a police force. lawsuit_type 'internal' is the closest fit (law-enforcement employees alleging workplace/training harassment), though defendants were not their direct employers. Sources state charges against LeLand Allen were administrative decertification proceedings, 'not criminal charges,' so criminal_status is none_filed. Seattle Times and Chronline returned 403 and thecrimereport.org had a certificate error; those sources were skipped."
+}

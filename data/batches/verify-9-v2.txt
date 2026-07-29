@@ -1,0 +1,50 @@
+You are an independent verification agent for a database of civil lawsuits involving sexual assault/harassment and law-enforcement agencies. Today is 2026-07-28. For each record below you get ONLY source URLs. Read the sources (WebFetch; if one fails, skip it — do NOT search for other articles) and independently derive the fields from the sources alone. Do not guess: if the sources don't establish a value, use null. Be skeptical and literal about what the sources actually say.
+
+For each record, write a JSON file to /Users/sofiedewan/police-sa-lawsuits/data/verify/rec-<key>-v2.json (the <key> is given per record):
+{
+  "row": <int>, "slug": "<given>",
+  "fields": {
+    "agency": "<official agency name as best supported by sources>",
+    "agency_category": "police|sheriff|state_police|corrections|juvenile|federal|campus|transit|other",
+    "country": "US|CA",
+    "state_province": "<2-letter>",
+    "lawsuit_type": "civilian|internal|class_action",
+    "year_filed": <int|null>,
+    "outcome_status": "settled|plaintiff_verdict|defense_verdict|dismissed|ongoing|no_resolution_found",
+    "settlement_amount_original": <number|null>,
+    "criminal_status": "none_filed|charged|convicted|pleaded_guilty|acquitted|charges_dropped|unknown"
+  },
+  "caveats": "<brief notes on anything ambiguous>"
+}
+Definitions: civilian = officer accused of assaulting a civilian; internal = employee suing own agency over workplace sexual assault/harassment; class_action = mass litigation. "ongoing" only if sources confirm the case is active; "no_resolution_found" if sources show no resolution. year_filed = year the CIVIL suit was filed. If no lawsuit exists in the sources, pick the closest lawsuit_type fit and say so in caveats.
+
+Final message: one line per record "rec-<key>: done". Nothing else.
+
+THE RECORDS:
+
+Record key=9, row=9, slug="unknown-agency-r9", sources:
+https://www.police1.com/women-in-law-enforcement/what-female-officers-say-about-harassment-and-culture-in-policing
+
+Record key=10, row=10, slug="san-mateo-r10", sources:
+https://www.prnewswire.com/news-releases/san-mateo-county-pays-historic-8-000-000-settlement-to-end-sexual-harassment-and-sex-discrimination-lawsuit-302203169.html
+https://www.almanacnews.com/news/2024/07/20/san-mateo-county-paying-8m-to-settle-sexual-harassment-lawsuit-from-former-swat-team-member/
+https://abc7news.com/post/exclusive-interview-san-mateo-county-detective-sexual-harassment-suit/15101928/
+https://www.smdailyjournal.com/news/local/san-mateo-county-pays-8m-for-sex-harassment-suit/article_ceccf700-4644-11ef-bd3c-c75a68f60e90.html
+https://www.rwcpulse.com/top-story/2022/11/14/decorated-sheriffs-deputy-sues-san-mateo-county-over-workplace-sexual-harassment-assault/
+https://padailypost.com/2022/11/14/deputy-sues-sheriffs-department-claiming-sex-assault-harassment-and-that-higher-ups-emailed-porn/
+https://localnewsmatters.org/2024/07/22/san-mateo-county-paying-8m-to-settle-sexual-harassment-lawsuit-from-ex-swat-member/
+
+Record key=11, row=11, slug="seattle-r11", sources:
+https://www.fox13seattle.com/news/seattle-female-cops-sexual-harassment
+https://www.kuow.org/stories/seattle-pays-2-6-million-sexual-harrassment-lawsuit-against-former-police-chief
+https://www.police1.com/legal/seattle-reaches-2-6m-settlement-with-4-officers-over-sexual-harassment-claims
+https://komonews.com/news/local/seattle-pays-26m-to-settle-lawsuit-by-4-female-officers-alleging-harassment-discrimination-police-department-spd-judinna-gulpan-adrian-diaz-accountability
+https://www.kiro7.com/news/local/seattle-pays-26-million-former-spd-leadership-harassment-settlement/KRDUVYFNO5EV7CEE3RA4XA53LE/
+https://www.king5.com/article/news/local/seattle/seattle-settles-with-4-police-officers-in-harassment-lawsuit/281-9c5bc4fd-e108-49be-bafe-2bc2e6480454
+https://publicola.com/2026/06/05/wilson-caves-on-police-surveillance-during-world-cup-two-more-cops-allege-discrimination-as-spd-settles-earlier-claims/
+
+Record key=12, row=12, slug="nypd-r12", sources:
+https://nypost.com/2025/08/02/us-news/nypd-cop-says-she-was-sexually-harassed-punished-for-speaking-up/
+https://www.yahoo.com/news/articles/nypd-detective-says-partner-sexually-194150228.html
+https://www.aol.com/nypd-detective-says-partner-sexually-194150822.html
+

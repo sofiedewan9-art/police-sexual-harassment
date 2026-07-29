@@ -1,0 +1,16 @@
+{
+  "row": 46,
+  "slug": "spokane-police-department-2022-r46-b",
+  "fields": {
+    "agency": "Spokane Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "WA",
+    "lawsuit_type": "civilian",
+    "year_filed": null,
+    "outcome_status": "settled",
+    "settlement_amount_original": 400000,
+    "criminal_status": "convicted"
+  },
+  "caveats": "Second victim of former SPD officer Nathan Nash (unnamed woman). City of Spokane settled her lawsuit for $400,000, approved/announced early June 2025. None of the loaded sources (Spokesman-Review, KHQ, KXLY) state the year this civil suit was filed, so year_filed is null. Nash was convicted in 2022 of raping two women while on duty and sentenced to about 14 years to life. Combined city payouts to the two victims total $700,000 ($300k in 2024 to the other victim, rec-46). One KREM.com source timed out and was skipped."
+}

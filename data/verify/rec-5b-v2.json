@@ -1,0 +1,16 @@
+{
+  "row": 5,
+  "slug": "michigan-state-police-r5-b",
+  "fields": {
+    "agency": "Michigan State Police",
+    "agency_category": "state_police",
+    "country": "US",
+    "state_province": "MI",
+    "lawsuit_type": "internal",
+    "year_filed": 2025,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "none_filed"
+  },
+  "caveats": "3 of 4 sources failed to load (all wlns.com URLs returned 403). Only usable source was the Yahoo News repost of the WLNS story: former trooper Megan Moryc v. Michigan State Police leadership (Col. James F. Grady, Lt. Col. Aimee Brimacombe), federal suit in the U.S. District Court for the Western District of Michigan (Grand Rapids). The article dates the filing to September 21, 2025 but refers to a 'Third Amended Complaint,' so the original federal filing may have been earlier; year_filed=2025 is the best-supported value from the accessible source. Case described as active (depositions, affidavits, amended complaint) -> ongoing. criminal_status=none_filed refers to the accused MSP personnel (the source says no charges were filed against the trooper accused of secretly recording her); note the plaintiff herself was criminally charged in Jan 2021 over an Oct 2020 incident and pleaded no contest to assault. This appears to be a federal companion/successor to the June 2024 Eaton County state suit in record rec-5."
+}

@@ -1,0 +1,32 @@
+{
+  "row": 5,
+  "slug": "michigan-state-police-r5-b",
+  "agency": "Michigan State Police",
+  "agency_category": "state_police",
+  "country": "US",
+  "state_province": "MI",
+  "lawsuit_type": "internal",
+  "year_filed": 2025,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "ongoing",
+  "outcome_detail": "Filed September 21, 2025 in the U.S. District Court for the Western District of Michigan (Grand Rapids); pending as of the latest coverage. A search excerpt suggests Judge Robert Jonker dismissed some named defendants in March 2026, but this could not be independently confirmed. Related state-court litigation in the same scandal remained active as of April 2026.",
+  "settlement_amount_original": null,
+  "settlement_currency": "USD",
+  "settlement_date": null,
+  "criminal_status": "none_filed",
+  "criminal_detail": "No criminal charges reported against Col. James F. Grady or Lt. Col. Aimee Brimacombe. In 2026 Moryc filed a complaint alleging perjury by Brimacombe over a March 2025 affidavit in the related state case; no charges have been reported.",
+  "officer_names": ["James F. Grady", "Aimee Brimacombe"],
+  "incident_date_approx": "Alleged retaliation and sworn-affidavit conduct from roughly 2021 through 2025",
+  "description": "Former Michigan State Police trooper Megan Moryc filed a federal lawsuit on September 21, 2025 in the U.S. District Court for the Western District of Michigan, naming MSP director Col. James F. Grady and Lt. Col. Aimee Brimacombe. The suit alleges the two senior officials had firsthand knowledge of a systemic campaign of investigations and punishments against Moryc in retaliation for her complaints about sexual harassment and gender discrimination within what she described as a 'Big Boys' Club' culture, and that they filed sworn affidavits in her related state-court civil rights case denying such knowledge despite deposition testimony suggesting otherwise. According to the complaint, the retaliation included criminal charges and two terminations, both of which arbitrators overturned in her favor. The case, which follows an extensive WLNS 6 News investigative series and builds on her ongoing Eaton County state suit, remains pending.",
+  "notes": "Related suit from same scandal: see companion record rec-5 (June 28, 2024 Eaton County Elliott-Larsen Civil Rights Act suit by the same plaintiff, the primary sexual harassment/discrimination case). Duplicate record rec-74b (same suit) was merged into this record and deleted.",
+  "inclusion_concern": "This federal filing centers on retaliation and alleged false affidavits by MSP leadership; the underlying sexual harassment allegations are background from the companion state case rather than the central claim of this suit.",
+  "sources": [
+    {"url": "https://www.wlns.com/6newsinvestigates/big-boys-club-former-michigan-state-police-trooper-files-federal-lawsuit/", "title": "'Big Boys' Club': Former Michigan State Police trooper files federal lawsuit", "publisher": "WLNS 6 News", "published_date": "2025-09-22"},
+    {"url": "https://www.yahoo.com/news/articles/big-boys-club-former-michigan-195600561.html", "title": "'Big Boys' Club': Former Michigan State Police trooper files federal lawsuit (syndicated)", "publisher": "Yahoo News / WLNS", "published_date": "2025-09-22"},
+    {"url": "https://www.wlns.com/6newsinvestigates/big-boys-club-the-degradation-of-women/", "title": "'Big Boys' Club': 'The degradation of women'", "publisher": "WLNS 6 News", "published_date": null},
+    {"url": "https://www.wlns.com/6newsinvestigates/brimacombe-faces-perjury-allegations-in-msp-troopers-lawsuit/", "title": "Brimacombe faces perjury allegations in MSP trooper's lawsuit", "publisher": "WLNS 6 News", "published_date": null}
+  ],
+  "confidence_notes": "Merged from former duplicate record rec-74b. Filing date of September 21, 2025 per WLNS reporting published September 22, 2025; web research confirms the plaintiff is Megan Moryc, a named public plaintiff in extensive reporting, so she is named here. Coverage described the federal complaint partly as a 'Third Amended Complaint' building on the state case; the docket was not independently reviewed, so the precise procedural posture is uncertain, but it is treated as a distinct federal filing per WLNS's characterization. Grady and Brimacombe are accused of retaliation and false sworn statements, not of committing sexual harassment themselves. The report that Judge Jonker dismissed some defendants comes from a search excerpt and could not be independently confirmed."
+}

@@ -1,0 +1,16 @@
+{
+  "row": 32,
+  "slug": "senatobia-police-department-2024-r32",
+  "fields": {
+    "agency": "Senatobia Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "MS",
+    "lawsuit_type": "civilian",
+    "year_filed": 2024,
+    "outcome_status": "no_resolution_found",
+    "settlement_amount_original": null,
+    "criminal_status": "unknown"
+  },
+  "caveats": "Shanterra Jackson's $10M federal suit against the City of Senatobia, Police Chief Richard Chandler, and Officer Willie/Willis McNeil (sources spell the first name both ways) alleging sexual assault during/after an August 2023 traffic stop. Filing date reported as May 21, 2024 (mississippifreepress) vs May 23, 2024 (localmemphis); year 2024 is solid. $10M is the amount demanded, not a settlement, so amount is null. Only two of seven sources were accessible (403: wreg, wjtv, fox13memphis, and both taterecord.com articles); the failed taterecord headlines ('city-chief-cleared-10m-lawsuit', 'right-officer-wrong-department') suggest partial dismissal and a dispute over which department employed McNeil (SPD called on-duty claims 'blatantly false'), but their content could not be retrieved, so outcome stays no_resolution_found and agency reflects the accessible sources. Criminal charges: attorney sought prosecution; no charge reported as of May 2024 — unknown."
+}

@@ -1,0 +1,16 @@
+{
+  "row": 49,
+  "slug": "rankin-county-sheriff-s-office-2025-r49",
+  "fields": {
+    "agency": "Rankin County Sheriff's Department",
+    "agency_category": "sheriff",
+    "country": "US",
+    "state_province": "MS",
+    "lawsuit_type": "civilian",
+    "year_filed": 2025,
+    "outcome_status": "ongoing",
+    "settlement_amount_original": null,
+    "criminal_status": "pleaded_guilty"
+  },
+  "caveats": "Schmidt v. Rankin County, 3:25-cv-00909 (S.D. Miss.), filed 2025-11-25; docket active, jury trial set Feb 2027. Dedmon pleaded guilty to federal civil-rights crimes (sentenced partly for the Dec 2022 Schmidt incident) but denies the sexual assault claim. Two sources returned 403."
+}

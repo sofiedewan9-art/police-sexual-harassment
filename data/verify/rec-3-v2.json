@@ -1,0 +1,16 @@
+{
+  "row": 3,
+  "slug": "rowlett-texas-r3",
+  "fields": {
+    "agency": "Rowlett Police Department",
+    "agency_category": "police",
+    "country": "US",
+    "state_province": "TX",
+    "lawsuit_type": "internal",
+    "year_filed": null,
+    "outcome_status": "no_resolution_found",
+    "settlement_amount_original": null,
+    "criminal_status": "unknown"
+  },
+  "caveats": "NO lawsuit appears in the available sources. Coverage describes an internal-affairs matter: Sgt. Ryan Doherty was accused of sexually harassing multiple female Rowlett PD officers (soliciting sex, pornographic messages, retaliation); the internal investigation (opened after a Jan 28, 2025 complaint) sustained inappropriate-relationship and untruthfulness allegations, termination was approved, and he resigned in lieu of termination (June 2025) under a separation agreement with confidentiality/neutral-reference clauses. 'internal' selected only as closest fit for workplace sexual harassment within the agency; year_filed null and outcome_status no_resolution_found because no civil suit exists in the sources. One victim, Officer Victoria Bailey, died by suicide in Oct 2024. The department's March 2026 statement says it made Brady disclosures to Dallas and Rockwall County DAs, but no source mentions criminal charges (criminal_status=unknown). The WFAA source failed to load (timeout on two attempts) and was skipped."
+}

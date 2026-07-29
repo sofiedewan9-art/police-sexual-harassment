@@ -1,0 +1,70 @@
+{
+  "row": 11,
+  "slug": "seattle-r11",
+  "agency": "Seattle Police Department",
+  "agency_category": "police",
+  "country": "US",
+  "state_province": "WA",
+  "lawsuit_type": "internal",
+  "year_filed": 2024,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "settled",
+  "outcome_detail": "$2.6 million settlement announced in early June 2026 (reported June 4-5, 2026); plaintiffs had originally sought $5 million in their April 2024 tort claim. Settlement includes no admission of wrongdoing or liability.",
+  "settlement_amount_original": 2600000,
+  "settlement_currency": "USD",
+  "settlement_date": null,
+  "criminal_status": "none_filed",
+  "criminal_detail": "No criminal charges reported against any named defendant. Adrian Diaz was demoted in May 2024 and fired in December 2024 after an Office of Inspector General investigation into an undisclosed relationship with a subordinate and related dishonesty; that matter was handled administratively.",
+  "officer_names": ["Adrian Diaz", "John O'Neil", "Dan Nelson"],
+  "incident_date_approx": "Alleged conduct roughly 2020-2024, including an alleged New Year's Eve 2020 incident involving Diaz",
+  "description": "Four current and former female Seattle police officers - Lt. Lauren Truscott and Officers Valerie Carson, Kame Spencer, and Judinna \"Jean\" Gulpan - filed a tort claim in April 2024 followed by a lawsuit accusing Seattle Police Department leadership of sexual harassment, gender discrimination, and a hostile work environment. The suit alleged that then-Chief Adrian Diaz \"groomed\" and showed unwanted personal interest in Carson, that Lt. John O'Neil made unwanted physical advances toward Spencer and Gulpan, and that department leadership, including former Assistant Chief Dan Nelson and HR manager Rebecca McKechnie, enabled the conduct and retaliated against the women. The named officials denied all allegations. In June 2026 the City of Seattle paid $2.6 million to settle the case, with no admission of wrongdoing; three plaintiffs remained with SPD and one had retired.",
+  "notes": "Related but excluded litigation from the same scandal: Lt. John O'Neil (a named defendant) settled his own racial-discrimination/retaliation lawsuit against the city in August 2025 (sexual misconduct not central, so not a companion record). Coverage in June 2026 also reported two additional SPD officers alleging discrimination in new claims; no distinct filed sexual-harassment lawsuit was separately documented for them at time of research.",
+  "inclusion_concern": null,
+  "sources": [
+    {
+      "url": "https://www.fox13seattle.com/news/seattle-female-cops-sexual-harassment",
+      "title": "Seattle settles for $2.6M with female cops who claimed harassment",
+      "publisher": "FOX 13 Seattle",
+      "published_date": "2026-06-04"
+    },
+    {
+      "url": "https://www.kuow.org/stories/seattle-pays-2-6-million-sexual-harrassment-lawsuit-against-former-police-chief",
+      "title": "Seattle pays $2.6 million to settle sexual harassment lawsuit against former police chief",
+      "publisher": "KUOW",
+      "published_date": "2026-06-05"
+    },
+    {
+      "url": "https://www.police1.com/legal/seattle-reaches-2-6m-settlement-with-4-officers-over-sexual-harassment-claims",
+      "title": "Seattle reaches $2.6M settlement with 4 police officers over sexual harassment claims",
+      "publisher": "Police1",
+      "published_date": null
+    },
+    {
+      "url": "https://komonews.com/news/local/seattle-pays-26m-to-settle-lawsuit-by-4-female-officers-alleging-harassment-discrimination-police-department-spd-judinna-gulpan-adrian-diaz-accountability",
+      "title": "Seattle pays $2.6 million to settle female officers' harassment and discrimination lawsuit",
+      "publisher": "KOMO News",
+      "published_date": null
+    },
+    {
+      "url": "https://www.kiro7.com/news/local/seattle-pays-26-million-former-spd-leadership-harassment-settlement/KRDUVYFNO5EV7CEE3RA4XA53LE/",
+      "title": "Seattle pays $2.6 million in former SPD leadership harassment settlement",
+      "publisher": "KIRO 7 News Seattle",
+      "published_date": null
+    },
+    {
+      "url": "https://www.king5.com/article/news/local/seattle/seattle-settles-with-4-police-officers-in-harassment-lawsuit/281-9c5bc4fd-e108-49be-bafe-2bc2e6480454",
+      "title": "Seattle settles with 4 police officers in harassment lawsuit",
+      "publisher": "KING 5",
+      "published_date": null
+    },
+    {
+      "url": "https://publicola.com/2026/06/05/wilson-caves-on-police-surveillance-during-world-cup-two-more-cops-allege-discrimination-as-spd-settles-earlier-claims/",
+      "title": "Wilson Caves on Stadium Surveillance, Two More Cops Allege Discrimination as SPD Settles Earlier Claims for $2.6 Million",
+      "publisher": "PubliCola",
+      "published_date": "2026-06-05"
+    }
+  ],
+  "confidence_notes": "Tort claim filed April 2024; year_filed=2024 covers claim and suit. Exact settlement execution date not published (reported June 4-5, 2026), so settlement_date left null. Rebecca McKechnie (SPD HR manager, civilian) was also a named accused party but is omitted from officer_names as a non-officer. Plaintiffs are named in reporting as they brought the suit publicly. A 2023 SPD-commissioned report had validated broader claims of discrimination against women in the department."
+}

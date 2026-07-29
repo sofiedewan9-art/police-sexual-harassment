@@ -1,0 +1,33 @@
+{
+  "row": 48,
+  "slug": "rankin-county-sheriff-s-office-with-one-richland-ms-pd-offic",
+  "agency": "Rankin County Sheriff's Office (with one Richland Police Department officer)",
+  "agency_category": "sheriff",
+  "country": "US",
+  "state_province": "MS",
+  "lawsuit_type": "civilian",
+  "year_filed": 2023,
+  "year_filed_approx": false,
+  "filing_year_range": null,
+  "multiple_filings": false,
+  "outcome_status": "settled",
+  "outcome_detail": "$2.5 million settlement with Rankin County and the Rankin County Sheriff's Office, announced April 30, 2025 and dismissed with prejudice — $500,000 from the county plus $2 million from insurance. The suit had originally sought $400 million.",
+  "settlement_amount_original": 2500000,
+  "settlement_currency": "USD",
+  "settlement_date": "2025-04-30",
+  "criminal_status": "pleaded_guilty",
+  "criminal_detail": "All six officers pleaded guilty to federal civil rights offenses and state charges. Federal sentences (March 2024): Hunter Elward 20 years, Christian Dedmon 40 years, Brett McAlpin 27.25 years, Jeffrey Middleton 17.5 years, Daniel Opdyke 17.5 years, Joshua Hartfield 10 years — about 132 years combined. State sentences of 15-45 years (April 2024) run concurrently with the federal terms.",
+  "officer_names": ["Hunter Elward", "Christian Dedmon", "Brett McAlpin", "Jeffrey Middleton", "Daniel Opdyke", "Joshua Hartfield"],
+  "incident_date_approx": "January 24, 2023",
+  "description": "Two Black men filed a federal lawsuit in June 2023, initially seeking $400 million, over a January 24, 2023 incident in which five Rankin County sheriff's deputies and one Richland police officer — a self-styled 'Goon Squad' — entered a home without a warrant, handcuffed and beat the men, tased them, doused them with liquids, sexually assaulted them with a sex toy, and subjected one to a mock execution in which a gun fired in his mouth, causing severe injury. All six officers pleaded guilty to federal civil rights charges and were sentenced in March 2024 to federal terms ranging from 10 to 40 years, followed by concurrent state sentences of 15 to 45 years. On April 30, 2025, the plaintiffs settled with Rankin County and the sheriff's office for $2.5 million, comprising $500,000 from the county and $2 million from insurance, and the case was dismissed with prejudice.",
+  "notes": "Outside strict police-department definition (sheriff); one co-defendant officer was from the Richland Police Department. Underlying conduct is established by the officers' guilty pleas.",
+  "inclusion_concern": "Sexual assault (with an object) was one component of a broader warrantless-raid/torture/excessive-force lawsuit rather than the sole gravamen; the sexual assault is documented and admitted via guilty pleas, but the suit is not exclusively about sexual misconduct.",
+  "sources": [
+    {"url": "https://www.wlbt.com/2025/05/01/federal-civil-lawsuit-stemming-goon-squad-night-torture-settled-with-prejudice/", "title": "Goon Squad victims settle civil suit with Rankin Co., Rankin Co. Sheriff's Office", "publisher": "WLBT", "published_date": "2025-05-01"},
+    {"url": "https://www.mpbonline.org/blogs/news/more-than-two-years-after-a-night-of-horrors-michael-jenkins-and-eddie-parker-settle-with-rcso/", "title": "More than two years after a night of horrors, Michael Jenkins and Eddie Parker settle with RCSO", "publisher": "Mississippi Public Broadcasting", "published_date": null},
+    {"url": "https://www.djournal.com/mississippi-today/goon-squad-lawsuit-settled-for-2-5m/article_4319b648-36e0-4b5e-a6a1-a5ddf04ed770.html", "title": "'Goon Squad' lawsuit settled for $2.5M", "publisher": "Mississippi Today (via Daily Journal)", "published_date": null},
+    {"url": "https://www.npr.org/2024/03/20/1239673883/mississippi-police-officer-deputies-goon-squad-sentenced-rankin-county-torture", "title": "Members of the Mississippi 'Goon Squad' get stiff sentences in torture of 2 Black men", "publisher": "NPR", "published_date": "2024-03-20"},
+    {"url": "https://www.nbcnews.com/news/us-news/6-mississippi-goon-squad-officers-sentenced-15-45-years-state-charges-rcna147171", "title": "6 Mississippi 'Goon Squad' officers sentenced to 15 to 45 years on state charges for torture of 2 Black men", "publisher": "NBC News", "published_date": "2024-04-10"}
+  ],
+  "confidence_notes": "The plaintiffs are publicly named in virtually all coverage but are not named in the description per language rules. The incident date appears as both January 23 and January 24, 2023 across sources; January 24, 2023 is the most commonly reported. Settlement announced April 30, 2025 per WLBT (published May 1, 2025). Agency is commonly styled both 'Rankin County Sheriff's Office' and 'Rankin County Sheriff's Department' in coverage."
+}
