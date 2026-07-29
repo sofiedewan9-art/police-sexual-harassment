@@ -1,7 +1,8 @@
 import { fetchIncidents, type Filters } from "@/lib/queries";
 
 const COLUMNS = [
-  "agency", "agency_category", "country", "state_province", "lawsuit_type",
+  "agency", "officer_names", "repeat_offender",
+  "agency_category", "country", "state_province", "lawsuit_type",
   "year_filed", "year_filed_approx", "filing_year_range", "outcome_status",
   "outcome_detail", "settlement_amount", "settlement_currency", "settlement_date",
   "criminal_status", "criminal_detail", "is_30x30", "description", "notes",

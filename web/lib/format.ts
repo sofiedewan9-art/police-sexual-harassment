@@ -10,6 +10,7 @@ export const OUTCOME_LABELS: Record<string, string> = {
 export const TYPE_LABELS: Record<string, string> = {
   civilian: "Civilian plaintiff",
   internal: "Internal (officer/employee plaintiff)",
+  internal_academy: "Internal — police academy",
   class_action: "Class action / mass litigation",
 };
 

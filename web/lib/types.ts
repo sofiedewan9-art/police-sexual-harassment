@@ -19,6 +19,7 @@ export type Incident = {
   criminal_status: string | null;
   criminal_detail: string | null;
   is_30x30: boolean | null;
+  repeat_offender: boolean;
   thirty_by_thirty_match_note: string | null;
   description: string | null;
   notes: string | null;

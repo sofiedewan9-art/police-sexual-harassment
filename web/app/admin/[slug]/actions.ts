@@ -46,8 +46,22 @@ export async function saveIncident(formData: FormData) {
     }
   }
 
+  if (formData.has("officer_names")) {
+    const next = String(formData.get("officer_names") ?? "")
+      .split(",").map((s) => s.trim()).filter(Boolean);
+    const prev = (current.officer_names ?? []) as string[];
+    if (JSON.stringify(prev) !== JSON.stringify(next)) {
+      updates.officer_names = next;
+      revisions.push({
+        field: "officer_names",
+        old_value: prev.join(", ") || null,
+        new_value: next.join(", ") || null,
+      });
+    }
+  }
+
   if (formData.get("checkboxes_present")) {
-    for (const b of ["year_filed_approx", "multiple_filings"]) {
+    for (const b of ["year_filed_approx", "multiple_filings", "repeat_offender"]) {
       const next = formData.get(b) === "on";
       if (Boolean(current[b]) !== next) {
         updates[b] = next;

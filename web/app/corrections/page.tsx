@@ -29,9 +29,9 @@ function CorrectionsForm() {
         <form action={formAction} className="space-y-4 rounded-lg border border-navy/10 bg-white p-6">
           <input type="text" name="website" className="hidden" tabIndex={-1} autoComplete="off" />
           <label className="block text-sm font-medium text-navy">
-            Record (optional)
+            Record *
             <input
-              type="text" name="record" defaultValue={params.get("record") ?? ""}
+              type="text" name="record" required defaultValue={params.get("record") ?? ""}
               placeholder="Link or record name" className={`${input} mt-1`}
             />
           </label>
@@ -46,8 +46,8 @@ function CorrectionsForm() {
             </label>
           </div>
           <label className="block text-sm font-medium text-navy">
-            Organization (optional)
-            <input type="text" name="organization" className={`${input} mt-1`} />
+            Organization *
+            <input type="text" name="organization" required className={`${input} mt-1`} />
           </label>
           <label className="block text-sm font-medium text-navy">
             What should be reviewed? *

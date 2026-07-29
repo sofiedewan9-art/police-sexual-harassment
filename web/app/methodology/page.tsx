@@ -1,4 +1,4 @@
-export const metadata = { title: "Methodology — Police Sexual Assault Lawsuits Database" };
+export const metadata = { title: "Methodology — Police Sexual Harassment Lawsuits Database" };
 
 function Rule({ n, title, children }: { n: number; title: string; children: React.ReactNode }) {
   return (
@@ -20,11 +20,11 @@ export default function MethodologyPage() {
       <div>
         <h1 className="text-3xl font-semibold">Methodology</h1>
         <p className="mt-2 max-w-3xl text-ink/80">
-          This database records civil lawsuits involving sexual assault or sexual harassment and
-          law-enforcement agencies in the United States and Canada. It was seeded from a dataset
-          compiled from news-media searches (July 2026) and grows through an automated discovery
-          pipeline whose output is verified before publication. These are the compilation rules;
-          every record follows them.
+          This database records civil lawsuits involving sexual harassment and law-enforcement
+          agencies in the United States and Canada. It was seeded from a dataset compiled from
+          news-media searches (July 2026) and grows through an automated discovery pipeline whose
+          output is verified before publication. These are the compilation rules; every record
+          follows them.
         </p>
       </div>
 
@@ -40,39 +40,29 @@ export default function MethodologyPage() {
       </Rule>
 
       <Rule n={2} title="Time window">
-        <p>
-          Lawsuits filed roughly 2021 to present. A small number of earlier-filed suits are
-          included because their settlement or verdict occurred in the window; these are flagged
-          in the record notes.
-        </p>
+        <p>Lawsuits filed 2020 to present.</p>
       </Rule>
 
-      <Rule n={3} title="Three case types">
+      <Rule n={3} title="Four case types">
         <p>
           (a) <strong>Civilian</strong> — an officer, deputy, or jailer accused of sexually
-          assaulting a civilian; (b) <strong>internal</strong> — an officer or department employee
-          suing their own agency over sexual assault or harassment by colleagues or supervisors;
-          (c) <strong>class action / mass litigation</strong>.
+          harassing or assaulting a civilian; (b) <strong>internal</strong> — an officer or
+          department employee suing their own agency over sexual harassment by colleagues or
+          supervisors; (c) <strong>internal — police academy</strong> — a subset of internal
+          claims arising in police academies and training settings; (d){" "}
+          <strong>class action / mass litigation</strong>.
         </p>
       </Rule>
 
       <Rule n={4} title="Agency scope">
         <p>
-          Municipal, county, and state police and sheriffs are the core. The database also includes
-          corrections, juvenile-detention, federal, campus, and transit agencies — each categorized
-          so records outside the strict &quot;police department&quot; definition can be filtered.
+          Municipal, county, and state police, sheriffs, juvenile-detention, federal, and campus
+          agencies are the core. The database also includes corrections departments and transit
+          agencies — each categorized so records outside the core definition can be filtered.
         </p>
       </Rule>
 
-      <Rule n={5} title="Strictly factual descriptions">
-        <p>
-          Unproven claims are attributed (&quot;the suit alleges…&quot;). Conduct is stated as fact
-          only where supported by a conviction, guilty plea, admission, or jury finding. No
-          editorial or pattern-drawing language is used anywhere in the database.
-        </p>
-      </Rule>
-
-      <Rule n={6} title="Outcome discipline">
+      <Rule n={5} title="Outcome discipline">
         <p>
           Every record&apos;s outcome is verified with a dedicated search, not carried over from
           filing coverage. Statuses use a controlled vocabulary: <em>Settled</em> (amount, date),{" "}
@@ -84,9 +74,9 @@ export default function MethodologyPage() {
         </p>
       </Rule>
 
-      <Rule n={7} title="Criminal and civil cases are separate tracks">
+      <Rule n={6} title="Criminal and civil cases are separate tracks">
         <p>
-          A civil lawsuit (a victim seeking damages, decided on a preponderance-of-the-evidence
+          A civil lawsuit (a plaintiff seeking damages, decided on a preponderance-of-the-evidence
           standard) is independent of criminal charges against an officer (state prosecution,
           beyond a reasonable doubt). Every combination occurs in the data — acquitted criminally
           while the city settled civilly; convicted with a civil verdict; civil suits where no
@@ -94,19 +84,7 @@ export default function MethodologyPage() {
         </p>
       </Rule>
 
-      <Rule n={8} title="Conservative 30x30 matching">
-        <p>
-          Each record is marked Yes/No for whether the agency appears on the{" "}
-          <a href="https://30x30initiative.org/" className="text-brand underline">
-            30x30 Initiative
-          </a>{" "}
-          participant list. Matching requires the same city <em>and</em> state (for example,
-          &quot;Vancouver Police Department&quot; on the list is Vancouver, Washington — not
-          Vancouver, BC). Ambiguous matches carry an explanatory note.
-        </p>
-      </Rule>
-
-      <Rule n={9} title="Archived sources">
+      <Rule n={7} title="Archived sources">
         <p>
           Media URLs break or get geo-blocked. An archive.org snapshot is captured for each source
           link at ingestion time and shown alongside the original.
@@ -124,7 +102,6 @@ export default function MethodologyPage() {
             will be published on this page.
           </p>
           <p>
-            Victims are never named beyond what already appears in cited public reporting.
             Agencies or parties who believe a record is inaccurate can{" "}
             <a href="/corrections" className="text-brand underline">request a correction</a>.
           </p>

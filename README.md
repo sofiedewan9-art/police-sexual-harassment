@@ -1,8 +1,8 @@
-# Police Sexual Assault Lawsuits Database
+# Police Sexual Harassment Lawsuits Database
 
-A public, searchable database of civil lawsuits involving sexual assault and law-enforcement
+A public, searchable database of civil lawsuits involving sexual harassment and law-enforcement
 agencies in the US and Canada — a research project of the [Policing Project at NYU School of
-Law](https://www.policingproject.org/), examining the prevalence of sexual assault lawsuits in
+Law](https://www.policingproject.org/), examining the prevalence of sexual harassment lawsuits in
 police departments, including whether the agency participates in the
 [30x30 Initiative](https://30x30initiative.org/).
 
@@ -28,7 +28,7 @@ police departments, including whether the agency participates in the
 ## Key methodology rules
 
 1. One row per **lawsuit** — not per article; class actions / consolidated mass litigation are one record.
-2. Time window: suits filed ~2021–present (or resolved in that window).
+2. Time window: suits filed 2020–present.
 3. Civil and criminal proceedings are tracked as **separate fields**.
 4. Descriptions are strictly factual; allegations always read as allegations unless there is a
    conviction, guilty plea, admission, or jury finding.

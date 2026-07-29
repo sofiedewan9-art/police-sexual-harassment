@@ -64,7 +64,7 @@ export default async function CasePage({ params }: { params: Promise<{ slug: str
           </dl>
         </div>
         <div className="rounded-lg border-l-4 border-accent bg-white p-5 shadow-sm">
-          <h2 className="text-lg font-semibold">Criminal case (separate track)</h2>
+          <h2 className="text-lg font-semibold">Criminal case</h2>
           <dl className="mt-3 space-y-3 text-sm">
             <Field name="Status">{label(CRIMINAL_LABELS, incident.criminal_status)}</Field>
             {incident.criminal_detail && <Field name="Detail">{incident.criminal_detail}</Field>}
@@ -78,6 +78,10 @@ export default async function CasePage({ params }: { params: Promise<{ slug: str
 
       <section className="rounded-lg border border-navy/10 bg-white p-5">
         <dl className="grid gap-4 text-sm sm:grid-cols-3">
+          <Field name="Officer(s) named in reporting">
+            {incident.officer_names?.length ? incident.officer_names.join(", ") : "—"}
+          </Field>
+          <Field name="Repeat offender">{incident.repeat_offender ? "Yes" : "No"}</Field>
           <Field name="Agency category">{label(CATEGORY_LABELS, incident.agency_category)}</Field>
           <Field name="30x30 Initiative agency">
             {incident.is_30x30 == null ? "Undetermined" : incident.is_30x30 ? "Yes" : "No"}

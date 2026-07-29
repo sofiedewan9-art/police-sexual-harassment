@@ -15,6 +15,12 @@ export async function submitCorrection(
   if (message.length < 10) {
     return { ok: false, message: "Please describe the issue (at least 10 characters)." };
   }
+  if (!String(formData.get("record") ?? "").trim()) {
+    return { ok: false, message: "Please identify the record this request concerns." };
+  }
+  if (!String(formData.get("organization") ?? "").trim()) {
+    return { ok: false, message: "Please provide your organization." };
+  }
 
   const slug = String(formData.get("record") ?? "").trim();
   let incident_id: string | null = null;

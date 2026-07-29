@@ -7,9 +7,9 @@ const dmSans = DM_Sans({ subsets: ["latin"], variable: "--font-dm-sans" });
 const sourceSerif = Source_Serif_4({ subsets: ["latin"], variable: "--font-source-serif" });
 
 export const metadata: Metadata = {
-  title: "Police Sexual Assault Lawsuits Database",
+  title: "Police Sexual Harassment Lawsuits Database",
   description:
-    "A searchable database of civil lawsuits involving sexual assault and law-enforcement agencies in the US and Canada. A research project of the Policing Project at NYU School of Law.",
+    "A searchable database of civil lawsuits involving sexual harassment and law-enforcement agencies in the US and Canada. A research project of the Policing Project at NYU School of Law.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -19,7 +19,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <header className="bg-navy text-white">
           <div className="mx-auto max-w-7xl px-4 py-4 flex flex-wrap items-baseline gap-x-8 gap-y-2">
             <Link href="/" className="font-serif text-xl font-semibold tracking-tight text-white">
-              Police Sexual Assault Lawsuits<span className="text-accent"> Database</span>
+              Police Sexual Harassment Lawsuits<span className="text-accent"> Database</span>
             </Link>
             <nav className="flex gap-6 text-sm">
               <Link href="/" className="hover:text-accent">Database</Link>
@@ -33,7 +33,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="mx-auto max-w-7xl px-4 py-6 text-sm text-ink/70 space-y-2">
             <p>
               A research project of the Policing Project at NYU School of Law, examining the
-              prevalence of sexual assault lawsuits in police departments, including whether the
+              prevalence of sexual harassment lawsuits in police departments, including whether the
               agency participates in the{" "}
               <a href="https://30x30initiative.org/" className="text-brand underline">
                 30x30 Initiative

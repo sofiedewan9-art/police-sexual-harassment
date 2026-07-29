@@ -182,6 +182,13 @@ export default async function AdminEdit({
             <Select name="is_30x30" value={incident.is_30x30 == null ? null : String(incident.is_30x30)}
               options={{ true: "Yes", false: "No" }} />
           </label>
+          <label className="text-sm font-medium text-navy">Officer(s), comma-separated
+            <input name="officer_names" defaultValue={(incident.officer_names ?? []).join(", ")} className={input} />
+          </label>
+          <label className="flex items-end gap-2 pb-2 text-sm text-navy">
+            <input type="checkbox" name="repeat_offender" defaultChecked={incident.repeat_offender} />
+            Repeat offender
+          </label>
           <label className="text-sm font-medium text-navy">30x30 match note
             <input name="thirty_by_thirty_match_note"
               defaultValue={incident.thirty_by_thirty_match_note ?? ""} className={input} />

@@ -40,10 +40,10 @@ export default async function Home({
     <div className="space-y-6">
       <section className="space-y-2">
         <h1 className="text-3xl font-semibold">
-          Civil lawsuits alleging sexual assault involving law-enforcement agencies
+          Civil lawsuits alleging sexual harassment involving law-enforcement agencies
         </h1>
         <p className="max-w-3xl text-ink/80">
-          One record per lawsuit, US and Canada, filed or resolved since 2021. Compiled
+          One record per lawsuit, US and Canada, filed 2020 to present. Compiled
           from news media and verified against cited sources; every record shows a
           last-verified date. Read the <Link className="text-brand underline" href="/methodology">methodology</Link>.
         </p>
@@ -157,6 +157,8 @@ export default async function Home({
             <thead>
               <tr className="border-b border-navy/10 bg-paper text-left text-xs uppercase tracking-wide text-navy">
                 <th className="px-3 py-2"><SortLink f={f} col="agency">Agency</SortLink></th>
+                <th className="px-3 py-2">Officer(s)</th>
+                <th className="px-3 py-2 text-center">Repeat offender</th>
                 <th className="px-3 py-2"><SortLink f={f} col="state_province">State</SortLink></th>
                 <th className="px-3 py-2"><SortLink f={f} col="year_filed">Filed</SortLink></th>
                 <th className="px-3 py-2">Type</th>
@@ -174,6 +176,8 @@ export default async function Home({
                       {r.agency}
                     </Link>
                   </td>
+                  <td className="px-3 py-2">{r.officer_names?.length ? r.officer_names.join(", ") : "—"}</td>
+                  <td className="px-3 py-2 text-center">{r.repeat_offender ? "Yes" : "No"}</td>
                   <td className="px-3 py-2">{r.state_province ?? "—"}{r.country === "CA" ? " 🇨🇦" : ""}</td>
                   <td className="px-3 py-2">
                     {r.year_filed_approx ? "~" : ""}{r.filing_year_range ?? r.year_filed ?? "—"}
