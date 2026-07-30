@@ -83,11 +83,8 @@ export default async function CasePage({ params }: { params: Promise<{ slug: str
           </Field>
           <Field name="Repeat offender">{incident.repeat_offender ? "Yes" : "No"}</Field>
           <Field name="Agency category">{label(CATEGORY_LABELS, incident.agency_category)}</Field>
-          <Field name="30x30 Initiative agency">
+          <Field name="30x30 agency">
             {incident.is_30x30 == null ? "Undetermined" : incident.is_30x30 ? "Yes" : "No"}
-            {incident.thirty_by_thirty_match_note && (
-              <span className="block text-xs text-ink/60">{incident.thirty_by_thirty_match_note}</span>
-            )}
           </Field>
           <Field name="Last verified">{incident.last_verified ?? "—"}</Field>
         </dl>

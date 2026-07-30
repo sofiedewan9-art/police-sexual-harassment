@@ -9,7 +9,7 @@ const sourceSerif = Source_Serif_4({ subsets: ["latin"], variable: "--font-sourc
 export const metadata: Metadata = {
   title: "Police Sexual Harassment Lawsuits Database",
   description:
-    "A searchable database of civil lawsuits involving sexual harassment and law-enforcement agencies in the US and Canada. A research project of the Policing Project at NYU School of Law.",
+    "A searchable database of civil lawsuits involving sexual harassment and law-enforcement agencies in the US and Canada.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -31,15 +31,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main className="mx-auto w-full max-w-7xl flex-1 px-4 py-8">{children}</main>
         <footer className="border-t border-navy/10 bg-white">
           <div className="mx-auto max-w-7xl px-4 py-6 text-sm text-ink/70 space-y-2">
-            <p>
-              A research project of the Policing Project at NYU School of Law, examining the
-              prevalence of sexual harassment lawsuits in police departments, including whether the
-              agency participates in the{" "}
-              <a href="https://30x30initiative.org/" className="text-brand underline">
-                30x30 Initiative
-              </a>
-              . Not affiliated with or endorsed by the 30x30 Initiative.
-            </p>
             <p>
               Records describe allegations unless a conviction, guilty plea, admission, or jury
               finding is noted. See the{" "}
